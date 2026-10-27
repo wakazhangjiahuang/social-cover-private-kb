@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoverSpec",
+  "type": "object",
+  "required": [
+    "id",
+    "mode",
+    "topic",
+    "audience",
+    "promise",
+    "headline",
+    "visual_route",
+    "modules",
+    "elements",
+    "evidence_refs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mode": {
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1
+    },
+    "promise": {
+      "type": "string",
+      "minLength": 1
+    },
+    "headline": {
+      "type": "string"
+    },
+    "visual_route": {
+      "enum": [
+        "person",
+        "product",
+        "artwork",
+        "ui",
+        "diagram",
+        "typography",
+        "scene"
+      ]
+    },
+    "modules": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status",
+          "decision",
+          "params",
+          "qa"
+        ]
+      }
+    },
+    "elements": {
+      "type": "array"
+    },
+    "evidence_refs": {
+      "type": "array"
+    }
+  }
+}

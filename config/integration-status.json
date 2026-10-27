@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0",
+  "checked_at": "2026-10-27",
+  "core": "implemented",
+  "github_private_kb": "pending_access",
+  "laya": "not_configured",
+  "jev": "not_configured",
+  "gpt_image_2_5": "exact_model_not_verified",
+  "noterx": "user_reported_existing_connection_new_workflow_unverified",
+  "plugin": "discover_at_runtime"
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "",
+  "mode": "",
+  "entrypoint": "",
+  "client_version": "",
+  "cover_spec_id": "",
+  "actual_model": "",
+  "actual_output_files": [],
+  "checks": {
+    "literal_copy": null,
+    "reference_fidelity": null,
+    "thumbnail": null,
+    "crop": null,
+    "factual_evidence": null
+  },
+  "metrics": {
+    "exposure_denominator": null,
+    "time_window": null,
+    "entrypoint": null
+  },
+  "status": "not_run"
+}

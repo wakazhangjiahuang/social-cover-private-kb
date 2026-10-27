@@ -1,0 +1,19 @@
+{
+  "id": "",
+  "path": "",
+  "tags": [],
+  "modules": [],
+  "source": {
+    "kind": "",
+    "url_or_file": "",
+    "retrieved_at": ""
+  },
+  "license": "",
+  "ref": null,
+  "sha256": "",
+  "status": "candidate",
+  "dependencies": [],
+  "evidence": [],
+  "allowed_scope": [],
+  "promotion_review": null
+}

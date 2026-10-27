@@ -1,0 +1,2930 @@
+{
+  "source_status": "user_supplied_candidates_not_platform_rules",
+  "items": [
+    {
+      "id": "user-hook-001",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】别再硬学【AI技能】了｜先用【AI工具/产品】做出【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-002",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "这不是给所有人的【AI教程】｜只适合正在【使用场景】的【目标受众】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-003",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "如果你也是【目标受众】｜这张【主题】流程图先收藏",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-004",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】真正缺的不是努力｜是【AI技能/能力】的正确顺序",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-005",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "每天都在【使用场景】的人｜一定要看懂【AI工具/产品】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-006",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "给【目标受众】的一张【AI能力】自救图｜把【痛点问题】变成【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-007",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】学【AI技能】先别贪多｜先搞懂【核心变量】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-008",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "不是【目标受众】别点｜这张图专门解决【痛点问题】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-009",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】最容易忽略的【AI能力】｜其实决定【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-010",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "写给正在【使用场景】的你｜【AI工具/产品】这样用更省力",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-011",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】别再从零摸索｜这套【行动方式】直接上手",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-012",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "如果你也被【痛点问题】卡住｜先看这张【AI工具/产品】图",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-013",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】要的不是工具清单｜而是能落地的【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-014",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "这张图只解决一个问题｜【目标受众】如何用【AI工具/产品】完成【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-015",
+      "category": "01 自我相关/身份点名钩子",
+      "text": "【目标受众】看完会想保存｜因为它能直接处理【痛点问题】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-016",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "别让【AI技能】成为新的起跑线差距｜先补上【核心能力】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-017",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "你不是输在努力｜是输在不会用【AI工具/产品】做【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-018",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "再不掌握【AI技能】｜【使用场景】会越来越吃力",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-019",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "焦虑【AI时代】没用｜这张图给你【行动方式】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-020",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "别人已经用【AI工具/产品】省下【数字】小时｜你还在手动做【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-021",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "真正让人焦虑的不是AI｜是不知道怎么把AI用于【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-022",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "【痛点问题】不是小问题｜它会拖慢你的【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-023",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "别被【AI工具/产品】吓住｜最该学的是【核心能力】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-024",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "你卡在【痛点问题】｜别人已经靠【AI技能】做出【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-025",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "不想被【行业趋势】甩开｜先掌握【AI工具/产品】的【行动方式】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-026",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "【目标受众】最怕的不是不会AI｜是学了一堆却没有【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-027",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "别等【使用场景】被别人自动化｜你才开始学【AI技能】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-028",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "今天不整理【AI工作流】｜明天继续被【痛点问题】消耗",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-029",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "别再用旧方法硬扛【使用场景】｜【AI工具/产品】已经能帮你",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-030",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "text": "真正的差距从【使用场景】开始｜会AI的人已经在【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-031",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "用【AI工具/产品】把【使用场景】做到【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-032",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "一张图让【目标受众】看懂【AI技能】怎么产生【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-033",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "从【痛点问题】到【结果收益】｜只差这套【AI工作流】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-034",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "【数字】步完成【使用场景】｜结果能直接复用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-035",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "把【AI工具/产品】用对｜【目标受众】也能交付【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-036",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "不是学工具｜是用【AI工具/产品】拿到【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-037",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "学完这张图｜你能把【痛点问题】变成【可交付成果】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-038",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "【AI技能】真正值钱的地方｜是帮你做出【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-039",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "别只收藏工具｜收藏这套能产出【结果收益】的流程",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-040",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "【使用场景】提效不是玄学｜这套方法让你看到【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-041",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "一套【AI工作流】搞定【使用场景】｜适合【目标受众】直接照做",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-042",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "从不会到能交付｜【AI工具/产品】的关键是【核心步骤】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-043",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "【目标受众】学会这套｜【使用场景】至少少走【数字】步",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-044",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "【AI产品】不是噱头｜它能把【任务】变成【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-045",
+      "category": "03 结果收益/价值承诺钩子",
+      "text": "这张图只讲结果｜如何用【AI工具/产品】完成【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-046",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "懒人版【AI工具/产品】流程｜照着做就能完成【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-047",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "不会写提示词也能做【使用场景】｜先套这个【模板】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-048",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "不懂技术也能用【AI技能】｜关键是【行动方式】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-049",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "【目标受众】低门槛入门【AI工具/产品】｜从这张图开始",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-050",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "不用系统学AI｜先用这套流程做出【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-051",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "【数字】分钟上手【AI工具/产品】｜适合怕麻烦的【目标受众】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-052",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "不用会代码｜也能用【AI工具/产品】完成【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-053",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "小白版【AI工作流】｜把复杂任务拆成【数字】步",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-054",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "别从空白页开始｜先复制这套【模板】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-055",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "先别学一堆概念｜用这张图完成【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-056",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "零基础也能照做｜【AI工具/产品】的【使用场景】流程",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-057",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "一看就会的【AI技能】路线｜不绕弯",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-058",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "【目标受众】别硬啃教程｜先用【行动方式】跑一遍",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-059",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "用最少步骤搞定【使用场景】｜这就是懒人版【AI流程】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-060",
+      "category": "04 低门槛/懒人方案钩子",
+      "text": "只保留关键动作｜【AI工具/产品】这样用最轻松",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-061",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【AI工具/产品】的隐藏玩法｜很多【目标受众】不知道",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-062",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "真正拉开差距的不是工具｜是【AI技能】背后的信息差",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-063",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【使用场景】的隐藏规则｜知道的人已经在【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-064",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "别只看功能介绍｜【AI工具/产品】真正有用的是【隐藏能力】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-065",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "你不知道的【AI产品】入口｜适合做【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-066",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【目标受众】必须知道的【AI信息差】｜越早知道越省事",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-067",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "大多数人只用了【AI工具/产品】的表层功能｜高手在用【隐藏能力】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-068",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【AI行业】新变化｜会影响你的【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-069",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "这几个【AI插件/Skill】信息差｜让【使用场景】更快",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-070",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "别再找零散教程｜【AI工具/产品】真正的入口在这里",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-071",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【AI技能】不是越多越好｜关键是知道【底层规则】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-072",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【目标受众】最容易错过的【AI机会】｜其实很简单",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-073",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【使用场景】做不出结果｜可能因为你不知道【核心规则】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-074",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "看懂【平台规则】｜你的【AI内容】才更容易被识别",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-075",
+      "category": "05 信息差/隐藏规则钩子",
+      "text": "【AI工具/产品】不是不会用｜是这些隐藏设置没打开",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-076",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "学【AI技能】最先做的不是学工具｜而是定义【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-077",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "【AI工具/产品】越多越容易失败｜先学会筛选【核心能力】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-078",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "真正高效的【AI工作流】｜不是全自动，而是可控",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-079",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "【目标受众】别再追新工具｜先把【旧流程】改成【AI流程】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-080",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "你以为【AI产品】贵｜其实贵的是不会用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-081",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "做【使用场景】不是靠灵感｜是靠【结构】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-082",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "【AI内容】不是越多越好｜越能解决【痛点问题】越有价值",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-083",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "提示词不是咒语｜它是把【任务】讲清楚的结构",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-084",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "不是【AI工具/产品】替代你｜是会用【AI技能】的人替代不会用的人",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-085",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "最好的【AI工具】不是最强模型｜是最适合【使用场景】的组合",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-086",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "【AI副业】不是先赚钱｜是先做出【可交付结果】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-087",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "别把【AI工具/产品】当玩具｜它本质是【生产力系统】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-088",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "你缺的不是更多教程｜是能执行的【SOP】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-089",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "新手最该学的不是模型名｜是【任务拆解】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-090",
+      "category": "06 反常识/认知冲突钩子",
+      "text": "真正的【AI增长】不是爆款｜是稳定复用的【流程】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-091",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "做【使用场景】千万别忽略【AI技能】｜后面会很吃亏",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-092",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "现在不整理【AI工作流】｜以后每次都要重做",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-093",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "别等【痛点问题】变严重｜先收藏这张【清单】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-094",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "【目标受众】再晚学【AI工具/产品】｜成本只会更高",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-095",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "错过这几个【AI功能】｜你的【使用场景】会继续低效",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-096",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "别让【重复劳动】偷走你的时间｜用【AI工具/产品】替你处理",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-097",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "不会【AI技能】不丢人｜一直不用才亏",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-098",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "这几个【AI坑点】不避开｜后面很难补救",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-099",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "先看这张图｜别把【AI项目】做反了",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-100",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "【AI工具/产品】更新太快｜先抓住不变的【底层逻辑】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-101",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "再不建立【知识库】｜资料越多越乱",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-102",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "【目标受众】最容易浪费时间的地方｜就是【痛点问题】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-103",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "别把【AI机会】让给会用工具的人",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-104",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "用错【AI工具/产品】｜比不用更浪费时间",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-105",
+      "category": "07 损失规避/FOMO钩子",
+      "text": "先收藏后执行｜这套【流程】能帮你少掉【数字】个坑",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-106",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "高手都在用【AI工具/产品】解决【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-107",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "评论区问爆的【AI技能】｜这次讲清楚",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-108",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "很多【目标受众】已经开始用【AI工具/产品】做【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-109",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "为什么别人用【AI工具/产品】能做出【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-110",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "【行业领域】正在悄悄升级【AI工作流】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-111",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "同样是【目标受众】｜会AI的人已经在【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-112",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "被收藏最多的【AI流程】｜核心就这几步",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-113",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "最近很多人问【AI工具/产品】怎么用｜整理成图了",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-114",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "【目标受众】圈里开始流行的【AI技能】｜其实不难",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-115",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "别人不说的【AI工具】用法｜这张图拆给你看",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-116",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "为什么【高手/同行】都在重构【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-117",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "【数字】个案例都指向一个结论｜【AI能力】很关键",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-118",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "实测好用的【AI工具/产品】组合｜适合【目标受众】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-119",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "很多人收藏不是因为好看｜是因为这套【模板】能用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-120",
+      "category": "08 社会证明/从众对标钩子",
+      "text": "【目标受众】都在问的【AI问题】｜答案在这张图",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-121",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "老板真正想看的【汇报结果】｜不是【过程堆砌】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-122",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "客户为什么不买【产品/服务】｜因为你没讲清【用户利益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-123",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "从老板视角看【AI工具/产品】｜最值钱的是【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-124",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "从客户视角看【AI方案】｜先解决【痛点问题】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-125",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "老板要的不是工具清单｜是能落地的【AI工作流】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-126",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "客户听不懂【技术名词】｜请翻译成【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-127",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "企业做【AI转型】｜先抓【使用场景】而不是模型",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-128",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "领导最关心的【AI项目】指标｜这张图说清楚",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-129",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "汇报【AI方案】别堆概念｜先讲【成本/效率/收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-130",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "客户买的不是【AI产品】｜买的是【痛点问题】被解决",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-131",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "老板看【AI自动化】只看三件事｜【省钱/省人/省时间】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-132",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "企业部署【AI工具】前｜先问这【数字】个问题",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-133",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "做【AI销售】要讲人话｜别讲【复杂术语】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-134",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "客户不关心你用了什么模型｜只关心【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-135",
+      "category": "09 权威/老板/客户视角钩子",
+      "text": "给老板看的【AI应用图】｜一页讲清【场景/流程/结果】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-136",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【AI工具/产品】必备清单｜收藏后直接对照用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-137",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【使用场景】模板整理好了｜不用从零开始",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-138",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【目标受众】一定要收藏的【AI资源】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-139",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "做【AI项目】前先过这张检查表",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-140",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【AI技能】自查清单｜看看你缺哪一项",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-141",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【数字】个【AI工具/产品】场景模板｜按需套用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-142",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【AI工作流】清单版｜每一步都能复制",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-143",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【目标受众】常用【提示词模板】合集",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-144",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "发【AI内容】前先看这张封面检查表",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-145",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【AI副业】资料包结构｜先收藏再慢慢做",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-146",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【AI种草图】封面模板｜直接替换变量",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-147",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【使用场景】必备【SOP】｜适合反复复用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-148",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "这不是资料堆砌｜是【目标受众】可执行清单",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-149",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "【AI产品】卖点表｜把功能翻译成价值",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-150",
+      "category": "10 清单模板/强收藏钩子",
+      "text": "一张【模板】解决【痛点问题】｜先收藏",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-151",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI工具/产品】完整SOP｜从【输入】到【输出】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-152",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【使用场景】保姆级流程｜第【数字】步最关键",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-153",
+      "category": "11 教程流程/SOP钩子",
+      "text": "新手用【AI工具/产品】｜按这【数字】步走",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-154",
+      "category": "11 教程流程/SOP钩子",
+      "text": "把【复杂任务】拆成【数字】步｜AI也能稳定输出",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-155",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI工作流】全流程｜准备、生成、校对、交付",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-156",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【目标受众】做【使用场景】｜这套流程最稳",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-157",
+      "category": "11 教程流程/SOP钩子",
+      "text": "不会写【提示词】｜先按这张结构图套",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-158",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI工具/产品】入门路线｜先学【基础】再做【项目】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-159",
+      "category": "11 教程流程/SOP钩子",
+      "text": "从0搭建【AI系统】｜每一步都标出来",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-160",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI教程】别再碎片学｜这张图按顺序来",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-161",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【使用场景】流程图｜从需求到交付不漏项",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-162",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI内容】生成SOP｜让结果更稳定",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-163",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI项目】执行路线｜先做MVP再迭代",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-164",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI数字产品】制作流程｜新手也能照着做",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-165",
+      "category": "11 教程流程/SOP钩子",
+      "text": "【AI种草内容】从选题到成图｜一页讲清",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-166",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI工具/产品】怎么选｜看这【数字】个维度",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-167",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI工具A】vs【AI工具B】｜谁更适合【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-168",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "别盲买【AI订阅】｜先看你的【真实需求】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-169",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【目标受众】选【AI工具】｜不是越贵越好",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-170",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI工具/产品】横评｜按【场景】而不是排名选",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-171",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "同样是【AI工具】｜为什么有人好用有人踩雷",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-172",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI插件】到底值不值｜看【功能/成本/风险】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-173",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI课程】该不该买｜先用这张决策树",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-174",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "不同【目标受众】对应不同【AI工具组合】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-175",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI工具】选错会浪费时间｜先看这张表",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-176",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "免费版和付费版【AI工具】｜差别在哪",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-177",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI模型】能力对比｜别只看宣传词",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-178",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI产品】适合谁｜不适合谁｜一图讲清",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-179",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "做【使用场景】该选【工具A】还是【工具B】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-180",
+      "category": "12 对比测评/选择决策钩子",
+      "text": "【AI工具/产品】购买前｜先问自己这【数字】个问题",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-181",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "我用【AI工具/产品】做【使用场景】｜复盘出这【数字】点",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-182",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "真实案例：用【AI技能】把【痛点问题】变成【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-183",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【AI项目】失败后｜我发现问题出在【关键环节】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-184",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "拆解一个【AI数字产品】案例｜你缺的不是工具",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-185",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【目标受众】实测【AI工具/产品】｜最有用的是【功能】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-186",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "复盘【AI种草内容】｜为什么这张封面更容易被点",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-187",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【AI工作流】从混乱到清晰｜过程拆给你看",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-188",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "我踩过的【AI副业】坑｜这张图帮你避开",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-189",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【数字】次测试后｜这个【AI工具】组合最稳",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-190",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "一个【AI案例】看懂【商业逻辑】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-191",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【使用场景】从手工到自动化｜完整复盘",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-192",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "用【AI工具/产品】做【项目】｜我建议先看这张图",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-193",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【AI内容】没流量后｜我重新拆了【选题/标题/封面】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-194",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "复盘一个【AI工具】种草图｜点击点在这里",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-195",
+      "category": "13 案例复盘/真实经验钩子",
+      "text": "【AI项目】成功不是偶然｜是跑通了这条闭环",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-196",
+      "category": "14 种草/硬广转软钩子",
+      "text": "别急着安利【AI产品】｜先讲清它解决什么问题",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-197",
+      "category": "14 种草/硬广转软钩子",
+      "text": "【AI工具/产品】不是万能｜但在【使用场景】真的好用",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-198",
+      "category": "14 种草/硬广转软钩子",
+      "text": "被【痛点问题】困扰的人｜可以试试【AI工具/产品】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-199",
+      "category": "14 种草/硬广转软钩子",
+      "text": "我为什么推荐【AI工具/产品】｜不是因为火，是因为【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-200",
+      "category": "14 种草/硬广转软钩子",
+      "text": "【AI产品】适合【目标受众】的原因｜一图讲清",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-201",
+      "category": "14 种草/硬广转软钩子",
+      "text": "别只看功能｜【AI工具/产品】真正好用在【场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-202",
+      "category": "14 种草/硬广转软钩子",
+      "text": "【AI工具/产品】值不值得用｜看这【数字】个真实变化",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-203",
+      "category": "14 种草/硬广转软钩子",
+      "text": "不是硬广｜这次只讲【AI产品】解决的【痛点问题】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-204",
+      "category": "14 种草/硬广转软钩子",
+      "text": "用过【AI工具/产品】后｜我最大的感受是【结果收益】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-205",
+      "category": "14 种草/硬广转软钩子",
+      "text": "【目标受众】如果有【痛点问题】｜这款【AI产品】更对症",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-206",
+      "category": "14 种草/硬广转软钩子",
+      "text": "安利【AI工具/产品】前｜先说不适合谁",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-207",
+      "category": "14 种草/硬广转软钩子",
+      "text": "【AI产品】从卖点到利益｜这样讲才不硬",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-208",
+      "category": "14 种草/硬广转软钩子",
+      "text": "把【AI工具/产品】讲成人话｜【目标受众】才愿意看",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-209",
+      "category": "14 种草/硬广转软钩子",
+      "text": "【AI工具/产品】的真实体验｜好用点和坑都讲",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-210",
+      "category": "14 种草/硬广转软钩子",
+      "text": "种草【AI产品】别喊口号｜给用户一个【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-211",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "测一测你适合哪种【AI工具/产品】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-212",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "你现在卡在【AI学习】哪一层｜评论区对号入座",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-213",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "【目标受众】属于哪类【AI使用者】｜看这张图",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-214",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "你更像【新手型】还是【进阶型】｜用【AI工具】前先判断",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-215",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "出现这【数字】种情况｜说明你该调整【AI工作流】了",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-216",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "评论区告诉我你的【使用场景】｜我帮你配【AI工具】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-217",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "【AI技能】自测表｜看看你能做到第几级",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-218",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "你做【AI内容】最大问题是什么｜这张图帮你定位",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-219",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "选择题：你的【痛点问题】是哪一种",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-220",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "【目标受众】的【AI工具】分型图｜先找到自己",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-221",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "如果你有【痛点问题】｜先看第【数字】类方案",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-222",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "这张图让你判断｜要不要升级【AI订阅】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-223",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "你适合先学【AI技能A】还是【AI技能B】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-224",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "把你的【任务】丢给AI前｜先做这【数字】个判断",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    },
+    {
+      "id": "user-hook-225",
+      "category": "15 互动诊断/评论转化钩子",
+      "text": "看完评论区说一句｜你最想解决哪个【使用场景】",
+      "modules": [
+        "C02",
+        "C05"
+      ],
+      "status": "candidate",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "evidence_required": true,
+      "validated_viral": false
+    }
+  ]
+}

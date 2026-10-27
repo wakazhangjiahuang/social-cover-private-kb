@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-27",
+  "pins": [
+    {
+      "repo": "JimLiu/baoyu-skills",
+      "sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "tree": "76f46765b4b194e74b4bd00769366292159dbb78",
+      "date": "2026-09-10T15:13:43Z"
+    },
+    {
+      "repo": "comeonzhj/Auto-Redbook-Skills",
+      "sha": "da1c73a6624d1df1330e161663c3614753d4220b",
+      "tree": "e7860128bdfe417a22c314f5f010308f523b5679",
+      "date": "2026-08-13T02:48:12Z"
+    },
+    {
+      "repo": "receptron/laya",
+      "sha": "60d5ee6ef8e731646e8ca9ac0139d25fcf4fa295",
+      "tree": "a31e58e1a5fc27d4fd4bc70ca13f577e6e719902",
+      "date": "2026-10-17T00:22:22Z"
+    },
+    {
+      "repo": "mizorewww/laya-mlx",
+      "sha": "ddaf014cf3bd6733ce11219750b150df42ffc86e",
+      "tree": "562b7f4d2d45fdedba146caa3ddc08d14626e573",
+      "date": "2026-10-20T01:58:06Z"
+    },
+    {
+      "repo": "TianyuCodings/JevHarness",
+      "sha": "d7676033c34c0e5636829b769d3641a2e61580f1",
+      "tree": "950de39ef21f82a005fb31a483c4f009efeea4f0",
+      "date": "2026-10-16T01:00:52Z"
+    },
+    {
+      "repo": "op7418/guizang-social-card-skill",
+      "sha": "cf4b810fac1c73fb65a2bb31d8c9278d82cbc4c5",
+      "tree": "37ada2ea99e8370eef709dfb0e222e9db3f95022",
+      "date": "2026-07-01T16:38:49Z"
+    },
+    {
+      "repo": "axtonliu/smart-illustrator",
+      "sha": "51408881fa41c6c7ba9afdfe9c4653a4b42d1f02",
+      "tree": "5901e5c1ed6d0492f8f45652786fc9427da99151",
+      "date": "2026-02-24T01:19:22Z"
+    },
+    {
+      "repo": "panggungunvibe/atutun-xhs-cover",
+      "sha": "21e8c02b902d47bc3d86f42531e45526a8c2907f",
+      "tree": "e8ad0241ede9e12be54e886a73ab6620f0f12c24",
+      "date": "2026-05-30T10:50:44Z",
+      "license": null
+    },
+    {
+      "repo": "hongfamonvAI/oh-my-cover-design",
+      "sha": "cad6123f55ce7834ce13902c5aa207698f89eec0",
+      "tree": "8db5be7960401d67a2010f4cfd239c4b30491f1b",
+      "date": "2026-05-16T02:08:03Z",
+      "license": null
+    },
+    {
+      "repo": "panggungunvibe/atutun-xhs-cover-v2",
+      "sha": "e9fda70b6f70bc195dcf8d0c63b53b531bd2554c",
+      "tree": "e035af64c1216956541d11e4b0dfa474fe00a523",
+      "date": "2026-07-02T06:23:09Z",
+      "license": null
+    }
+  ],
+  "private_kb_status": "not_accessible_via_current_connector_404",
+  "scope": "architecture_proposal_only",
+  "reuse": "reference_only_no_unlicensed_source_copied"
+}

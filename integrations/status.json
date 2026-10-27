@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-27",
+  "core_version": "1.1.0",
+  "status": "exported_for_upload_not_remote_active",
+  "pending": [
+    "GPT Image 2.5 protected credential and real render",
+    "Jev live service",
+    "Laya live service",
+    "GitHub private KB authorization and activation",
+    "NoteRx binding for new workflow",
+    "Authenticated colleague/plugin-session acceptance"
+  ],
+  "NoteRx": "用户已报告原连接完成；本封面链路仍须单独验证覆盖字段与图片。"
+}

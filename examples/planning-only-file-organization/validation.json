@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "scope": "structure_only",
+  "errors": [],
+  "results": [
+    {
+      "id": "C01",
+      "ok": true,
+      "scope": "structure_only",
+      "errors": [],
+      "warnings": [
+        "仅检查结构、引用和给定几何；事实、审美、真实型号与成品仍需独立验收。"
+      ]
+    },
+    {
+      "id": "C02",
+      "ok": true,
+      "scope": "structure_only",
+      "errors": [],
+      "warnings": [
+        "仅检查结构、引用和给定几何；事实、审美、真实型号与成品仍需独立验收。"
+      ]
+    },
+    {
+      "id": "C03",
+      "ok": true,
+      "scope": "structure_only",
+      "errors": [],
+      "warnings": [
+        "仅检查结构、引用和给定几何；事实、审美、真实型号与成品仍需独立验收。"
+      ]
+    },
+    {
+      "id": "C04",
+      "ok": true,
+      "scope": "structure_only",
+      "errors": [],
+      "warnings": [
+        "仅检查结构、引用和给定几何；事实、审美、真实型号与成品仍需独立验收。"
+      ]
+    },
+    {
+      "id": "C05",
+      "ok": true,
+      "scope": "structure_only",
+      "errors": [],
+      "warnings": [
+        "仅检查结构、引用和给定几何；事实、审美、真实型号与成品仍需独立验收。"
+      ]
+    },
+    {
+      "id": "C06",
+      "ok": true,
+      "scope": "structure_only",
+      "errors": [],
+      "warnings": [
+        "仅检查结构、引用和给定几何；事实、审美、真实型号与成品仍需独立验收。"
+      ]
+    }
+  ],
+  "selected_ids": [
+    "C01",
+    "C02",
+    "C04"
+  ],
+  "semantic_review_required": true,
+  "visual_review_required": true
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.1.0",
+  "status": "pending_access",
+  "repository": "wakazhangjiahuang/social-cover-private-kb",
+  "source_repository": "wakazhangjiahuang/social-cover-studio",
+  "manifest_path": "manifest.json",
+  "manifest_ref": null,
+  "last_check": "2026-10-27",
+  "note": "当前连接不可验证目标私库，不得自动改账号。"
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.1.0",
+  "status": "editorial_candidates_not_viral_proof",
+  "formulas": [
+    {
+      "id": "problem-solution",
+      "name": "问题解决",
+      "structure": "明确受众问题与真实解决入口",
+      "required_condition": "正文能兑现方法"
+    },
+    {
+      "id": "proof-result",
+      "name": "结果证据",
+      "structure": "真实成品/结果为主视觉",
+      "required_condition": "有真实结果素材"
+    },
+    {
+      "id": "comparison",
+      "name": "对比选择",
+      "structure": "同条件并置比较",
+      "required_condition": "对象和口径一致"
+    },
+    {
+      "id": "steps",
+      "name": "步骤教程",
+      "structure": "过程证据与精简步骤",
+      "required_condition": "步骤确实存在"
+    },
+    {
+      "id": "product-hero",
+      "name": "产品主视觉",
+      "structure": "产品关键特征与明确问题",
+      "required_condition": "有真实产品材料"
+    },
+    {
+      "id": "artwork-hero",
+      "name": "作品展示",
+      "structure": "作品主体与少量说明",
+      "required_condition": "不改画法和细节"
+    },
+    {
+      "id": "opinion",
+      "name": "观点解释",
+      "structure": "判断与相关视觉解释",
+      "required_condition": "内容有依据和论证"
+    },
+    {
+      "id": "story",
+      "name": "场景故事",
+      "structure": "真实场景/转折与内容入口",
+      "required_condition": "不虚构亲历"
+    },
+    {
+      "id": "typography",
+      "name": "文字主视觉",
+      "structure": "有意义的短句与清楚层级",
+      "required_condition": "不虚构名言"
+    },
+    {
+      "id": "diagram",
+      "name": "知识图解",
+      "structure": "对象关系与清楚层级",
+      "required_condition": "图解有事实依据"
+    }
+  ]
+}
