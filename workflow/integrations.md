@@ -1,9 +1,13 @@
-# 能力接入
-实际发现工具并真实请求，安装不代表依赖已连通。初始状态见assets/integration-status.json；不伪造端点、概率或调用。
-GitHub：真实读取固定manifest和代表资产，验证private/ref/hash；401/403/404不等于仓库不存在。必需资产失败阻断依赖步骤。
-Laya：优先多语言、固定运行时代码与权重revision，每案必要摘要做choice/score/noul原子判断，允许弃权，长文本拆分。Jev：有真实服务/版本/认证才调用，JevHarness不是模型或凭据。
-无决策服务可明确主模型复核，Jev/Laya接入验收仍未通过。answer_confidence与熵类confidence不混用；中文任务阈值需校准，不预设0.8通行。高置信不是正确率，文本模型不看像素。Cloudflare Worker不能直接容纳约GB级Laya权重，使用独立运行时/已有服务。
-NoteRx：用户报告原项目已接入；新Skill核对实际工具、图片覆盖、版本、字段。仅C模式补充，不当A/B官方规则源，不代替看图。
-GPT Image：官方已核实gpt-image-2.5-sunburst及gpt-image-2.5-sunburst-2026-09-08。https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst ; https://developers.openai.com/api/reference/resources/images/methods/generate ; https://developers.openai.com/api/docs/guides/image-prompting 。quality按任务，max不代替验收。
-宿主工具无model参数不能靠Prompt锁2.5。宿主能可靠报告实际型号时按宿主imagegen规范执行；否则用已验证适配器或保留Prompt/规格，明确生图阻断。不绕过宿主图片工具限制。官方API凭据走受保护配置，不在聊天索取或在包/GitHub/日志存密钥。
-托管插件的外部模型配置来自受保护服务端设置；默认未配置即返回明确缺口，不提供占位服务地址。参考图须确实传入，不能以文字描述冒充图像参考。
+# 能力接入 · v1.2.0
+
+默认链路：当前模型理解与语义复核→包内脚本检查结构/几何→宿主图像工具生成/编辑→逐图看图、核字与裁切验收。GitHub用于按需读取知识资产；封面专用MCP、Jev与Laya已移出默认依赖，不以缺少这些服务阻断任务。
+
+GitHub：读取assets/knowledge-locator.json中固定提交的manifest，核对manifest SHA-256，再从同一固定提交读取所需资产并核对各自哈希。manifest中ref=manifest_commit表示消费者固定的manifest提交；不得将该标记或分支main当成实际SHA。公开库已获用户认可，不要求private。401/403/404不等于仓库不存在；可选资料失败则走本地核心，必需证据失败阻断依赖步骤。
+
+图像：使用实际可用的宿主图像工具并遵循其规范。默认exact_model_required=false，型号未暴露时如实记录not_exposed并继续；不得用Prompt冒充型号选择或编造实际型号。用户后续明确锁定精确型号时再单独验证。参考图必须实际传入，不能以文字描述冒充图像参考；没有实际成图不能称已交付。
+
+复核：主模型核实证据、标题承诺与方案差异；脚本仅核查结构、引用及给定几何。两者不冒充外部模型、独立人员或成品视觉验收。当前模型有视觉能力时实际看图；文本检查不代替像素检查。
+
+NoteRx：仅C模式可选补充。只有本轮确实发现可用工具并核对实际覆盖图片、版本和字段后才调用；无工具直接跳过，不设待接入门槛，不替代逐图验收或平台规则核验。
+
+部署检查记录：2026-10-27可访问的托管环境没有现有服务或GitHub部署连接，目标服务源码仓库未能通过当前连接读取；没有执行新服务部署。后续单独提出部署需求时再评估，不默认安装插件、索取凭据或建立服务。

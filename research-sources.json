@@ -65,7 +65,8 @@
       "license": null
     }
   ],
-  "private_kb_status": "not_accessible_via_current_connector_404",
-  "scope": "architecture_proposal_only",
-  "reuse": "reference_only_no_unlicensed_source_copied"
+  "scope": "research_links_only_runtime_services_not_required",
+  "reuse": "reference_only_no_unlicensed_source_copied",
+  "knowledge_repository": "wakazhangjiahuang/social-cover-private-kb",
+  "knowledge_status": "active_public_approved"
 }

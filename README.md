@@ -1,38 +1,28 @@
-# 自媒体封面设计私有资产库 · v1.1.0
+# 自媒体封面设计知识库 · v1.2.0
 
-建议在 wakazhangjiahuang 账号创建 **Private** 仓库，统一命名 **social-cover-private-kb**。
-插件源码建议另用 **social-cover-studio**，上传插件源码包 source/ 内文件。两个仓库承担不同用途。
+目标仓库：wakazhangjiahuang/social-cover-private-kb。用户已批准公开可见；可见性不改变各资产source/license所规定的使用范围。
 
-## 上传方法
+## 已启用的流程
 
-1. 解压本 ZIP，打开 social-cover-private-kb/。
-2. 在新私有仓库选择 Add file → Upload files，把该文件夹里面的文件和子文件夹上传到仓库根目录。不要只把 ZIP 上传，也不要再套一层同名目录。可用 Git 客户端保留目录及 .gitignore。
-3. 确认根目录可见 README.md、manifest.json、cover-components.json、hooks/、titles/ 等，提交后提供仓库链接。
-4. 授权 GitHub 连接访问该私库。读取成功并固定版本、核对文件哈希后，才可将知识定位状态从 pending_access 改成 active。上传本身不会自动激活 Skill 或插件的远程知识读取。
+按任务读取固定版本的组件、标题、钩子与公式→当前模型回查证据、标题承诺与方案差异→包内脚本检查结构和几何→宿主图像工具创作→逐图核字、看图与裁切验收。保留18模块、179字段、六案择三与独立成品交付。
 
-## 分类内容
+封面专用MCP、Jev与Laya已移出默认依赖；NoteRx仅在实际可用时补充C模式诊断。未发现可用服务时直接执行核心流程。图像默认不要求验证精确型号；未暴露时记录not_exposed并继续，不冒称具体版本。
 
-| 目录 | 内容 |
-| --- | --- |
-| components/、cover-components.json | 18模块、179字段、决策、验收和失败回路 |
-| hooks/ | 225条用户钩子候选、工作簿钩子公式 |
-| titles/ | 225条用户标题候选及工作簿标题公式 |
-| formulas/、presets/ | 10种原创结构候选、工作簿封面结构 |
-| marketing/、body/ | 人性机制、跨类型/B端表达和正文结构候选 |
-| sources/ | 用户原始TXT/XLSX/PDF及已提取内容 |
-| workflow/、platforms/ | 三平台路由、素材理解、设计、生成和验收协议 |
-| research/、research-sources.json | 相关GitHub项目、固定版本与许可边界 |
-| config/、integrations/ | 规格Schema、目标仓库定位、依赖实际状态 |
-| examples/、templates/、tools/ | 规划样例、资产/案例记录模板、结构校验工具 |
+## 固定版本与完整性
 
-## 使用原则
+config/knowledge-locator.json保存active状态、manifest_ref完整提交SHA与manifest_sha256。用该提交读取manifest.json，并从同一提交读取ref=manifest_commit的资产，逐项校验sha256；不用移动分支main替代固定提交。
 
-按任务→模块→标题/钩子/公式→直接依赖按需检索；不每次把全仓资料塞入Prompt。公式和标题是候选表达，不构成已证实的爆款或算法规则。数字、亲测、稀缺、权威、效果与对比先核实。
+定位文件属于控制配置，不列入其所定位manifest或SHA256SUMS.txt，避免SHA和文件哈希循环自引用。先保存内容快照，再验证并更新定位文件；已安装Skill的定位配置与此文件使用同一内容指针。清单资产哈希只覆盖被索引内容，不等于已全量人工验收。
 
-配置与记录里的空 ref/fixed_ref 表示尚无实际远程提交，不能编造版本。原材料中的“80%”“4.6倍”等说法未在本任务验证，不作为排序权重或承诺。没有导入未明确许可的项目实现、NoteRx可执行包、Jev凭据或Laya权重。
+## 内容与运行
 
-## 使用 Skill
+- components/、cover-components.json：18模块、179字段。
+- hooks/、titles/：各225条用户候选及工作簿候选公式。
+- formulas/、presets/、marketing/、body/：结构、表达和正文候选。
+- sources/、research/：用户材料与来源、许可研究记录。
+- workflow/、config/、integrations/：执行规范与保存的能力配置。
+- examples/、templates/、tools/：样例、模板、校验与编译脚本。
 
-将独立 Skill ZIP 导入目标账号支持的技能安装入口；无导入入口时，可上传 ZIP 并明确要求安装包内 social-cover-studio Skill。安装后在新对话调用“使用自媒体封面设计工作室，C模式，根据我的素材规划六案、择优三案”。精确模型与外部判断仍需各账号单独配置和验收。
+在仓库根目录可运行node tools/cover_core.mjs capabilities读取保存的配置；validate、compile、delivery通过--input JSON路径使用；node --test tools/tests/core.test.mjs验证本轮规则。capabilities不是实时网络或模型服务探测。
 
-本包整理日期：2026-10-27。manifest.json 与 SHA256SUMS.txt 用于核对解压内容；不是远程激活凭证。
+公式与标题不构成已证实的爆款规律；数字、亲历、效果、权威、稀缺与对比必须匹配真实材料。没有真实图片不能称已成图，结构通过不代表语义或画面验收通过。当前私密输入不自动写入公开仓库。

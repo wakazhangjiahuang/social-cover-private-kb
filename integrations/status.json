@@ -1,14 +1,22 @@
 {
-  "as_of": "2026-10-27",
-  "core_version": "1.1.0",
-  "status": "exported_for_upload_not_remote_active",
-  "pending": [
-    "GPT Image 2.5 protected credential and real render",
-    "Jev live service",
-    "Laya live service",
-    "GitHub private KB authorization and activation",
-    "NoteRx binding for new workflow",
-    "Authenticated colleague/plugin-session acceptance"
-  ],
-  "NoteRx": "用户已报告原连接完成；本封面链路仍须单独验证覆盖字段与图片。"
+  "version": "1.2.0",
+  "checked_at": "2026-10-27",
+  "core": "implemented",
+  "github_knowledge": "active",
+  "semantic_review": "current_model_with_evidence_review",
+  "cover_mcp": "not_required_use_bundled_scripts",
+  "external_decision_services": "removed_from_default_workflow",
+  "image_tool": {
+    "provider": "host_available_image_tool",
+    "exact_model_required": false,
+    "actual_model_reporting": "report_if_exposed_otherwise_not_exposed",
+    "generation_status": "not_tested_in_this_configuration_update"
+  },
+  "noterx": "optional_skip_when_unavailable",
+  "deployment_check": {
+    "existing_servers": 0,
+    "github_deployment_connections": 0,
+    "service_created": false,
+    "source_repository_access": "not_resolved_via_current_connection"
+  }
 }

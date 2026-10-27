@@ -1,4 +1,4 @@
-export const VERSION = '1.1.0';
+export const VERSION = '1.2.0';
 export const COMPONENT_IDS = Array.from({length:18},(_,i)=>`C${String(i+1).padStart(2,'0')}`);
 const object = x => x && typeof x === 'object' && !Array.isArray(x);
 const nonempty = x => typeof x === 'string' && x.trim().length > 0;
@@ -115,7 +115,11 @@ export function validateDelivery(d){
     if(!object(x)||!nonempty(x.file)||ids.has(x.file))errors.push('文件为空或重复');ids.add(x?.file);
     if(!(x.width>0&&x.height>0))errors.push('缺实际像素');
     for(const k of ['text','visual','factual','reference_fidelity','crop'])if(x?.checks?.[k]?.status!=='passed'||!nonempty(x.checks[k].evidence))errors.push(`${x?.file??'?'}:${k}未有通过证据`);
-    if(d.exact_model_required!==false&&!/^gpt-image-2\.5-(sunburst|flare)(-\d{4}-\d{2}-\d{2})?$/.test(x?.actual_model??''))errors.push('实际2.5型号未确认');
+    if(d.exact_model_required===true){
+      const actual=x?.actual_model??'';
+      const matches=nonempty(d.expected_model)?actual===d.expected_model:/^gpt-image-2\.5-(sunburst|flare)(-\d{4}-\d{2}-\d{2})?$/.test(actual);
+      if(!matches)errors.push('用户要求的精确型号未确认');
+    }
   }
   return {ok:errors.length===0,scope:'delivery_record_only',errors,warning:'记录通过不认证其真实性；还须实际看图/核文件和检查证据。'};
 }
