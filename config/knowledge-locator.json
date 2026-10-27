@@ -1,10 +1,27 @@
 {
-  "schema_version": "1.1.0",
-  "status": "pending_access",
+  "schema_version": "1.2.0",
+  "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
-  "source_repository": "wakazhangjiahuang/social-cover-studio",
+  "visibility": "public",
+  "public_approved_by_user": true,
+  "source_repository": null,
   "manifest_path": "manifest.json",
-  "manifest_ref": null,
+  "manifest_ref": "eaa6aa6c4a6959361516a442ff58fceff88fdc9b",
+  "manifest_sha256": "e34b52bad51b3de0c3d38b3b7f10c67016607a6311b84954ad97b602552c8d7c",
   "last_check": "2026-10-27",
-  "note": "当前连接不可验证目标私库，不得自动改账号。"
+  "verification": {
+    "scope": "manifest_and_selected_assets",
+    "sampled_assets": 4,
+    "all_sampled_hashes_passed": true,
+    "asset_paths": [
+      "tools/core.mjs",
+      "workflow/integrations.md",
+      "cover-components.json",
+      "hooks/candidates.json"
+    ],
+    "full_repository_verified": false,
+    "initial_import_hash_sample_files": 9
+  },
+  "note": "固定已验证内容快照；不追随main。"
 }
+
