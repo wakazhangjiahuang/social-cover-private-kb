@@ -99,7 +99,7 @@ export function compilePrompt(s){
   const mode={A:'抖音',B:'微信视频号',C:'小红书'}[s.mode];
   return ['创作一张独立的'+mode+'封面，不合并多案。','主题：'+s.topic,'受众：'+s.audience,'内容承诺：'+s.promise,
     '主标题逐字：'+JSON.stringify(s.headline),'副标题逐字：'+JSON.stringify(s.subheadline??''),'主视觉路线：'+s.visual_route,
-    s.evidence_refs.length?'真实参考及角色（须实际传入对应图片）：'+JSON.stringify(s.evidence_refs):'没有提供图像参考：依据文字材料创作，不虚构实拍、截图、数据或人物身份。',
+    s.evidence_refs.length?'真实材料引用及角色（仅图像类引用须实际传入对应图片；文字/文档来源按其实际类型提供，不冒充图像）：'+JSON.stringify(s.evidence_refs):'没有提供图像参考：依据文字材料创作，不虚构实拍、截图、数据或人物身份。',
     ...s.modules.map(m=>`${m.id} ${m.status==='omit'?'不使用':'执行'}：${m.decision}${m.status==='apply'?'；参数：'+JSON.stringify(m.params):''}`),
     '空间元素：'+JSON.stringify(s.elements),'配色职责：'+JSON.stringify(s.palette??{}),'画法与保真：'+JSON.stringify(s.rendering??{}),
     '锁定项：'+JSON.stringify(s.constraints??[]),'各空间坐标是归一化布局目标，最终以清楚阅读、主体保真和保护区为准。',

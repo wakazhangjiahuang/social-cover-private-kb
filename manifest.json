@@ -683,7 +683,7 @@
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
       "ref": "manifest_commit",
-      "sha256": "1d069a86cd159218b0480da7483f4011c20ed0bb3853719cd845e4bed063d23d",
+      "sha256": "7e846bdff42161b36fb1b9949be80a060cbf875cc0d9f9368c7cbe2155812564",
       "status": "protocol_or_reference",
       "dependencies": []
     },
@@ -774,7 +774,7 @@
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
       "ref": "manifest_commit",
-      "sha256": "298730c95410b70b32bf62b80b03b63e158536beeb7cc6800870d621e2d32c76",
+      "sha256": "07017452a1f4de5c71aa558c4c3705645ba887b0b66132cf392acabe19d87463",
       "status": "protocol_or_reference",
       "dependencies": []
     }
