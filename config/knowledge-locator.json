@@ -6,18 +6,16 @@
   "public_approved_by_user": true,
   "source_repository": null,
   "manifest_path": "manifest.json",
-  "manifest_ref": "eaa6aa6c4a6959361516a442ff58fceff88fdc9b",
-  "manifest_sha256": "e34b52bad51b3de0c3d38b3b7f10c67016607a6311b84954ad97b602552c8d7c",
+  "manifest_ref": "bb2e84326aba56420889847bb54c04f86516256e",
+  "manifest_sha256": "ca4fde9c8a1999a42822c5f2f67ec75260c9f66f16e9606b46acb1e3bdaa7af0",
   "last_check": "2026-10-27",
   "verification": {
     "scope": "manifest_and_selected_assets",
-    "sampled_assets": 4,
+    "sampled_assets": 2,
     "all_sampled_hashes_passed": true,
     "asset_paths": [
       "tools/core.mjs",
-      "workflow/integrations.md",
-      "cover-components.json",
-      "hooks/candidates.json"
+      "tools/tests/core.test.mjs"
     ],
     "full_repository_verified": false,
     "initial_import_hash_sample_files": 9
