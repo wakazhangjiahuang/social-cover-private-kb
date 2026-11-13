@@ -4,7 +4,7 @@
 
 ## 立即预览
 
-完整解压，打开压缩包根目录的 START.html。请保留相邻的 project 文件夹，风格原版大图位于 project/public/studio/previews/original/。
+完整解压，打开上一级目录的 START.html。请保留相邻的 project 文件夹，风格原版大图位于 project/public/studio/previews/original/。
 离线HTML的核心JS、数据与18种缩略图均内嵌，不依赖CDN。离线预览使用系统字体，不加载图片模型及OCR；所有真实字库和OCR资源都在完整源码内。
 
 ## 运行完整项目

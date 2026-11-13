@@ -1,0 +1,13 @@
+node_modules
+.git
+.env
+.env.*
+runtime-data
+.wrangler
+.sites-runtime
+dist
+release
+outputs
+public/downloads/*.bin
+public/downloads/*.zip
+public/downloads/*.part*
