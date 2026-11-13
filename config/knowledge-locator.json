@@ -1,25 +1,27 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
   "visibility": "public",
   "public_approved_by_user": true,
   "source_repository": null,
   "manifest_path": "manifest.json",
-  "manifest_ref": "bb2e84326aba56420889847bb54c04f86516256e",
-  "manifest_sha256": "ca4fde9c8a1999a42822c5f2f67ec75260c9f66f16e9606b46acb1e3bdaa7af0",
-  "last_check": "2026-10-27",
+  "manifest_ref": "efad9c9320e83a81485dff7933063ee5a4c475cb",
+  "manifest_sha256": "769d5c6ce3a0484857c4c1bcb36240023f73455e1ebe482537bb6f9e012e1e2d",
+  "last_check": "2026-11-14",
   "verification": {
-    "scope": "manifest_and_selected_assets",
-    "sampled_assets": 2,
-    "all_sampled_hashes_passed": true,
-    "asset_paths": [
-      "tools/core.mjs",
-      "tools/tests/core.test.mjs"
-    ],
-    "full_repository_verified": false,
-    "initial_import_hash_sample_files": 9
+    "scope": "all_indexed_asset_hashes_and_cover_file_retrieval",
+    "indexed_assets_sha256_passed": 221,
+    "cover_png_decode_and_dimensions_passed": 64,
+    "cover_jpeg_decode_passed": 64,
+    "broken_html_references": 0,
+    "retrieval_regression_tests_passed": 19,
+    "core_rule_tests_passed": 5,
+    "visual_classification_scope": "64 overview images, structural mapping only",
+    "platform_client": "NOT_RUN",
+    "account_effect": "NOT_RUN"
   },
-  "note": "固定已验证内容快照；不追随main。"
+  "note": "固定完整内容快照及分类索引；控制指针单独提交，不追随main；文件通过不代表平台或效果验收。",
+  "catalog_index_path": "catalog/layout-index.json",
+  "catalog_index_sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c"
 }
-
