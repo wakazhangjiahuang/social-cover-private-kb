@@ -7,7 +7,7 @@ if(typeof process!=='undefined'&&process.argv?.[1]&&import.meta.url.startsWith('
       let value;
       if(op==='capabilities'){
         const readConfig=async name=>{
-          for(const relative of ['../assets/','../config/']){
+          for(const relative of ['../config/']){
             try{return JSON.parse(await fs.readFile(new URL(relative+name,import.meta.url),'utf8'));}
             catch(e){if(e.code!=='ENOENT')throw e;}
           }

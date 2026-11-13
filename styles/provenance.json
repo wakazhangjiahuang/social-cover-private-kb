@@ -1,0 +1,312 @@
+{
+  "source_commit": "25a7279ff36931fc4eab069999adb1ad988b5d27",
+  "source_repository": "https://github.com/Vivixiao980/xhs-cover-skill",
+  "records": [
+    {
+      "id": "background-big-text",
+      "source_image": {
+        "id": "background-big-text",
+        "git_sha": "11c5420a4cc4d10bf05b2812b1913c62975f1c27",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/background-big-text.jpg",
+        "bytes": 665301,
+        "sha256": "7e0a008e9c4b1c96defc67efeececb33d95db2085fdbaec5a8dd11890985416d"
+      },
+      "source_preset": {
+        "id": "background-big-text",
+        "git_sha": "ae7d23c9ba6cdbafebcab9b418301a8b77c7bf92",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/background-big-text.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "cozy-home",
+      "source_image": {
+        "id": "cozy-home",
+        "git_sha": "4bc57f56c62c86386f14e08d2ebb72f732423076",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/cozy-home.jpg",
+        "bytes": 743543,
+        "sha256": "e443caeaf4e402949c717467d13a2f493396911dcc9b3d01c39a8f2c727fe23a"
+      },
+      "source_preset": {
+        "id": "cozy-home",
+        "git_sha": "de84383f445d8a52aee80ff086c182f12278a1b5",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/cozy-home.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "dark-glow",
+      "source_image": {
+        "id": "dark-glow",
+        "git_sha": "72f370a13493aad5e9fda6903a2d1eac3bda226b",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/dark-glow.jpg",
+        "bytes": 649718,
+        "sha256": "d7535653a94651e03fe4f593f36eca31d8c5042fd49ee5c7215dd9bb5914413b"
+      },
+      "source_preset": {
+        "id": "dark-glow",
+        "git_sha": "0994db5a90277ac3b3fd702dab66593cc3306ee4",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/dark-glow.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "dashed-decoration",
+      "source_image": {
+        "id": "dashed-decoration",
+        "git_sha": "9d0a2cbb07c0861071dc07c0d2c7eb76db0af340",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/dashed-decoration.jpg",
+        "bytes": 675598,
+        "sha256": "8e9342491854046f4f8806c2e0233afef9aedcdb3f4bc061076177d82dde94ea"
+      },
+      "source_preset": {
+        "id": "dashed-decoration",
+        "git_sha": "e7a5f7e7aa852329cfa9673f19965f89c13884d2",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/dashed-decoration.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "hand-drawn-border",
+      "source_image": {
+        "id": "hand-drawn-border",
+        "git_sha": "a1d93d3d9215fa1cb80eda60dff0c5744df2504e",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/hand-drawn-border.jpg",
+        "bytes": 857008,
+        "sha256": "afd21a9f6278e68e41faf338bfc6a63949fdbd5d249efe0e75fc23e4bc83a959"
+      },
+      "source_preset": {
+        "id": "hand-drawn-border",
+        "git_sha": "7cf3356454126a58e427592978b4d98512baf78b",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/hand-drawn-border.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "home-motivation",
+      "source_image": {
+        "id": "home-motivation",
+        "git_sha": "747e213c017c36698621aeaf545be2965c53c2c4",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/home-motivation.jpg",
+        "bytes": 745265,
+        "sha256": "441efe290d238d5f2b0bf05978d73ca02c2de51d0fe886bc55c7d4efb6ee75f5"
+      },
+      "source_preset": {
+        "id": "home-motivation",
+        "git_sha": "97da5e2beeac118c277b011693b732e4f2922e66",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/home-motivation.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "multi-layer-layout",
+      "source_image": {
+        "id": "multi-layer-layout",
+        "git_sha": "2f7166a935382866908fede7012c75f7832fe156",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/multi-layer-layout.jpg",
+        "bytes": 673953,
+        "sha256": "b1f9b0ad3aef771294e58588b9b6e0e1e4574e3fe971fce0d5bb261fcef42681"
+      },
+      "source_preset": {
+        "id": "multi-layer-layout",
+        "git_sha": "4b6e0a4f8ae77ef331f5168cbdac09042ab6981a",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/multi-layer-layout.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "neon-contrast",
+      "source_image": {
+        "id": "neon-contrast",
+        "git_sha": "3ac470c2238e05edfb2ac05951027437c0ffd1e3",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/neon-contrast.jpg",
+        "bytes": 743314,
+        "sha256": "c84215a16e9fe2aa5f86e7746777de3096502ebd6619d00ff22e25ea797f29b3"
+      },
+      "source_preset": {
+        "id": "neon-contrast",
+        "git_sha": "007e2312f4aaf03aa3aa03506bf62ff6f718f6b0",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/neon-contrast.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "outdoor-handwriting",
+      "source_image": {
+        "id": "outdoor-handwriting",
+        "git_sha": "c638254b7687410c4d3e3778b291f6c31dd342bd",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/outdoor-handwriting.jpg",
+        "bytes": 813268,
+        "sha256": "90ed87e3462dc433803414202567d6726b3b8acb2f8f3fc354b36e5a8a877b0b"
+      },
+      "source_preset": {
+        "id": "outdoor-handwriting",
+        "git_sha": "184d9b333650658ccfd1427d3d0afb547d22cce8",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/outdoor-handwriting.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "pink-yellow-playful",
+      "source_image": {
+        "id": "pink-yellow-playful",
+        "git_sha": "c88e55ec7fe0dca093f1e30507497f4cf9c53d04",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/pink-yellow-playful.jpg",
+        "bytes": 227648,
+        "sha256": "785ac5aa36df8e7b44771bc3b613a5c1f33ea6044aac6797b538f61577b4da39"
+      },
+      "source_preset": {
+        "id": "pink-yellow-playful",
+        "git_sha": "635cd51ee937d7797feaf06afa21dac1b37ef3d3",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/pink-yellow-playful.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "professional-clean",
+      "source_image": {
+        "id": "professional-clean",
+        "git_sha": "8f8be5522d41096f2d903395bf0c4f6afdc6a68d",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/professional-clean.jpg",
+        "bytes": 508718,
+        "sha256": "8c4d1bb521c3602fe8e9be105602c2004e3936acc12cd81072feeef17162c450"
+      },
+      "source_preset": {
+        "id": "professional-clean",
+        "git_sha": "ed759991e1e0a8dccfb55adec92570251295b10c",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/professional-clean.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "professional-woman",
+      "source_image": {
+        "id": "professional-woman",
+        "git_sha": "7cc433497857476c7541747070776c2bc3b91b85",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/professional-woman.jpg",
+        "bytes": 680004,
+        "sha256": "6554779696f61ce222e513b58744c098ef073b81234dfc6f45e5b59c2bd79dcb"
+      },
+      "source_preset": {
+        "id": "professional-woman",
+        "git_sha": "531a7b457f4d213b4633464d65868cfc5cbe2c61",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/professional-woman.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "split-screen-tags",
+      "source_image": {
+        "id": "split-screen-tags",
+        "git_sha": "5069271d9c5ce91f44f29c068848aa82fc44ab77",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/split-screen-tags.jpg",
+        "bytes": 708255,
+        "sha256": "f2d1e64d88132a56fb5a460dd65895abc8b1b41ef85233642d240699d6113036"
+      },
+      "source_preset": {
+        "id": "split-screen-tags",
+        "git_sha": "e46b65154eb681283478c5f008ccdfad83a044d6",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/split-screen-tags.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "sticker-energy",
+      "source_image": {
+        "id": "sticker-energy",
+        "git_sha": "153030c28d798e767dce29956cbd2c080d1619d4",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/sticker-energy.jpg",
+        "bytes": 860009,
+        "sha256": "4c7adbd48b4533e08e682c02ceb7819efe100a3a9c037d512a00818dd87537de"
+      },
+      "source_preset": {
+        "id": "sticker-energy",
+        "git_sha": "4d5bf351638cf835a7ebaf8c03c41e4a3cf93ddd",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/sticker-energy.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "study-room-intellectual",
+      "source_image": {
+        "id": "study-room-intellectual",
+        "git_sha": "f3bec1df33900cc632668b1ee04cb677faa305c1",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/study-room-intellectual.jpg",
+        "bytes": 749989,
+        "sha256": "6b95ef0155925c5142c1d261820aa3931f10204b8f4b89fb48329b2a9aa4db2e"
+      },
+      "source_preset": {
+        "id": "study-room-intellectual",
+        "git_sha": "184f1262917311be761a0c2272e75164802f04b8",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/study-room-intellectual.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "thinking-question",
+      "source_image": {
+        "id": "thinking-question",
+        "git_sha": "1d94b3c172de9ee59f1b84a9402d11d62bde4349",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/thinking-question.jpg",
+        "bytes": 584774,
+        "sha256": "3ea59c86ed6fdb5848c396586b1effd14a46af1511cc1716136b035863e9229a"
+      },
+      "source_preset": {
+        "id": "thinking-question",
+        "git_sha": "6c39651cd26244b0c337549e5bb6b7a5c42208b0",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/thinking-question.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "workplace-big-text",
+      "source_image": {
+        "id": "workplace-big-text",
+        "git_sha": "df83240fca68ba65fec9c7a20e73971f8566b650",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/workplace-big-text.jpg",
+        "bytes": 616593,
+        "sha256": "eeb4e167d0f7d7e21d5278b7aaea1144a126b1bd58aa12393be0e4a5096f2089"
+      },
+      "source_preset": {
+        "id": "workplace-big-text",
+        "git_sha": "205084ce039ae4848237334721d61d4f2fe50a29",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/workplace-big-text.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    },
+    {
+      "id": "yellow-pink-banner",
+      "source_image": {
+        "id": "yellow-pink-banner",
+        "git_sha": "eda98cbaab5b915f0167ddadc75ee459e0773b89",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/assets/styles/yellow-pink-banner.jpg",
+        "bytes": 260455,
+        "sha256": "9f485b5b90b89e9910b30df12b59efaf2420ab0fee4fe89097e7015fb022e472"
+      },
+      "source_preset": {
+        "id": "yellow-pink-banner",
+        "git_sha": "2780c492310654534f3e4b932f39f348e8509314",
+        "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/yellow-pink-banner.json"
+      },
+      "preset_import": "extracted from user-provided workbench/START.html scs-offline-data",
+      "source_authentication": "source declarations retained; no new general reuse license granted by repository visibility"
+    }
+  ]
+}

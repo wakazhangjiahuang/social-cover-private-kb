@@ -1,0 +1,498 @@
+{
+  "baseline_commit": "7a14f17d6d3873fd4397ca259f80d8917853c99b",
+  "date": "2026-11-14",
+  "baseline_files": 267,
+  "verified_style_originals": 18,
+  "deleted_count": 63,
+  "deleted": [
+    {
+      "path": "original-images.json",
+      "sha256": "b2093b545ab9175147268136bbc626c9ad8572f10e2e349ce47fbdec19c6cb6d",
+      "reason": "Merged image provenance into one canonical registry",
+      "replacement": "styles/provenance.json"
+    },
+    {
+      "path": "style-sources.json",
+      "sha256": "82f4f3071a14151d977b1344bdb98fc9c607599336b737bdb8a862809a635857",
+      "reason": "Merged preset provenance into one canonical registry",
+      "replacement": "styles/provenance.json"
+    },
+    {
+      "path": "components/C01.json",
+      "sha256": "fad8cfbbb699a8eee74261efdcc6197158f6b6f0434341e9ab3a4575d64ed39b",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C01"
+    },
+    {
+      "path": "components/C02.json",
+      "sha256": "633195268a5f26b39641e7c205c7c44038f7866dc9483c972aa4774f4606a293",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C02"
+    },
+    {
+      "path": "components/C03.json",
+      "sha256": "825cac7b24f6f3b659388af50d2f97e1f86f34b643b8880f801e966cfb8a3036",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C03"
+    },
+    {
+      "path": "components/C04.json",
+      "sha256": "3fa7634d9a40715f01d91bea0635f473cc5834bfedad544c1e81f505e588b1b2",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C04"
+    },
+    {
+      "path": "components/C05.json",
+      "sha256": "6e1c3aed58c7869087d26d002719cd898fcd90e249acf90bccd1117931fa3a42",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C05"
+    },
+    {
+      "path": "components/C06.json",
+      "sha256": "154b19a18139dfb7def4a69d0b69864bf908deae264c16ffcd2e00ef2fb87b23",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C06"
+    },
+    {
+      "path": "components/C07.json",
+      "sha256": "8e0873f585f590a2e5406df936635c5b7341d5c93c659e31afbbfbfcd9f3bea2",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C07"
+    },
+    {
+      "path": "components/C08.json",
+      "sha256": "10c668a51d3e0ac7246ec6324ee716b00d7f121a52771b6c9b360c011b8a7eef",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C08"
+    },
+    {
+      "path": "components/C09.json",
+      "sha256": "21d335c50467a8a793bf09146600de2cf7d4d2ebcb36a2982ea3da4b53b5864e",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C09"
+    },
+    {
+      "path": "components/C10.json",
+      "sha256": "cb1b763feb1869fb1a53654242b28f25e2b1e949d83a63b753a6a841824fb611",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C10"
+    },
+    {
+      "path": "components/C11.json",
+      "sha256": "011f1fe74a38032ed23350b36b134fc04412fae48e87fe9664a86f4769e56f22",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C11"
+    },
+    {
+      "path": "components/C12.json",
+      "sha256": "21e1181bddbc328a0a1478d0cb2e1834d7a6fb78c2d803ee0c32248c023a9098",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C12"
+    },
+    {
+      "path": "components/C13.json",
+      "sha256": "8839a61612e409bc2c2dd75f6d15212629e81ef5e457f85158bcc7b043f8341e",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C13"
+    },
+    {
+      "path": "components/C14.json",
+      "sha256": "de3b05af0daa4d98f0a26f13cfc334575c55cad9db852db06d7473177577e27b",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C14"
+    },
+    {
+      "path": "components/C15.json",
+      "sha256": "5238ec9c3c449546b553b67f4700cc24886601f5d6b0770b94e5b1e53fc923f4",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C15"
+    },
+    {
+      "path": "components/C16.json",
+      "sha256": "461ca962eb1e101c1ece3b0cb03b13f3238482e284702da92723ed679b993f44",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C16"
+    },
+    {
+      "path": "components/C17.json",
+      "sha256": "25bcabc4a10cecd50ad230c399b5065e21d015ff928c63a3b760232646522f7e",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C17"
+    },
+    {
+      "path": "components/C18.json",
+      "sha256": "4f2b36fac3944ea2b126ffb46bbbaeda613a4b228e88071ec6f0dcd351b8c2c8",
+      "reason": "Exact semantic duplicate of canonical component record",
+      "replacement": "cover-components.json#C18"
+    },
+    {
+      "path": "config/core-formulas.json",
+      "sha256": "f07779ef14674eb38b0dc6d040fa4c634b0e673c14c35c0371878df980d40ad3",
+      "reason": "Byte-identical duplicate",
+      "replacement": "formulas/core-formulas.json"
+    },
+    {
+      "path": "integrations/status.json",
+      "sha256": "a5d8aba738a407aea2c575684d71aa6e9ae24cd265d29c5b96c08b35bccfc791",
+      "reason": "Byte-identical duplicate",
+      "replacement": "config/integration-status.json"
+    },
+    {
+      "path": "sources/cover-hooks-original.txt",
+      "sha256": "b8d2ea20a0953be768372d21a16db211027f2d3c01208af18babc3bd5e49b095",
+      "reason": "Byte-identical duplicate",
+      "replacement": "sources/originals/cover-hooks-original.txt"
+    },
+    {
+      "path": "body/workbook-templates-candidate.json",
+      "sha256": "b0c833e3ae2c4c25d022818a34eaeed390a0aaa3d571bcedc06a03853ee0ae42",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#正文模板"
+    },
+    {
+      "path": "presets/workbook-cover-structures-candidate.json",
+      "sha256": "d9ea4570f4c83147a6f718b6a7d68232644bb628d4aeab2c510146cdaa9e20c9",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#封面规范"
+    },
+    {
+      "path": "hooks/workbook-formulas-candidate.json",
+      "sha256": "c36f6a175ce9c7cb207cf0ad53490da1658ad8342f56c0f23769834c9c8ce6b9",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#钩子8公式"
+    },
+    {
+      "path": "titles/workbook-formulas-candidate.json",
+      "sha256": "726ab35aa7edb95851fc4ad57db3c38c2a742b6c7f30c880f27175737d6ee490",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#标题7公式"
+    },
+    {
+      "path": "marketing/b2b-and-claims-unverified.json",
+      "sha256": "9723f68462d8dc43571131f06d5db0408e55c648107704503c36925d92252fc7",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#B端翻译+红线"
+    },
+    {
+      "path": "marketing/cross-type-candidate.json",
+      "sha256": "e5de280374e3607cc1427dd26281ecd0cae85dab05fa3ba060bb2c16e8ec097c",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#跨类型模板"
+    },
+    {
+      "path": "marketing/mechanisms-candidate.json",
+      "sha256": "54cf8a62448c389b5f7127598b07242bf08ef3568432460535be09807bb8df8e",
+      "reason": "Duplicate worksheet projection; original and complete extraction retained",
+      "replacement": "sources/formula-workbook-extracted.json#14人性总表"
+    },
+    {
+      "path": ".dockerignore",
+      "sha256": "c86de42d271ffa44f11fc0c651201465bb31b2b461c090dab8c40f47c3032ee7",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": ".env.example",
+      "sha256": "0157f4c125fd33b5c1e32184155894b8bea85260f713bd38f57ea9e7252f0a2c",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": ".npmrc",
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "1f19598519231051b4b90342b713cffcd1bb9e2bf226ac720846cab019b00c13",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "sha256": "8b0eca84aa3364cc7ccc43cc3af6beb88dd34ebd410de08690bf094ce39fbcb0",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "components.json",
+      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "compose.yml",
+      "sha256": "da34cce930ff2879a5edeccc683659256989006a06a7589ba089ca828833d89e",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "drizzle.config.ts",
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "eeda7faabe9560fa9fdb26675b0011fa78461ca7061989732f5da9245b87e315",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "package.json",
+      "sha256": "71a2f73a103510ab797ca2138854c5be1e2329bfacb01362e4462e6e6b7025b8",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "095ba6f301ba3997da2c251dfc4b805c220624bdf0921d905eaceee0d1fb29c9",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sha256": "4a69dc93a75ff4a33f54c2853d5317c8e7374faab592f3472b5164257bff8066",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "postcss.config.mjs",
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "a4c1cc83b63ef9d39641d3babaefffa063dccbbc93338e18017b5013d713163e",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "db2373cd60a6466bb0466f76610c2f02d107bee1fcca56368140423332c29fe6",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "build_offline.py",
+      "sha256": "e98074f99e5f327dfa8f31def3ab3867420d94639758a91ebe9c1e818289e1d5",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "package_v5.py",
+      "sha256": "b41ad3f4f99b222360ba89363b719b9c301b35db717fcdfa3c28220d76cf493f",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "verify_native_export.mjs",
+      "sha256": "5806003b5846d689de8880337b23c5abac636ca18b9afe1c2596e4b9357012b7",
+      "reason": "Incomplete application/deployment scaffolding; referenced project/scripts/worker/public/standalone source is absent; not a KB runtime dependency",
+      "replacement": null
+    },
+    {
+      "path": "verification.json",
+      "sha256": "d7ba44b4b9877c0942b9b785d7b145692eff8b568a7a982865e8ea4bd619fdf7",
+      "reason": "Historical application test/deployment record references absent source/outputs; not current asset acceptance evidence",
+      "replacement": null
+    },
+    {
+      "path": "native-export-verification.json",
+      "sha256": "46bb29b3cf1840147b2c987bffaedeb6d80c52be20a5a68fef92f76b8eb1312f",
+      "reason": "Historical application test/deployment record references absent source/outputs; not current asset acceptance evidence",
+      "replacement": null
+    },
+    {
+      "path": "test-results.txt",
+      "sha256": "e80a1b18aa8b3f5f162f928c80b642dc38d291b49f20b1449ff789d6706104e5",
+      "reason": "Historical application test/deployment record references absent source/outputs; not current asset acceptance evidence",
+      "replacement": null
+    },
+    {
+      "path": "run-record.json",
+      "sha256": "f2b5c6a800bb3b5c99f22aae9c024b14b058a782fff87cb0aa91c0e71ec51ea8",
+      "reason": "Historical application test/deployment record references absent source/outputs; not current asset acceptance evidence",
+      "replacement": null
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "dee5d9db04fbbbc7fdd67aaed755cfad5e8f622254a0445f9624a4953760fdaa",
+      "reason": "Old planning-only file-organization scenario and generated outputs unrelated to live cover asset retrieval",
+      "replacement": null
+    },
+    {
+      "path": "examples/planning-only-file-organization/validation.json",
+      "sha256": "78d03eaec96734ddaa8c5455b7974389aead9aab25bf52128b6fc5291c63d1a3",
+      "reason": "Old planning-only file-organization scenario and generated outputs unrelated to live cover asset retrieval",
+      "replacement": null
+    },
+    {
+      "path": "examples/planning-only-file-organization/final-prompts.json",
+      "sha256": "47fdc64960427153ecd282c82462897a858635f31aaa91fb4704df974cfbf541",
+      "reason": "Old planning-only file-organization scenario and generated outputs unrelated to live cover asset retrieval",
+      "replacement": null
+    },
+    {
+      "path": "examples/planning-only-file-organization/selected-specs.json",
+      "sha256": "b61ce32b3dddbd609ce4cdccb05b1a30bfa116bb429b2ba3ec790fed4367a034",
+      "reason": "Old planning-only file-organization scenario and generated outputs unrelated to live cover asset retrieval",
+      "replacement": null
+    },
+    {
+      "path": "examples/planning-only-file-organization/cover-plan.json",
+      "sha256": "f44ed4563012cab050b5cd39475f9d34afbb1d8646f2805e47de1dd7ce202cc0",
+      "reason": "Old planning-only file-organization scenario and generated outputs unrelated to live cover asset retrieval",
+      "replacement": null
+    },
+    {
+      "path": "sources/imports/cover64/SHA256SUMS.txt",
+      "sha256": "204003437dfe422a0751cbcd7fe911688a1bc98ed66406cacda6e9064bf6a5fb",
+      "reason": "Superseded import inventories/reports contain old paths; history retained in Git, current integrity regenerated",
+      "replacement": null
+    },
+    {
+      "path": "sources/imports/cover64/QA.json",
+      "sha256": "1500d0f4fadeee9007a657aa3bea6baf01d6a2d3bf3e6a966edda42f186adbe5",
+      "reason": "Superseded import inventories/reports contain old paths; history retained in Git, current integrity regenerated",
+      "replacement": null
+    },
+    {
+      "path": "sources/imports/cover64/README.txt",
+      "sha256": "c527bdd80cebef87a5dcbb890316c7311c42dac19d6b0e1ef651c3801b5ddc47",
+      "reason": "Superseded import inventories/reports contain old paths; history retained in Git, current integrity regenerated",
+      "replacement": null
+    },
+    {
+      "path": "sources/imports/cover64/MANIFEST.json",
+      "sha256": "bdd3e30e860b3e8d5cbaebf6be27110f8aa8bda88ef8e2e00e06326c190d3a77",
+      "reason": "Superseded import inventories/reports contain old paths; history retained in Git, current integrity regenerated",
+      "replacement": null
+    },
+    {
+      "path": "catalog/path-migrations.json",
+      "sha256": "58c1703851291533a60159f6e0522ddbc8928d9457c32cf0aa5a0988415c80be",
+      "reason": "Superseded one-time flattened-upload migration; no runtime consumer",
+      "replacement": null
+    }
+  ],
+  "moves": [
+    {
+      "old": "START.html",
+      "new": "workbench/START.html",
+      "sha256": "0b886a75168840a405db80fd1df095f1b70f37c1559b87521e395b79cf34c750"
+    },
+    {
+      "old": "background-big-text.jpg",
+      "new": "styles/images/background-big-text.jpg",
+      "sha256": "7e0a008e9c4b1c96defc67efeececb33d95db2085fdbaec5a8dd11890985416d"
+    },
+    {
+      "old": "cozy-home.jpg",
+      "new": "styles/images/cozy-home.jpg",
+      "sha256": "e443caeaf4e402949c717467d13a2f493396911dcc9b3d01c39a8f2c727fe23a"
+    },
+    {
+      "old": "dark-glow.jpg",
+      "new": "styles/images/dark-glow.jpg",
+      "sha256": "d7535653a94651e03fe4f593f36eca31d8c5042fd49ee5c7215dd9bb5914413b"
+    },
+    {
+      "old": "dashed-decoration.jpg",
+      "new": "styles/images/dashed-decoration.jpg",
+      "sha256": "8e9342491854046f4f8806c2e0233afef9aedcdb3f4bc061076177d82dde94ea"
+    },
+    {
+      "old": "hand-drawn-border.jpg",
+      "new": "styles/images/hand-drawn-border.jpg",
+      "sha256": "afd21a9f6278e68e41faf338bfc6a63949fdbd5d249efe0e75fc23e4bc83a959"
+    },
+    {
+      "old": "home-motivation.jpg",
+      "new": "styles/images/home-motivation.jpg",
+      "sha256": "441efe290d238d5f2b0bf05978d73ca02c2de51d0fe886bc55c7d4efb6ee75f5"
+    },
+    {
+      "old": "multi-layer-layout.jpg",
+      "new": "styles/images/multi-layer-layout.jpg",
+      "sha256": "b1f9b0ad3aef771294e58588b9b6e0e1e4574e3fe971fce0d5bb261fcef42681"
+    },
+    {
+      "old": "neon-contrast.jpg",
+      "new": "styles/images/neon-contrast.jpg",
+      "sha256": "c84215a16e9fe2aa5f86e7746777de3096502ebd6619d00ff22e25ea797f29b3"
+    },
+    {
+      "old": "outdoor-handwriting.jpg",
+      "new": "styles/images/outdoor-handwriting.jpg",
+      "sha256": "90ed87e3462dc433803414202567d6726b3b8acb2f8f3fc354b36e5a8a877b0b"
+    },
+    {
+      "old": "pink-yellow-playful.jpg",
+      "new": "styles/images/pink-yellow-playful.jpg",
+      "sha256": "785ac5aa36df8e7b44771bc3b613a5c1f33ea6044aac6797b538f61577b4da39"
+    },
+    {
+      "old": "professional-clean.jpg",
+      "new": "styles/images/professional-clean.jpg",
+      "sha256": "8c4d1bb521c3602fe8e9be105602c2004e3936acc12cd81072feeef17162c450"
+    },
+    {
+      "old": "professional-woman.jpg",
+      "new": "styles/images/professional-woman.jpg",
+      "sha256": "6554779696f61ce222e513b58744c098ef073b81234dfc6f45e5b59c2bd79dcb"
+    },
+    {
+      "old": "split-screen-tags.jpg",
+      "new": "styles/images/split-screen-tags.jpg",
+      "sha256": "f2d1e64d88132a56fb5a460dd65895abc8b1b41ef85233642d240699d6113036"
+    },
+    {
+      "old": "sticker-energy.jpg",
+      "new": "styles/images/sticker-energy.jpg",
+      "sha256": "4c7adbd48b4533e08e682c02ceb7819efe100a3a9c037d512a00818dd87537de"
+    },
+    {
+      "old": "study-room-intellectual.jpg",
+      "new": "styles/images/study-room-intellectual.jpg",
+      "sha256": "6b95ef0155925c5142c1d261820aa3931f10204b8f4b89fb48329b2a9aa4db2e"
+    },
+    {
+      "old": "thinking-question.jpg",
+      "new": "styles/images/thinking-question.jpg",
+      "sha256": "3ea59c86ed6fdb5848c396586b1effd14a46af1511cc1716136b035863e9229a"
+    },
+    {
+      "old": "workplace-big-text.jpg",
+      "new": "styles/images/workplace-big-text.jpg",
+      "sha256": "eeb4e167d0f7d7e21d5278b7aaea1144a126b1bd58aa12393be0e4a5096f2089"
+    },
+    {
+      "old": "yellow-pink-banner.jpg",
+      "new": "styles/images/yellow-pink-banner.jpg",
+      "sha256": "9f485b5b90b89e9910b30df12b59efaf2420ab0fee4fe89097e7015fb022e472"
+    }
+  ],
+  "manifest_failure_found": {
+    "overwritten_by": "V5 application package manifest",
+    "listed_files": 329,
+    "missing_files": 318
+  },
+  "preserved": [
+    "64 PNG + 64 thumbnails",
+    "18 style JPEG originals + full presets",
+    "18 decision components / 179 fields",
+    "225 titles / 225 hooks / 10 formulas",
+    "user original sources and complete extraction",
+    "uploaded standalone V5 HTML"
+  ],
+  "historical_recovery": "Deleted material remains in baseline commit history; no extra runtime backup copies retained"
+}

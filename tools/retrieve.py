@@ -53,12 +53,34 @@ def main():
     a.add_argument('--primary-only',action='store_true');a.add_argument('--query');a.add_argument('--limit',type=int,default=6)
     b=subs.add_parser('record');b.add_argument('--kind',choices=RECORDS,required=True)
     b.add_argument('--id');b.add_argument('--query');b.add_argument('--limit',type=int,default=6)
+    c=subs.add_parser('style');c.add_argument('--id');c.add_argument('--query');c.add_argument('--include-prompt',action='store_true');c.add_argument('--limit',type=int,default=6)
+    d=subs.add_parser('joint');d.add_argument('--style-id',required=True);d.add_argument('--structure',choices=[f'L{i:02}' for i in range(1,18)],required=True);d.add_argument('--platform',choices=MODES,required=True);d.add_argument('--limit',type=int,default=3)
     args=vars(p.parse_args());cmd=args.pop('command')
     if not 1<=args['limit']<=500:p.error('--limit must be 1..500')
     if cmd=='layout':
         if args['primary_only'] and not args['platform']:p.error('--primary-only requires --platform')
         result=layouts(**args)
-    else:result=records(**args)
+    elif cmd=='record':result=records(**args)
+    elif cmd=='style':result=styles(**args)
+    else:result=joint(**args)
     print(json.dumps(result,ensure_ascii=False,indent=2))
+
+def styles(*,id=None,query=None,include_prompt=False,limit=6):
+    rows=read('catalog/style-index.json')['entries']
+    found=[row for row in rows if (not id or row['id']==id) and matches({k:row[k] for k in ['id','name','tags']},query)]
+    selected=[]
+    for row in found[:limit]:
+        row=dict(row)
+        if include_prompt:row['source_preset']=read(row['preset_path'])
+        selected.append(row)
+    return {'kind':'style','status':'MATCH' if found else 'NO_MATCH','total':len(found),'records':selected,
+      'scope':'visual reference; source prompt is not platform policy or current task evidence'}
+
+def joint(*,style_id,structure,platform,limit=3):
+    visual=styles(id=style_id,include_prompt=True,limit=1)
+    composition=layouts(platform=platform,structure=structure,limit=limit)
+    return {'kind':'joint','status':'PLANNING_REFERENCE_PAIR' if visual['total'] and composition['total'] else 'PARTIAL_OR_NO_MATCH',
+      'style':visual,'layouts':composition,'platform_mode':platform,'premade_combined_image':False,'rendered_or_platform_tested':False,
+      'next':'Apply task facts, available authorized materials and platform adapter; generate independently and inspect'}
 
 if __name__=='__main__':main()

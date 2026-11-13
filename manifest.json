@@ -1,1650 +1,2722 @@
 {
-  "version": "5.0.3-rebuilt",
-  "files": [
-    {
-      "path": "README.md",
-      "bytes": 4007,
-      "sha256": "a74178aa8786c6246bb013fd4377fe2c258e77858c1202d678a2e4c4d60b1110"
-    },
-    {
-      "path": "START.html",
-      "bytes": 810632,
-      "sha256": "0b886a75168840a405db80fd1df095f1b70f37c1559b87521e395b79cf34c750"
-    },
-    {
-      "path": "build_offline.py",
-      "bytes": 3461,
-      "sha256": "e98074f99e5f327dfa8f31def3ab3867420d94639758a91ebe9c1e818289e1d5"
-    },
-    {
-      "path": "examples/local-composition/01-P1.png",
-      "bytes": 95573,
-      "sha256": "f5ccf48cc99224bc30655e544114dd177faee8738ad351806b7df6c00a61b3ef"
-    },
-    {
-      "path": "examples/local-composition/02-P4.png",
-      "bytes": 106175,
-      "sha256": "08e0dfdd505e43181d8a3dba43a632445519ff041052bc31b32223d2da57c698"
-    },
-    {
-      "path": "examples/local-composition/03-P2.png",
-      "bytes": 73286,
-      "sha256": "e404013bb9203f8989fabfecc91baec3cbb0c470e23cc6ff30f7ed1d271b28a7"
-    },
-    {
-      "path": "examples/local-composition/README.txt",
-      "bytes": 172,
-      "sha256": "0c4e3f7f13693d8b1e7a591a4f8ab5319eb8bfcf7a31092bfe4d637ebe4719e4"
-    },
-    {
-      "path": "native-export-verification.json",
-      "bytes": 1919,
-      "sha256": "46bb29b3cf1840147b2c987bffaedeb6d80c52be20a5a68fef92f76b8eb1312f"
-    },
-    {
-      "path": "original-images.json",
-      "bytes": 6232,
-      "sha256": "b2093b545ab9175147268136bbc626c9ad8572f10e2e349ce47fbdec19c6cb6d"
-    },
-    {
-      "path": "package_v5.py",
-      "bytes": 4679,
-      "sha256": "b41ad3f4f99b222360ba89363b719b9c301b35db717fcdfa3c28220d76cf493f"
-    },
-    {
-      "path": "project/.dockerignore",
-      "bytes": 160,
-      "sha256": "c86de42d271ffa44f11fc0c651201465bb31b2b461c090dab8c40f47c3032ee7"
-    },
-    {
-      "path": "project/.env.example",
-      "bytes": 693,
-      "sha256": "0157f4c125fd33b5c1e32184155894b8bea85260f713bd38f57ea9e7252f0a2c"
-    },
-    {
-      "path": "project/.gitignore",
-      "bytes": 702,
-      "sha256": "a6065ab29dbf076e6494b09c7268db3c72db27aa492be4d3dad8c4b2bf97b3d0"
-    },
-    {
-      "path": "project/.npmrc",
-      "bytes": 45,
-      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d"
-    },
-    {
-      "path": "project/.openai/hosting.json",
-      "bytes": 35,
-      "sha256": "bcc60135f698bbe83722987ef0705bfb2f389f9eb1a163007cbb4c9ceab301cf"
-    },
-    {
-      "path": "project/Dockerfile",
-      "bytes": 313,
-      "sha256": "1f19598519231051b4b90342b713cffcd1bb9e2bf226ac720846cab019b00c13"
-    },
-    {
-      "path": "project/README.md",
-      "bytes": 4004,
-      "sha256": "b9191ab658006c2b4e8697ba1293432bebcf12ce34a820255f46e91cb224b2b5"
-    },
-    {
-      "path": "project/app/api/analyze/route.ts",
-      "bytes": 146,
-      "sha256": "c12fed8aa9a9c5f3d04c6dec2924998b2ddded516194464cf30725c2f013454e"
-    },
-    {
-      "path": "project/app/api/artifacts/[id]/route.ts",
-      "bytes": 243,
-      "sha256": "ac0c83423e4486d29c89a5188f9ab54ae55745e5aae30c4bbf0dbd0ba68bc3bd"
-    },
-    {
-      "path": "project/app/api/artifacts/route.ts",
-      "bytes": 148,
-      "sha256": "9eb9f69f9d4c71699d3dc26d9c15d766b06ca5d6ccfd444066607cbb0113906d"
-    },
-    {
-      "path": "project/app/api/capabilities/route.ts",
-      "bytes": 150,
-      "sha256": "437461f1ec808b191ca54d37bc1d258d87a38bcf8f8890b60e20cb316a0e0f72"
-    },
-    {
-      "path": "project/app/api/jobs/[id]/route.ts",
-      "bytes": 238,
-      "sha256": "6351bf1d714e765a5ba2bab6cf25ab89e56e96a7747d4461c1aaaffe8eddb470"
-    },
-    {
-      "path": "project/app/api/learn/route.ts",
-      "bytes": 144,
-      "sha256": "b85144a8ce5b3b616f91a32cca18bc629de039561050f04ab260ecc36a8aca07"
-    },
-    {
-      "path": "project/app/api/ocr/route.ts",
-      "bytes": 142,
-      "sha256": "9f7b9be876fb3ea10591e20bca242c0fdb300f53bc48c2804105057f51df4417"
-    },
-    {
-      "path": "project/app/api/plan/route.ts",
-      "bytes": 143,
-      "sha256": "eab1a58d760f4b142bc10fa51be226ca05a2ec55c96f0adeb36f8379ba78d97b"
-    },
-    {
-      "path": "project/app/api/produce/route.ts",
-      "bytes": 146,
-      "sha256": "7b403a6815228057737c2d4aa730fd25de06a017c8bfb78a4a349c61bce88764"
-    },
-    {
-      "path": "project/app/api/source/route.ts",
-      "bytes": 145,
-      "sha256": "6601f96d18e0246e0696a39865e995ba8d5d7f810b7d561eddeae4a1b89b1f06"
-    },
-    {
-      "path": "project/app/chatgpt-auth.ts",
-      "bytes": 2550,
-      "sha256": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc"
-    },
-    {
-      "path": "project/app/globals.css",
-      "bytes": 3928,
-      "sha256": "8546d9b115f0addd582f7ceaaa6b1c069310bcc77c43ee7b8acfe0020be3afd7"
-    },
-    {
-      "path": "project/app/layout.tsx",
-      "bytes": 455,
-      "sha256": "008c8e6961dc0d7e35a4c6de25df4d9ea7a620bac9f9dd178054d7af3c2e5551"
-    },
-    {
-      "path": "project/app/page.tsx",
-      "bytes": 106,
-      "sha256": "f95952fe7a46479b133d8e8ccda39a2e696ec7257f4a15901b1191dafc2a8f85"
-    },
-    {
-      "path": "project/cloudflare-env.d.ts",
-      "bytes": 99,
-      "sha256": "8b0eca84aa3364cc7ccc43cc3af6beb88dd34ebd410de08690bf094ce39fbcb0"
-    },
-    {
-      "path": "project/components/connector-error.tsx",
-      "bytes": 1082,
-      "sha256": "2d0d04559952ce9c9a327cca499f4b99f35d885cccfce375230e116695d3f155"
-    },
-    {
-      "path": "project/components/ui/accordion.tsx",
-      "bytes": 2048,
-      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0"
-    },
-    {
-      "path": "project/components/ui/alert-dialog.tsx",
-      "bytes": 5439,
-      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311"
-    },
-    {
-      "path": "project/components/ui/alert.tsx",
-      "bytes": 1614,
-      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b"
-    },
-    {
-      "path": "project/components/ui/aspect-ratio.tsx",
-      "bytes": 274,
-      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407"
-    },
-    {
-      "path": "project/components/ui/attachment.tsx",
-      "bytes": 6002,
-      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790"
-    },
-    {
-      "path": "project/components/ui/avatar.tsx",
-      "bytes": 2916,
-      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34"
-    },
-    {
-      "path": "project/components/ui/badge.tsx",
-      "bytes": 1776,
-      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97"
-    },
-    {
-      "path": "project/components/ui/breadcrumb.tsx",
-      "bytes": 2350,
-      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5"
-    },
-    {
-      "path": "project/components/ui/bubble.tsx",
-      "bytes": 4699,
-      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b"
-    },
-    {
-      "path": "project/components/ui/button-group.tsx",
-      "bytes": 2202,
-      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0"
-    },
-    {
-      "path": "project/components/ui/button.tsx",
-      "bytes": 2392,
-      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4"
-    },
-    {
-      "path": "project/components/ui/calendar.tsx",
-      "bytes": 7832,
-      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84"
-    },
-    {
-      "path": "project/components/ui/card.tsx",
-      "bytes": 1987,
-      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c"
-    },
-    {
-      "path": "project/components/ui/carousel.tsx",
-      "bytes": 5556,
-      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3"
-    },
-    {
-      "path": "project/components/ui/chart.tsx",
-      "bytes": 10614,
-      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a"
-    },
-    {
-      "path": "project/components/ui/checkbox.tsx",
-      "bytes": 1214,
-      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27"
-    },
-    {
-      "path": "project/components/ui/collapsible.tsx",
-      "bytes": 795,
-      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b"
-    },
-    {
-      "path": "project/components/ui/combobox.tsx",
-      "bytes": 9158,
-      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735"
-    },
-    {
-      "path": "project/components/ui/command.tsx",
-      "bytes": 4818,
-      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a"
-    },
-    {
-      "path": "project/components/ui/context-menu.tsx",
-      "bytes": 8268,
-      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017"
-    },
-    {
-      "path": "project/components/ui/dialog.tsx",
-      "bytes": 4303,
-      "sha256": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14"
-    },
-    {
-      "path": "project/components/ui/direction.tsx",
-      "bytes": 506,
-      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6"
-    },
-    {
-      "path": "project/components/ui/drawer.tsx",
-      "bytes": 4255,
-      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f"
-    },
-    {
-      "path": "project/components/ui/dropdown-menu.tsx",
-      "bytes": 8418,
-      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a"
-    },
-    {
-      "path": "project/components/ui/empty.tsx",
-      "bytes": 2396,
-      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0"
-    },
-    {
-      "path": "project/components/ui/field.tsx",
-      "bytes": 6159,
-      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd"
-    },
-    {
-      "path": "project/components/ui/form.tsx",
-      "bytes": 3757,
-      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e"
-    },
-    {
-      "path": "project/components/ui/hover-card.tsx",
-      "bytes": 1526,
-      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8"
-    },
-    {
-      "path": "project/components/ui/input-group.tsx",
-      "bytes": 5065,
-      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0"
-    },
-    {
-      "path": "project/components/ui/input-otp.tsx",
-      "bytes": 2254,
-      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299"
-    },
-    {
-      "path": "project/components/ui/input.tsx",
-      "bytes": 962,
-      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db"
-    },
-    {
-      "path": "project/components/ui/item.tsx",
-      "bytes": 4486,
-      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f"
-    },
-    {
-      "path": "project/components/ui/kbd.tsx",
-      "bytes": 862,
-      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13"
-    },
-    {
-      "path": "project/components/ui/label.tsx",
-      "bytes": 606,
-      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c"
-    },
-    {
-      "path": "project/components/ui/marker.tsx",
-      "bytes": 1864,
-      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0"
-    },
-    {
-      "path": "project/components/ui/menubar.tsx",
-      "bytes": 8389,
-      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb"
-    },
-    {
-      "path": "project/components/ui/message-scroller.tsx",
-      "bytes": 3992,
-      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf"
-    },
-    {
-      "path": "project/components/ui/message.tsx",
-      "bytes": 2232,
-      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185"
-    },
-    {
-      "path": "project/components/ui/native-select.tsx",
-      "bytes": 1995,
-      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c"
-    },
-    {
-      "path": "project/components/ui/navigation-menu.tsx",
-      "bytes": 6658,
-      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044"
-    },
-    {
-      "path": "project/components/ui/pagination.tsx",
-      "bytes": 2717,
-      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1"
-    },
-    {
-      "path": "project/components/ui/popover.tsx",
-      "bytes": 2357,
-      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447"
-    },
-    {
-      "path": "project/components/ui/progress.tsx",
-      "bytes": 755,
-      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d"
-    },
-    {
-      "path": "project/components/ui/radio-group.tsx",
-      "bytes": 1460,
-      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce"
-    },
-    {
-      "path": "project/components/ui/resizable.tsx",
-      "bytes": 1815,
-      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c"
-    },
-    {
-      "path": "project/components/ui/scroll-area.tsx",
-      "bytes": 1639,
-      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043"
-    },
-    {
-      "path": "project/components/ui/select.tsx",
-      "bytes": 6353,
-      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3"
-    },
-    {
-      "path": "project/components/ui/separator.tsx",
-      "bytes": 694,
-      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e"
-    },
-    {
-      "path": "project/components/ui/sheet.tsx",
-      "bytes": 4188,
-      "sha256": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16"
-    },
-    {
-      "path": "project/components/ui/sidebar.tsx",
-      "bytes": 21526,
-      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e"
-    },
-    {
-      "path": "project/components/ui/skeleton.tsx",
-      "bytes": 276,
-      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239"
-    },
-    {
-      "path": "project/components/ui/slider.tsx",
-      "bytes": 1991,
-      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3"
-    },
-    {
-      "path": "project/components/ui/sonner.tsx",
-      "bytes": 1034,
-      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f"
-    },
-    {
-      "path": "project/components/ui/spinner.tsx",
-      "bytes": 331,
-      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9"
-    },
-    {
-      "path": "project/components/ui/switch.tsx",
-      "bytes": 1408,
-      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae"
-    },
-    {
-      "path": "project/components/ui/table.tsx",
-      "bytes": 2478,
-      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3"
-    },
-    {
-      "path": "project/components/ui/tabs.tsx",
-      "bytes": 3782,
-      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46"
-    },
-    {
-      "path": "project/components/ui/textarea.tsx",
-      "bytes": 759,
-      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979"
-    },
-    {
-      "path": "project/components/ui/toggle-group.tsx",
-      "bytes": 2308,
-      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e"
-    },
-    {
-      "path": "project/components/ui/toggle.tsx",
-      "bytes": 1565,
-      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16"
-    },
-    {
-      "path": "project/components/ui/tooltip.tsx",
-      "bytes": 1830,
-      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4"
-    },
-    {
-      "path": "project/components.json",
-      "bytes": 420,
-      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd"
-    },
-    {
-      "path": "project/compose.yml",
-      "bytes": 422,
-      "sha256": "da34cce930ff2879a5edeccc683659256989006a06a7589ba089ca828833d89e"
-    },
-    {
-      "path": "project/db/index.ts",
-      "bytes": 423,
-      "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd"
-    },
-    {
-      "path": "project/db/schema.ts",
-      "bytes": 280,
-      "sha256": "c4943f32132fbf83d0cc204e5377c1edb46b0914e63a51ef360717ca33cf831c"
-    },
-    {
-      "path": "project/docs/ACCEPTANCE.md",
-      "bytes": 5903,
-      "sha256": "d8671fda4c32540621acbb617b92c07543873e071b42e445b736f2a66b8e02dd"
-    },
-    {
-      "path": "project/docs/DEPLOYMENT.md",
-      "bytes": 4041,
-      "sha256": "4b9e1c9de12c07fc9e9c6152effb754d9e2cb310f7ec31bcba743c48392c63d0"
-    },
-    {
-      "path": "project/docs/DOWNLOAD-DELIVERY.md",
-      "bytes": 820,
-      "sha256": "ab8139e94fbc21bb9532f16871a9fbd37717b83077d41aceeaf0bbb76bd1e4df"
-    },
-    {
-      "path": "project/docs/EXPERT-REVIEW.md",
-      "bytes": 2917,
-      "sha256": "c464da2c4fc041228bb083b335b9b99d3dd4d9493891695984a14b7ddb5ffbd1"
-    },
-    {
-      "path": "project/docs/THIRD-PARTY.md",
-      "bytes": 3508,
-      "sha256": "087ddb977ad0aa084235109540f9ec0d3a8dc947b6c89b26d160055e50cd3b58"
-    },
-    {
-      "path": "project/docs/UPGRADE-V4.md",
-      "bytes": 5337,
-      "sha256": "cd17ca0b0c11dd751cbb8b03c2e25946eeaff71a3da755ed7249bc7e19e4abe5"
-    },
-    {
-      "path": "project/docs/V5-MODULES.md",
-      "bytes": 1128,
-      "sha256": "3e49ac8f8833db648f3cd41d8a4b9166ce92f1e6bc173011012e958ac77dadf1"
-    },
-    {
-      "path": "project/docs/V5-REVIEW.md",
-      "bytes": 1350,
-      "sha256": "d1cbbe37b6e28f39660120070248d03ff6ac31a54486129951d42993cf448859"
-    },
-    {
-      "path": "project/docs/V5-SOURCES.md",
-      "bytes": 1087,
-      "sha256": "96791b548c628200061a138c0ca84a10eef4c51e319d2f52eccca3a148c5408a"
-    },
-    {
-      "path": "project/docs/VERIFICATION-V4.json",
-      "bytes": 2071,
-      "sha256": "d374e8921f134a2d24ea39d29f33947ef23722ad34db108fad100d3af88d9b57"
-    },
-    {
-      "path": "project/docs/archive/README-V4.md",
-      "bytes": 8958,
-      "sha256": "e8c219d3a026d78e39dc7de028c7be0005e0cc5569568bdbc4797b41758ee814"
-    },
-    {
-      "path": "project/docs/original-images.json",
-      "bytes": 6232,
-      "sha256": "b2093b545ab9175147268136bbc626c9ad8572f10e2e349ce47fbdec19c6cb6d"
-    },
-    {
-      "path": "project/docs/style-sources.json",
-      "bytes": 4271,
-      "sha256": "82f4f3071a14151d977b1344bdb98fc9c607599336b737bdb8a862809a635857"
-    },
-    {
-      "path": "project/drizzle/0000_whole_gamma_corps.sql",
-      "bytes": 171,
-      "sha256": "427ef8cd7836e02cd70b9dfbb071e6318b3e8e137b9996a7b366b40837c9577b"
-    },
-    {
-      "path": "project/drizzle/meta/0000_snapshot.json",
-      "bytes": 1412,
-      "sha256": "45bc0af1bc8cdb571bcca526da35f362fed98c0ae9a037c1e62d9502242087f2"
-    },
-    {
-      "path": "project/drizzle/meta/_journal.json",
-      "bytes": 207,
-      "sha256": "6c875c8705cce32e3eb6305a1753f30ee7ae6206618aea4ae8bfc7e4f8768f11"
-    },
-    {
-      "path": "project/drizzle.config.ts",
-      "bytes": 148,
-      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
-    },
-    {
-      "path": "project/eslint.config.mjs",
-      "bytes": 791,
-      "sha256": "eeda7faabe9560fa9fdb26675b0011fa78461ca7061989732f5da9245b87e315"
-    },
-    {
-      "path": "project/examples/d1/app/api/notes/route.ts",
-      "bytes": 1700,
-      "sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909"
-    },
-    {
-      "path": "project/examples/d1/db/schema.ts",
-      "bytes": 370,
-      "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454"
-    },
-    {
-      "path": "project/hooks/use-mobile.ts",
-      "bytes": 565,
-      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b"
-    },
-    {
-      "path": "project/lib/connector-context.ts",
-      "bytes": 612,
-      "sha256": "bbddff68689cb0f6926fecd4b8b96f12f2054277c296e97b0df07d4ad5ece24e"
-    },
-    {
-      "path": "project/lib/connector-contract.mts",
-      "bytes": 5362,
-      "sha256": "e1a7b24a8793af34b595690d9b1300c897c7321c14f215cedf58ad95799d7c3e"
-    },
-    {
-      "path": "project/lib/connector-errors.mts",
-      "bytes": 2717,
-      "sha256": "a22edf13d6873ae832c4a2a0d579fc666c73ec996ef0722d39172649d38f0871"
-    },
-    {
-      "path": "project/lib/connector-preview.d.ts",
-      "bytes": 433,
-      "sha256": "abd69a94f7f61f1359063bb557574faae35e8ff5a028cc4c04b9ee248ef52642"
-    },
-    {
-      "path": "project/lib/connectors.ts",
-      "bytes": 416,
-      "sha256": "1c93d747e384c8e17e3e3dd5361b24412babf5eba2a11d2ae7a75f4e0924112c"
-    },
-    {
-      "path": "project/lib/cover/cloud-store.ts",
-      "bytes": 2110,
-      "sha256": "74f2c222dec614941e506f9257c5c196caa9863dfc3c9646707041097fde78b3"
-    },
-    {
-      "path": "project/lib/cover/handle.ts",
-      "bytes": 287,
-      "sha256": "a532a29c693624dfb94d39c3e29fa9f734854211cefa835abcf2cb59e29b0ea3"
-    },
-    {
-      "path": "project/lib/cover/provider.ts",
-      "bytes": 4842,
-      "sha256": "d0f5236a7a22f20d3bbd85e66d9eded6c830442d6b83b85c5ef4a00d49a26ead"
-    },
-    {
-      "path": "project/lib/cover/runtime.mjs",
-      "bytes": 15498,
-      "sha256": "8e73a6a42b3be057598768c40c351bcd0ebbddf15df6c337e6433e846804a1d2"
-    },
-    {
-      "path": "project/lib/download.mjs",
-      "bytes": 2053,
-      "sha256": "c460db38a3c6ab40f5f2649dd5e0ea5c58e35bf05fcf7ab44d4d4f965b77d0b8"
-    },
-    {
-      "path": "project/lib/utils.ts",
-      "bytes": 177,
-      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68"
-    },
-    {
-      "path": "project/materials/approved/Hook_Architecture_V31.json",
-      "bytes": 15003,
-      "sha256": "4d7dd9d5e10142051a57c7544e7834c5515991d56d4a681de9604aea827b038c"
-    },
-    {
-      "path": "project/materials/approved/Social_Cover_Studio_Architecture_V31_Review.html",
-      "bytes": 2741204,
-      "sha256": "8e7a644161d31ed8954b848f4cfe90cf66105d2c2d30b270674a893137d3810b"
-    },
-    {
-      "path": "project/materials/manifest.json",
-      "bytes": 4839,
-      "sha256": "e6085ebdd19d325c6e921a079546cad02a427255ef26d735d4ad0b0c14fdea38"
-    },
-    {
-      "path": "project/materials/original/cover-hooks-original-v2.txt",
-      "bytes": 23923,
-      "sha256": "b8d2ea20a0953be768372d21a16db211027f2d3c01208af18babc3bd5e49b095"
-    },
-    {
-      "path": "project/materials/original/spoken-content-original.txt",
-      "bytes": 8817,
-      "sha256": "1d3b7a80a647415a1065fd690d6206b1fda83e563310506adfcfb7aed66c54c0"
-    },
-    {
-      "path": "project/materials/original/spoken-guide-original-v3.html",
-      "bytes": 183193,
-      "sha256": "d644fd4ed40be7a5beb176da7a917e415f95efa8804fca091292541559517a1f"
-    },
-    {
-      "path": "project/materials/original/spoken-script-engine-original.zip",
-      "bytes": 498463,
-      "sha256": "2bdf837692ddd4e50448577726f398ab5e8119ec7a037209d8594b0ef1ab376c"
-    },
-    {
-      "path": "project/materials/reference-project/xhs-cover-skill/README.md",
-      "bytes": 10639,
-      "sha256": "5f491e7fb5b2eacecd27a39df8b0ebdc4e8440262fcc75b4c82302ea92210f83"
-    },
-    {
-      "path": "project/materials/reference-project/xhs-cover-skill/SKILL.md",
-      "bytes": 20557,
-      "sha256": "8c7128165d3be9085f51641ed4ba123348b07d6fd5b97a5bbaef7dfb1670b56e"
-    },
-    {
-      "path": "project/materials/reference-project/xhs-cover-skill/package.json",
-      "bytes": 510,
-      "sha256": "458e786fe8be7409f7a2d297477ed59787faef24e6e0c3e016f50ec5f02da89c"
-    },
-    {
-      "path": "project/materials/reference-project/xhs-cover-skill/scripts/generate.mjs",
-      "bytes": 20100,
-      "sha256": "12bb7205862157aa0f3b31825864640b14399444a487b1afec7cf9c982d7e704"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/SKILL.md",
-      "bytes": 6863,
-      "sha256": "4b8c7bd803db17bd747e8a344f96d1c44ad36b34ae96041dae80bb7136355d0a"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/agents/openai.yaml",
-      "bytes": 543,
-      "sha256": "b02872d20da1d6964a226b6d620af9d3bdf234f5a219a7dbb8862b45b90a41a2"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/core-formulas.json",
-      "bytes": 1825,
-      "sha256": "f07779ef14674eb38b0dc6d040fa4c634b0e673c14c35c0371878df980d40ad3"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/cover-components.json",
-      "bytes": 17142,
-      "sha256": "22e1f20fc0436ca6cdebb0224b3f373202052a67bcd62a1941af4288323cd252"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/cover-spec.schema.json",
-      "bytes": 1250,
-      "sha256": "9ec98f0ba5c3a82ce9caab3c7062ec55a9f64cbbd391ee213589fe6402e79d53"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/icon.svg",
-      "bytes": 1210,
-      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/integration-status.json",
-      "bytes": 772,
-      "sha256": "a5d8aba738a407aea2c575684d71aa6e9ae24cd265d29c5b96c08b35bccfc791"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/knowledge-locator.json",
-      "bytes": 783,
-      "sha256": "608272dc51985f98dd1fcec644dc77d37754332a1738e5f835d61d7f8488c0bb"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/assets/research-sources.json",
-      "bytes": 2446,
-      "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/references/integrations.md",
-      "bytes": 1920,
-      "sha256": "b4405718e5b40418d3ebef38359bed6118218f3e121b942473219a8ec92ba42a"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/references/knowledge.md",
-      "bytes": 2323,
-      "sha256": "71a332fde249efe0ff80ec2813679886e860f8e984a700c93c561f4246e8b584"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/references/platforms.md",
-      "bytes": 1929,
-      "sha256": "bb8f3b1a5c571d8a8443237d26f37a041eaa9c6221a8d40cf4744eb507caab74"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/references/qa.md",
-      "bytes": 1398,
-      "sha256": "663eb75e1e93b9e7fff9f9391e8ad8397ecb2b178cc346a143050618a2ed0cea"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/references/workflow.md",
-      "bytes": 1823,
-      "sha256": "a09ce0df656f27fc65ac52b0a5a4edc9a0e880fb6cd0df412af5fcd9070a9b1f"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/scripts/core.mjs",
-      "bytes": 10113,
-      "sha256": "7e846bdff42161b36fb1b9949be80a060cbf875cc0d9f9368c7cbe2155812564"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/scripts/cover_core.mjs",
-      "bytes": 2102,
-      "sha256": "7b49cb9b1cee2c3dbb3506f96bac0d4f8830af8d3b1a046187d076cfce8d6092"
-    },
-    {
-      "path": "project/materials/skill-reference/social-cover-studio/scripts/tests/core.test.mjs",
-      "bytes": 3235,
-      "sha256": "07017452a1f4de5c71aa558c4c3705645ba887b0b66132cf392acabe19d87463"
-    },
-    {
-      "path": "project/next.config.ts",
-      "bytes": 133,
-      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc"
-    },
-    {
-      "path": "project/package.json",
-      "bytes": 2332,
-      "sha256": "71a2f73a103510ab797ca2138854c5be1e2329bfacb01362e4462e6e6b7025b8"
-    },
-    {
-      "path": "project/pnpm-lock.yaml",
-      "bytes": 345021,
-      "sha256": "095ba6f301ba3997da2c251dfc4b805c220624bdf0921d905eaceee0d1fb29c9"
-    },
-    {
-      "path": "project/pnpm-workspace.yaml",
-      "bytes": 736,
-      "sha256": "4a69dc93a75ff4a33f54c2853d5317c8e7374faab592f3472b5164257bff8066"
-    },
-    {
-      "path": "project/postcss.config.mjs",
-      "bytes": 94,
-      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
-    },
-    {
-      "path": "project/public/downloads/download.css",
-      "bytes": 2462,
-      "sha256": "83e8100cc67aa3218cb2ce36b1ebe586da2f77ee4c275e5468e4ead791a3c6cd"
-    },
-    {
-      "path": "project/public/downloads/download.js",
-      "bytes": 1482,
-      "sha256": "3d22f06eed976e8666f044842fba803447939029a76107dbcbd3bec6bacee1f9"
-    },
-    {
-      "path": "project/public/downloads/index.html",
-      "bytes": 282,
-      "sha256": "e0d39a2a857fd9f7779c5c7ec09cbcb5641d2819d567863baffd846e6be7357f"
-    },
-    {
-      "path": "project/public/downloads/manifest.json",
-      "bytes": 283,
-      "sha256": "54563edd766d92af9b508873f10e0e07c7786ffa7510979731e019541204b62a"
-    },
-    {
-      "path": "project/public/favicon.svg",
-      "bytes": 712,
-      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
-    },
-    {
-      "path": "project/public/studio/acceptance-report.html",
-      "bytes": 2591,
-      "sha256": "3689d4b5cb17f20f6d054c754a5efa382b7955776d49ae517a08b04c4eefff00"
-    },
-    {
-      "path": "project/public/studio/app.mjs",
-      "bytes": 94025,
-      "sha256": "946a861861f95bdff04fc9f5d8df4b1f62fd1649c9fb18f1ad75e9e8a63511c2"
-    },
-    {
-      "path": "project/public/studio/assets/studio-sample.png",
-      "bytes": 1761751,
-      "sha256": "d0c2ebdc5902a534af260575d066f1a751877046c6a5764b50c03d8bdf78fe82"
-    },
-    {
-      "path": "project/public/studio/case-v5.mjs",
-      "bytes": 3529,
-      "sha256": "c0f009033fa686962906198bbff01a970661e92fdc5958a6fd9dcbb5ff714728"
-    },
-    {
-      "path": "project/public/studio/data/background-big-text.json",
-      "bytes": 826,
-      "sha256": "8dfc06e8db92ebbbfc0fcaa754ba5d36603a2f75ed147326a3fd7035d282b8c7"
-    },
-    {
-      "path": "project/public/studio/data/core-formulas.json",
-      "bytes": 1825,
-      "sha256": "f07779ef14674eb38b0dc6d040fa4c634b0e673c14c35c0371878df980d40ad3"
-    },
-    {
-      "path": "project/public/studio/data/cover-components.json",
-      "bytes": 17142,
-      "sha256": "22e1f20fc0436ca6cdebb0224b3f373202052a67bcd62a1941af4288323cd252"
-    },
-    {
-      "path": "project/public/studio/data/cover-spec.schema.json",
-      "bytes": 1250,
-      "sha256": "9ec98f0ba5c3a82ce9caab3c7062ec55a9f64cbbd391ee213589fe6402e79d53"
-    },
-    {
-      "path": "project/public/studio/data/cozy-home.json",
-      "bytes": 683,
-      "sha256": "5c6110df237e5899fcfd617f6cd056c049018f0eef85d2a9703e487778d05b9a"
-    },
-    {
-      "path": "project/public/studio/data/dark-glow.json",
-      "bytes": 726,
-      "sha256": "e06cc24deb38bb2f3e7400a75f58fce86463a0b5364aa4f39b7cd831f00c0e32"
-    },
-    {
-      "path": "project/public/studio/data/dashed-decoration.json",
-      "bytes": 670,
-      "sha256": "34c6cb8b83e5d584f759be4fb3d83b787e4f66bfe7ce50071c04a67d77b0c6f3"
-    },
-    {
-      "path": "project/public/studio/data/hand-drawn-border.json",
-      "bytes": 1071,
-      "sha256": "d9ca509291b49b13ff67311caeb69df6b48d17aeb5a4c9d24a6adcbb1929d634"
-    },
-    {
-      "path": "project/public/studio/data/home-motivation.json",
-      "bytes": 674,
-      "sha256": "82d3fdeb5adc5a251c6043284b1437114ba61855ad7ce9b669914591e613c9e8"
-    },
-    {
-      "path": "project/public/studio/data/hooks.json",
-      "bytes": 7781,
-      "sha256": "4d3f1c04aba964666d7061ba840a0e3c5f08e118396dd3faeca0364f707d5669"
-    },
-    {
-      "path": "project/public/studio/data/multi-layer-layout.json",
-      "bytes": 641,
-      "sha256": "fc2d80eb435cb810f4559b45433c11d7f5b80d8e22cacfea9c44017cc64b0b6e"
-    },
-    {
-      "path": "project/public/studio/data/neon-contrast.json",
-      "bytes": 788,
-      "sha256": "86b34840c920efa0aaa492beb89db764cb551d3656a54c4c1ddefbc82a652ba6"
-    },
-    {
-      "path": "project/public/studio/data/outdoor-handwriting.json",
-      "bytes": 812,
-      "sha256": "3a790d215e1b381310587f3f07b9a41cc7800c925817f961989b0f73019eef9b"
-    },
-    {
-      "path": "project/public/studio/data/pink-yellow-playful.json",
-      "bytes": 848,
-      "sha256": "99ef3c6f07150acf96198b40d4a8819d555486526b5a7b0258958dc1f43bc6c4"
-    },
-    {
-      "path": "project/public/studio/data/platform-rules.json",
-      "bytes": 7504,
-      "sha256": "d353a07a92b436dfdde563a07a93ac68a0c6c9a033a9c79d7f61ed5f9834fffc"
-    },
-    {
-      "path": "project/public/studio/data/platforms.json",
-      "bytes": 5642,
-      "sha256": "8170522cddbad15746f758aa808c0c3ecbbf93f2ec3903394c359e4b7e252c41"
-    },
-    {
-      "path": "project/public/studio/data/professional-clean.json",
-      "bytes": 734,
-      "sha256": "ccd8f7dbda51a99c8c9ba4841be2849366d656257ee77e209ad6bc38cf069331"
-    },
-    {
-      "path": "project/public/studio/data/professional-woman.json",
-      "bytes": 600,
-      "sha256": "2399334d3d41e58a82da6e71079db0718fcd6724c81934c56a06d408216b9649"
-    },
-    {
-      "path": "project/public/studio/data/split-screen-tags.json",
-      "bytes": 642,
-      "sha256": "a8f777b4ba021a1cd3f1fcd1c4c766d682794d156deb0e9480321e2a0d37380f"
-    },
-    {
-      "path": "project/public/studio/data/sticker-energy.json",
-      "bytes": 658,
-      "sha256": "d9b219628d3f6e26e21fd0a4ec8fdde36898eb95206a68adf83b4f85677a3356"
-    },
-    {
-      "path": "project/public/studio/data/study-room-intellectual.json",
-      "bytes": 644,
-      "sha256": "beed2f54799773ffc389719bb9e86712a48d26ec94d7b63bbe1de04adc36c67e"
-    },
-    {
-      "path": "project/public/studio/data/style-metadata.json",
-      "bytes": 4826,
-      "sha256": "6ea2e80216d5c20ad0b67a782d7a78aaa9199ea151919ae6f870838f8695565b"
-    },
-    {
-      "path": "project/public/studio/data/styles-index.json",
-      "bytes": 577,
-      "sha256": "726e0121cf22c0ba7a1acd9ec213df093887c1eaf454080c97dc526af2ab3238"
-    },
-    {
-      "path": "project/public/studio/data/thinking-question.json",
-      "bytes": 645,
-      "sha256": "a93e049cedc13ffce7e65ddcf8f42c41b6ab5eb9043987ca8551752267dfefd1"
-    },
-    {
-      "path": "project/public/studio/data/title-formulas.json",
-      "bytes": 7088,
-      "sha256": "22df65207475e3f800771c8e3c47c3a57f23600869bc1b66af216433d8d0ba45"
-    },
-    {
-      "path": "project/public/studio/data/workplace-big-text.json",
-      "bytes": 744,
-      "sha256": "b78714ce892ff87742b4807611127403317e1a547934ab7e213d5c4acb68f01d"
-    },
-    {
-      "path": "project/public/studio/data/yellow-pink-banner.json",
-      "bytes": 1779,
-      "sha256": "4b38a6a5f5a3f28651449084a3664358943274611ff16a265f116cc06b34d47b"
-    },
-    {
-      "path": "project/public/studio/engine.mjs",
-      "bytes": 22016,
-      "sha256": "4eba67babd09a64f1dcc50ecf08ca43176974af0f73ad45ff5df1fe85d79e5be"
-    },
-    {
-      "path": "project/public/studio/fonts/index.json",
-      "bytes": 8178,
-      "sha256": "310d7f1786fd9554e89c02f755f0f5b0685c75a68a3119496946cf0327d0705e"
-    },
-    {
-      "path": "project/public/studio/fonts/lxgwwenkai/LXGWWenKai-Regular.woff2",
-      "bytes": 8098952,
-      "sha256": "4d1c9a584f60bef80e7f88ee2e2fa5f56c33cf9fca8a5bd5157036ae1be0a7c5"
-    },
-    {
-      "path": "project/public/studio/fonts/lxgwwenkai/OFL.txt",
-      "bytes": 5171,
-      "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0"
-    },
-    {
-      "path": "project/public/studio/fonts/mashanzheng/MaShanZheng-Regular.woff2",
-      "bytes": 3250340,
-      "sha256": "c0c70d41644a5fd9ade6e4e03668fd19f4390be1aae2bea78bbccfc4793700d4"
-    },
-    {
-      "path": "project/public/studio/fonts/mashanzheng/OFL.txt",
-      "bytes": 4397,
-      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
-    },
-    {
-      "path": "project/public/studio/fonts/notosanssc/NotoSansSC[wght].woff2",
-      "bytes": 7781816,
-      "sha256": "a743b21a957c14b1425cccb359a8058c5e27165e2d16f3f58d836146f5f66e51"
-    },
-    {
-      "path": "project/public/studio/fonts/notosanssc/OFL.txt",
-      "bytes": 4388,
-      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
-    },
-    {
-      "path": "project/public/studio/fonts/notoserifsc/NotoSerifSC[wght].woff2",
-      "bytes": 11032424,
-      "sha256": "b89f7cf3e00cbfee56afc623a54d0d8cf8a504420da1137698bfa59e73709434"
-    },
-    {
-      "path": "project/public/studio/fonts/notoserifsc/OFL.txt",
-      "bytes": 4350,
-      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
-    },
-    {
-      "path": "project/public/studio/fonts/zcoolkuaile/OFL.txt",
-      "bytes": 4398,
-      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
-    },
-    {
-      "path": "project/public/studio/fonts/zcoolkuaile/ZCOOLKuaiLe-Regular.woff2",
-      "bytes": 871656,
-      "sha256": "91797d6149fd7495e1e6566cd29e0e7c3ff06ff064d6dc789e17b9ba2d01f9a3"
-    },
-    {
-      "path": "project/public/studio/fonts/zcoolqingkehuangyou/OFL.txt",
-      "bytes": 4419,
-      "sha256": "f1bce31b817dee01c1e4ef8bc45d8ecb95f01f4abbf0a985007cb3cd0fd8123d"
-    },
-    {
-      "path": "project/public/studio/fonts/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.woff2",
-      "bytes": 2469484,
-      "sha256": "dc61ac7d9cba9f725f12a73e867ef21688606604f1f0dd7b24e9f13984a040f4"
-    },
-    {
-      "path": "project/public/studio/fonts/zcoolxiaowei/OFL.txt",
-      "bytes": 4400,
-      "sha256": "a094514ca57cf8f9c5e8d8d1adab5d8cd3a377297ff016f9df2c05b3ecd77f0a"
-    },
-    {
-      "path": "project/public/studio/fonts/zcoolxiaowei/ZCOOLXiaoWei-Regular.woff2",
-      "bytes": 2632960,
-      "sha256": "dae18dbe5f7b2595812af7357093ebb83e24ec819c99c5fbe0a9b14a4a81eb4b"
-    },
-    {
-      "path": "project/public/studio/index.html",
-      "bytes": 17041,
-      "sha256": "7bbefce50482348a373b8aacbddadb63752a15f6a24c80af8dfaf6bad8ade073"
-    },
-    {
-      "path": "project/public/studio/ocr/LICENSE-tessdata_fast.txt",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-    },
-    {
-      "path": "project/public/studio/ocr/LICENSE-tesseract.js.md",
-      "bytes": 11357,
-      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
-    },
-    {
-      "path": "project/public/studio/ocr/asset-manifest.json",
-      "bytes": 6093,
-      "sha256": "06215675dc6d60addc201e592e86280e2d95568ce97586bf46c5a170f1c4c1e6"
-    },
-    {
-      "path": "project/public/studio/ocr/core/LICENSE-tesseract.js-core.txt",
-      "bytes": 11358,
-      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core-lstm.wasm",
-      "bytes": 2871085,
-      "sha256": "220e2e87551edccb85519796a170469f8ab2a8055216789e3b8b1ada18b7bc2b"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core-lstm.wasm.js",
-      "bytes": 3954181,
-      "sha256": "775a35df6f2ae100e02609443e6bd5cafcd07983dd6175454ca4a432a7730687"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core-simd-lstm.wasm",
-      "bytes": 2871377,
-      "sha256": "187d76742dfc0d8929f0b49a619f145bb6370730776c7bd0d3e20c6b2098808d"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core-simd-lstm.wasm.js",
-      "bytes": 3954569,
-      "sha256": "9d7c43fb206dc9f48475228b46bf35f888fa9e6259da2e67d5a75c77049f2dc7"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core-simd.wasm",
-      "bytes": 3469078,
-      "sha256": "ca11ee92a02023e4f5083eefd0966fb83b297416da54e997b9f6ce445f719c9b"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core-simd.wasm.js",
-      "bytes": 4751193,
-      "sha256": "3b0678c47a8dea6abb931b214171c08b742a5b9a9fcbbb1a028a08d5de6e9d4c"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core.wasm",
-      "bytes": 3468788,
-      "sha256": "740f7e466a2f026e1f1e54a2e0d9957e386d8166110d1290224abd3d08986106"
-    },
-    {
-      "path": "project/public/studio/ocr/core/tesseract-core.wasm.js",
-      "bytes": 4750805,
-      "sha256": "e66872f6a76f5ad414d73d21512245df0de3060ad4871a97c47efceaab27b955"
-    },
-    {
-      "path": "project/public/studio/ocr/lang/chi_sim.traineddata.gz",
-      "bytes": 1723376,
-      "sha256": "89456b34c2769c9a6552b8c64e4186768f88aac37b698cfc073e5c5ea03293be"
-    },
-    {
-      "path": "project/public/studio/ocr/lang/eng.traineddata.gz",
-      "bytes": 1967599,
-      "sha256": "f1c22599ed6fd3eb821d87fdb43e09f98b61179a4abe38c43cfca2cdcb9f5ec2"
-    },
-    {
-      "path": "project/public/studio/ocr/lang-provenance.json",
-      "bytes": 1046,
-      "sha256": "973bb5b734de9a42bae41458bde484b085ad5a583aa939ea93447bf98d108f02"
-    },
-    {
-      "path": "project/public/studio/ocr/tesseract.min.js",
-      "bytes": 62961,
-      "sha256": "10fff78484067759c43028a02a72d76d0b90eb17302bb23b58a9ec5410bc928b"
-    },
-    {
-      "path": "project/public/studio/ocr/tesseract.min.js.LICENSE.txt",
-      "bytes": 149,
-      "sha256": "cdf963ced7d25a0f98901a547647b4d6e2dbe0197fd78c87a059a87b0e542fe2"
-    },
-    {
-      "path": "project/public/studio/ocr/worker.min.js",
-      "bytes": 111162,
-      "sha256": "38645599043239c0eb6db08a6504a92dcdc292200535f3e9339cd77c4443b842"
-    },
-    {
-      "path": "project/public/studio/ocr/worker.min.js.LICENSE.txt",
-      "bytes": 466,
-      "sha256": "45f54171aeaa1d10c0c1a66f374b7bba1f02472b1487fbe892eec04f840002ac"
-    },
-    {
-      "path": "project/public/studio/previews/background-big-text.svg",
-      "bytes": 535,
-      "sha256": "98959c9b5ea22461fbcad3488ea4557f406f3a8d63f0ad8ad39f0ac783b275f8"
-    },
-    {
-      "path": "project/public/studio/previews/cozy-home.svg",
-      "bytes": 535,
-      "sha256": "5d3a566ac7e4e35fd7d4c6b9ecf4101395ae69e5f9d0d400924187f1e0e9dc70"
-    },
-    {
-      "path": "project/public/studio/previews/dark-glow.svg",
-      "bytes": 535,
-      "sha256": "2cf1b356ae44ff3c319b69a1befc80c124f82326915e84b20a710f47489c7f04"
-    },
-    {
-      "path": "project/public/studio/previews/dashed-decoration.svg",
-      "bytes": 576,
-      "sha256": "1bbc1c576be60bf7320742a25cac491297458b4da6c9e2fa2516374d338c56fc"
-    },
-    {
-      "path": "project/public/studio/previews/hand-drawn-border.svg",
-      "bytes": 576,
-      "sha256": "131779cb86fc0df5a9b253dfd81527dea359af08f9652efa758763186719127e"
-    },
-    {
-      "path": "project/public/studio/previews/home-motivation.svg",
-      "bytes": 535,
-      "sha256": "696e28c7db873127c592ec3f0a2e114c6c3487db3e5e68dc2b496f1b219a43b4"
-    },
-    {
-      "path": "project/public/studio/previews/multi-layer-layout.svg",
-      "bytes": 641,
-      "sha256": "c03ee3411ebe1226900c4787b5fccce622f00501d99e8613d1e88829b1f8b827"
-    },
-    {
-      "path": "project/public/studio/previews/neon-contrast.svg",
-      "bytes": 535,
-      "sha256": "03ba20cf18f28d62575129d99839a66c97db9f3e05a827d02d2dd0dc7e9416ba"
-    },
-    {
-      "path": "project/public/studio/previews/original/background-big-text.jpg",
-      "bytes": 665301,
-      "sha256": "7e0a008e9c4b1c96defc67efeececb33d95db2085fdbaec5a8dd11890985416d"
-    },
-    {
-      "path": "project/public/studio/previews/original/cozy-home.jpg",
-      "bytes": 743543,
-      "sha256": "e443caeaf4e402949c717467d13a2f493396911dcc9b3d01c39a8f2c727fe23a"
-    },
-    {
-      "path": "project/public/studio/previews/original/dark-glow.jpg",
-      "bytes": 649718,
-      "sha256": "d7535653a94651e03fe4f593f36eca31d8c5042fd49ee5c7215dd9bb5914413b"
-    },
-    {
-      "path": "project/public/studio/previews/original/dashed-decoration.jpg",
-      "bytes": 675598,
-      "sha256": "8e9342491854046f4f8806c2e0233afef9aedcdb3f4bc061076177d82dde94ea"
-    },
-    {
-      "path": "project/public/studio/previews/original/hand-drawn-border.jpg",
-      "bytes": 857008,
-      "sha256": "afd21a9f6278e68e41faf338bfc6a63949fdbd5d249efe0e75fc23e4bc83a959"
-    },
-    {
-      "path": "project/public/studio/previews/original/home-motivation.jpg",
-      "bytes": 745265,
-      "sha256": "441efe290d238d5f2b0bf05978d73ca02c2de51d0fe886bc55c7d4efb6ee75f5"
-    },
-    {
-      "path": "project/public/studio/previews/original/multi-layer-layout.jpg",
-      "bytes": 673953,
-      "sha256": "b1f9b0ad3aef771294e58588b9b6e0e1e4574e3fe971fce0d5bb261fcef42681"
-    },
-    {
-      "path": "project/public/studio/previews/original/neon-contrast.jpg",
-      "bytes": 743314,
-      "sha256": "c84215a16e9fe2aa5f86e7746777de3096502ebd6619d00ff22e25ea797f29b3"
-    },
-    {
-      "path": "project/public/studio/previews/original/outdoor-handwriting.jpg",
-      "bytes": 813268,
-      "sha256": "90ed87e3462dc433803414202567d6726b3b8acb2f8f3fc354b36e5a8a877b0b"
-    },
-    {
-      "path": "project/public/studio/previews/original/pink-yellow-playful.jpg",
-      "bytes": 227648,
-      "sha256": "785ac5aa36df8e7b44771bc3b613a5c1f33ea6044aac6797b538f61577b4da39"
-    },
-    {
-      "path": "project/public/studio/previews/original/professional-clean.jpg",
-      "bytes": 508718,
-      "sha256": "8c4d1bb521c3602fe8e9be105602c2004e3936acc12cd81072feeef17162c450"
-    },
-    {
-      "path": "project/public/studio/previews/original/professional-woman.jpg",
-      "bytes": 680004,
-      "sha256": "6554779696f61ce222e513b58744c098ef073b81234dfc6f45e5b59c2bd79dcb"
-    },
-    {
-      "path": "project/public/studio/previews/original/split-screen-tags.jpg",
-      "bytes": 708255,
-      "sha256": "f2d1e64d88132a56fb5a460dd65895abc8b1b41ef85233642d240699d6113036"
-    },
-    {
-      "path": "project/public/studio/previews/original/sticker-energy.jpg",
-      "bytes": 860009,
-      "sha256": "4c7adbd48b4533e08e682c02ceb7819efe100a3a9c037d512a00818dd87537de"
-    },
-    {
-      "path": "project/public/studio/previews/original/study-room-intellectual.jpg",
-      "bytes": 749989,
-      "sha256": "6b95ef0155925c5142c1d261820aa3931f10204b8f4b89fb48329b2a9aa4db2e"
-    },
-    {
-      "path": "project/public/studio/previews/original/thinking-question.jpg",
-      "bytes": 584774,
-      "sha256": "3ea59c86ed6fdb5848c396586b1effd14a46af1511cc1716136b035863e9229a"
-    },
-    {
-      "path": "project/public/studio/previews/original/workplace-big-text.jpg",
-      "bytes": 616593,
-      "sha256": "eeb4e167d0f7d7e21d5278b7aaea1144a126b1bd58aa12393be0e4a5096f2089"
-    },
-    {
-      "path": "project/public/studio/previews/original/yellow-pink-banner.jpg",
-      "bytes": 260455,
-      "sha256": "9f485b5b90b89e9910b30df12b59efaf2420ab0fee4fe89097e7015fb022e472"
-    },
-    {
-      "path": "project/public/studio/previews/outdoor-handwriting.svg",
-      "bytes": 535,
-      "sha256": "03ccd1f249e4b63cc22981772b78852bab926cc9f799650a4b985e1971b0ed0c"
-    },
-    {
-      "path": "project/public/studio/previews/pink-yellow-playful.svg",
-      "bytes": 535,
-      "sha256": "9322625746c2a7788d694212fd9d01fe5ebc87f8686e983771d9930dcba57387"
-    },
-    {
-      "path": "project/public/studio/previews/professional-clean.svg",
-      "bytes": 535,
-      "sha256": "e0b9d08122b95e6e224363a22eab66f4815735877a9a509ad14eab512a219dcd"
-    },
-    {
-      "path": "project/public/studio/previews/professional-woman.svg",
-      "bytes": 535,
-      "sha256": "d008e2bf78f3e6ffdb10d45f7d94e0a8068424d2870dfa5ba52da068d28e9e24"
-    },
-    {
-      "path": "project/public/studio/previews/split-screen-tags.svg",
-      "bytes": 609,
-      "sha256": "cb99ab1e39f2fbfa3d149bdf32e6dbef7fff5e2260dd582910e36cfd9004ab9c"
-    },
-    {
-      "path": "project/public/studio/previews/sticker-energy.svg",
-      "bytes": 641,
-      "sha256": "3ab3b6c233671f768ecc1a8c02097b864e16c062938520f22010dc69eedd5747"
-    },
-    {
-      "path": "project/public/studio/previews/study-room-intellectual.svg",
-      "bytes": 535,
-      "sha256": "83218b4ec1514a727661e7a793b7f7b93cb02af1b091e3465942defe1ecae75e"
-    },
-    {
-      "path": "project/public/studio/previews/thinking-question.svg",
-      "bytes": 535,
-      "sha256": "273085bcb3c97854bcbe72538fc90c95d019ff04b83294cc181d4f9f01625b69"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/background-big-text.jpg",
-      "bytes": 20914,
-      "sha256": "1eedb8162190ae036797fd555d1aee0702e3f5cd799bb977d54fb248e0601b07"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/cozy-home.jpg",
-      "bytes": 23313,
-      "sha256": "d260ae581922058b148aa7fa6a33cc452d10738ae74be8af4a37bd29ec916686"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/dark-glow.jpg",
-      "bytes": 21639,
-      "sha256": "4bf0f829f990c01adf2c6f4aa347435d706a41920a0c3065f73ecc213408d73a"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/dashed-decoration.jpg",
-      "bytes": 19164,
-      "sha256": "1bc97042da0e6371f4689954c27feef8cfe770e828ff55eb3f04a4e59d9e5b27"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/hand-drawn-border.jpg",
-      "bytes": 29578,
-      "sha256": "bc97c31da14024a10acfc4c3579a18ac3f462576bec21ae3a5d88342463ac5e3"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/home-motivation.jpg",
-      "bytes": 24516,
-      "sha256": "272743a58fdc2600ec497c4963738e089637c93bf6f912f85e35de8f58fa3e91"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/multi-layer-layout.jpg",
-      "bytes": 21664,
-      "sha256": "36d44d436f6f5a7d857f526fc6394a21aa5a5781292b0a8695237c34b842f9a0"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/neon-contrast.jpg",
-      "bytes": 25493,
-      "sha256": "f205ef3d4d715772c6a7fd7b173fd3a28309c1058986022d594af6fc0f69150b"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/outdoor-handwriting.jpg",
-      "bytes": 26054,
-      "sha256": "4720ca8f0c7c016626602648159bde2ca266a3b658e5c05f262add75440ee4e8"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/pink-yellow-playful.jpg",
-      "bytes": 20065,
-      "sha256": "48726b7901555f1195d5961feee00127cc82ba98f8e77156cb32cf9ab32eaa65"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/professional-clean.jpg",
-      "bytes": 24155,
-      "sha256": "450b7723a7ddb778042fb2f9b6848cdfb258425792195f8c31d080393f9c9d92"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/professional-woman.jpg",
-      "bytes": 19677,
-      "sha256": "df527f537611ff8b630a5d3e1acc45b314db80faefbea4a6c50f343679c06d7e"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/split-screen-tags.jpg",
-      "bytes": 24298,
-      "sha256": "33c16c1ef0039d4fd18d2f84101a572299dd340ff1a11ec21f8db5bf616e3703"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/sticker-energy.jpg",
-      "bytes": 25375,
-      "sha256": "676b899e725051c6b10f62f1fa8944fce90234c0957f7da36c970435b459a274"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/study-room-intellectual.jpg",
-      "bytes": 24491,
-      "sha256": "2c1793fb9a43d8affc4d355b89885c355c067dfc8741c7338b12458a431fa3ea"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/thinking-question.jpg",
-      "bytes": 22557,
-      "sha256": "efe97b7d96b48b9f9ea81241bd00e38c224f81407023ce45706b96e3fcee47c9"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/workplace-big-text.jpg",
-      "bytes": 20082,
-      "sha256": "e028a30c71870011641ff3a1566748a84943d881a2aa7c478cb977c726f6dfde"
-    },
-    {
-      "path": "project/public/studio/previews/thumbs/yellow-pink-banner.jpg",
-      "bytes": 25111,
-      "sha256": "638f0224ebc08ed98daa367154c7480738eb05c45f54afe8a816115336244078"
-    },
-    {
-      "path": "project/public/studio/previews/workplace-big-text.svg",
-      "bytes": 535,
-      "sha256": "4bf516bb08eb6fe7fba2c1cbcbca95bbd858ba46370e43dd63a4ecb12248c935"
-    },
-    {
-      "path": "project/public/studio/previews/yellow-pink-banner.svg",
-      "bytes": 535,
-      "sha256": "d91a3069983121396b9088b3ff6eaa812adf11ebcc9802fb870fc98288bd5032"
-    },
-    {
-      "path": "project/public/studio/responsive-check.html",
-      "bytes": 1079,
-      "sha256": "ac71d9adfc8911529d1684794ee524cb8e30ffe1d129f45e0d176eb1647a6020"
-    },
-    {
-      "path": "project/public/studio/studio.css",
-      "bytes": 34128,
-      "sha256": "8c8cf48f421fd6ec32e71121f1964146a65ee6759149b47e43d3aaddaa3f9fc3"
-    },
-    {
-      "path": "project/public/studio/text-engine.mjs",
-      "bytes": 13495,
-      "sha256": "ec527ad11376a850b11122f834525c19d0b3f0b52433ada157655575fb66f65b"
-    },
-    {
-      "path": "project/public/studio/zip.mjs",
-      "bytes": 1725,
-      "sha256": "763cd65f1d14e36483352ff83e6db63f69b24900f471135bc584f1d6aa7365c2"
-    },
-    {
-      "path": "project/scripts/build-verified.sh",
-      "bytes": 661,
-      "sha256": "2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68"
-    },
-    {
-      "path": "project/scripts/connector-preview/connector-preview-session.mjs",
-      "bytes": 6855,
-      "sha256": "57224ad185a25115a14fccc68d3217e55b199260c3dd98a2c807beffec1a0a9b"
-    },
-    {
-      "path": "project/scripts/connector-preview/host-binding.mjs",
-      "bytes": 7793,
-      "sha256": "9e44ab6864133a5c82f834a5904ebb7d6104cb783c24efba3c0fe1a161182cea"
-    },
-    {
-      "path": "project/scripts/connector-preview/protocol.mjs",
-      "bytes": 1781,
-      "sha256": "111e062ebf08d3f180130f5bc3dcb3c1414c1d7be3c032c9d675a61c0c7513a8"
-    },
-    {
-      "path": "project/scripts/connector-preview/worker.mjs",
-      "bytes": 618,
-      "sha256": "bd9c98fc68f29d975fe10508dfc9029bb681dc5789a62861d5c938bdea2064bb"
-    },
-    {
-      "path": "project/scripts/execution-profile.mjs",
-      "bytes": 624,
-      "sha256": "2e71116f4d2b70cff8bb70436f8dd5c709ec7ff62893424530f404e0193d3630"
-    },
-    {
-      "path": "project/scripts/install-ci.mjs",
-      "bytes": 1685,
-      "sha256": "4a5a92d60a08d0ba54effd8373da2da06284312c55b767287c68a0bec7200da7"
-    },
-    {
-      "path": "project/scripts/install-ci.sh",
-      "bytes": 6783,
-      "sha256": "10d8764a61be50351dc3496e13588270de7956f0aa5f1189c49cabb2d89fe5c0"
-    },
-    {
-      "path": "project/scripts/install-pnpm.sh",
-      "bytes": 9015,
-      "sha256": "a684c02c2b493dfbf262a66252a5cd36f81ca995a4024761728662ae63aa40c0"
-    },
-    {
-      "path": "project/scripts/npm-install.mjs",
-      "bytes": 7025,
-      "sha256": "9715c6a32d1d4a0289ef6376a0e819c3b6a6416b8a9877733d9fb4339ce626b6"
-    },
-    {
-      "path": "project/scripts/package-release.py",
-      "bytes": 2844,
-      "sha256": "56217588f1ca91353eb12f830a231fb2aa21c586007f7592f54a2ce76599af42"
-    },
-    {
-      "path": "project/scripts/pnpm-install.mjs",
-      "bytes": 10633,
-      "sha256": "a83164e344c1947053def83b546be8115deaa827314bbaead7afe6b6451c5cdf"
-    },
-    {
-      "path": "project/scripts/run-framework.mjs",
-      "bytes": 993,
-      "sha256": "9bf9f41a29314cabe0238b8e9c540ec3f7b5a6adafc7c8fb6c3940722d061dca"
-    },
-    {
-      "path": "project/scripts/sites-env.mjs",
-      "bytes": 522,
-      "sha256": "21d7bde6acb9f716287e652c1b0e43ae4803d79be367ca2192fcba14740b5338"
-    },
-    {
-      "path": "project/scripts/sites-env.sh",
-      "bytes": 1600,
-      "sha256": "d18af7b222db748c9de257d5955b9d7f77ec350dab6321f114f0bc44c20388ac"
-    },
-    {
-      "path": "project/scripts/tool-environment.mjs",
-      "bytes": 791,
-      "sha256": "6da99286e0eb7905595ca851e68983bedf94a0f93814819d61f2b1f3a0342ba2"
-    },
-    {
-      "path": "project/scripts/ui-v4-additions.txt",
-      "bytes": 8955,
-      "sha256": "62650b331b2682e5ff86c49b935af25c52dd695084bfbeb38429f710ee7f05ee"
-    },
-    {
-      "path": "project/scripts/upgrade-studio-v4.py",
-      "bytes": 22226,
-      "sha256": "641ca48c3f589d1e630928706491efa6a8d80ceb3a4b1102cff340a58c00a80e"
-    },
-    {
-      "path": "project/scripts/vite/connector-preview-plugin.mjs",
-      "bytes": 7211,
-      "sha256": "a6a9fe2086e302f94a3f91e3c1a68a45bb3aa07d4a79faf01b14732191eb4e80"
-    },
-    {
-      "path": "project/scripts/vite/sites-vite-plugin.LICENSE",
-      "bytes": 1063,
-      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
-    },
-    {
-      "path": "project/scripts/vite/sites-vite-plugin.ts",
-      "bytes": 7185,
-      "sha256": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834"
-    },
-    {
-      "path": "project/standalone/server.mjs",
-      "bytes": 6801,
-      "sha256": "6ffda1942a2c9b43ee6571e1888d1e853199c628d4388a24563dad608688de00"
-    },
-    {
-      "path": "project/tests/download.test.mjs",
-      "bytes": 2263,
-      "sha256": "aaef460741af749352e0193ae8b10756027965d1f8bc00a7e6fc439e1cf71003"
-    },
-    {
-      "path": "project/tests/engine.test.mjs",
-      "bytes": 5258,
-      "sha256": "2b9ef4b002771f65a758b19260620e13921bfd4599f6df5a6b3a82f2a9612de7"
-    },
-    {
-      "path": "project/tests/upgrade-v4.test.mjs",
-      "bytes": 9928,
-      "sha256": "0d0f20e4502158445ac914faca376ac8b9eecc86a52d5d3c340fa19834848899"
-    },
-    {
-      "path": "project/tests/v5-rebuild.test.mjs",
-      "bytes": 3807,
-      "sha256": "56c6197d706348f26cc8bba4003d854e1b54938d1eb9237a186be311e516aae2"
-    },
-    {
-      "path": "project/tsconfig.json",
-      "bytes": 893,
-      "sha256": "a4c1cc83b63ef9d39641d3babaefffa063dccbbc93338e18017b5013d713163e"
-    },
-    {
-      "path": "project/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
-      "bytes": 1063,
-      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
-    },
-    {
-      "path": "project/vendor/shadcn-tailwind-4.13.0.css",
-      "bytes": 16041,
-      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a"
-    },
-    {
-      "path": "project/vite.config.ts",
-      "bytes": 2706,
-      "sha256": "db2373cd60a6466bb0466f76610c2f02d107bee1fcca56368140423332c29fe6"
-    },
-    {
-      "path": "project/worker/index.ts",
-      "bytes": 1500,
-      "sha256": "ed8f4593047e6193d1b419d5f9ac9acbae728dfa5ea813a710e2e33dc151d6b7"
-    },
-    {
-      "path": "run-record.json",
-      "bytes": 687,
-      "sha256": "f2b5c6a800bb3b5c99f22aae9c024b14b058a782fff87cb0aa91c0e71ec51ea8"
-    },
-    {
-      "path": "style-sources.json",
-      "bytes": 4271,
-      "sha256": "82f4f3071a14151d977b1344bdb98fc9c607599336b737bdb8a862809a635857"
-    },
-    {
-      "path": "test-results.txt",
-      "bytes": 2821,
-      "sha256": "e80a1b18aa8b3f5f162f928c80b642dc38d291b49f20b1449ff789d6706104e5"
-    },
-    {
-      "path": "verification.json",
-      "bytes": 3231,
-      "sha256": "d7ba44b4b9877c0942b9b785d7b145692eff8b568a7a982865e8ea4bd619fdf7"
-    },
-    {
-      "path": "verify_native_export.mjs",
-      "bytes": 6138,
-      "sha256": "5806003b5846d689de8880337b23c5abac636ca18b9afe1c2596e4b9357012b7"
+  "schema_version": "1.4.0",
+  "status": "active",
+  "repository": "wakazhangjiahuang/social-cover-private-kb",
+  "updated_at": "2026-11-14",
+  "counts": {
+    "visual_styles": 18,
+    "cover_png": 64,
+    "cover_jpeg": 64,
+    "semantic_structures": 17,
+    "geometry_families": 8,
+    "structures_with_visual_examples": 8,
+    "components": 18,
+    "decision_fields": 179,
+    "title_candidates": 225,
+    "hooks": 225,
+    "original_core_formulas": 10
+  },
+  "entrypoints": {
+    "asset_groups": "catalog/asset-groups.json",
+    "visual_styles": "catalog/style-index.json",
+    "cover_catalog": "catalog/layout-index.json",
+    "structure_taxonomy": "catalog/layout-family-taxonomy.json",
+    "cover_specs": "covers.json",
+    "decision_components": "cover-components.json",
+    "titles": "titles/candidates.json",
+    "hooks": "hooks/candidates.json",
+    "formulas": "formulas/core-formulas.json",
+    "workflow": "workflow/workflow.md",
+    "platform_adapter": "workflow/platforms.md",
+    "qa": "workflow/qa.md",
+    "retrieval": "tools/retrieve.py"
+  },
+  "assets": [
+    {
+      "id": "catalog--asset-groups-json",
+      "path": "catalog/asset-groups.json",
+      "sha256": "c70421eb7b7524244550098e4441752509db532ca0f3533f0fe5ff1535898de1",
+      "tags": [
+        "retrieval_index",
+        "catalog"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "retrieval_index",
+      "dependencies": []
+    },
+    {
+      "id": "catalog--layout-family-taxonomy-json",
+      "path": "catalog/layout-family-taxonomy.json",
+      "sha256": "ef7d97f5d443bacaa8c7877c8d3d59a13309076aee9dd1cef03028cd82db7ae7",
+      "tags": [
+        "retrieval_index",
+        "catalog"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "retrieval_index",
+      "dependencies": []
+    },
+    {
+      "id": "catalog--layout-index-json",
+      "path": "catalog/layout-index.json",
+      "sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c",
+      "tags": [
+        "retrieval_index",
+        "catalog"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "retrieval_index",
+      "dependencies": [
+        "catalog/layout-family-taxonomy.json",
+        "covers.json"
+      ]
+    },
+    {
+      "id": "catalog--style-index-json",
+      "path": "catalog/style-index.json",
+      "sha256": "7823e14b2bbfd76b3193511c757902f881f897f55961cc897dc33c35dc0984ae",
+      "tags": [
+        "retrieval_index",
+        "catalog"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "retrieval_index",
+      "dependencies": [
+        "styles/metadata.json",
+        "styles/provenance.json"
+      ]
+    },
+    {
+      "id": "config--cover-spec-schema-json",
+      "path": "config/cover-spec.schema.json",
+      "sha256": "9ec98f0ba5c3a82ce9caab3c7062ec55a9f64cbbd391ee213589fe6402e79d53",
+      "tags": [
+        "execution_protocol",
+        "config"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config--integration-status-json",
+      "path": "config/integration-status.json",
+      "sha256": "bce93c3a5e18705b7557bf3a2f601472e724acfbe706b08571a43104dca9b105",
+      "tags": [
+        "execution_protocol",
+        "config"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "cover-components-json",
+      "path": "cover-components.json",
+      "sha256": "22e1f20fc0436ca6cdebb0224b3f373202052a67bcd62a1941af4288323cd252",
+      "tags": [
+        "execution_protocol",
+        "cover-components.json"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--A03-png",
+      "path": "covers/channels/A03.png",
+      "sha256": "f45ba9a5b14405df4be0e6b942735c4944b311df0ceeedd03bd5d6c4d6d4903a",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--A06-png",
+      "path": "covers/channels/A06.png",
+      "sha256": "ce5204c8126c10c7b99072539d50b22108f5ca4a408a19ab35e30b7f8248eca1",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--B01-png",
+      "path": "covers/channels/B01.png",
+      "sha256": "dd87952253f4bddeeea3103663fb8eb8ced4fb387567a6108ed5517bd4908ded",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--B04-png",
+      "path": "covers/channels/B04.png",
+      "sha256": "339ae912be45fcbb29353d3d24e92ace7f3a661b8626a6ef6cd92df1eb56bfac",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--B07-png",
+      "path": "covers/channels/B07.png",
+      "sha256": "ee6887a1237a4ba1df5438f786af8556a7d05df0f5d48c7ff6de6453e9bd0b3a",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--C02-png",
+      "path": "covers/channels/C02.png",
+      "sha256": "ce3b95bf3c8b1685a772844826b8c88653c8139ed16f9e040f11b7b6407d390c",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--C05-png",
+      "path": "covers/channels/C05.png",
+      "sha256": "cfd580c26ddf62570b2236d18d844cd582724284130063adc7117a5af67a148d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--C08-png",
+      "path": "covers/channels/C08.png",
+      "sha256": "b5aca71a38c0904e7acf068b45dd1724486e3447fc26c073e328eda9c5b71527",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--D03-png",
+      "path": "covers/channels/D03.png",
+      "sha256": "42e0bea6ae0490f2dbe48f5db9c9af7ba25cc751b146e9f4eb7390444d0f6b6b",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--D06-png",
+      "path": "covers/channels/D06.png",
+      "sha256": "f57d33c687ad7e64fe7788b5a216b9a74310f20b46b35bee346be1bf7324aa08",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--E01-png",
+      "path": "covers/channels/E01.png",
+      "sha256": "6931d277d5a674e03feb868794bfd05fd177ceff1e3d2e7f0d4f8f50f50db50d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--E04-png",
+      "path": "covers/channels/E04.png",
+      "sha256": "c75d26fe35315bb97c47be57b429c65990058288507b5e666bf40c116694ded3",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--E07-png",
+      "path": "covers/channels/E07.png",
+      "sha256": "a7b71c29f0a4faa7ce0c07c41f6be4b73dc415fa1238f933110f0da85bf36191",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--F02-png",
+      "path": "covers/channels/F02.png",
+      "sha256": "1028a6ce5bb85bcf71d3e0f05a34b64dfb478ad2f15037ec194a6c3079439f09",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--F05-png",
+      "path": "covers/channels/F05.png",
+      "sha256": "498b17e97311bf9d8a84a6ec3b3016abe496bb940f831bcb35a04020efabf47f",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--F08-png",
+      "path": "covers/channels/F08.png",
+      "sha256": "24ce6464383b88965e5d82eed8fcbcff71317bd79196c60acd2354265b7b6ad2",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--G03-png",
+      "path": "covers/channels/G03.png",
+      "sha256": "2a6aa9dea6973fa9dbf798ba33588018e4fdaef91c00a0a6841c2f0642ef3fb8",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--G06-png",
+      "path": "covers/channels/G06.png",
+      "sha256": "d5476792f597424cfecb7ea1f04e4e43db8289cde0a094bcea149410ce9044de",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--H01-png",
+      "path": "covers/channels/H01.png",
+      "sha256": "8b39eb3b8629b797ec89f405fb68c4086f8c9b91b8d3f21082ce377f69a7db0d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--H04-png",
+      "path": "covers/channels/H04.png",
+      "sha256": "cd2822b62145e2c2fdcff487954f5a8bddc0b8b04d2c446f648c85269f409568",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--H07-png",
+      "path": "covers/channels/H07.png",
+      "sha256": "eb883ca3e2633141678c9c4094a5c1d917c61f5459c79ddd839af04a61e0706d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--A02-png",
+      "path": "covers/douyin/A02.png",
+      "sha256": "099a70d9772f834a1c85a82eae4f0550c0da794444310f864584791842533765",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--A05-png",
+      "path": "covers/douyin/A05.png",
+      "sha256": "646834b5d207bc9bf925884b598d7201ac7987bbca213db38bd5045c9fb7315d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--A08-png",
+      "path": "covers/douyin/A08.png",
+      "sha256": "5dd8722acad023e52f38e24832563da52bc456c79f5e7cd088f2633ee084330f",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--B03-png",
+      "path": "covers/douyin/B03.png",
+      "sha256": "34217e991805300a8fab47c407f5e62751770416d202676d4db563ad91e5e3de",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--B06-png",
+      "path": "covers/douyin/B06.png",
+      "sha256": "93af338b0acdab87c61e157cd98278b99527e77db9c50d06eeb303b3d8265950",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--C01-png",
+      "path": "covers/douyin/C01.png",
+      "sha256": "6243f249927e354dda5ca265661e6542d23be15467000614e35771ed0241102a",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--C04-png",
+      "path": "covers/douyin/C04.png",
+      "sha256": "dd15f1ecb971568f29f6d441b28ec6f11b14d32758668a658e1707e13eec26ad",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--C07-png",
+      "path": "covers/douyin/C07.png",
+      "sha256": "bf944f779b46caf57e83649d11198930026b6fddd5e624573511dd68c6437202",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--D02-png",
+      "path": "covers/douyin/D02.png",
+      "sha256": "17a91ac10e6bb268f044da1169797fc6072d688f4a07a5446c6bed4e2908527d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--D05-png",
+      "path": "covers/douyin/D05.png",
+      "sha256": "0be7135d826a7a4642f4427a6b2879fda18f397f0b51d3378e02d479ab012e3e",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--D08-png",
+      "path": "covers/douyin/D08.png",
+      "sha256": "ddd57a6a01cd9e53b76abb4f6a1dc24658606c5e541701a7e5d48199ab4fdbbd",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--E03-png",
+      "path": "covers/douyin/E03.png",
+      "sha256": "423831b140974061922602c81546f34d5711b357694774ddaa4cd16c0a074a88",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--E06-png",
+      "path": "covers/douyin/E06.png",
+      "sha256": "1597c9c304668daf91f28c6f4b9af350256c872294221285602343bfa8df44da",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--F01-png",
+      "path": "covers/douyin/F01.png",
+      "sha256": "a35ae350d746228bbe0a335056434738bc0d0573333b68342a441a1b254978e9",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--F04-png",
+      "path": "covers/douyin/F04.png",
+      "sha256": "09365e0497c1dce31d242f44e37ac1af23c296edb8abd503d0839f8a106b55e8",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--F07-png",
+      "path": "covers/douyin/F07.png",
+      "sha256": "d66976d71cdb1ce33146a68986f4942008e627537e562399a01a4d76f276b3f6",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--G02-png",
+      "path": "covers/douyin/G02.png",
+      "sha256": "6e71cd8e4a91b4f165bca42943e190afb11d680d2feed2b59f30135013565f25",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--G05-png",
+      "path": "covers/douyin/G05.png",
+      "sha256": "dc9a6b0b5cf7d66c3c4c662254733fff9af573cf263f0688ed94b0c3d63ad419",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--G08-png",
+      "path": "covers/douyin/G08.png",
+      "sha256": "1a3ae5d83257547117b830d3b4e47fa17b563b78c5a331c580eba13eafc14484",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--H03-png",
+      "path": "covers/douyin/H03.png",
+      "sha256": "efce35861e6d1ae93d979f14d817f7e83284b8ddaebe56ff18e4c0a9cdd682ff",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--H06-png",
+      "path": "covers/douyin/H06.png",
+      "sha256": "683ac5ac606c8cbf0c0481cccf34e067fd58c5c7bc1e604af254fde04eba332f",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--A01-png",
+      "path": "covers/xhs/A01.png",
+      "sha256": "d2841ab5e705630a69ead4c4fc77adce49920a57402d10957e54c4d66050181f",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--A04-png",
+      "path": "covers/xhs/A04.png",
+      "sha256": "edc2c570452f468e5e02b94142415b79dd582ad8599d0c6d2f03642e10fe547e",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--A07-png",
+      "path": "covers/xhs/A07.png",
+      "sha256": "a3d84f0638fd8dbf88e7f468fae3e633719a8ae97f9493e6c0eed5a1f06c7f02",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--B02-png",
+      "path": "covers/xhs/B02.png",
+      "sha256": "656b16534689348e8a24d83bd06e92506b7a246c42075c65c2cd2bc1e06496ff",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--B05-png",
+      "path": "covers/xhs/B05.png",
+      "sha256": "412b5e024ec21a36d519ba79929f42c9869937d21f74b53492214c8d659c699f",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--B08-png",
+      "path": "covers/xhs/B08.png",
+      "sha256": "7044d830bbac88b305bd9fac5ca010b30a35c26866bd76a4831e2b58d508e611",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--C03-png",
+      "path": "covers/xhs/C03.png",
+      "sha256": "951c7f5fe48d889ea26fa5d611dbc3847aa721ff5aedf10cf3fb2a7418b00272",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--C06-png",
+      "path": "covers/xhs/C06.png",
+      "sha256": "857702b292d70c80d2a208fb9bbc975a324e1d66067894309d6ad96e89dc8119",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--D01-png",
+      "path": "covers/xhs/D01.png",
+      "sha256": "f808010a32b785beba3859bb6ee0b5ed653f141652c0eafdd60d8dd02760286a",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--D04-png",
+      "path": "covers/xhs/D04.png",
+      "sha256": "1b3b988b9441bac160c4098359d1e35c2b4f1135c20536cd9474ad6d11e758d9",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--D07-png",
+      "path": "covers/xhs/D07.png",
+      "sha256": "b1f7c9d79c97630f9a8783366846e3bf97ce0650aa98409749d40ae9856dac8f",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--E02-png",
+      "path": "covers/xhs/E02.png",
+      "sha256": "e1bd7c40c36dfa4a6df240ec11af0aa1a388cacdb9f74ec3d8a709e674347e80",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--E05-png",
+      "path": "covers/xhs/E05.png",
+      "sha256": "ebe66d38ae641df983c715b61c6bb0ab47ff77e6ae92f087996770ece8735328",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--E08-png",
+      "path": "covers/xhs/E08.png",
+      "sha256": "8cd2ccb529fb5cb2fc01c3b3920d515d88460341ff7669993509c7d3c5df5b26",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--F03-png",
+      "path": "covers/xhs/F03.png",
+      "sha256": "c0f91f8061bad8dfa12f98ab4b9f8bae694e32553753222ab1bca625c2155801",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--F06-png",
+      "path": "covers/xhs/F06.png",
+      "sha256": "8ee99393bc2abbae9e271d3c76ed6615a48027753826fdd65ab358b3938ff3dc",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--G01-png",
+      "path": "covers/xhs/G01.png",
+      "sha256": "1016d3e5624410e3eec694c08f1f16e23ba6d1db3d5c285d2412eb94d31cf1c4",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--G04-png",
+      "path": "covers/xhs/G04.png",
+      "sha256": "34fa12ae764bfb0b39551fd285c92d0ccd7d9cfdf95afd67366f0418b9f8571d",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--G07-png",
+      "path": "covers/xhs/G07.png",
+      "sha256": "66dbf2448a3f853cc587831ab4065fea9cf4d67d9b5697b3811ed4c999449c41",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--H02-png",
+      "path": "covers/xhs/H02.png",
+      "sha256": "ed433b9b665939e760c778f38749200826498e22a484ddaa9e16efe88a14efae",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--H05-png",
+      "path": "covers/xhs/H05.png",
+      "sha256": "eed2c930633cbc390b672f1b54764e9d7d0c0fca8aad4697efeec550b522b023",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--H08-png",
+      "path": "covers/xhs/H08.png",
+      "sha256": "dc80cb360bd1cbd01a3948d22947631fd710c5f4354483d9abb7d7191c97a97b",
+      "tags": [
+        "synthetic_composition_example",
+        "covers"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers-json",
+      "path": "covers.json",
+      "sha256": "1f8f5cc13f3c4fb0049f0a41556b89005a6e8e20348a8646d4452b774cd64a02",
+      "tags": [
+        "execution_protocol",
+        "covers.json"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "formulas--core-formulas-json",
+      "path": "formulas/core-formulas.json",
+      "sha256": "f07779ef14674eb38b0dc6d040fa4c634b0e673c14c35c0371878df980d40ad3",
+      "tags": [
+        "candidate_requires_task_evidence",
+        "formulas"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "candidate_requires_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "hooks--candidates-json",
+      "path": "hooks/candidates.json",
+      "sha256": "f98a42c3f1fd609ed1208a4127b7384a94871652749621309e019d67a2e595e4",
+      "tags": [
+        "candidate_requires_task_evidence",
+        "hooks"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "candidate_requires_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--background-big-text-jpg",
+      "path": "styles/images/background-big-text.jpg",
+      "sha256": "7e0a008e9c4b1c96defc67efeececb33d95db2085fdbaec5a8dd11890985416d",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--cozy-home-jpg",
+      "path": "styles/images/cozy-home.jpg",
+      "sha256": "e443caeaf4e402949c717467d13a2f493396911dcc9b3d01c39a8f2c727fe23a",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--dark-glow-jpg",
+      "path": "styles/images/dark-glow.jpg",
+      "sha256": "d7535653a94651e03fe4f593f36eca31d8c5042fd49ee5c7215dd9bb5914413b",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--dashed-decoration-jpg",
+      "path": "styles/images/dashed-decoration.jpg",
+      "sha256": "8e9342491854046f4f8806c2e0233afef9aedcdb3f4bc061076177d82dde94ea",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--hand-drawn-border-jpg",
+      "path": "styles/images/hand-drawn-border.jpg",
+      "sha256": "afd21a9f6278e68e41faf338bfc6a63949fdbd5d249efe0e75fc23e4bc83a959",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--home-motivation-jpg",
+      "path": "styles/images/home-motivation.jpg",
+      "sha256": "441efe290d238d5f2b0bf05978d73ca02c2de51d0fe886bc55c7d4efb6ee75f5",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--multi-layer-layout-jpg",
+      "path": "styles/images/multi-layer-layout.jpg",
+      "sha256": "b1f9b0ad3aef771294e58588b9b6e0e1e4574e3fe971fce0d5bb261fcef42681",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--neon-contrast-jpg",
+      "path": "styles/images/neon-contrast.jpg",
+      "sha256": "c84215a16e9fe2aa5f86e7746777de3096502ebd6619d00ff22e25ea797f29b3",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--outdoor-handwriting-jpg",
+      "path": "styles/images/outdoor-handwriting.jpg",
+      "sha256": "90ed87e3462dc433803414202567d6726b3b8acb2f8f3fc354b36e5a8a877b0b",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--pink-yellow-playful-jpg",
+      "path": "styles/images/pink-yellow-playful.jpg",
+      "sha256": "785ac5aa36df8e7b44771bc3b613a5c1f33ea6044aac6797b538f61577b4da39",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--professional-clean-jpg",
+      "path": "styles/images/professional-clean.jpg",
+      "sha256": "8c4d1bb521c3602fe8e9be105602c2004e3936acc12cd81072feeef17162c450",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--professional-woman-jpg",
+      "path": "styles/images/professional-woman.jpg",
+      "sha256": "6554779696f61ce222e513b58744c098ef073b81234dfc6f45e5b59c2bd79dcb",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--split-screen-tags-jpg",
+      "path": "styles/images/split-screen-tags.jpg",
+      "sha256": "f2d1e64d88132a56fb5a460dd65895abc8b1b41ef85233642d240699d6113036",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--sticker-energy-jpg",
+      "path": "styles/images/sticker-energy.jpg",
+      "sha256": "4c7adbd48b4533e08e682c02ceb7819efe100a3a9c037d512a00818dd87537de",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--study-room-intellectual-jpg",
+      "path": "styles/images/study-room-intellectual.jpg",
+      "sha256": "6b95ef0155925c5142c1d261820aa3931f10204b8f4b89fb48329b2a9aa4db2e",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--thinking-question-jpg",
+      "path": "styles/images/thinking-question.jpg",
+      "sha256": "3ea59c86ed6fdb5848c396586b1effd14a46af1511cc1716136b035863e9229a",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--workplace-big-text-jpg",
+      "path": "styles/images/workplace-big-text.jpg",
+      "sha256": "eeb4e167d0f7d7e21d5278b7aaea1144a126b1bd58aa12393be0e4a5096f2089",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--images--yellow-pink-banner-jpg",
+      "path": "styles/images/yellow-pink-banner.jpg",
+      "sha256": "9f485b5b90b89e9910b30df12b59efaf2420ab0fee4fe89097e7015fb022e472",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--metadata-json",
+      "path": "styles/metadata.json",
+      "sha256": "cdf468c171d311752d5a99e9fb2309e5a0ccd74b75d73219222a16f676a50966",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--background-big-text-json",
+      "path": "styles/presets/background-big-text.json",
+      "sha256": "8dfc06e8db92ebbbfc0fcaa754ba5d36603a2f75ed147326a3fd7035d282b8c7",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--cozy-home-json",
+      "path": "styles/presets/cozy-home.json",
+      "sha256": "5c6110df237e5899fcfd617f6cd056c049018f0eef85d2a9703e487778d05b9a",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--dark-glow-json",
+      "path": "styles/presets/dark-glow.json",
+      "sha256": "e06cc24deb38bb2f3e7400a75f58fce86463a0b5364aa4f39b7cd831f00c0e32",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--dashed-decoration-json",
+      "path": "styles/presets/dashed-decoration.json",
+      "sha256": "34c6cb8b83e5d584f759be4fb3d83b787e4f66bfe7ce50071c04a67d77b0c6f3",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--hand-drawn-border-json",
+      "path": "styles/presets/hand-drawn-border.json",
+      "sha256": "d9ca509291b49b13ff67311caeb69df6b48d17aeb5a4c9d24a6adcbb1929d634",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--home-motivation-json",
+      "path": "styles/presets/home-motivation.json",
+      "sha256": "82d3fdeb5adc5a251c6043284b1437114ba61855ad7ce9b669914591e613c9e8",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--multi-layer-layout-json",
+      "path": "styles/presets/multi-layer-layout.json",
+      "sha256": "fc2d80eb435cb810f4559b45433c11d7f5b80d8e22cacfea9c44017cc64b0b6e",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--neon-contrast-json",
+      "path": "styles/presets/neon-contrast.json",
+      "sha256": "86b34840c920efa0aaa492beb89db764cb551d3656a54c4c1ddefbc82a652ba6",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--outdoor-handwriting-json",
+      "path": "styles/presets/outdoor-handwriting.json",
+      "sha256": "3a790d215e1b381310587f3f07b9a41cc7800c925817f961989b0f73019eef9b",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--pink-yellow-playful-json",
+      "path": "styles/presets/pink-yellow-playful.json",
+      "sha256": "99ef3c6f07150acf96198b40d4a8819d555486526b5a7b0258958dc1f43bc6c4",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--professional-clean-json",
+      "path": "styles/presets/professional-clean.json",
+      "sha256": "ccd8f7dbda51a99c8c9ba4841be2849366d656257ee77e209ad6bc38cf069331",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--professional-woman-json",
+      "path": "styles/presets/professional-woman.json",
+      "sha256": "2399334d3d41e58a82da6e71079db0718fcd6724c81934c56a06d408216b9649",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--split-screen-tags-json",
+      "path": "styles/presets/split-screen-tags.json",
+      "sha256": "a8f777b4ba021a1cd3f1fcd1c4c766d682794d156deb0e9480321e2a0d37380f",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--sticker-energy-json",
+      "path": "styles/presets/sticker-energy.json",
+      "sha256": "d9b219628d3f6e26e21fd0a4ec8fdde36898eb95206a68adf83b4f85677a3356",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--study-room-intellectual-json",
+      "path": "styles/presets/study-room-intellectual.json",
+      "sha256": "beed2f54799773ffc389719bb9e86712a48d26ec94d7b63bbe1de04adc36c67e",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--thinking-question-json",
+      "path": "styles/presets/thinking-question.json",
+      "sha256": "a93e049cedc13ffce7e65ddcf8f42c41b6ab5eb9043987ca8551752267dfefd1",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--workplace-big-text-json",
+      "path": "styles/presets/workplace-big-text.json",
+      "sha256": "b78714ce892ff87742b4807611127403317e1a547934ab7e213d5c4acb68f01d",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--presets--yellow-pink-banner-json",
+      "path": "styles/presets/yellow-pink-banner.json",
+      "sha256": "4b38a6a5f5a3f28651449084a3664358943274611ff16a265f116cc06b34d47b",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "styles--provenance-json",
+      "path": "styles/provenance.json",
+      "sha256": "cd6f8c30bc20fa9a3309e6a7ddc9817ae6e41ea7bca65279fdf20faecd786671",
+      "tags": [
+        "visual_style_reference_not_task_evidence",
+        "styles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "visual_style_reference_not_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A01-jpg",
+      "path": "thumbs/A01.jpg",
+      "sha256": "670bef0af034556726d798130de3757a1d0d8b6976511d6e34c6618e850f5a1b",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A02-jpg",
+      "path": "thumbs/A02.jpg",
+      "sha256": "f83987861a7254348e4aa1426a8526d083289498c88d4239b77a8482129d571b",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A03-jpg",
+      "path": "thumbs/A03.jpg",
+      "sha256": "77aee5c5a835afdc5eff8508a345f9f0ef65b7dbe59a89ba4d31dd1857797155",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A04-jpg",
+      "path": "thumbs/A04.jpg",
+      "sha256": "a6ac767a2bd9486d5f3b8ff8ef17ab44d04b3d7883222e75814785c013cc348b",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A05-jpg",
+      "path": "thumbs/A05.jpg",
+      "sha256": "4cbd39c19b507d84259b1a316a02c66cbf215b56f754f7007ce4ebf1d9a59b27",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A06-jpg",
+      "path": "thumbs/A06.jpg",
+      "sha256": "2c73c211e1cd277d29b6d7343550ec7fb0641883112a9d805b28421c5d24ae70",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A07-jpg",
+      "path": "thumbs/A07.jpg",
+      "sha256": "6814aa918df020cc8358c358731d272598525e98e76ff724caf8f3fb27a858f7",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A08-jpg",
+      "path": "thumbs/A08.jpg",
+      "sha256": "fbfb0117931ed77b27feef724f5c7fa2a1bd3a2d26173b9cb862c8ef8e882820",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B01-jpg",
+      "path": "thumbs/B01.jpg",
+      "sha256": "655f10570868b6e94739947483ee68a30670891ecbfdfefb23918438c20252f0",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B02-jpg",
+      "path": "thumbs/B02.jpg",
+      "sha256": "ece37d1ac936cfdb421026917341f366d97d864a81aad820ffc5b81d8d75761d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B03-jpg",
+      "path": "thumbs/B03.jpg",
+      "sha256": "c6a8a796c9a2beed88c52ed1cd57a177fccefbe1d6bc9b85bd94b610152d91ed",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B04-jpg",
+      "path": "thumbs/B04.jpg",
+      "sha256": "1d4df7967cfccc4fd856269e0eddbc1a72d69a3b2dc050406abf2d17ecff7b16",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B05-jpg",
+      "path": "thumbs/B05.jpg",
+      "sha256": "16fdc4b2103566dce03597e414ed35f64f78118fcb724c06f0fbef44004bd782",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B06-jpg",
+      "path": "thumbs/B06.jpg",
+      "sha256": "e2d6afc08904f57f45485ad4af201c64fc12633665156a0576c55b54847d859c",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B07-jpg",
+      "path": "thumbs/B07.jpg",
+      "sha256": "74040d5ec8036583297d58c65fb015fd593a509f762e8679826558f000096f37",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B08-jpg",
+      "path": "thumbs/B08.jpg",
+      "sha256": "0c5dba92e21b252f5fd4b3c6dca5ffcbf36566f7de64c4ee383dd95f0ff74b68",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C01-jpg",
+      "path": "thumbs/C01.jpg",
+      "sha256": "414666ebd37d3c9bfd677b6fe2187628e0eb0b4631fbe200b0428d5a6c46735d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C02-jpg",
+      "path": "thumbs/C02.jpg",
+      "sha256": "14d1448759d2f59251d07723f0dd01130abbf858757697086260f28cd3777c93",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C03-jpg",
+      "path": "thumbs/C03.jpg",
+      "sha256": "1762addbec655b338d74164b9a99aef1fbc7f67e3f3bfae1ad1f5bab634d2a06",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C04-jpg",
+      "path": "thumbs/C04.jpg",
+      "sha256": "8d5e2aabc6fcdc3de436392e602f636ee24630abd79bfacd369a9cba1a115893",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C05-jpg",
+      "path": "thumbs/C05.jpg",
+      "sha256": "c7ee5f6e966dabb084f9e460806f34a29375dfe3b4af66f7b8b7b72d311e5f5c",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C06-jpg",
+      "path": "thumbs/C06.jpg",
+      "sha256": "e7daf8a54b63fd35311db6ccb90acd00fe157462e7df569a39071295b9ba9bf8",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C07-jpg",
+      "path": "thumbs/C07.jpg",
+      "sha256": "64fe4b1f94802575f2f0045b8673ec2070a4368e777538a5c41d1b7e45e93f14",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C08-jpg",
+      "path": "thumbs/C08.jpg",
+      "sha256": "90a2aac5a0257ebb6c2cd04ed97cd46bacd0a10d4e22be82daca044ff170d5e0",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D01-jpg",
+      "path": "thumbs/D01.jpg",
+      "sha256": "843f099703e4465c7640c330006e831014f3f0ff885f4c1e60d8eb5957fee1cd",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D02-jpg",
+      "path": "thumbs/D02.jpg",
+      "sha256": "e6ecb09fb5fc647dc1bf6c98371d1bb055cc5265848ae4b0e7391c9e16df4534",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D03-jpg",
+      "path": "thumbs/D03.jpg",
+      "sha256": "6493056747ac7668dfcf0e79fa4c05b4dcc8672cb1e6ca1994d7fc7361bed64d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D04-jpg",
+      "path": "thumbs/D04.jpg",
+      "sha256": "fc00b83aa0d4d56085dcbffce0a7f1fc392fe57a402f4dbe708d9ce20471384a",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D05-jpg",
+      "path": "thumbs/D05.jpg",
+      "sha256": "8f29686031c5cd8bed4583d5ecff3aaf2f239373b7291e6770cf0e8b7b7e039e",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D06-jpg",
+      "path": "thumbs/D06.jpg",
+      "sha256": "099c6965b21ece239ed944b00a5daedac8fad2f7b71eaa72e5d2a2ba7ad8c729",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D07-jpg",
+      "path": "thumbs/D07.jpg",
+      "sha256": "9f4fb5e50f0b6f02ec62ba26ef0d0f08347842e9c9aae73db39c6d10bdf05d3d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D08-jpg",
+      "path": "thumbs/D08.jpg",
+      "sha256": "cbf590b4ebc86e369708f1d07d5e7afc6a5cf010471810d2323158a649cf5f87",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E01-jpg",
+      "path": "thumbs/E01.jpg",
+      "sha256": "13874fd840b5bccefd2660d4315353fe5554603f93a66859239bcccf09a05e8b",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E02-jpg",
+      "path": "thumbs/E02.jpg",
+      "sha256": "2e3094e2e8adfc61193fbca8d2da311304dc93c0f9cd38c20c019644d6a63054",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E03-jpg",
+      "path": "thumbs/E03.jpg",
+      "sha256": "670e65a0852d29e87ff706495dee207b8d4174b5f1f3f5fd7e88ae33c54c801f",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E04-jpg",
+      "path": "thumbs/E04.jpg",
+      "sha256": "9c1da1e3cbfac7fece0c4d88d510b4311163a2f37ca1fd75f094362013818dde",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E05-jpg",
+      "path": "thumbs/E05.jpg",
+      "sha256": "e9ed3615d247acbedb466b4ea73e5071dedb1ddd1cd3a0d9c00675cd4800c176",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E06-jpg",
+      "path": "thumbs/E06.jpg",
+      "sha256": "92387a0ec71bd407353c25ccc5a37067d5263f5b31f9b4437d352c83f04eb310",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E07-jpg",
+      "path": "thumbs/E07.jpg",
+      "sha256": "b58f5e6988bcbeffa96fe6bb76e38473d64cdd14307043bd7a2ba7473ac180f4",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E08-jpg",
+      "path": "thumbs/E08.jpg",
+      "sha256": "fbf950d0e9327a251a0e615917d1ffe7b5781d017eb1e688a9e7868e90082f6b",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F01-jpg",
+      "path": "thumbs/F01.jpg",
+      "sha256": "d956df196ff13bbe2faafaeacd1fd24a2a30e224b75b07101773187f4967ef9c",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F02-jpg",
+      "path": "thumbs/F02.jpg",
+      "sha256": "9fd3c35c366c44b03a7b7ca65b3a49f1b490315c265b1e5a334dbbf63a74c05e",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F03-jpg",
+      "path": "thumbs/F03.jpg",
+      "sha256": "d7b8db1abfde1f6d18e563ccbe1c9843b835d9f65889ac0cdd3ab331d717c727",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F04-jpg",
+      "path": "thumbs/F04.jpg",
+      "sha256": "fd96271da6e83438878c42522635b417c6a71e8fac0662c6ce9fa2732da991f6",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F05-jpg",
+      "path": "thumbs/F05.jpg",
+      "sha256": "1c3986b4cff5975af0445dd4e2752a51368b6861830335c7e105fd236e3b8af6",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F06-jpg",
+      "path": "thumbs/F06.jpg",
+      "sha256": "3a15f053ab5ccf11decf54f3c7d4607505bd8866e545fcbe99617538319bdf86",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F07-jpg",
+      "path": "thumbs/F07.jpg",
+      "sha256": "3d0ad1e11075be8ab1843a55fcdd5069093b8eef361555dc235a7641365a7251",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F08-jpg",
+      "path": "thumbs/F08.jpg",
+      "sha256": "367e3170f916f3849305c423f8d0842f0dcaae9df88873ceada034321b1d640f",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G01-jpg",
+      "path": "thumbs/G01.jpg",
+      "sha256": "b8dfab67d75b63497723149c6f20abaf8fbc9a2db300e202e8da6b0ae1a8e180",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G02-jpg",
+      "path": "thumbs/G02.jpg",
+      "sha256": "238c11e15a94fea08ce27550f1d3267929bb7f484f965919cc26153a836e512c",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G03-jpg",
+      "path": "thumbs/G03.jpg",
+      "sha256": "431669add5e8946a3fcb275e3465f7d739d4c2e5c36d5d59793c1bc9ca9e6f2a",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G04-jpg",
+      "path": "thumbs/G04.jpg",
+      "sha256": "24452789b44dc7a3f2349f9d8d82ad331ea246055a240b7de6efc037cde3d82f",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G05-jpg",
+      "path": "thumbs/G05.jpg",
+      "sha256": "2667d67a44d1cb808b6adcea561704310f3aee340e8058def80228b2ce57a5e5",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G06-jpg",
+      "path": "thumbs/G06.jpg",
+      "sha256": "e27d8d77e6f5606966fee778c3d68970d716658bfb559ed5bf7bd7d2a673fb9d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G07-jpg",
+      "path": "thumbs/G07.jpg",
+      "sha256": "f50c54f60735ff11a3187a3da6b9ff832a288dcccf036d5494105319667c0bcf",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G08-jpg",
+      "path": "thumbs/G08.jpg",
+      "sha256": "b41cb1b1373397c8e049f3a762d5191e76dfa436d3837cdc742f03b4ea831bd9",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H01-jpg",
+      "path": "thumbs/H01.jpg",
+      "sha256": "93f42a95d983bdd25b039a7da7a7c0b7b4dc2bf5346a739e200d3b0ce906fc44",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H02-jpg",
+      "path": "thumbs/H02.jpg",
+      "sha256": "40a903919ceab6579af4c206415c08da940cc392609ca87f3fa5c221ca1c830e",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H03-jpg",
+      "path": "thumbs/H03.jpg",
+      "sha256": "036561fe6738a8588dd0d99b30407516222f0b8ddaa307f961efa2922364e677",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H04-jpg",
+      "path": "thumbs/H04.jpg",
+      "sha256": "df592679c7093800c256b05747f901c2fa9269d9b0021a4e403f11156ea1920d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H05-jpg",
+      "path": "thumbs/H05.jpg",
+      "sha256": "5d3c24363762c3b2a1579dae70f1d6095987ebd0ed99a0ec1bd4601b272d9bb9",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H06-jpg",
+      "path": "thumbs/H06.jpg",
+      "sha256": "5faa16ee1b53bd75cb7281146577e7b6beaec3c1bf134b8aa13dd1f0b896906d",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H07-jpg",
+      "path": "thumbs/H07.jpg",
+      "sha256": "1ece849dc36813c1b4d24a56a9430d9218504431e9c24f991f8e425376d92543",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H08-jpg",
+      "path": "thumbs/H08.jpg",
+      "sha256": "c64ae9e7e18bd42bab8f6562c283e7d455f4a68ecdc5ec5ab44a74dbf76bce08",
+      "tags": [
+        "synthetic_composition_example",
+        "thumbs"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "synthetic_composition_example",
+      "dependencies": []
+    },
+    {
+      "id": "titles--candidates-json",
+      "path": "titles/candidates.json",
+      "sha256": "1977c8e2ef768894d8f0bf3b3355bde260973a4eb5dd420685249c75af4680fc",
+      "tags": [
+        "candidate_requires_task_evidence",
+        "titles"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "candidate_requires_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "tools--core-mjs",
+      "path": "tools/core.mjs",
+      "sha256": "7e846bdff42161b36fb1b9949be80a060cbf875cc0d9f9368c7cbe2155812564",
+      "tags": [
+        "execution_protocol",
+        "tools"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "tools--cover_core-mjs",
+      "path": "tools/cover_core.mjs",
+      "sha256": "5522630c9b3465e7ce596d6a84dbd424f071cbd9288d72e1d68baeb3150ca058",
+      "tags": [
+        "execution_protocol",
+        "tools"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "tools--retrieve-py",
+      "path": "tools/retrieve.py",
+      "sha256": "b854cdae880e3b440dcd4e4839416f771de6f72cdf33cd3a0e5ffce1cb530134",
+      "tags": [
+        "execution_protocol",
+        "tools"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": [
+        "catalog/style-index.json",
+        "catalog/layout-index.json",
+        "cover-components.json",
+        "titles/candidates.json",
+        "hooks/candidates.json",
+        "formulas/core-formulas.json"
+      ]
+    },
+    {
+      "id": "workflow--integrations-md",
+      "path": "workflow/integrations.md",
+      "sha256": "a3745ad2baf35ff2c3c49651bd4ac89f3e665b9d41f75485ff1c38dc5716f27e",
+      "tags": [
+        "execution_protocol",
+        "workflow"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow--knowledge-md",
+      "path": "workflow/knowledge.md",
+      "sha256": "eafc5fd4232355764c8d47b2c43242e3609ad6dc04f0467d2a9199157b404d72",
+      "tags": [
+        "execution_protocol",
+        "workflow"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow--platforms-md",
+      "path": "workflow/platforms.md",
+      "sha256": "bb8f3b1a5c571d8a8443237d26f37a041eaa9c6221a8d40cf4744eb507caab74",
+      "tags": [
+        "execution_protocol",
+        "workflow"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow--qa-md",
+      "path": "workflow/qa.md",
+      "sha256": "663eb75e1e93b9e7fff9f9391e8ad8397ecb2b178cc346a143050618a2ed0cea",
+      "tags": [
+        "execution_protocol",
+        "workflow"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow--workflow-md",
+      "path": "workflow/workflow.md",
+      "sha256": "142b42e174b917f84c83e9f47ade86ad2056786d285f407086468658457f8816",
+      "tags": [
+        "execution_protocol",
+        "workflow"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
     }
-  ]
+  ],
+  "reference_only": [
+    {
+      "path": "platform-audit.json",
+      "bytes": 10066,
+      "sha256": "53ea80a721193d676f2b125b045d81e5caddcd19682cc498c2ae5286c7f48d9f",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "research/REUSE_AND_LICENSE.md",
+      "bytes": 676,
+      "sha256": "bb7a58ecd612e7a01989ca4be684f60341efcf3d16c4a9b1b0a833be913fe267",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "research-sources.json",
+      "bytes": 2446,
+      "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources/formula-workbook-extracted.json",
+      "bytes": 29956,
+      "sha256": "1dbb448b3c64442fdea964792d7e8e67e4ecbf6d593c64cf92b2bad85563debe",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources/originals/cover-hooks-original.txt",
+      "bytes": 23923,
+      "sha256": "b8d2ea20a0953be768372d21a16db211027f2d3c01208af18babc3bd5e49b095",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources/originals/douyin-and-short-video-guide.pdf",
+      "bytes": 5728953,
+      "sha256": "f0916d78680035d4007a9971a01cbe413009736d2123bd0d9e1c20ad97ba57b9",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources/originals/human-nature-formula-cards-2026-09-25.xlsx",
+      "bytes": 27544,
+      "sha256": "78942dc10b8843da07eec0286e3434e272fd42258fc59b72262472ccc8cde1d0",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources/originals/title-formulas-original.txt",
+      "bytes": 21608,
+      "sha256": "585c3cb3e9c59bb1b77022b3c1cb685019b9d5b778fd02e5a00ff8cc75bd58ee",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources/platform-guide-extracted.json",
+      "bytes": 25361,
+      "sha256": "0169eaa7f63dfb8c1b113cdf3258ad1db1cd7abb2a2b51a2215e327faa769467",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "sources.json",
+      "bytes": 6699,
+      "sha256": "4d1fa0d437360d7ce3cc5ee9b93d766d0fcb25dc1ba14155ad875576af51c4f4",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    }
+  ],
+  "inventory_path": "inventory.json",
+  "inventory_sha256": "4fc9d6c23a077cdfbd1e9b2b2230f7c3ba002d5a808cb083cc388c13408aedaf",
+  "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
+  "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
+  "control_files_excluded_from_inventory": [
+    "SHA256SUMS.txt",
+    "config/knowledge-locator.json",
+    "inventory.json",
+    "manifest.json"
+  ],
+  "verification_scope": "file integrity, image decoding, metadata retrieval and structural classification; not platform effect validation"
 }

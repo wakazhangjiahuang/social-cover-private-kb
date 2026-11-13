@@ -1,44 +1,37 @@
 {
-  "version": "1.3.0-repository-audit",
+  "version": "1.4.0",
   "date": "2026-11-14",
-  "baseline_commit": "f31953434e89d99cbaa93fd18de9553fb71c9c26",
-  "independentCovers": 64,
-  "platformCounts": {
-    "小红书": 22,
-    "抖音": 21,
-    "微信视频号": 21
-  },
+  "scope": "asset_library_cleanup_and_retrieval",
   "checks": {
-    "importManifestSHA256": {
-      "passed": 150,
-      "scope": "original input package before directory repair"
+    "style_originals": 18,
+    "style_prompts_preserved": 18,
+    "cover_png": 64,
+    "cover_thumbnails": 64,
+    "images_decoded": 152,
+    "fonts_opened": 5,
+    "source_pdfs_opened": 1,
+    "source_workbooks_opened": 1,
+    "retrieval_tests": {
+      "passed": 31,
+      "failed": 0
     },
-    "allPNGDecodeAndSize": {
-      "passed": 64
+    "core_rule_tests": {
+      "passed": 5,
+      "failed": 0
     },
-    "uniquePNGHashes": 64,
-    "allJPEGDecode": {
-      "passed": 64
-    },
-    "offlineRelativeAssets": {
-      "references": 128,
-      "missing": []
-    },
-    "structureOverview": {
-      "reviewed": 64,
-      "classes": 17,
-      "classesWithExamples": 8
-    },
-    "filterLogic": {
-      "status": "NOT_RUN_THIS_AUDIT",
-      "historical_run": "sources/imports/cover64/QA.json"
-    }
+    "deleted_duplicate_or_invalid_files": 63,
+    "html_local_image_references": 128,
+    "broken_html_local_image_references": 0
   },
-  "limits": [
-    "64张均为AI合成人像示例，并非真实人物/客户/效果证据。",
-    "逐图结构浏览不等于完整像素质量或文字验收。",
-    "浏览器交互、平台客户端、真实账号效果与受众盲测未执行。",
-    "历史平台规则资料没有因本次分类而重新认证。"
+  "not_run": [
+    "browser interaction",
+    "current platform client previews",
+    "account effects",
+    "independent audience blind tests"
   ],
-  "result": "文件完整性与分类索引验收，不是三平台审核或效果认证"
+  "limits": [
+    "Source style prompts are references; editor metadata remains INFERRED.",
+    "File integrity does not validate all factual claims in user source materials.",
+    "Runtime manifest excludes source full texts, offline HTML, maintenance logs and broken application scaffolding."
+  ]
 }

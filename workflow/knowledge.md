@@ -1,14 +1,13 @@
-# 固定版本资产检索
+# 资产检索与固定版本
 
-1. 读取 `config/knowledge-locator.json`，取得完整 `manifest_ref` 与 `manifest_sha256`。locator是控制配置，不列入其定位的内容清单；正式消费者固定该提交，不自动追随main。
-2. 从指定提交读取根 `manifest.json` 并核哈希。清单内 `ref=manifest_commit` 指继承该固定提交；按 entrypoints 和 `catalog/asset-groups.json` 选用途，再只读必要资产及依赖。
-3. 封面选型先读17类信息结构，再查 `catalog/layout-index.json`。L01–L17、几何A–H、平台A/B/C和决策组件C01–C18是独立维度。按ID、结构、素材性质硬筛；主平台只作排序提示，明确 primary_only 才限制原主平台。
-4. 实图调用前核 image.path、sha256、width、height、文件可读性和素材性质。64示例全部为AI合成人像，原场景生活化不等于真实摄影。未覆盖信息结构返回空结果，继续用本轮真实素材或原创设计。
-5. 文字资料按 `record --kind component|hook|title|formula` 读取原文件和稳定ID；候选正文只维护原文件一份。225标题、225钩子、工作簿和PDF是用户候选／资料，不因入库而成为官方规则、真实案例或已验证爆款。
-6. 历史规则来源见根 `sources.json`、`platform-audit.json` 和 `research-sources.json`。本次分类不重新认证其全部动态事实。涉及当前专项规则按任务重新核验。
+先读 `config/knowledge-locator.json` 的固定manifest_ref和manifest_sha256，再从该提交读取 `manifest.json`。资产ref=manifest_commit表示继承该固定提交，不追随main。文件完整性以 `inventory.json` 和选中记录哈希核对。
 
-GitHub代码搜索可能未建立索引，不能靠搜索空结果判断不存在。已知仓库直接读取固定 manifest→分类索引→选中记录；下载后可用 `tools/retrieve.py` 复现检索。参考原图暂不可取只阻断依赖该图的步骤，不停止无依赖创作。
+按本轮任务只取需要的层：平台与入口 → 内容承诺与证据 → 信息结构L01–L17 → 视觉风格ID（可选）→ 几何A–H／64款实例 → 标题与生产。18模块C01–C18是决策字段，不是18款风格。风格、结构和平台不得互相冒名。
 
-`tools/validate_assets.py` 校验路径、PNG/JPEG完整解码、尺寸、唯一性、SHA256和HTML本地引用；`tools/tests/retrieval_test.py` 检查检索边界。结构与文件通过不代表成品营销效果或平台实机审核通过。
+风格从 `catalog/style-index.json` 定位单款preset、原图和INFERRED编辑提示；构图从 `catalog/layout-index.json` 定位单张PNG。`joint`只组合参考记录，不认证已有成图；用户锁定项和当前平台策略优先于原风格Prompt。
 
-更新分两步：先提交并验证内容快照，再单独更新 locator 指向该快照，避免哈希循环。旧上传路径对应关系在 `catalog/path-migrations.json`；原始包清单与QA在 `sources/imports/cover64/`。公开仓库不改变许可，不自动写入本轮私密输入。
+标题225条、钩子225条和公式10条按稳定ID定向读取。其他来源全文、工作簿、历史平台材料、HTML和维护代码不进入默认执行索引；确需来源核验时，按manifest.reference_only记录加载，不把旧日期当本次已验证。
+
+索引空结果不能伪造素材：64款全部AI合成人像，要求真实摄影时使用本轮真实素材；未覆盖结构采用原创排版。原图暂不可读取只阻断依赖该图的步骤。声明已读图前必须实际读取对应文件。
+
+维护时先校验并提交内容快照，再单独更新locator；控制定位不纳入自定位内容清单。运行检索回归、完整文件校验和旧核心规则测试。重复检测不直接自动删除文件，新增清理必须有明确证据和任务授权。

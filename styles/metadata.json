@@ -1,0 +1,164 @@
+{
+  "hand-drawn-border": {
+    "bg": "#34352c",
+    "fg": "#fff125",
+    "accent": "#ffffff",
+    "font": "zcoolkuaile",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "outdoor-handwriting": {
+    "bg": "#deedee",
+    "fg": "#ffed52",
+    "accent": "#226a4c",
+    "font": "mashanzheng",
+    "layout": "left",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "neon-contrast": {
+    "bg": "#161f15",
+    "fg": "#ebf62e",
+    "accent": "#fe28bf",
+    "font": "zcoolqingkehuangyou",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "multi-layer-layout": {
+    "bg": "#f4e9de",
+    "fg": "#26251f",
+    "accent": "#f87746",
+    "font": "notoserifsc",
+    "layout": "left",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "study-room-intellectual": {
+    "bg": "#eee2cb",
+    "fg": "#64513d",
+    "accent": "#ddbe68",
+    "font": "lxgwwenkai",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "professional-woman": {
+    "bg": "#eae6db",
+    "fg": "#31342a",
+    "accent": "#da584a",
+    "font": "notosanssc",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "sticker-energy": {
+    "bg": "#f0eada",
+    "fg": "#273836",
+    "accent": "#f68b28",
+    "font": "zcoolkuaile",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "dashed-decoration": {
+    "bg": "#eff0e6",
+    "fg": "#324136",
+    "accent": "#f79950",
+    "font": "notosanssc",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "background-big-text": {
+    "bg": "#f4e7df",
+    "fg": "#e56b3f",
+    "accent": "#243f3a",
+    "font": "zcoolqingkehuangyou",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "thinking-question": {
+    "bg": "#edf1ed",
+    "fg": "#194662",
+    "accent": "#e8c167",
+    "font": "mashanzheng",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "split-screen-tags": {
+    "bg": "#eff1e6",
+    "fg": "#355349",
+    "accent": "#c5ac5c",
+    "font": "notoserifsc",
+    "layout": "bottom",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "cozy-home": {
+    "bg": "#e6e0d4",
+    "fg": "#4f5542",
+    "accent": "#e7ba52",
+    "font": "lxgwwenkai",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "workplace-big-text": {
+    "bg": "#23342e",
+    "fg": "#f8f8ed",
+    "accent": "#f7e761",
+    "font": "notosanssc",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "dark-glow": {
+    "bg": "#172b23",
+    "fg": "#f7ec54",
+    "accent": "#d9eeb2",
+    "font": "notosanssc",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "home-motivation": {
+    "bg": "#dce8d5",
+    "fg": "#334e2b",
+    "accent": "#f4d556",
+    "font": "zcoolqingkehuangyou",
+    "layout": "left",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "yellow-pink-banner": {
+    "bg": "#eeede6",
+    "fg": "#505e2c",
+    "accent": "#f46da3",
+    "font": "zcoolkuaile",
+    "layout": "bottom",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "pink-yellow-playful": {
+    "bg": "#fff0f1",
+    "fg": "#202922",
+    "accent": "#fcec43",
+    "font": "zcoolkuaile",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  },
+  "professional-clean": {
+    "bg": "#e7ecf1",
+    "fg": "#163b56",
+    "accent": "#3159df",
+    "font": "notosanssc",
+    "layout": "top",
+    "status": "INFERRED",
+    "note": "编辑器可配置映射；完整绘制语言由生产模型或用户素材实现"
+  }
+}

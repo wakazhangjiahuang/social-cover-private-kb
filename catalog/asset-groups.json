@@ -1,72 +1,52 @@
 {
-  "schema_version": "1.0.0",
-  "groups": [
+  "schema_version": "1.4.0",
+  "active": [
     {
-      "id": "layout_examples",
-      "path": "catalog/layout-index.json",
-      "count": 64,
-      "type": "rendered_synthetic_examples",
-      "record_source": "covers.json"
+      "id": "visual_styles",
+      "path": "catalog/style-index.json",
+      "count": 18
     },
     {
-      "id": "semantic_structures",
+      "id": "information_structures",
       "path": "catalog/layout-family-taxonomy.json",
-      "count": 17,
-      "type": "information_structure"
+      "count": 17
+    },
+    {
+      "id": "composition_examples",
+      "path": "catalog/layout-index.json",
+      "count": 64,
+      "geometry_families": 8
     },
     {
       "id": "decision_components",
       "path": "cover-components.json",
-      "directory": "components/",
       "count": 18,
-      "fields": 179,
-      "type": "decision_protocol"
+      "fields": 179
     },
     {
       "id": "title_candidates",
       "path": "titles/candidates.json",
-      "count": 225,
-      "type": "user_candidate_not_effect_evidence"
+      "count": 225
     },
     {
       "id": "hook_candidates",
       "path": "hooks/candidates.json",
-      "count": 225,
-      "type": "user_candidate_not_effect_evidence"
+      "count": 225
     },
     {
       "id": "editorial_formulas",
       "path": "formulas/core-formulas.json",
-      "count": 10,
-      "type": "editorial_candidate"
-    },
-    {
-      "id": "user_sources",
-      "directory": "sources/originals/",
-      "extractions": [
-        "sources/formula-workbook-extracted.json",
-        "sources/platform-guide-extracted.json"
-      ],
-      "type": "user_material_not_platform_rule"
-    },
-    {
-      "id": "rule_source_records",
-      "paths": [
-        "sources.json",
-        "platform-audit.json",
-        "research-sources.json"
-      ],
-      "type": "dated_source_registry_not_new_verification"
-    },
-    {
-      "id": "workflow",
-      "directory": "workflow/",
-      "type": "execution_protocol"
-    },
-    {
-      "id": "historical_import_evidence",
-      "directory": "sources/imports/cover64/",
-      "type": "immutable_import_provenance"
+      "count": 10
     }
-  ]
+  ],
+  "reference_only": [
+    "sources/originals/",
+    "sources/formula-workbook-extracted.json",
+    "sources/platform-guide-extracted.json",
+    "sources.json",
+    "platform-audit.json",
+    "research-sources.json",
+    "workbench/START.html"
+  ],
+  "policy": "No whole-repository semantic scan; load one index and selected records. Reference-only material never overrides task evidence or current verified rules."
 }

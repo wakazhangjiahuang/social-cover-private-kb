@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "checked_at": "2026-10-27",
+  "version": "1.4.0",
+  "checked_at": "2026-11-14",
   "core": "implemented",
   "github_knowledge": "active",
   "semantic_review": "current_model_with_evidence_review",
@@ -14,9 +14,8 @@
   },
   "noterx": "optional_skip_when_unavailable",
   "deployment_check": {
-    "existing_servers": 0,
-    "github_deployment_connections": 0,
+    "source_repository_access": "verified_via_authorized_github_connector",
     "service_created": false,
-    "source_repository_access": "not_resolved_via_current_connection"
+    "scope": "knowledge_library_only"
   }
 }
