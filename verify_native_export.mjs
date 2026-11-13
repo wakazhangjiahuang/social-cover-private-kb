@@ -1,0 +1,52 @@
+// Executes the shipped painter and encoder with a native Canvas adapter.
+// This is file/render verification, NOT a real-browser interaction test.
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+import * as text from './project/public/studio/text-engine.mjs';
+import * as engine from './project/public/studio/engine.mjs';
+import * as zip from './project/public/studio/zip.mjs';
+const ROOT=path.dirname(fileURLToPath(import.meta.url));
+const require=createRequire(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/scs-verification.cjs':import.meta.url);
+const native=require('@napi-rs/canvas');
+const read=p=>JSON.parse(fs.readFileSync(path.join(ROOT,'project',p)));
+const fonts=read('public/studio/fonts/index.json');
+for(const f of fonts)assert.ok(native.GlobalFonts.registerFromPath(path.join(ROOT,'project/public',f.url),f.family));
+const createCanvas=()=>{const c=native.createCanvas(1,1);c.toBlob=(fn,mime,q)=>{try{fn(new Blob([c.toBuffer(mime,mime==='image/jpeg'?Math.round(q*100):undefined)],{type:mime}))}catch{fn(null)}};return c;};
+const document={createElement:n=>{assert.equal(n,'canvas');return createCanvas();}};
+const createImageBitmap=async blob=>{const img=await native.loadImage(Buffer.from(await blob.arrayBuffer()));return {width:img.width,height:img.height,close(){}};};
+const deps={...text,...engine,...zip};
+let app=fs.readFileSync(path.join(ROOT,'project/public/studio/app.mjs'),'utf8').replace(/^import .*;\n/gm,'').replace(/\ninit\(\);\s*$/,'');
+app='const {'+Object.keys(deps).join(',')+'}=dependencies;\n'+app;
+const factory=new Function('dependencies','window','document','createImageBitmap','fontData','native',app+`\nfonts=fontData;ensureFont=async id=>fontData.find(f=>f.id===id);imageOf=async src=>native.loadImage(src);return {defaults,paint,rasterFile,workConfig,setState(d,plans,ids,isBatch){S.d=d;S.assets=[];S.plans=plans;S.selected=ids;S.freezes=ids.map(id=>freezeCopy(plans.find(p=>p.id===id),d));batch=isBatch;}};`);
+const work=factory(deps,{},document,createImageBitmap,fonts,native);
+const knowledge=read('public/studio/data/hooks.json');engine.configureEngine({...knowledge,formulas:read('public/studio/data/title-formulas.json').formulas,metadata:read('public/studio/data/style-metadata.json')});
+const platform=read('public/studio/data/platforms.json'),components=read('public/studio/data/cover-components.json').components;
+const ps=engine.makePlans(work.defaults,platform.C,components),ids=engine.selection(ps);
+assert.equal(ids.length,3);
+work.setState(work.defaults,ps,ids,false);
+const outDir=path.join(ROOT,'examples/local-composition');fs.mkdirSync(outDir,{recursive:true});
+const results=[];
+for(let i=0;i<ids.length;i++){
+ const plan=ps.find(p=>p.id===ids[i]);const config=work.workConfig(work.defaults,plan,i);const out=await work.rasterFile(config,null);
+ assert.equal(out.actual.width,1536);assert.equal(out.actual.height,2048);assert.equal(out.actual.signature,'verified');
+ const encoded=Buffer.from(await out.blob.arrayBuffer());const decoded=await native.loadImage(encoded);const inspect=native.createCanvas(decoded.width,decoded.height);inspect.getContext('2d').drawImage(decoded,0,0);
+ const tr=out.info.titleRect;const region=inspect.getContext('2d').getImageData(Math.floor(tr.x),Math.floor(tr.y),Math.min(Math.ceil(tr.w),decoded.width-Math.floor(tr.x)),Math.min(Math.ceil(tr.h),decoded.height-Math.floor(tr.y))).data;
+ const bg=config.bg.slice(1).match(/../g).map(h=>parseInt(h,16));let ink=0;for(let k=0;k<region.length;k+=4)if(Math.abs(region[k]-bg[0])+Math.abs(region[k+1]-bg[1])+Math.abs(region[k+2]-bg[2])>60)ink++;
+ assert.ok(ink>20000,'Main-title region has insufficient rendered ink; do not accept an empty title as a successful export');
+ const name='0'+(i+1)+'-'+plan.id+'.png';fs.writeFileSync(path.join(outDir,name),encoded);
+ results.push({file:name,kind:'local_exact_typography_not_AI_generated',title:config.title,subtitle:config.subtitle,title_region_ink_pixels:ink,...out.actual});
+}
+const jpg=await work.rasterFile({...work.defaults,ratio:'1:1',format:'jpeg',edge:1080},null);assert.equal(jpg.actual.format,'image/jpeg');assert.equal(jpg.actual.width,1080);assert.equal(jpg.actual.height,1080);
+work.setState(work.defaults,ps,ids,true);
+const variants=Array.from({length:6},(_,i)=>work.workConfig(work.defaults,ps.find(p=>p.id===ids[0]),i));assert.equal(new Set(variants.map(d=>d.textPosition+JSON.stringify(d.subjectOffset))).size,6);assert.equal(new Set(variants.map(d=>d.styleId)).size,1);
+const original=path.join(ROOT,'project/public/studio/assets/studio-sample.png');const img=await native.loadImage(original),expected=native.createCanvas(img.width,img.height);expected.getContext('2d').drawImage(img,0,0);
+const flat={...work.defaults,structure:'photo',renderText:'none',background:'image',flatOriginal:true,ratio:img.width+':'+img.height,edge:Math.max(img.width,img.height),fontSize:100};
+const actual=native.createCanvas(1,1);await work.paint(actual,flat,original);
+assert.deepEqual(actual.getContext('2d').getImageData(0,0,img.width,img.height).data,expected.getContext('2d').getImageData(0,0,img.width,img.height).data);
+const report={status:'PASS',method:'Shipped browser painter executed with native Canvas adapter; not browser automation',checks:['3 separate PNG exports decoded at 1536x2048','JPG exported and decoded at 1080x1080','6 same-style layout variants distinct','flat original local edit preserves all source pixels at original size'],outputs:results,browser_interaction:'NOT_RUN',OCR:'NOT_RUN',live_provider:'NOT_RUN'};
+fs.writeFileSync(path.join(ROOT,'native-export-verification.json'),JSON.stringify(report,null,2));
+fs.writeFileSync(path.join(outDir,'README.txt'),'以下3张为真实本地精确文字排版导出，用于验证文件输出，不是AI模型生成图，也不是营销效果证明。默认案例未提供主体图片。\n');
+console.log(JSON.stringify({status:report.status,checks:report.checks,files:results.map(x=>x.file)}));

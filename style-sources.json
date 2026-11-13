@@ -1,0 +1,92 @@
+[
+  {
+    "id": "background-big-text",
+    "git_sha": "ae7d23c9ba6cdbafebcab9b418301a8b77c7bf92",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/background-big-text.json"
+  },
+  {
+    "id": "cozy-home",
+    "git_sha": "de84383f445d8a52aee80ff086c182f12278a1b5",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/cozy-home.json"
+  },
+  {
+    "id": "dark-glow",
+    "git_sha": "0994db5a90277ac3b3fd702dab66593cc3306ee4",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/dark-glow.json"
+  },
+  {
+    "id": "dashed-decoration",
+    "git_sha": "e7a5f7e7aa852329cfa9673f19965f89c13884d2",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/dashed-decoration.json"
+  },
+  {
+    "id": "hand-drawn-border",
+    "git_sha": "7cf3356454126a58e427592978b4d98512baf78b",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/hand-drawn-border.json"
+  },
+  {
+    "id": "home-motivation",
+    "git_sha": "97da5e2beeac118c277b011693b732e4f2922e66",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/home-motivation.json"
+  },
+  {
+    "id": "multi-layer-layout",
+    "git_sha": "4b6e0a4f8ae77ef331f5168cbdac09042ab6981a",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/multi-layer-layout.json"
+  },
+  {
+    "id": "neon-contrast",
+    "git_sha": "007e2312f4aaf03aa3aa03506bf62ff6f718f6b0",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/neon-contrast.json"
+  },
+  {
+    "id": "outdoor-handwriting",
+    "git_sha": "184d9b333650658ccfd1427d3d0afb547d22cce8",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/outdoor-handwriting.json"
+  },
+  {
+    "id": "pink-yellow-playful",
+    "git_sha": "635cd51ee937d7797feaf06afa21dac1b37ef3d3",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/pink-yellow-playful.json"
+  },
+  {
+    "id": "professional-clean",
+    "git_sha": "ed759991e1e0a8dccfb55adec92570251295b10c",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/professional-clean.json"
+  },
+  {
+    "id": "professional-woman",
+    "git_sha": "531a7b457f4d213b4633464d65868cfc5cbe2c61",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/professional-woman.json"
+  },
+  {
+    "id": "split-screen-tags",
+    "git_sha": "e46b65154eb681283478c5f008ccdfad83a044d6",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/split-screen-tags.json"
+  },
+  {
+    "id": "sticker-energy",
+    "git_sha": "4d5bf351638cf835a7ebaf8c03c41e4a3cf93ddd",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/sticker-energy.json"
+  },
+  {
+    "id": "study-room-intellectual",
+    "git_sha": "184f1262917311be761a0c2272e75164802f04b8",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/study-room-intellectual.json"
+  },
+  {
+    "id": "thinking-question",
+    "git_sha": "6c39651cd26244b0c337549e5bb6b7a5c42208b0",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/thinking-question.json"
+  },
+  {
+    "id": "workplace-big-text",
+    "git_sha": "205084ce039ae4848237334721d61d4f2fe50a29",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/workplace-big-text.json"
+  },
+  {
+    "id": "yellow-pink-banner",
+    "git_sha": "2780c492310654534f3e4b932f39f348e8509314",
+    "source": "https://github.com/Vivixiao980/xhs-cover-skill/blob/25a7279ff36931fc4eab069999adb1ad988b5d27/styles/yellow-pink-banner.json"
+  }
+]

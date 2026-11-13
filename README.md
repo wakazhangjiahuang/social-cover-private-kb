@@ -1,40 +1,44 @@
-# 自媒体封面设计知识库 · v1.3.0
+# Social Cover Studio V5 · 重建交付版
 
-唯一机器入口为 [`manifest.json`](manifest.json)，固定版本定位见 [`config/knowledge-locator.json`](config/knowledge-locator.json)。本仓库当前公开可见；公开访问不改变各文件的来源和使用许可。
+版本：5.0.3-rebuilt。按本轮已确认的V5改动，从已保存的源码重建；不是已清理压缩包的逐字节恢复。没有修改或部署原Sites。
 
-## 已核实资产与分类
+## 立即预览
 
-| 内容 | 数量 | 标准入口 |
-|---|---:|---|
-| 独立PNG与缩略图 | 64＋64 | `covers/{xhs,douyin,channels}/`、`thumbs/` |
-| 逐款检索、哈希、尺寸、语义结构 | 64 | `catalog/layout-index.json` |
-| 信息结构分类 | 17类 | `catalog/layout-family-taxonomy.json` |
-| 原有决策框架 | 18模块、179字段 | `components/`、`cover-components.json` |
-| 标题／钩子候选 | 各225条 | `titles/`、`hooks/` |
-| 原始公式 | 10条 | `formulas/core-formulas.json` |
-| 原始资料、提取稿和历史导入证据 | 分来源保存 | `sources/` |
-| 执行规范与来源登记 | 按用途保存 | `workflow/`、`research/`、`sources.json`、`platform-audit.json` |
+完整解压，打开压缩包根目录的 START.html。请保留相邻的 project 文件夹，风格原版大图位于 project/public/studio/previews/original/。
+离线HTML的核心JS、数据与18种缩略图均内嵌，不依赖CDN。离线预览使用系统字体，不加载图片模型及OCR；所有真实字库和OCR资源都在完整源码内。
 
-64款包含小红书22款、抖音21款、视频号21款；不是64款各有三平台成品。全部使用AI合成人像，包含看似工作室与户外的场景，不能当作实拍、客户或业绩证据。17类结构均保留；64款实际覆盖其中8类，缺失的9类不硬塞图片。
+## 运行完整项目
 
-几何构图A–H、平台模式A/B/C、信息结构L01–L17、决策模块C01–C18分别检索，禁止混用编号。原示例主平台只作适配提示，不禁止将布局重排用于其他平台。
-
-## 精确检索
+安装 Node.js 22.13 或更新版本。在 project 目录执行：
 
 ```bash
-python3 tools/retrieve.py layout --id A01
-python3 tools/retrieve.py layout --platform C --structure L05
-python3 tools/retrieve.py layout --family H --query '工作室 负空间'
-python3 tools/retrieve.py layout --nature REAL_PHOTO
-python3 tools/retrieve.py record --kind component --id C01
-python3 tools/retrieve.py record --kind hook --id user-hook-001
-python3 tools/validate_assets.py
-python3 -m unittest discover -s tools/tests -p '*_test.py'
-node --test tools/tests/core.test.mjs
+node --env-file-if-exists=.env standalone/server.mjs
 ```
 
-`REAL_PHOTO`或未覆盖结构返回空匹配，并引导使用本轮真实素材／原创设计；不会用合成图补成真实证据。查询词按空格分组且全部需要匹配；精确编号、结构、家族和素材性质优先。GitHub代码搜索可能尚未索引，空结果不代表素材不存在。
+访问 http://127.0.0.1:29012/studio/ 。这个独立服务不需要先安装React或构建框架依赖。可通过 PORT 更改端口。
+默认只监听本机；需要在局域网共享时，先在服务端设置至少16字符的 STUDIO_ACCESS_TOKEN，并设置 STUDIO_HOST=0.0.0.0。浏览器Basic身份验证的用户名可用studio，密码为该令牌。分享给同事前应使用HTTPS代理，并自行管理访问范围。
+项目同时保留原框架源码、Dockerfile和部署资料；独立服务是已测试的最短运行方式。
 
-按 [`workflow/knowledge.md`](workflow/knowledge.md) 读取固定提交清单、索引和选中的资产，核对SHA256。无需全库扫描或封面专用MCP。下载完整仓库后可离线打开 `START.html`；GitHub文件页面本身不运行HTML。重建脚本在 `src/`，需另备其声明的依赖；本轮未重绘原PNG。
+## 与V4的实际差异
 
-本轮修复目录与索引，并核对文件、尺寸、哈希和结构分类；未验证当前平台客户端裁切或账号流量效果。历史平台资料仍按原日期与证据状态使用。原始导入声明保存在 `sources/imports/cover64/`，不当作本轮测试结果。
+- 恢复固定GitHub版本的18种原始风格JSON及真实JPG效果图，逐张Git哈希核对。原版效果图用于参考，不自动把参考人物或文案复制进成品。
+- 默认展示设计画布，右侧分“文案/视觉”；内容证据可展开。七步链、18模块和评分留在详情，不占据日常操作主路径。
+- 用上传02-txt中的真实案例预先策划六个方向，三平台各自路由。只在正文和读者完全匹配时复用；输入变化回到本地规则或实际配置的语义模型。
+- 主操作衔接合格方向、逐字文案冻结和独立排版；保留手动比较及六案择三。同风格六变体为另一种队列。
+- 新建、指定原图编辑、风格学习保持独立；个人风格可保存、修改、调用并随项目JSON备份。
+- 修正文字排版中的字重与字体字符串兼容问题，校验真实PNG/JPG编码、解码和主标题区域像素，保留原图编辑的像素检查。
+
+## 真实能力与待接入
+
+当前可本地运行：三平台配置、真实字体排版、风格库/个人色板DNA、原素材及视频采样、文案门槛、六案和批量队列、画布拖动/裁切、撤销、版本与独立文件导出。
+未配置模型时，新素材诊断和文案为可解释的本地规则草案，不称深度AI语义理解。默认案例是预先策划，不代表实时模型分析。
+模型接口由服务端环境变量配置，见 .env.example；不在前端输入或保存Key，不硬编码模型名称。未配置会返回503，兼容接口测试使用夹具，不等于真实成图测试。
+网站API不会自动使用当前聊天的图片工具。真实模型生成、局部像素修改、OCR、浏览器实机、实际平台裁切及独立设计师评审尚未完成本轮外部验证。没有账号后台数据，不作CTR提升结论。
+最初指定的封面HTML未取得；已保留导入uiData/source_spec的静态解析功能，但不声称完成缺失原文件的业务映射。
+
+## 包内容与验证
+
+根目录 START.html 为预览入口，project 为完整源码、字库、OCR、原始资料及知识快照；examples/local-composition 为3张实际导出的独立文字封面，只是文件验证，不是AI生图。
+verification.json、native-export-verification.json 和 test-results.txt 记录本轮结果；manifest.json 提供逐文件SHA256。
+在project目录运行 `node --test tests/*.test.mjs`。25项通过、0失败、3项旧托管压缩包测试跳过（源码不递归嵌套自身ZIP），外部交付ZIP另行校验。
+源码与资料的授权范围见 docs/V5-SOURCES.md。原版效果图包含人物及原文，商用再利用须另行核对相应权利。

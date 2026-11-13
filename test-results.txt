@@ -1,0 +1,36 @@
+﹣ hosted files reconstruct the complete checked ZIP within per-asset limits (0.63642ms) # SKIP
+﹣ direct download returns a real byte-identical ZIP and attachment headers (0.094253ms) # SKIP
+﹣ failed and truncated transfers cannot masquerade as complete ZIPs (0.081473ms) # SKIP
+✔ output ratios stay exact at 2K; reject zero/extreme/injection ratios (1.688185ms)
+✔ each independent platform adds its own missing-context checks (0.604291ms)
+✔ six candidates fully map 18 components and valid normalized geometry (10.392758ms)
+✔ hard factual failures cannot be outweighed by preference rank (8.940719ms)
+✔ exploration creates three independent jobs; same-style batch exactly six (2.415351ms)
+✔ missing original HTML is not automatically verified; valid literals preserve all seven nodes (1.750118ms)
+✔ static parser never executes function expressions, prototype keys or templates (0.705674ms)
+✔ pixel palette and contrast calculated from real numeric values (0.37827ms)
+✔ all 18 upstream style JSONs dynamically listed, no fabricated missing records (0.78251ms)
+✔ seven Chinese font files are actual WOFF2, with local licenses (12.425312ms)
+✔ hook/formula sources stay candidates and social proof is conditional (1.747164ms)
+✔ automatic candidates have different text, exact quotes, and explainable diverse selection independent of list order (17.760184ms)
+✔ locked user text and necessary conditions cannot be silently rewritten (0.560184ms)
+✔ numbers/guarantees fail without explicit records, and missing flow cannot be invented (0.564781ms)
+✔ count contracts distinguish exploring N directions from same-style N variants (2.404084ms)
+✔ visual hard failures and unknowns cannot be offset by perfect scores (0.375496ms)
+✔ unconfigured real AI returns 503 and cannot call a provider (5.739642ms)
+✔ ZIP contains real independent entries with UTF-8 flag and CRC, not a contact sheet (1.149673ms)
+✔ provider contract keeps edits on supplied original and n=1; fixture bytes are not live generation (289.576413ms)
+✔ persistent job idempotency, conflict, ownership and unknown-outcome guards survive restart (150.005332ms)
+✔ standalone deployment serves real HTML, offline knowledge, protected access and fail-closed AI (42.190805ms)
+✔ V5 original case has six evidence-grounded directions, independently selectable for three platforms (24.56982ms)
+✔ changing content or intended reader cannot reuse preplanned case as fresh semantic analysis (3.456971ms)
+✔ configured semantic candidates have priority and locked user text stays exact (0.934428ms)
+✔ all restored style previews are real upstream JPEG bytes with separately stored thumbnails (26.410706ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 643.337259
