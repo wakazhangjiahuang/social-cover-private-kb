@@ -1,0 +1,152 @@
+[
+  {
+    "id": "U01",
+    "title": "用户上传 START.html（V5）",
+    "url": null,
+    "status": "本地完整读取",
+    "scope": "18种真人封面样式；仅借鉴层级、构图与色块关系",
+    "updated": "文件未提供可靠规则版本日期",
+    "decision": "不把既有样例当作平台认证或当前爆款证据",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "U02",
+    "title": "用户上传《抖音与短视频-双平台核心逻辑与推荐机制》",
+    "url": null,
+    "status": "11页全文读取",
+    "scope": "抖音＋视频号；原视频主张、公开机制与执行推导分开",
+    "updated": "原材料核验截至2026-10-02",
+    "decision": "保留兴趣匹配、专业价值与认可链条；不迁移阶层、固定阈值或自动转发说法",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R01",
+    "title": "抖音算法及模型备案公示说明",
+    "url": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/70c3d13a-73cf-403a-8ecf-a16f70887c21.html",
+    "status": "官方全文可读",
+    "scope": "个性化推荐、搜索机制",
+    "updated": "当前页未明示版本更新时间",
+    "decision": "多行为反馈、排序与探索；未披露独立封面权重",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R02",
+    "title": "抖音用户服务协议",
+    "url": "https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/agreements.html",
+    "status": "官方全文可读",
+    "scope": "普通内容发布；4.3、4.5、4.6",
+    "updated": "2026-02-13更新；2026-02-20生效",
+    "decision": "标题与内容应相符；AI内容需显著标识；避免过度营销",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R03",
+    "title": "小红书个性化功能说明",
+    "url": "https://agree.xiaohongshu.com/h5/terms/ZXXY20250401002/-1",
+    "status": "官方检索索引正文可读；直达全文未确认",
+    "scope": "个性化功能与反馈控制",
+    "updated": "当前全文版本日期未确认",
+    "decision": "行为和兴趣匹配；不能推出固定CES或关键词权重",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R04",
+    "title": "小红书电商：内容质量欠佳问题实施细则",
+    "url": "https://school.xiaohongshu.com/rule/detail/10133",
+    "status": "官方检索索引条文可读；直达页无可读正文",
+    "scope": "发布商品/服务或带货的商家和买手；非所有普通笔记",
+    "updated": "2025-12-18公示；2025-12-26生效（索引所示）",
+    "decision": "收敛低信息大字报、拥挤叠字与遮挡主体；逐款另标带货限制",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R05",
+    "title": "中央网信办：持续加强信息推荐算法治理",
+    "url": "https://www.cac.gov.cn/2025-05/22/c_1749536203490537.htm",
+    "status": "官方全文可读",
+    "scope": "含微信视频号好友推荐＋算法推荐双机制",
+    "updated": "2025-05-22",
+    "decision": "社交认可与算法并存；无转发固定权重或学历分层依据",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R06",
+    "title": "小红书电商：优质商品笔记课程",
+    "url": "https://school.xiaohongshu.com/lesson/normal/af0fe7e97bb0433fac9da5d1df52b07f",
+    "status": "官方检索摘要可读；直达正文未取得",
+    "scope": "商品笔记课程",
+    "updated": "课程当前版本日期未确认",
+    "decision": "3:4作为商品笔记建议；不能扩写成全站统一强制尺寸",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R07",
+    "title": "人工智能生成合成内容标识办法",
+    "url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
+    "status": "官方全文可读",
+    "scope": "AI生成合成内容标识；第10条涉及用户发布声明",
+    "updated": "2025-03-14发布；2025-09-01施行",
+    "decision": "每张示例有可见AI人物标注；正式发布仍须使用平台声明功能",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R08",
+    "title": "微信视频号运营规范",
+    "url": "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_agreement&s=video",
+    "status": "本次官方全文读取失败",
+    "scope": "视频号普通发布与账号运营；待客户端复核",
+    "updated": "无法确认现行修订日期及完整条文",
+    "decision": "不宣称已完成最新全部条款校对；不拿公众号、直播或广告尺寸代替",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R09",
+    "title": "腾讯微信软件许可及服务协议",
+    "url": "https://oper.my-qcloud.com/cgi-bin/readtemplate?lang=zh_CN&s=default&t=weixin_agreement",
+    "status": "官方正文可读；相关标题条款由官方检索定位",
+    "scope": "微信服务的一般内容规范，包含视频号内容；不替代专门规范",
+    "updated": "页面未明示版本日期",
+    "decision": "排除夸张标题与内容严重不符的设计方向",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R10",
+    "title": "小红书电商：新增博眼球骗互动细则公示",
+    "url": "https://school.xiaohongshu.com/rule/detail/10101",
+    "status": "官方检索索引条文可读；本次未取得直达全文",
+    "scope": "商品/服务与带货的商家和买手",
+    "updated": "2025-12-17公示；2025-12-25生效（索引所示）",
+    "decision": "不做假播放键、仿平台弹窗、虚假热点关联或题文不符",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "R11",
+    "title": "抖音官方推荐系统交互说明",
+    "url": "https://trust.douyin.com/algorithm/",
+    "status": "官方检索摘要可读；交互正文未读取",
+    "scope": "解释召回等部分推荐环节",
+    "updated": "本次检索可见；页面版本日未确认",
+    "decision": "仅作公开机制入口；不从演示模型推算实际业务权重",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "G01",
+    "title": "PDF引述的2026年优质内容识别说明",
+    "url": "https://95152.douyin.com/article/2831789467827967",
+    "status": "本次读取失败；未独立核实",
+    "scope": "PDF第5页引用",
+    "updated": "PDF称2026-09；未确认",
+    "decision": "只保留PDF的归纳身份，不提升为本次已核事实",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "G02",
+    "title": "PDF引述的2026年懂行用户说明",
+    "url": "https://95152.douyin.com/article/8561789469279698",
+    "status": "本次读取失败；未独立核实",
+    "scope": "PDF第5页引用",
+    "updated": "PDF称2026-09；未确认",
+    "decision": "不据此设定身份权重、质量打分或推流保证",
+    "checkedAt": "2026-11-13"
+  }
+]
