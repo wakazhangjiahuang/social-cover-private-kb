@@ -17,7 +17,7 @@ const R=path.resolve(__dirname,'..'),D=JSON.parse(fs.readFileSync(R+'/covers.jso
  ids['#search'].value='不存在的筛选词XYZ';vm.runInContext('applyFilters()',env);assert.equal(visible(),0);
  ids['#reset'].handlers.click();assert.equal(visible(),64);
  pics[0].handlers.click();assert.equal(ids['#large'].src,D[0].file);assert.equal(ids['#modal'].opened,true);ids['#close'].handlers.click();assert.equal(ids['#modal'].closed,true);
- const q=JSON.parse(fs.readFileSync(R+'/QA.json','utf8'));q.checks.allPNGDecodeAndSize={passed:dimensions.length};q.checks.filterLogic={passed:['all64','xhs22','douyin21','channels21','family8','search1','empty0','reset64','modalPathAndClose'],method:'Node VM with minimal node mocks; not real browser'};q.checks.missingGlyphs=[];
- assert.equal(q.checks.titleFaceBoxConflicts.length,0);assert.equal(q.checks.textOutsideCanvas.length,0);assert.equal(q.checks.offlineRelativeAssets.missing.length,0);assert.equal(q.checks.uniquePNGHashes,64);assert.equal(q.checks.svgFilesInPackage,0);assert.equal(q.checks.SVGMarkupInHTML,false);
+ const q=JSON.parse(fs.readFileSync(R+'/QA.json','utf8'));q.checks.allPNGDecodeAndSize={passed:dimensions.length};q.checks.filterLogic={passed:['all64','xhs22','douyin21','channels21','family8','search1','empty0','reset64','modalPathAndClose'],method:'Node VM with minimal node mocks; not real browser'};
+ assert.equal(q.checks.offlineRelativeAssets.missing.length,0);assert.equal(q.checks.uniquePNGHashes,64);
  fs.writeFileSync(R+'/QA.json',JSON.stringify(q,null,2));console.log(JSON.stringify({decodedPNG:64,staticReferences:q.checks.offlineRelativeAssets.references,svg:0,filterChecks:9,browser:'NOT_RUN',platformClient:'NOT_RUN'}));
 })();

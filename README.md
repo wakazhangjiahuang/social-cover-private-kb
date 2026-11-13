@@ -1,28 +1,40 @@
-# 自媒体封面设计知识库 · v1.2.0
+# 自媒体封面设计知识库 · v1.3.0
 
-目标仓库：wakazhangjiahuang/social-cover-private-kb。用户已批准公开可见；可见性不改变各资产source/license所规定的使用范围。
+唯一机器入口为 [`manifest.json`](manifest.json)，固定版本定位见 [`config/knowledge-locator.json`](config/knowledge-locator.json)。本仓库当前公开可见；公开访问不改变各文件的来源和使用许可。
 
-## 已启用的流程
+## 已核实资产与分类
 
-按任务读取固定版本的组件、标题、钩子与公式→当前模型回查证据、标题承诺与方案差异→包内脚本检查结构和几何→宿主图像工具创作→逐图核字、看图与裁切验收。保留18模块、179字段、六案择三与独立成品交付。
+| 内容 | 数量 | 标准入口 |
+|---|---:|---|
+| 独立PNG与缩略图 | 64＋64 | `covers/{xhs,douyin,channels}/`、`thumbs/` |
+| 逐款检索、哈希、尺寸、语义结构 | 64 | `catalog/layout-index.json` |
+| 信息结构分类 | 17类 | `catalog/layout-family-taxonomy.json` |
+| 原有决策框架 | 18模块、179字段 | `components/`、`cover-components.json` |
+| 标题／钩子候选 | 各225条 | `titles/`、`hooks/` |
+| 原始公式 | 10条 | `formulas/core-formulas.json` |
+| 原始资料、提取稿和历史导入证据 | 分来源保存 | `sources/` |
+| 执行规范与来源登记 | 按用途保存 | `workflow/`、`research/`、`sources.json`、`platform-audit.json` |
 
-封面专用MCP、Jev与Laya已移出默认依赖；NoteRx仅在实际可用时补充C模式诊断。未发现可用服务时直接执行核心流程。图像默认不要求验证精确型号；未暴露时记录not_exposed并继续，不冒称具体版本。
+64款包含小红书22款、抖音21款、视频号21款；不是64款各有三平台成品。全部使用AI合成人像，包含看似工作室与户外的场景，不能当作实拍、客户或业绩证据。17类结构均保留；64款实际覆盖其中8类，缺失的9类不硬塞图片。
 
-## 固定版本与完整性
+几何构图A–H、平台模式A/B/C、信息结构L01–L17、决策模块C01–C18分别检索，禁止混用编号。原示例主平台只作适配提示，不禁止将布局重排用于其他平台。
 
-config/knowledge-locator.json保存active状态、manifest_ref完整提交SHA与manifest_sha256。用该提交读取manifest.json，并从同一提交读取ref=manifest_commit的资产，逐项校验sha256；不用移动分支main替代固定提交。
+## 精确检索
 
-定位文件属于控制配置，不列入其所定位manifest或SHA256SUMS.txt，避免SHA和文件哈希循环自引用。先保存内容快照，再验证并更新定位文件；已安装Skill的定位配置与此文件使用同一内容指针。清单资产哈希只覆盖被索引内容，不等于已全量人工验收。
+```bash
+python3 tools/retrieve.py layout --id A01
+python3 tools/retrieve.py layout --platform C --structure L05
+python3 tools/retrieve.py layout --family H --query '工作室 负空间'
+python3 tools/retrieve.py layout --nature REAL_PHOTO
+python3 tools/retrieve.py record --kind component --id C01
+python3 tools/retrieve.py record --kind hook --id user-hook-001
+python3 tools/validate_assets.py
+python3 -m unittest discover -s tools/tests -p '*_test.py'
+node --test tools/tests/core.test.mjs
+```
 
-## 内容与运行
+`REAL_PHOTO`或未覆盖结构返回空匹配，并引导使用本轮真实素材／原创设计；不会用合成图补成真实证据。查询词按空格分组且全部需要匹配；精确编号、结构、家族和素材性质优先。GitHub代码搜索可能尚未索引，空结果不代表素材不存在。
 
-- components/、cover-components.json：18模块、179字段。
-- hooks/、titles/：各225条用户候选及工作簿候选公式。
-- formulas/、presets/、marketing/、body/：结构、表达和正文候选。
-- sources/、research/：用户材料与来源、许可研究记录。
-- workflow/、config/、integrations/：执行规范与保存的能力配置。
-- examples/、templates/、tools/：样例、模板、校验与编译脚本。
+按 [`workflow/knowledge.md`](workflow/knowledge.md) 读取固定提交清单、索引和选中的资产，核对SHA256。无需全库扫描或封面专用MCP。下载完整仓库后可离线打开 `START.html`；GitHub文件页面本身不运行HTML。重建脚本在 `src/`，需另备其声明的依赖；本轮未重绘原PNG。
 
-在仓库根目录可运行node tools/cover_core.mjs capabilities读取保存的配置；validate、compile、delivery通过--input JSON路径使用；node --test tools/tests/core.test.mjs验证本轮规则。capabilities不是实时网络或模型服务探测。
-
-公式与标题不构成已证实的爆款规律；数字、亲历、效果、权威、稀缺与对比必须匹配真实材料。没有真实图片不能称已成图，结构通过不代表语义或画面验收通过。当前私密输入不自动写入公开仓库。
+本轮修复目录与索引，并核对文件、尺寸、哈希和结构分类；未验证当前平台客户端裁切或账号流量效果。历史平台资料仍按原日期与证据状态使用。原始导入声明保存在 `sources/imports/cover64/`，不当作本轮测试结果。

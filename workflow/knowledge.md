@@ -1,13 +1,14 @@
-# 资产路由 · v1.2.0
+# 固定版本资产检索
 
-先读assets/knowledge-locator.json。目标wakazhangjiahuang/social-cover-private-kb允许公开；active表示已保存的固定版本通过读取与哈希抽查，不代表未来每次连接都成功。每次需要远程知识时，以manifest_ref完整提交SHA读取manifest_path，核对manifest_sha256；再读取所需资产及直接依赖并核对sha256。未实际读取的资产不称已使用或已全量验收。
+1. 读取 `config/knowledge-locator.json`，取得完整 `manifest_ref` 与 `manifest_sha256`。locator是控制配置，不列入其定位的内容清单；正式消费者固定该提交，不自动追随main。
+2. 从指定提交读取根 `manifest.json` 并核哈希。清单内 `ref=manifest_commit` 指继承该固定提交；按 entrypoints 和 `catalog/asset-groups.json` 选用途，再只读必要资产及依赖。
+3. 封面选型先读17类信息结构，再查 `catalog/layout-index.json`。L01–L17、几何A–H、平台A/B/C和决策组件C01–C18是独立维度。按ID、结构、素材性质硬筛；主平台只作排序提示，明确 primary_only 才限制原主平台。
+4. 实图调用前核 image.path、sha256、width、height、文件可读性和素材性质。64示例全部为AI合成人像，原场景生活化不等于真实摄影。未覆盖信息结构返回空结果，继续用本轮真实素材或原创设计。
+5. 文字资料按 `record --kind component|hook|title|formula` 读取原文件和稳定ID；候选正文只维护原文件一份。225标题、225钩子、工作簿和PDF是用户候选／资料，不因入库而成为官方规则、真实案例或已验证爆款。
+6. 历史规则来源见根 `sources.json`、`platform-audit.json` 和 `research-sources.json`。本次分类不重新认证其全部动态事实。涉及当前专项规则按任务重新核验。
 
-manifest的资产ref若为完整SHA则使用该SHA；若为manifest_commit则继承消费者固定的manifest_ref。历史导出清单的export-v1.1.0-local-only只在locator明确绑定该历史导入提交时继承其固定SHA，不能拿导出标签代替远程版本。不得自动改账号或使用main的移动内容替代已固定提交。
+GitHub代码搜索可能未建立索引，不能靠搜索空结果判断不存在。已知仓库直接读取固定 manifest→分类索引→选中记录；下载后可用 `tools/retrieve.py` 复现检索。参考原图暂不可取只阻断依赖该图的步骤，不停止无依赖创作。
 
-按任务/行业/受众/目标→组件→公式/标题/钩子/布局/风格/证据取所需资产及直接依赖。manifest需id/path/tags/source/license/ref/sha256；不全仓扫描，不每次载入18类全文。用户225钩子、公式工作簿、双平台PDF都是候选结构；数字/亲测/稀缺/权威表达先查证据。平台机制、历史、作者主张与编辑建议分开；标题/钩子正文只维护一份，以ID引用。
+`tools/validate_assets.py` 校验路径、PNG/JPEG完整解码、尺寸、唯一性、SHA256和HTML本地引用；`tools/tests/retrieval_test.py` 检查检索边界。结构与文件通过不代表成品营销效果或平台实机审核通过。
 
-远程可选资料失败时用本地短公式与当前素材继续并注明；必需品牌/证据缺失阻断对应步骤。公开仓库不代表其中资料获得公开使用许可；按实际source/license使用，不将当前私密输入自动写入公开库。新增经验经脱敏、真实回归与范围审核后，仅在用户授权范围写入。
-
-知识库清单在其固定提交内描述资产；生产定位文件不列入其所定位清单，避免提交SHA/文件哈希循环自引用。已安装Skill的locator保存生产指针；仓库config/knowledge-locator.json供其他消费者读取同一已验证指针。更新资产后先验证新的固定内容提交，再更新定位文件，不直接追随main。
-
-来源版本见assets/research-sources.json。仅研究未明确许可项目的链接，不复制其实现、模板或图片；Jev/Laya研究记录不是已接入服务。曝光分母、入口、版本或窗口不明时，不认定公式造成流量增长。GitHub连接可直接完成资料读取，无需cover_get_formulas等封面专用工具。
+更新分两步：先提交并验证内容快照，再单独更新 locator 指向该快照，避免哈希循环。旧上传路径对应关系在 `catalog/path-migrations.json`；原始包清单与QA在 `sources/imports/cover64/`。公开仓库不改变许可，不自动写入本轮私密输入。

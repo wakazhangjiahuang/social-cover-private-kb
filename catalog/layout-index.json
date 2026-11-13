@@ -1,0 +1,3505 @@
+{
+  "schema_version": "1.0.0",
+  "verified_at": "2026-11-14",
+  "source_snapshot": "f31953434e89d99cbaa93fd18de9553fb71c9c26",
+  "count": 64,
+  "structure_count": 17,
+  "structures_with_visual_examples": 8,
+  "platform_aliases": {
+    "A": "douyin",
+    "B": "channels",
+    "C": "xhs"
+  },
+  "policies": {
+    "semantic_vs_geometry": "L01-L17 are semantic structures; A-H are composition families; A/B/C are separate platform modes",
+    "image_nature": "All 64 examples use AI generated portraits, including apparent outdoor/studio scenes",
+    "uncovered_structure": "Return no image match; use structure specification with task assets or original design",
+    "platform_filter": "Prefer source platform; exclude other platforms only with primary_only=true",
+    "precision_claim": "Deterministic retrieval tests only; no statistical relevance/marketing performance claim"
+  },
+  "structure_coverage": {
+    "L01": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "B01",
+      "B02",
+      "B03",
+      "B05",
+      "B06",
+      "B07",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "E03",
+      "E06",
+      "E07",
+      "H01",
+      "H02",
+      "H03",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08"
+    ],
+    "L02": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08"
+    ],
+    "L03": [
+      "A06",
+      "A07",
+      "B04",
+      "B08",
+      "C08",
+      "E04",
+      "E05",
+      "E08",
+      "F05",
+      "F06",
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08"
+    ],
+    "L04": [],
+    "L05": [
+      "F02"
+    ],
+    "L06": [
+      "E02"
+    ],
+    "L07": [
+      "F03"
+    ],
+    "L08": [],
+    "L09": [],
+    "L10": [
+      "E01",
+      "F04"
+    ],
+    "L11": [],
+    "L12": [],
+    "L13": [
+      "A08",
+      "F01",
+      "F07",
+      "F08"
+    ],
+    "L14": [],
+    "L15": [],
+    "L16": [],
+    "L17": []
+  },
+  "entries": [
+    {
+      "id": "A01",
+      "name": "上题下人物",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/A01.png",
+        "sha256": "d2841ab5e705630a69ead4c4fc77adce49920a57402d10957e54c4d66050181f",
+        "bytes": 591823,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A01.jpg",
+        "sha256": "670bef0af034556726d798130de3757a1d0d8b6976511d6e34c6618e850f5a1b",
+        "bytes": 15761
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "上题下人物",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "口播总卡壳\n开场先说什么",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A01"
+      },
+      "cross_platform_review": "covers.json#A01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A02",
+      "name": "下题上实景",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/A02.png",
+        "sha256": "099a70d9772f834a1c85a82eae4f0550c0da794444310f864584791842533765",
+        "bytes": 1657603,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A02.jpg",
+        "sha256": "f83987861a7254348e4aa1426a8526d083289498c88d4239b77a8482129d571b",
+        "bytes": 22895
+      },
+      "source_asset": "assets/photo6.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "下题上实景",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "山野",
+        "户外",
+        "路线"
+      ],
+      "headline_example": "周末进山\n出发前先查路",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A02"
+      },
+      "cross_platform_review": "covers.json#A02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A03",
+      "name": "上下夹持",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/A03.png",
+        "sha256": "f45ba9a5b14405df4be0e6b942735c4944b311df0ceeedd03bd5d6c4d6d4903a",
+        "bytes": 611217,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A03.jpg",
+        "sha256": "77aee5c5a835afdc5eff8508a345f9f0ef65b7dbe59a89ba4d31dd1857797155",
+        "bytes": 12947
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "上下夹持",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "让人听明白\n先把一句话讲短",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A03"
+      },
+      "cross_platform_review": "covers.json#A03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A04",
+      "name": "中部标题桥",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/A04.png",
+        "sha256": "edc2c570452f468e5e02b94142415b79dd582ad8599d0c6d2f03642e10fe547e",
+        "bytes": 784639,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A04.jpg",
+        "sha256": "a6ac767a2bd9486d5f3b8ff8ef17ab44d04b3d7883222e75814785c013cc348b",
+        "bytes": 16646
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "中部标题桥",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "图案到成品\n先确认这一步",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A04"
+      },
+      "cross_platform_review": "covers.json#A04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A05",
+      "name": "底板承接",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/A05.png",
+        "sha256": "646834b5d207bc9bf925884b598d7201ac7987bbca213db38bd5045c9fb7315d",
+        "bytes": 715501,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A05.jpg",
+        "sha256": "4cbd39c19b507d84259b1a316a02c66cbf215b56f754f7007ce4ebf1d9a59b27",
+        "bytes": 15363
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "底板承接",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "工作越忙\n越要写交接",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A05"
+      },
+      "cross_platform_review": "covers.json#A05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A06",
+      "name": "上下错位窗",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/A06.png",
+        "sha256": "ce5204c8126c10c7b99072539d50b22108f5ca4a408a19ab35e30b7f8248eca1",
+        "bytes": 611284,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A06.jpg",
+        "sha256": "2c73c211e1cd277d29b6d7343550ec7fb0641883112a9d805b28421c5d24ae70",
+        "bytes": 14288
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "上下错位窗",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "AI工作台\n先从小任务开始",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A06"
+      },
+      "cross_platform_review": "covers.json#A06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A07",
+      "name": "顶部栏目下大图",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/A07.png",
+        "sha256": "a3d84f0638fd8dbf88e7f468fae3e633719a8ae97f9493e6c0eed5a1f06c7f02",
+        "bytes": 501923,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A07.jpg",
+        "sha256": "6814aa918df020cc8358c358731d272598525e98e76ff724caf8f3fb27a858f7",
+        "bytes": 15152
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "顶部栏目下大图",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "封面做不清楚\n先减哪一层",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A07"
+      },
+      "cross_platform_review": "covers.json#A07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "A08",
+      "name": "三段式讲解",
+      "geometry_family": "A",
+      "geometry_name": "上下分区",
+      "structure_ids": [
+        "L13"
+      ],
+      "structure_names": [
+        "步骤/路线/时间轴"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/A08.png",
+        "sha256": "5dd8722acad023e52f38e24832563da52bc456c79f5e7cd088f2633ee084330f",
+        "bytes": 446596,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/A08.jpg",
+        "sha256": "fbfb0117931ed77b27feef724f5c7fa2a1bd3a2d26173b9cb862c8ef8e882820",
+        "bytes": 14722
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "上下分区",
+        "三段式讲解",
+        "步骤/路线/时间轴",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "一条内容\n从问题到答案",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "A08"
+      },
+      "cross_platform_review": "covers.json#A08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B01",
+      "name": "左文右人物",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/B01.png",
+        "sha256": "dd87952253f4bddeeea3103663fb8eb8ced4fb387567a6108ed5517bd4908ded",
+        "bytes": 458630,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B01.jpg",
+        "sha256": "655f10570868b6e94739947483ee68a30670891ecbfdfefb23918438c20252f0",
+        "bytes": 12391
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "左文右人物",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "标题没人点\n先查对象词",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B01"
+      },
+      "cross_platform_review": "covers.json#B01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B02",
+      "name": "右文左人物",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/B02.png",
+        "sha256": "656b16534689348e8a24d83bd06e92506b7a246c42075c65c2cd2bc1e06496ff",
+        "bytes": 554325,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B02.jpg",
+        "sha256": "ece37d1ac936cfdb421026917341f366d97d864a81aad820ffc5b81d8d75761d",
+        "bytes": 10205
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "右文左人物",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "开会讲不清\n换个表达顺序",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B02"
+      },
+      "cross_platform_review": "covers.json#B02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B03",
+      "name": "斜切双区",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/B03.png",
+        "sha256": "34217e991805300a8fab47c407f5e62751770416d202676d4db563ad91e5e3de",
+        "bytes": 627530,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B03.jpg",
+        "sha256": "c6a8a796c9a2beed88c52ed1cd57a177fccefbe1d6bc9b85bd94b610152d91ed",
+        "bytes": 15729
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "斜切双区",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "标题很热闹\n内容接得住吗",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B03"
+      },
+      "cross_platform_review": "covers.json#B03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B04",
+      "name": "Z形动线",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/B04.png",
+        "sha256": "339ae912be45fcbb29353d3d24e92ace7f3a661b8626a6ef6cd92df1eb56bfac",
+        "bytes": 696595,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B04.jpg",
+        "sha256": "1d4df7967cfccc4fd856269e0eddbc1a72d69a3b2dc050406abf2d17ecff7b16",
+        "bytes": 15872
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "Z形动线",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "别急着换字体\n先改信息层级",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B04"
+      },
+      "cross_platform_review": "covers.json#B04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B05",
+      "name": "竖条与横题",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/B05.png",
+        "sha256": "412b5e024ec21a36d519ba79929f42c9869937d21f74b53492214c8d659c699f",
+        "bytes": 453042,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B05.jpg",
+        "sha256": "16fdc4b2103566dce03597e414ed35f64f78118fcb724c06f0fbef44004bd782",
+        "bytes": 10809
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "竖条与横题",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "作品怎么讲\n先说使用场景",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B05"
+      },
+      "cross_platform_review": "covers.json#B05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B06",
+      "name": "L形负空间",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/B06.png",
+        "sha256": "93af338b0acdab87c61e157cd98278b99527e77db9c50d06eeb303b3d8265950",
+        "bytes": 453698,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B06.jpg",
+        "sha256": "e2d6afc08904f57f45485ad4af201c64fc12633665156a0576c55b54847d859c",
+        "bytes": 15572
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "L形负空间",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "人物往哪放\n给标题留位置",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B06"
+      },
+      "cross_platform_review": "covers.json#B06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B07",
+      "name": "斜向人物引导",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/B07.png",
+        "sha256": "ee6887a1237a4ba1df5438f786af8556a7d05df0f5d48c7ff6de6453e9bd0b3a",
+        "bytes": 617910,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B07.jpg",
+        "sha256": "74040d5ec8036583297d58c65fb015fd593a509f762e8679826558f000096f37",
+        "bytes": 15411
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "斜向人物引导",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "手势有了\n标题别抢方向",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B07"
+      },
+      "cross_platform_review": "covers.json#B07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "B08",
+      "name": "双竖栏错落",
+      "geometry_family": "B",
+      "geometry_name": "侧向与斜切",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/B08.png",
+        "sha256": "7044d830bbac88b305bd9fac5ca010b30a35c26866bd76a4831e2b58d508e611",
+        "bytes": 398892,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/B08.jpg",
+        "sha256": "0c5dba92e21b252f5fd4b3c6dca5ffcbf36566f7de64c4ee383dd95f0ff74b68",
+        "bytes": 9330
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "侧向与斜切",
+        "双竖栏错落",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "一个封面\n只讲一个重点",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "B08"
+      },
+      "cross_platform_review": "covers.json#B08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C01",
+      "name": "半包围人物",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/C01.png",
+        "sha256": "6243f249927e354dda5ca265661e6542d23be15467000614e35771ed0241102a",
+        "bytes": 737491,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C01.jpg",
+        "sha256": "414666ebd37d3c9bfd677b6fe2187628e0eb0b4631fbe200b0428d5a6c46735d",
+        "bytes": 13603
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "半包围人物",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "文字围着人\n别围住脸",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C01"
+      },
+      "cross_platform_review": "covers.json#C01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C02",
+      "name": "两侧文字环绕",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/C02.png",
+        "sha256": "ce3b95bf3c8b1685a772844826b8c88653c8139ed16f9e040f11b7b6407d390c",
+        "bytes": 401830,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C02.jpg",
+        "sha256": "14d1448759d2f59251d07723f0dd01130abbf858757697086260f28cd3777c93",
+        "bytes": 10658
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "两侧文字环绕",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "大字夹人物\n读序不能乱",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C02"
+      },
+      "cross_platform_review": "covers.json#C02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C03",
+      "name": "背景大字前景人",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/C03.png",
+        "sha256": "951c7f5fe48d889ea26fa5d611dbc3847aa721ff5aedf10cf3fb2a7418b00272",
+        "bytes": 511349,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C03.jpg",
+        "sha256": "1762addbec655b338d74164b9a99aef1fbc7f67e3f3bfae1ad1f5bab634d2a06",
+        "bytes": 11499
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "背景大字前景人",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "大字做背景\n关键字别被挡",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C03"
+      },
+      "cross_platform_review": "covers.json#C03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C04",
+      "name": "文字前后交织",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/C04.png",
+        "sha256": "dd15f1ecb971568f29f6d441b28ec6f11b14d32758668a658e1707e13eec26ad",
+        "bytes": 424425,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C04.jpg",
+        "sha256": "8d5e2aabc6fcdc3de436392e602f636ee24630abd79bfacd369a9cba1a115893",
+        "bytes": 10542
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "文字前后交织",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "前后都有字\n只留一个主角",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C04"
+      },
+      "cross_platform_review": "covers.json#C04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C05",
+      "name": "圆窗围合",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/C05.png",
+        "sha256": "cfd580c26ddf62570b2236d18d844cd582724284130063adc7117a5af67a148d",
+        "bytes": 508017,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C05.jpg",
+        "sha256": "c7ee5f6e966dabb084f9e460806f34a29375dfe3b4af66f7b8b7b72d311e5f5c",
+        "bytes": 15273
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "圆窗围合",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "真人圆形窗\n把观点留在外面",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C05"
+      },
+      "cross_platform_review": "covers.json#C05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C06",
+      "name": "拱门与侧注",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/C06.png",
+        "sha256": "857702b292d70c80d2a208fb9bbc975a324e1d66067894309d6ad96e89dc8119",
+        "bytes": 365833,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C06.jpg",
+        "sha256": "e7daf8a54b63fd35311db6ccb90acd00fe157462e7df569a39071295b9ba9bf8",
+        "bytes": 8803
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "拱门与侧注",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "拱门留白\n让文字有呼吸",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C06"
+      },
+      "cross_platform_review": "covers.json#C06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C07",
+      "name": "人物框外伸出",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/C07.png",
+        "sha256": "bf944f779b46caf57e83649d11198930026b6fddd5e624573511dd68c6437202",
+        "bytes": 766115,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C07.jpg",
+        "sha256": "64fe4b1f94802575f2f0045b8673ec2070a4368e777538a5c41d1b7e45e93f14",
+        "bytes": 16165
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "人物框外伸出",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "人物破框\n信息要收回来",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C07"
+      },
+      "cross_platform_review": "covers.json#C07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "C08",
+      "name": "问答与人物",
+      "geometry_family": "C",
+      "geometry_name": "人字空间关系",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/C08.png",
+        "sha256": "b5aca71a38c0904e7acf068b45dd1724486e3447fc26c073e328eda9c5b71527",
+        "bytes": 616797,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/C08.jpg",
+        "sha256": "90a2aac5a0257ebb6c2cd04ed97cd46bacd0a10d4e22be82daca044ff170d5e0",
+        "bytes": 12677
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人字空间关系",
+        "问答与人物",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "提问放上面\n答案在内容里",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "C08"
+      },
+      "cross_platform_review": "covers.json#C08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D01",
+      "name": "单词组留白＋人物",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/D01.png",
+        "sha256": "f808010a32b785beba3859bb6ee0b5ed653f141652c0eafdd60d8dd02760286a",
+        "bytes": 347444,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D01.jpg",
+        "sha256": "843f099703e4465c7640c330006e831014f3f0ff885f4c1e60d8eb5957fee1cd",
+        "bytes": 11553
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "单词组留白＋人物",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "先说重点\n再解释背景",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D01"
+      },
+      "cross_platform_review": "covers.json#D01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D02",
+      "name": "纵向阅读＋人物",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/D02.png",
+        "sha256": "17a91ac10e6bb268f044da1169797fc6072d688f4a07a5446c6bed4e2908527d",
+        "bytes": 473929,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D02.jpg",
+        "sha256": "e6ecb09fb5fc647dc1bf6c98371d1bb055cc5265848ae4b0e7391c9e16df4534",
+        "bytes": 10059
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "纵向阅读＋人物",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "别把话说满\n把条件讲清楚",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D02"
+      },
+      "cross_platform_review": "covers.json#D02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D03",
+      "name": "关键词阶梯＋人物",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/D03.png",
+        "sha256": "42e0bea6ae0490f2dbe48f5db9c9af7ba25cc751b146e9f4eb7390444d0f6b6b",
+        "bytes": 342996,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D03.jpg",
+        "sha256": "6493056747ac7668dfcf0e79fa4c05b4dcc8672cb1e6ca1994d7fc7361bed64d",
+        "bytes": 11742
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "关键词阶梯＋人物",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "封面改版\n从读序开始",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D03"
+      },
+      "cross_platform_review": "covers.json#D03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D04",
+      "name": "大标点提问＋人物",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/D04.png",
+        "sha256": "1b3b988b9441bac160c4098359d1e35c2b4f1135c20536cd9474ad6d11e758d9",
+        "bytes": 396083,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D04.jpg",
+        "sha256": "fc00b83aa0d4d56085dcbffce0a7f1fc392fe57a402f4dbe708d9ce20471384a",
+        "bytes": 11858
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "大标点提问＋人物",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "为什么越写越长\n删掉重复前情",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D04"
+      },
+      "cross_platform_review": "covers.json#D04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D05",
+      "name": "一句话双字级",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/D05.png",
+        "sha256": "0be7135d826a7a4642f4427a6b2879fda18f397f0b51d3378e02d479ab012e3e",
+        "bytes": 346589,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D05.jpg",
+        "sha256": "8f29686031c5cd8bed4583d5ecff3aaf2f239373b7291e6770cf0e8b7b7e039e",
+        "bytes": 10891
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "一句话双字级",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "一句话太长\n主标题先变短",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D05"
+      },
+      "cross_platform_review": "covers.json#D05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D06",
+      "name": "竖向字条＋人物",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/D06.png",
+        "sha256": "f57d33c687ad7e64fe7788b5a216b9a74310f20b46b35bee346be1bf7324aa08",
+        "bytes": 396084,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D06.jpg",
+        "sha256": "099c6965b21ece239ed944b00a5daedac8fad2f7b71eaa72e5d2a2ba7ad8c729",
+        "bytes": 12083
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "竖向字条＋人物",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "别堆术语\n说成具体动作",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D06"
+      },
+      "cross_platform_review": "covers.json#D06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D07",
+      "name": "巨字与真人",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/D07.png",
+        "sha256": "b1f7c9d79c97630f9a8783366846e3bf97ce0650aa98409749d40ae9856dac8f",
+        "bytes": 590824,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D07.jpg",
+        "sha256": "9f4fb5e50f0b6f02ec62ba26ef0d0f08347842e9c9aae73db39c6d10bdf05d3d",
+        "bytes": 12951
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "巨字与真人",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "先改一个字\n把对象写出来",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D07"
+      },
+      "cross_platform_review": "covers.json#D07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "D08",
+      "name": "分段卡与真人",
+      "geometry_family": "D",
+      "geometry_name": "字级主导＋真人",
+      "structure_ids": [
+        "L02"
+      ],
+      "structure_names": [
+        "文字主视觉海报"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/D08.png",
+        "sha256": "ddd57a6a01cd9e53b76abb4f6a1dc24658606c5e541701a7e5d48199ab4fdbbd",
+        "bytes": 372820,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/D08.jpg",
+        "sha256": "cbf590b4ebc86e369708f1d07d5e7afc6a5cf010471810d2323158a649cf5f87",
+        "bytes": 11923
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "字级主导＋真人",
+        "分段卡与真人",
+        "文字主视觉海报",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "交接怎么写\n把下一步留下",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "D08"
+      },
+      "cross_platform_review": "covers.json#D08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E01",
+      "name": "人物居中环注",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L10"
+      ],
+      "structure_names": [
+        "信息图/图表/原理图"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/E01.png",
+        "sha256": "6931d277d5a674e03feb868794bfd05fd177ceff1e3d2e7f0d4f8f50f50db50d",
+        "bytes": 417864,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E01.jpg",
+        "sha256": "13874fd840b5bccefd2660d4315353fe5554603f93a66859239bcccf09a05e8b",
+        "bytes": 13047
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "人物居中环注",
+        "信息图/图表/原理图",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "把流程讲清\n先画出起点",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E01"
+      },
+      "cross_platform_review": "covers.json#E01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E02",
+      "name": "人物与细节窗",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L06"
+      ],
+      "structure_names": [
+        "拼图/网格/多画面矩阵"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/E02.png",
+        "sha256": "e1bd7c40c36dfa4a6df240ec11af0aa1a388cacdb9f74ec3d8a709e674347e80",
+        "bytes": 769716,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E02.jpg",
+        "sha256": "2e3094e2e8adfc61193fbca8d2da311304dc93c0f9cd38c20c019644d6a63054",
+        "bytes": 15935
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "人物与细节窗",
+        "拼图/网格/多画面矩阵",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "细节怎么讲\n先让人看见",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E02"
+      },
+      "cross_platform_review": "covers.json#E02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E03",
+      "name": "人物与底部色带",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/E03.png",
+        "sha256": "423831b140974061922602c81546f34d5711b357694774ddaa4cd16c0a074a88",
+        "bytes": 611745,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E03.jpg",
+        "sha256": "670e65a0852d29e87ff706495dee207b8d4174b5f1f3f5fd7e88ae33c54c801f",
+        "bytes": 13903
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "人物与底部色带",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "一张封面\n标题和人各司其职",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E03"
+      },
+      "cross_platform_review": "covers.json#E03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E04",
+      "name": "纸卡与人物陈列",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/E04.png",
+        "sha256": "c75d26fe35315bb97c47be57b429c65990058288507b5e666bf40c116694ded3",
+        "bytes": 531285,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E04.jpg",
+        "sha256": "9c1da1e3cbfac7fece0c4d88d510b4311163a2f37ca1fd75f094362013818dde",
+        "bytes": 13954
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "纸卡与人物陈列",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "作品怎么交\n先问应用尺寸",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E04"
+      },
+      "cross_platform_review": "covers.json#E04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E05",
+      "name": "斜置纸卡与直排字",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/E05.png",
+        "sha256": "ebe66d38ae641df983c715b61c6bb0ab47ff77e6ae92f087996770ece8735328",
+        "bytes": 415030,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E05.jpg",
+        "sha256": "e9ed3615d247acbedb466b4ea73e5071dedb1ddd1cd3a0d9c00675cd4800c176",
+        "bytes": 13171
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "斜置纸卡与直排字",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "书拿在手上\n观点要放外面",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E05"
+      },
+      "cross_platform_review": "covers.json#E05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E06",
+      "name": "大人物与轻标题",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/E06.png",
+        "sha256": "1597c9c304668daf91f28c6f4b9af350256c872294221285602343bfa8df44da",
+        "bytes": 748570,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E06.jpg",
+        "sha256": "92387a0ec71bd407353c25ccc5a37067d5263f5b31f9b4437d352c83f04eb310",
+        "bytes": 12762
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "大人物与轻标题",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "先看人物\n再看这一条说什么",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E06"
+      },
+      "cross_platform_review": "covers.json#E06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E07",
+      "name": "实景局部延展",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/E07.png",
+        "sha256": "a7b71c29f0a4faa7ce0c07c41f6be4b73dc415fa1238f933110f0da85bf36191",
+        "bytes": 1871265,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E07.jpg",
+        "sha256": "b58f5e6988bcbeffa96fe6bb76e38473d64cdd14307043bd7a2ba7473ac180f4",
+        "bytes": 24879
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "实景局部延展",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程"
+      ],
+      "headline_example": "桌边的工作\n从整理输入开始",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E07"
+      },
+      "cross_platform_review": "covers.json#E07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "E08",
+      "name": "侧栏任务牌",
+      "geometry_family": "E",
+      "geometry_name": "人物与画面窗",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/E08.png",
+        "sha256": "8cd2ccb529fb5cb2fc01c3b3920d515d88460341ff7669993509c7d3c5df5b26",
+        "bytes": 498966,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/E08.jpg",
+        "sha256": "fbf950d0e9327a251a0e615917d1ffe7b5781d017eb1e688a9e7868e90082f6b",
+        "bytes": 12109
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "人物与画面窗",
+        "侧栏任务牌",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "别急着选工具\n先写验收标准",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "E08"
+      },
+      "cross_platform_review": "covers.json#E08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F01",
+      "name": "三节点与讲解者",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L13"
+      ],
+      "structure_names": [
+        "步骤/路线/时间轴"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/F01.png",
+        "sha256": "a35ae350d746228bbe0a335056434738bc0d0573333b68342a441a1b254978e9",
+        "bytes": 476957,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F01.jpg",
+        "sha256": "d956df196ff13bbe2faafaeacd1fd24a2a30e224b75b07101773187f4967ef9c",
+        "bytes": 14541
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "三节点与讲解者",
+        "步骤/路线/时间轴",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "创作先后顺序\n问题到证据再到结论",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F01"
+      },
+      "cross_platform_review": "covers.json#F01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F02",
+      "name": "序号清单与人物",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L05"
+      ],
+      "structure_names": [
+        "清单/榜单/目录"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/F02.png",
+        "sha256": "1028a6ce5bb85bcf71d3e0f05a34b64dfb478ad2f15037ec194a6c3079439f09",
+        "bytes": 402929,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F02.jpg",
+        "sha256": "9fd3c35c366c44b03a7b7ca65b3a49f1b490315c265b1e5a334dbbf63a74c05e",
+        "bytes": 13783
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "序号清单与人物",
+        "清单/榜单/目录",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "封面发布前\n先查这三处",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F02"
+      },
+      "cross_platform_review": "covers.json#F02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F03",
+      "name": "同条件布局对比",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L07"
+      ],
+      "structure_names": [
+        "前后对照/比较卡"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/F03.png",
+        "sha256": "c0f91f8061bad8dfa12f98ab4b9f8bae694e32553753222ab1bca625c2155801",
+        "bytes": 534889,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F03.jpg",
+        "sha256": "d7b8db1abfde1f6d18e563ccbe1c9843b835d9f65889ac0cdd3ab331d717c727",
+        "bytes": 16260
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "同条件布局对比",
+        "前后对照/比较卡",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "左右对比\n一次只改一件事",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F03"
+      },
+      "cross_platform_review": "covers.json#F03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F04",
+      "name": "问题关系与人物",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L10"
+      ],
+      "structure_names": [
+        "信息图/图表/原理图"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/F04.png",
+        "sha256": "09365e0497c1dce31d242f44e37ac1af23c296edb8abd503d0839f8a106b55e8",
+        "bytes": 343500,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F04.jpg",
+        "sha256": "fd96271da6e83438878c42522635b417c6a71e8fac0662c6ce9fa2732da991f6",
+        "bytes": 15672
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "问题关系与人物",
+        "信息图/图表/原理图",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "观点怎么展开\n让依据围着问题",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F04"
+      },
+      "cross_platform_review": "covers.json#F04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F05",
+      "name": "证据卡与讲解者",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/F05.png",
+        "sha256": "498b17e97311bf9d8a84a6ec3b3016abe496bb940f831bcb35a04020efabf47f",
+        "bytes": 426838,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F05.jpg",
+        "sha256": "1c3986b4cff5975af0445dd4e2752a51368b6861830335c7e105fd236e3b8af6",
+        "bytes": 13969
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "证据卡与讲解者",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "这句话有依据吗\n把出处写清楚",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F05"
+      },
+      "cross_platform_review": "covers.json#F05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F06",
+      "name": "主场景与解释栏",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/F06.png",
+        "sha256": "8ee99393bc2abbae9e271d3c76ed6615a48027753826fdd65ab358b3938ff3dc",
+        "bytes": 721098,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F06.jpg",
+        "sha256": "3a15f053ab5ccf11decf54f3c7d4607505bd8866e545fcbe99617538319bdf86",
+        "bytes": 16610
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "主场景与解释栏",
+        "杂志编辑式排版",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程"
+      ],
+      "headline_example": "屏幕演示前\n先告诉人看哪里",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F06"
+      },
+      "cross_platform_review": "covers.json#F06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F07",
+      "name": "环形阶段与人物",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L13"
+      ],
+      "structure_names": [
+        "步骤/路线/时间轴"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/F07.png",
+        "sha256": "d66976d71cdb1ce33146a68986f4942008e627537e562399a01a4d76f276b3f6",
+        "bytes": 387892,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F07.jpg",
+        "sha256": "3d0ad1e11075be8ab1843a55fcdd5069093b8eef361555dc235a7641365a7251",
+        "bytes": 15420
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "环形阶段与人物",
+        "步骤/路线/时间轴",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "改版做一轮\n先定义怎样算好",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F07"
+      },
+      "cross_platform_review": "covers.json#F07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "F08",
+      "name": "时间轴错位卡",
+      "geometry_family": "F",
+      "geometry_name": "讲解与信息卡",
+      "structure_ids": [
+        "L13"
+      ],
+      "structure_names": [
+        "步骤/路线/时间轴"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/F08.png",
+        "sha256": "24ce6464383b88965e5d82eed8fcbcff71317bd79196c60acd2354265b7b6ad2",
+        "bytes": 379900,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/F08.jpg",
+        "sha256": "367e3170f916f3849305c423f8d0842f0dcaae9df88873ceada034321b1d640f",
+        "bytes": 12901
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "讲解与信息卡",
+        "时间轴错位卡",
+        "步骤/路线/时间轴",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "一条视频\n先写拍摄顺序",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "F08"
+      },
+      "cross_platform_review": "covers.json#F08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G01",
+      "name": "杂志封面层级",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/G01.png",
+        "sha256": "1016d3e5624410e3eec694c08f1f16e23ba6d1db3d5c285d2412eb94d31cf1c4",
+        "bytes": 605866,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G01.jpg",
+        "sha256": "b8dfab67d75b63497723149c6f20abaf8fbc9a2db300e202e8da6b0ae1a8e180",
+        "bytes": 12235
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "杂志封面层级",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "把专业讲明白\n从一个问题开始",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G01"
+      },
+      "cross_platform_review": "covers.json#G01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G02",
+      "name": "边栏栏目与大图",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/G02.png",
+        "sha256": "6e71cd8e4a91b4f165bca42943e190afb11d680d2feed2b59f30135013565f25",
+        "bytes": 491054,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G02.jpg",
+        "sha256": "238c11e15a94fea08ce27550f1d3267929bb7f484f965919cc26153a836e512c",
+        "bytes": 15526
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "边栏栏目与大图",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "工作台怎么搭\n从已有资料开始",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G02"
+      },
+      "cross_platform_review": "covers.json#G02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G03",
+      "name": "顶部栏目底部结语",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/G03.png",
+        "sha256": "2a6aa9dea6973fa9dbf798ba33588018e4fdaef91c00a0a6841c2f0642ef3fb8",
+        "bytes": 429490,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G03.jpg",
+        "sha256": "431669add5e8946a3fcb275e3465f7d739d4c2e5c36d5d59793c1bc9ca9e6f2a",
+        "bytes": 13623
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "顶部栏目底部结语",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "每次都重写\n先整理可复用部分",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G03"
+      },
+      "cross_platform_review": "covers.json#G03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G04",
+      "name": "引用卡与人物",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/G04.png",
+        "sha256": "34fa12ae764bfb0b39551fd285c92d0ccd7d9cfdf95afd67366f0418b9f8571d",
+        "bytes": 280858,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G04.jpg",
+        "sha256": "24452789b44dc7a3f2349f9d8d82ad331ea246055a240b7de6efc037cde3d82f",
+        "bytes": 10506
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "引用卡与人物",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "我想分享的是\n怎样把问题问清",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G04"
+      },
+      "cross_platform_review": "covers.json#G04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G05",
+      "name": "窄边真人海报",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/G05.png",
+        "sha256": "dc9a6b0b5cf7d66c3c4c662254733fff9af573cf263f0688ed94b0c3d63ad419",
+        "bytes": 571994,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G05.jpg",
+        "sha256": "2667d67a44d1cb808b6adcea561704310f3aee340e8058def80228b2ce57a5e5",
+        "bytes": 18786
+      },
+      "source_asset": "assets/photo4.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "窄边真人海报",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "把案例讲完整\n别只展示结果",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G05"
+      },
+      "cross_platform_review": "covers.json#G05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G06",
+      "name": "索引角标与实景",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/G06.png",
+        "sha256": "d5476792f597424cfecb7ea1f04e4e43db8289cde0a094bcea149410ce9044de",
+        "bytes": 1101643,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G06.jpg",
+        "sha256": "e27d8d77e6f5606966fee778c3d68970d716658bfb559ed5bf7bd7d2a673fb9d",
+        "bytes": 20538
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "索引角标与实景",
+        "杂志编辑式排版",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程"
+      ],
+      "headline_example": "这次做什么\n先写清任务范围",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G06"
+      },
+      "cross_platform_review": "covers.json#G06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G07",
+      "name": "轻贴纸真人主体",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/G07.png",
+        "sha256": "66dbf2448a3f853cc587831ab4065fea9cf4d67d9b5697b3811ed4c999449c41",
+        "bytes": 468620,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G07.jpg",
+        "sha256": "f50c54f60735ff11a3187a3da6b9ff832a288dcccf036d5494105319667c0bcf",
+        "bytes": 13363
+      },
+      "source_asset": "assets/photo1.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "轻贴纸真人主体",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "贴纸做点缀\n焦点留给标题",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G07"
+      },
+      "cross_platform_review": "covers.json#G07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "G08",
+      "name": "双层编辑卡",
+      "geometry_family": "G",
+      "geometry_name": "编辑式层级",
+      "structure_ids": [
+        "L03"
+      ],
+      "structure_names": [
+        "杂志编辑式排版"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/G08.png",
+        "sha256": "1a3ae5d83257547117b830d3b4e47fa17b563b78c5a331c580eba13eafc14484",
+        "bytes": 400574,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/G08.jpg",
+        "sha256": "b41cb1b1373397c8e049f3a762d5191e76dfa436d3837cdc742f03b4ea831bd9",
+        "bytes": 11672
+      },
+      "source_asset": "assets/photo2.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "编辑式层级",
+        "双层编辑卡",
+        "杂志编辑式排版",
+        "人物抠图",
+        "色块"
+      ],
+      "headline_example": "信息分两层\n主次别放反",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "G08"
+      },
+      "cross_platform_review": "covers.json#G08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H01",
+      "name": "天空负空间",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/H01.png",
+        "sha256": "8b39eb3b8629b797ec89f405fb68c4086f8c9b91b8d3f21082ce377f69a7db0d",
+        "bytes": 2024954,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H01.jpg",
+        "sha256": "93f42a95d983bdd25b039a7da7a7c0b7b4dc2bf5346a739e200d3b0ce906fc44",
+        "bytes": 29393
+      },
+      "source_asset": "assets/photo6.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "天空负空间",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "山野",
+        "户外",
+        "路线",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "周末想散步\n先选适合的路线",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H01"
+      },
+      "cross_platform_review": "covers.json#H01.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H02",
+      "name": "桌面与真人",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/H02.png",
+        "sha256": "ed433b9b665939e760c778f38749200826498e22a484ddaa9e16efe88a14efae",
+        "bytes": 1583064,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H02.jpg",
+        "sha256": "40a903919ceab6579af4c206415c08da940cc392609ca87f3fa5c221ca1c830e",
+        "bytes": 21566
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "桌面与真人",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "坐到桌前以后\n先整理这一页",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H02"
+      },
+      "cross_platform_review": "covers.json#H02.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H03",
+      "name": "侧边负空间",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/H03.png",
+        "sha256": "efce35861e6d1ae93d979f14d817f7e83284b8ddaebe56ff18e4c0a9cdd682ff",
+        "bytes": 903677,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H03.jpg",
+        "sha256": "036561fe6738a8588dd0d99b30407516222f0b8ddaa307f961efa2922364e677",
+        "bytes": 12780
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "侧边负空间",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "忙的时候\n怎么给思路留白",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H03"
+      },
+      "cross_platform_review": "covers.json#H03.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H04",
+      "name": "环境斜线与人物",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/H04.png",
+        "sha256": "cd2822b62145e2c2fdcff487954f5a8bddc0b8b04d2c446f648c85269f409568",
+        "bytes": 2122003,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H04.jpg",
+        "sha256": "df592679c7093800c256b05747f901c2fa9269d9b0021a4e403f11156ea1920d",
+        "bytes": 28741
+      },
+      "source_asset": "assets/photo6.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "环境斜线与人物",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "山野",
+        "户外",
+        "路线",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "山里走一走\n把准备放在前面",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H04"
+      },
+      "cross_platform_review": "covers.json#H04.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H05",
+      "name": "大图轻标题",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/H05.png",
+        "sha256": "eed2c930633cbc390b672f1b54764e9d7d0c0fca8aad4697efeec550b522b023",
+        "bytes": 1582824,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H05.jpg",
+        "sha256": "5d3c24363762c3b2a1579dae70f1d6095987ebd0ed99a0ec1bd4601b272d9bb9",
+        "bytes": 15370
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "大图轻标题",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "在工作室的一天\n从一张草稿开始",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H05"
+      },
+      "cross_platform_review": "covers.json#H05.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H06",
+      "name": "色面与横窗",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "douyin",
+      "platform_mode": "A",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/douyin/H06.png",
+        "sha256": "683ac5ac606c8cbf0c0481cccf34e067fd58c5c7bc1e604af254fde04eba332f",
+        "bytes": 768609,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H06.jpg",
+        "sha256": "5faa16ee1b53bd75cb7281146577e7b6beaec3c1bf134b8aa13dd1f0b896906d",
+        "bytes": 17214
+      },
+      "source_asset": "assets/photo5.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "色面与横窗",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "工作室",
+        "桌面",
+        "工作过程",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "做事前先想清楚\n这一条要交付什么",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H06"
+      },
+      "cross_platform_review": "covers.json#H06.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H07",
+      "name": "实景下置上留白",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "channels",
+      "platform_mode": "B",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/channels/H07.png",
+        "sha256": "eb883ca3e2633141678c9c4094a5c1d917c61f5459c79ddd839af04a61e0706d",
+        "bytes": 975338,
+        "width": 1080,
+        "height": 1920,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H07.jpg",
+        "sha256": "1ece849dc36813c1b4d24a56a9430d9218504431e9c24f991f8e425376d92543",
+        "bytes": 20067
+      },
+      "source_asset": "assets/photo6.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "实景下置上留白",
+        "实拍主体＋文字",
+        "环境人像",
+        "生活化",
+        "实景构图",
+        "山野",
+        "户外",
+        "路线",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "去哪里之前\n先确认能不能去",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H07"
+      },
+      "cross_platform_review": "covers.json#H07.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "H08",
+      "name": "暗底局部聚焦",
+      "geometry_family": "H",
+      "geometry_name": "实景与负空间",
+      "structure_ids": [
+        "L01"
+      ],
+      "structure_names": [
+        "实拍主体＋文字"
+      ],
+      "mapping_status": "VISUAL_OVERVIEW_REVIEWED",
+      "mapping_method": "64 rendered PNG overview inspection; structural classification only",
+      "source_platform": "xhs",
+      "platform_mode": "C",
+      "platform_scope": "source example hint; adaptation required across platforms",
+      "image": {
+        "path": "covers/xhs/H08.png",
+        "sha256": "dc80cb360bd1cbd01a3948d22947631fd710c5f4354483d9abb7d7191c97a97b",
+        "bytes": 558331,
+        "width": 1080,
+        "height": 1440,
+        "format": "PNG",
+        "status": "FILE_HASH_DIMENSIONS_DECODE_VERIFIED"
+      },
+      "thumbnail": {
+        "path": "thumbs/H08.jpg",
+        "sha256": "c64ae9e7e18bd42bab8f6562c283e7d455f4a68ecdc5ec5ab44a74dbf76bce08",
+        "bytes": 14551
+      },
+      "source_asset": "assets/photo3.png",
+      "evidence_nature": "AI_SYNTHETIC",
+      "style": "editorial_typography_with_synthetic_photo",
+      "keywords": [
+        "AI合成人像",
+        "封面示例",
+        "实景与负空间",
+        "暗底局部聚焦",
+        "实拍主体＋文字",
+        "人物抠图",
+        "色块",
+        "留白",
+        "负空间"
+      ],
+      "headline_example": "画面太暗\n标题怎么保住可读",
+      "headline_scope": "EXAMPLE_NOT_CURRENT_TASK_FACT",
+      "source_record": {
+        "path": "covers.json",
+        "id": "H08"
+      },
+      "cross_platform_review": "covers.json#H08.crossPlatform",
+      "reuse_boundary": "abstract layout or labeled AI example; never real customer/experience/proof; confirm rights and current task facts",
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    }
+  ]
+}

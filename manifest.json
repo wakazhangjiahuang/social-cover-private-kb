@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
   "export_date": "2026-10-27",
@@ -8,40 +8,378 @@
     "decision_fields": 179,
     "hooks": 225,
     "title_candidates": 225,
-    "original_core_formulas": 10
+    "original_core_formulas": 10,
+    "cover_png": 64,
+    "cover_jpeg": 64,
+    "semantic_structures": 17,
+    "geometry_families": 8,
+    "structures_with_visual_examples": 8
   },
   "assets": [
+    {
+      "id": "-gitignore",
+      "path": ".gitignore",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "235f1fb09aff391a0d326e977a7675cafd2aee644c75928fdb3e3aa125b7998e",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "64-cover-audit-csv",
+      "path": "64-cover-audit.csv",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "f260fcc4323a3ef2b15ccd687334eb7fd03c330afc2dcbffe1de808c6ee720b2",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "QA-json",
+      "path": "QA.json",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c425b24dad8d7dce04b8650023db07ed0494ce03a00fefec665aa88abdb8db2a",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
     {
       "id": "README-md",
       "path": "README.md",
       "tags": [
-        "README.md"
+        "README.md",
+        "protocol_or_reference",
+        "registry"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
       "ref": "manifest_commit",
-      "sha256": "acf9a45bd7c61df72f5f0438812f66f3ec7dc64216f12bddd2264eddb47bfd02",
+      "sha256": "cb5a5a3c27227fc1ddf3987f671fdcf9261233a1b29f74d2dece322810369ac5",
       "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "START-html",
+      "path": "START.html",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "38f95ecc726fb600b79d10fa87948c7c47aea82109eff7f6a2dff35c4adda854",
+      "status": "protocol_or_reference",
+      "dependencies": [
+        "covers.json",
+        "covers/xhs/A01.png",
+        "thumbs/A01.jpg",
+        "covers/douyin/A02.png",
+        "thumbs/A02.jpg",
+        "covers/channels/A03.png",
+        "thumbs/A03.jpg",
+        "covers/xhs/A04.png",
+        "thumbs/A04.jpg",
+        "covers/douyin/A05.png",
+        "thumbs/A05.jpg",
+        "covers/channels/A06.png",
+        "thumbs/A06.jpg",
+        "covers/xhs/A07.png",
+        "thumbs/A07.jpg",
+        "covers/douyin/A08.png",
+        "thumbs/A08.jpg",
+        "covers/channels/B01.png",
+        "thumbs/B01.jpg",
+        "covers/xhs/B02.png",
+        "thumbs/B02.jpg",
+        "covers/douyin/B03.png",
+        "thumbs/B03.jpg",
+        "covers/channels/B04.png",
+        "thumbs/B04.jpg",
+        "covers/xhs/B05.png",
+        "thumbs/B05.jpg",
+        "covers/douyin/B06.png",
+        "thumbs/B06.jpg",
+        "covers/channels/B07.png",
+        "thumbs/B07.jpg",
+        "covers/xhs/B08.png",
+        "thumbs/B08.jpg",
+        "covers/douyin/C01.png",
+        "thumbs/C01.jpg",
+        "covers/channels/C02.png",
+        "thumbs/C02.jpg",
+        "covers/xhs/C03.png",
+        "thumbs/C03.jpg",
+        "covers/douyin/C04.png",
+        "thumbs/C04.jpg",
+        "covers/channels/C05.png",
+        "thumbs/C05.jpg",
+        "covers/xhs/C06.png",
+        "thumbs/C06.jpg",
+        "covers/douyin/C07.png",
+        "thumbs/C07.jpg",
+        "covers/channels/C08.png",
+        "thumbs/C08.jpg",
+        "covers/xhs/D01.png",
+        "thumbs/D01.jpg",
+        "covers/douyin/D02.png",
+        "thumbs/D02.jpg",
+        "covers/channels/D03.png",
+        "thumbs/D03.jpg",
+        "covers/xhs/D04.png",
+        "thumbs/D04.jpg",
+        "covers/douyin/D05.png",
+        "thumbs/D05.jpg",
+        "covers/channels/D06.png",
+        "thumbs/D06.jpg",
+        "covers/xhs/D07.png",
+        "thumbs/D07.jpg",
+        "covers/douyin/D08.png",
+        "thumbs/D08.jpg",
+        "covers/channels/E01.png",
+        "thumbs/E01.jpg",
+        "covers/xhs/E02.png",
+        "thumbs/E02.jpg",
+        "covers/douyin/E03.png",
+        "thumbs/E03.jpg",
+        "covers/channels/E04.png",
+        "thumbs/E04.jpg",
+        "covers/xhs/E05.png",
+        "thumbs/E05.jpg",
+        "covers/douyin/E06.png",
+        "thumbs/E06.jpg",
+        "covers/channels/E07.png",
+        "thumbs/E07.jpg",
+        "covers/xhs/E08.png",
+        "thumbs/E08.jpg",
+        "covers/douyin/F01.png",
+        "thumbs/F01.jpg",
+        "covers/channels/F02.png",
+        "thumbs/F02.jpg",
+        "covers/xhs/F03.png",
+        "thumbs/F03.jpg",
+        "covers/douyin/F04.png",
+        "thumbs/F04.jpg",
+        "covers/channels/F05.png",
+        "thumbs/F05.jpg",
+        "covers/xhs/F06.png",
+        "thumbs/F06.jpg",
+        "covers/douyin/F07.png",
+        "thumbs/F07.jpg",
+        "covers/channels/F08.png",
+        "thumbs/F08.jpg",
+        "covers/xhs/G01.png",
+        "thumbs/G01.jpg",
+        "covers/douyin/G02.png",
+        "thumbs/G02.jpg",
+        "covers/channels/G03.png",
+        "thumbs/G03.jpg",
+        "covers/xhs/G04.png",
+        "thumbs/G04.jpg",
+        "covers/douyin/G05.png",
+        "thumbs/G05.jpg",
+        "covers/channels/G06.png",
+        "thumbs/G06.jpg",
+        "covers/xhs/G07.png",
+        "thumbs/G07.jpg",
+        "covers/douyin/G08.png",
+        "thumbs/G08.jpg",
+        "covers/channels/H01.png",
+        "thumbs/H01.jpg",
+        "covers/xhs/H02.png",
+        "thumbs/H02.jpg",
+        "covers/douyin/H03.png",
+        "thumbs/H03.jpg",
+        "covers/channels/H04.png",
+        "thumbs/H04.jpg",
+        "covers/xhs/H05.png",
+        "thumbs/H05.jpg",
+        "covers/douyin/H06.png",
+        "thumbs/H06.jpg",
+        "covers/channels/H07.png",
+        "thumbs/H07.jpg",
+        "covers/xhs/H08.png",
+        "thumbs/H08.jpg"
+      ]
+    },
+    {
+      "id": "assets--photo1-png",
+      "path": "assets/photo1.png",
+      "tags": [
+        "assets",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c737229b2774ce0b5e45084bf2229959202542e34b5268d049656b38513f9651",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "assets--photo2-png",
+      "path": "assets/photo2.png",
+      "tags": [
+        "assets",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "71db858ca5bab570861dd07edf9e633f893d6be395ae6c5724a94cde86cce1d1",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "assets--photo3-png",
+      "path": "assets/photo3.png",
+      "tags": [
+        "assets",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "509d312888c53868feb7be8bef7f368c04b5b783f55ba3593cd6c3589491e4da",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "assets--photo4-png",
+      "path": "assets/photo4.png",
+      "tags": [
+        "assets",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "8fb58d6acce7357b8555de4cc7e2c9f44d18612aa1743ce485942e5e52a8e404",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "assets--photo5-png",
+      "path": "assets/photo5.png",
+      "tags": [
+        "assets",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c8051514db178c9bffc575bb9b498afaaa1931f0a6bbafa6592edbf29cd99595",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "assets--photo6-png",
+      "path": "assets/photo6.png",
+      "tags": [
+        "assets",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "34b09de7d6a0ee633ff93f919acbb4fca163f624c54174fc682853181c77c5a3",
+      "status": "synthetic_visual_example",
       "dependencies": []
     },
     {
       "id": "body--workbook-templates-candidate-json",
       "path": "body/workbook-templates-candidate.json",
       "tags": [
-        "body"
+        "body",
+        "candidate_not_effect_evidence"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "b0c833e3ae2c4c25d022818a34eaeed390a0aaa3d571bcedc06a03853ee0ae42",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "catalog--asset-groups-json",
+      "path": "catalog/asset-groups.json",
+      "tags": [
+        "catalog",
+        "retrieval_index_or_classification"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "95b264a7644058dcb76dbf4fc874c3504b533ead8f5dfbdefb70f92f0c49482e",
+      "status": "retrieval_index_or_classification",
+      "dependencies": []
+    },
+    {
+      "id": "catalog--layout-family-taxonomy-json",
+      "path": "catalog/layout-family-taxonomy.json",
+      "tags": [
+        "catalog",
+        "retrieval_index_or_classification"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ef7d97f5d443bacaa8c7877c8d3d59a13309076aee9dd1cef03028cd82db7ae7",
+      "status": "retrieval_index_or_classification",
+      "dependencies": []
+    },
+    {
+      "id": "catalog--layout-index-json",
+      "path": "catalog/layout-index.json",
+      "tags": [
+        "catalog",
+        "retrieval_index_or_classification"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c",
+      "status": "retrieval_index_or_classification",
+      "dependencies": [
+        "catalog/layout-family-taxonomy.json",
+        "covers.json"
+      ]
+    },
+    {
+      "id": "catalog--path-migrations-json",
+      "path": "catalog/path-migrations.json",
+      "tags": [
+        "catalog",
+        "retrieval_index_or_classification"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "58c1703851291533a60159f6e0522ddbc8928d9457c32cf0aa5a0988415c80be",
+      "status": "retrieval_index_or_classification",
       "dependencies": []
     },
     {
       "id": "components--C01-json",
       "path": "components/C01.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -54,7 +392,8 @@
       "id": "components--C02-json",
       "path": "components/C02.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -67,7 +406,8 @@
       "id": "components--C03-json",
       "path": "components/C03.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -80,7 +420,8 @@
       "id": "components--C04-json",
       "path": "components/C04.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -93,7 +434,8 @@
       "id": "components--C05-json",
       "path": "components/C05.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -106,7 +448,8 @@
       "id": "components--C06-json",
       "path": "components/C06.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -119,7 +462,8 @@
       "id": "components--C07-json",
       "path": "components/C07.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -132,7 +476,8 @@
       "id": "components--C08-json",
       "path": "components/C08.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -145,7 +490,8 @@
       "id": "components--C09-json",
       "path": "components/C09.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -158,7 +504,8 @@
       "id": "components--C10-json",
       "path": "components/C10.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -171,7 +518,8 @@
       "id": "components--C11-json",
       "path": "components/C11.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -184,7 +532,8 @@
       "id": "components--C12-json",
       "path": "components/C12.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -197,7 +546,8 @@
       "id": "components--C13-json",
       "path": "components/C13.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -210,7 +560,8 @@
       "id": "components--C14-json",
       "path": "components/C14.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -223,7 +574,8 @@
       "id": "components--C15-json",
       "path": "components/C15.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -236,7 +588,8 @@
       "id": "components--C16-json",
       "path": "components/C16.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -249,7 +602,8 @@
       "id": "components--C17-json",
       "path": "components/C17.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -262,7 +616,8 @@
       "id": "components--C18-json",
       "path": "components/C18.json",
       "tags": [
-        "components"
+        "components",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -275,7 +630,8 @@
       "id": "config--core-formulas-json",
       "path": "config/core-formulas.json",
       "tags": [
-        "config"
+        "config",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -288,7 +644,8 @@
       "id": "config--cover-spec-schema-json",
       "path": "config/cover-spec.schema.json",
       "tags": [
-        "config"
+        "config",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -301,7 +658,8 @@
       "id": "config--integration-status-json",
       "path": "config/integration-status.json",
       "tags": [
-        "config"
+        "config",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -314,7 +672,9 @@
       "id": "cover-components-json",
       "path": "cover-components.json",
       "tags": [
-        "cover-components.json"
+        "cover-components.json",
+        "protocol_or_reference",
+        "registry"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -324,10 +684,921 @@
       "dependencies": []
     },
     {
+      "id": "covers--channels--A03-png",
+      "path": "covers/channels/A03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "f45ba9a5b14405df4be0e6b942735c4944b311df0ceeedd03bd5d6c4d6d4903a",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--A06-png",
+      "path": "covers/channels/A06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ce5204c8126c10c7b99072539d50b22108f5ca4a408a19ab35e30b7f8248eca1",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--B01-png",
+      "path": "covers/channels/B01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "dd87952253f4bddeeea3103663fb8eb8ced4fb387567a6108ed5517bd4908ded",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--B04-png",
+      "path": "covers/channels/B04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "339ae912be45fcbb29353d3d24e92ace7f3a661b8626a6ef6cd92df1eb56bfac",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--B07-png",
+      "path": "covers/channels/B07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ee6887a1237a4ba1df5438f786af8556a7d05df0f5d48c7ff6de6453e9bd0b3a",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--C02-png",
+      "path": "covers/channels/C02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ce3b95bf3c8b1685a772844826b8c88653c8139ed16f9e040f11b7b6407d390c",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--C05-png",
+      "path": "covers/channels/C05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "cfd580c26ddf62570b2236d18d844cd582724284130063adc7117a5af67a148d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--C08-png",
+      "path": "covers/channels/C08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "b5aca71a38c0904e7acf068b45dd1724486e3447fc26c073e328eda9c5b71527",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--D03-png",
+      "path": "covers/channels/D03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "42e0bea6ae0490f2dbe48f5db9c9af7ba25cc751b146e9f4eb7390444d0f6b6b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--D06-png",
+      "path": "covers/channels/D06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "f57d33c687ad7e64fe7788b5a216b9a74310f20b46b35bee346be1bf7324aa08",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--E01-png",
+      "path": "covers/channels/E01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "6931d277d5a674e03feb868794bfd05fd177ceff1e3d2e7f0d4f8f50f50db50d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--E04-png",
+      "path": "covers/channels/E04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c75d26fe35315bb97c47be57b429c65990058288507b5e666bf40c116694ded3",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--E07-png",
+      "path": "covers/channels/E07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "a7b71c29f0a4faa7ce0c07c41f6be4b73dc415fa1238f933110f0da85bf36191",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--F02-png",
+      "path": "covers/channels/F02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1028a6ce5bb85bcf71d3e0f05a34b64dfb478ad2f15037ec194a6c3079439f09",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--F05-png",
+      "path": "covers/channels/F05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "498b17e97311bf9d8a84a6ec3b3016abe496bb940f831bcb35a04020efabf47f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--F08-png",
+      "path": "covers/channels/F08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "24ce6464383b88965e5d82eed8fcbcff71317bd79196c60acd2354265b7b6ad2",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--G03-png",
+      "path": "covers/channels/G03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "2a6aa9dea6973fa9dbf798ba33588018e4fdaef91c00a0a6841c2f0642ef3fb8",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--G06-png",
+      "path": "covers/channels/G06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "d5476792f597424cfecb7ea1f04e4e43db8289cde0a094bcea149410ce9044de",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--H01-png",
+      "path": "covers/channels/H01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "8b39eb3b8629b797ec89f405fb68c4086f8c9b91b8d3f21082ce377f69a7db0d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--H04-png",
+      "path": "covers/channels/H04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "cd2822b62145e2c2fdcff487954f5a8bddc0b8b04d2c446f648c85269f409568",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--channels--H07-png",
+      "path": "covers/channels/H07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "eb883ca3e2633141678c9c4094a5c1d917c61f5459c79ddd839af04a61e0706d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--A02-png",
+      "path": "covers/douyin/A02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "099a70d9772f834a1c85a82eae4f0550c0da794444310f864584791842533765",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--A05-png",
+      "path": "covers/douyin/A05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "646834b5d207bc9bf925884b598d7201ac7987bbca213db38bd5045c9fb7315d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--A08-png",
+      "path": "covers/douyin/A08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "5dd8722acad023e52f38e24832563da52bc456c79f5e7cd088f2633ee084330f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--B03-png",
+      "path": "covers/douyin/B03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "34217e991805300a8fab47c407f5e62751770416d202676d4db563ad91e5e3de",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--B06-png",
+      "path": "covers/douyin/B06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "93af338b0acdab87c61e157cd98278b99527e77db9c50d06eeb303b3d8265950",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--C01-png",
+      "path": "covers/douyin/C01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "6243f249927e354dda5ca265661e6542d23be15467000614e35771ed0241102a",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--C04-png",
+      "path": "covers/douyin/C04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "dd15f1ecb971568f29f6d441b28ec6f11b14d32758668a658e1707e13eec26ad",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--C07-png",
+      "path": "covers/douyin/C07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "bf944f779b46caf57e83649d11198930026b6fddd5e624573511dd68c6437202",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--D02-png",
+      "path": "covers/douyin/D02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "17a91ac10e6bb268f044da1169797fc6072d688f4a07a5446c6bed4e2908527d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--D05-png",
+      "path": "covers/douyin/D05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "0be7135d826a7a4642f4427a6b2879fda18f397f0b51d3378e02d479ab012e3e",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--D08-png",
+      "path": "covers/douyin/D08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ddd57a6a01cd9e53b76abb4f6a1dc24658606c5e541701a7e5d48199ab4fdbbd",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--E03-png",
+      "path": "covers/douyin/E03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "423831b140974061922602c81546f34d5711b357694774ddaa4cd16c0a074a88",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--E06-png",
+      "path": "covers/douyin/E06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1597c9c304668daf91f28c6f4b9af350256c872294221285602343bfa8df44da",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--F01-png",
+      "path": "covers/douyin/F01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "a35ae350d746228bbe0a335056434738bc0d0573333b68342a441a1b254978e9",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--F04-png",
+      "path": "covers/douyin/F04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "09365e0497c1dce31d242f44e37ac1af23c296edb8abd503d0839f8a106b55e8",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--F07-png",
+      "path": "covers/douyin/F07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "d66976d71cdb1ce33146a68986f4942008e627537e562399a01a4d76f276b3f6",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--G02-png",
+      "path": "covers/douyin/G02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "6e71cd8e4a91b4f165bca42943e190afb11d680d2feed2b59f30135013565f25",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--G05-png",
+      "path": "covers/douyin/G05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "dc9a6b0b5cf7d66c3c4c662254733fff9af573cf263f0688ed94b0c3d63ad419",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--G08-png",
+      "path": "covers/douyin/G08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1a3ae5d83257547117b830d3b4e47fa17b563b78c5a331c580eba13eafc14484",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--H03-png",
+      "path": "covers/douyin/H03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "efce35861e6d1ae93d979f14d817f7e83284b8ddaebe56ff18e4c0a9cdd682ff",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--douyin--H06-png",
+      "path": "covers/douyin/H06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "683ac5ac606c8cbf0c0481cccf34e067fd58c5c7bc1e604af254fde04eba332f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--A01-png",
+      "path": "covers/xhs/A01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "d2841ab5e705630a69ead4c4fc77adce49920a57402d10957e54c4d66050181f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--A04-png",
+      "path": "covers/xhs/A04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "edc2c570452f468e5e02b94142415b79dd582ad8599d0c6d2f03642e10fe547e",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--A07-png",
+      "path": "covers/xhs/A07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "a3d84f0638fd8dbf88e7f468fae3e633719a8ae97f9493e6c0eed5a1f06c7f02",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--B02-png",
+      "path": "covers/xhs/B02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "656b16534689348e8a24d83bd06e92506b7a246c42075c65c2cd2bc1e06496ff",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--B05-png",
+      "path": "covers/xhs/B05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "412b5e024ec21a36d519ba79929f42c9869937d21f74b53492214c8d659c699f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--B08-png",
+      "path": "covers/xhs/B08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "7044d830bbac88b305bd9fac5ca010b30a35c26866bd76a4831e2b58d508e611",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--C03-png",
+      "path": "covers/xhs/C03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "951c7f5fe48d889ea26fa5d611dbc3847aa721ff5aedf10cf3fb2a7418b00272",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--C06-png",
+      "path": "covers/xhs/C06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "857702b292d70c80d2a208fb9bbc975a324e1d66067894309d6ad96e89dc8119",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--D01-png",
+      "path": "covers/xhs/D01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "f808010a32b785beba3859bb6ee0b5ed653f141652c0eafdd60d8dd02760286a",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--D04-png",
+      "path": "covers/xhs/D04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1b3b988b9441bac160c4098359d1e35c2b4f1135c20536cd9474ad6d11e758d9",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--D07-png",
+      "path": "covers/xhs/D07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "b1f7c9d79c97630f9a8783366846e3bf97ce0650aa98409749d40ae9856dac8f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--E02-png",
+      "path": "covers/xhs/E02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e1bd7c40c36dfa4a6df240ec11af0aa1a388cacdb9f74ec3d8a709e674347e80",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--E05-png",
+      "path": "covers/xhs/E05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ebe66d38ae641df983c715b61c6bb0ab47ff77e6ae92f087996770ece8735328",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--E08-png",
+      "path": "covers/xhs/E08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "8cd2ccb529fb5cb2fc01c3b3920d515d88460341ff7669993509c7d3c5df5b26",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--F03-png",
+      "path": "covers/xhs/F03.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c0f91f8061bad8dfa12f98ab4b9f8bae694e32553753222ab1bca625c2155801",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--F06-png",
+      "path": "covers/xhs/F06.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "8ee99393bc2abbae9e271d3c76ed6615a48027753826fdd65ab358b3938ff3dc",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--G01-png",
+      "path": "covers/xhs/G01.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1016d3e5624410e3eec694c08f1f16e23ba6d1db3d5c285d2412eb94d31cf1c4",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--G04-png",
+      "path": "covers/xhs/G04.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "34fa12ae764bfb0b39551fd285c92d0ccd7d9cfdf95afd67366f0418b9f8571d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--G07-png",
+      "path": "covers/xhs/G07.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "66dbf2448a3f853cc587831ab4065fea9cf4d67d9b5697b3811ed4c999449c41",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--H02-png",
+      "path": "covers/xhs/H02.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ed433b9b665939e760c778f38749200826498e22a484ddaa9e16efe88a14efae",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--H05-png",
+      "path": "covers/xhs/H05.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "eed2c930633cbc390b672f1b54764e9d7d0c0fca8aad4697efeec550b522b023",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers--xhs--H08-png",
+      "path": "covers/xhs/H08.png",
+      "tags": [
+        "covers",
+        "synthetic_visual_example"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "dc80cb360bd1cbd01a3948d22947631fd710c5f4354483d9abb7d7191c97a97b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "covers-json",
+      "path": "covers.json",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1f8f5cc13f3c4fb0049f0a41556b89005a6e8e20348a8646d4452b774cd64a02",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
       "id": "examples--README-md",
       "path": "examples/README.md",
       "tags": [
-        "examples"
+        "examples",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -340,7 +1611,8 @@
       "id": "examples--planning-only-file-organization--cover-plan-json",
       "path": "examples/planning-only-file-organization/cover-plan.json",
       "tags": [
-        "examples"
+        "examples",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -353,7 +1625,8 @@
       "id": "examples--planning-only-file-organization--final-prompts-json",
       "path": "examples/planning-only-file-organization/final-prompts.json",
       "tags": [
-        "examples"
+        "examples",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -366,7 +1639,8 @@
       "id": "examples--planning-only-file-organization--selected-specs-json",
       "path": "examples/planning-only-file-organization/selected-specs.json",
       "tags": [
-        "examples"
+        "examples",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -379,7 +1653,8 @@
       "id": "examples--planning-only-file-organization--validation-json",
       "path": "examples/planning-only-file-organization/validation.json",
       "tags": [
-        "examples"
+        "examples",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -389,49 +1664,151 @@
       "dependencies": []
     },
     {
+      "id": "fonts--OFL-and-copyright-txt",
+      "path": "fonts/OFL-and-copyright.txt",
+      "tags": [
+        "fonts",
+        "protocol_or_reference"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "see_fonts_OFL",
+      "ref": "manifest_commit",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "fonts--mono-otf",
+      "path": "fonts/mono.otf",
+      "tags": [
+        "fonts",
+        "protocol_or_reference"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "see_fonts_OFL",
+      "ref": "manifest_commit",
+      "sha256": "7873f6fe2ba05d6d457103121882f4cb056a0bdbf4d59f1b17337c36c7b21bf0",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "fonts--sans-otf",
+      "path": "fonts/sans.otf",
+      "tags": [
+        "fonts",
+        "protocol_or_reference"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "see_fonts_OFL",
+      "ref": "manifest_commit",
+      "sha256": "ba8a54df28750211839c25e57ff54f0ad628009e9918e57b0d78234f1b33d1c8",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "fonts--sansBold-otf",
+      "path": "fonts/sansBold.otf",
+      "tags": [
+        "fonts",
+        "protocol_or_reference"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "see_fonts_OFL",
+      "ref": "manifest_commit",
+      "sha256": "50738fdfb71441d76231db7e63b130ad04715aae5ab68a9d25f2ecf902392100",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "fonts--serif-otf",
+      "path": "fonts/serif.otf",
+      "tags": [
+        "fonts",
+        "protocol_or_reference"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "see_fonts_OFL",
+      "ref": "manifest_commit",
+      "sha256": "713994a98c77bf97bc27646299ae4fc2b942e780d30045b63b425ec4f8a33d52",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "fonts--serifBold-otf",
+      "path": "fonts/serifBold.otf",
+      "tags": [
+        "fonts",
+        "protocol_or_reference"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "see_fonts_OFL",
+      "ref": "manifest_commit",
+      "sha256": "8fd3616c28e39e44d2658ce48734c85f1cb13ba86c4ba024d7631deba2372e64",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
       "id": "formulas--core-formulas-json",
       "path": "formulas/core-formulas.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "formulas"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
       "ref": "manifest_commit",
       "sha256": "f07779ef14674eb38b0dc6d040fa4c634b0e673c14c35c0371878df980d40ad3",
-      "status": "protocol_or_reference",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "hooks--candidates-json",
       "path": "hooks/candidates.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "hooks"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "f98a42c3f1fd609ed1208a4127b7384a94871652749621309e019d67a2e595e4",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "hooks--workbook-formulas-candidate-json",
       "path": "hooks/workbook-formulas-candidate.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "hooks"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "c36f6a175ce9c7cb207cf0ad53490da1658ad8342f56c0f23769834c9c8ce6b9",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "index-html",
+      "path": "index.html",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e5d5859159381d2f6b5dafa0201639ba7bab9144db3aadfe8b05f35c66d58fcf",
+      "status": "protocol_or_reference",
       "dependencies": []
     },
     {
       "id": "integrations--status-json",
       "path": "integrations/status.json",
       "tags": [
-        "integrations"
+        "integrations",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -444,46 +1821,64 @@
       "id": "marketing--b2b-and-claims-unverified-json",
       "path": "marketing/b2b-and-claims-unverified.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "marketing"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "9723f68462d8dc43571131f06d5db0408e55c648107704503c36925d92252fc7",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "marketing--cross-type-candidate-json",
       "path": "marketing/cross-type-candidate.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "marketing"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "e5de280374e3607cc1427dd26281ecd0cae85dab05fa3ba060bb2c16e8ec097c",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "marketing--mechanisms-candidate-json",
       "path": "marketing/mechanisms-candidate.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "marketing"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "54cf8a62448c389b5f7127598b07242bf08ef3568432460535be09807bb8df8e",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "platform-audit-json",
+      "path": "platform-audit.json",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "53ea80a721193d676f2b125b045d81e5caddcd19682cc498c2ae5286c7f48d9f",
+      "status": "protocol_or_reference",
       "dependencies": []
     },
     {
       "id": "platforms--README-md",
       "path": "platforms/README.md",
       "tags": [
-        "platforms"
+        "platforms",
+        "protocol_or_reference"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
@@ -496,19 +1891,21 @@
       "id": "presets--workbook-cover-structures-candidate-json",
       "path": "presets/workbook-cover-structures-candidate.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "presets"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "d9ea4570f4c83147a6f718b6a7d68232644bb628d4aeab2c510146cdaa9e20c9",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "research--REUSE_AND_LICENSE-md",
       "path": "research/REUSE_AND_LICENSE.md",
       "tags": [
+        "protocol_or_reference",
         "research"
       ],
       "source": "original_protocol_or_research_index",
@@ -522,6 +1919,8 @@
       "id": "research-sources-json",
       "path": "research-sources.json",
       "tags": [
+        "protocol_or_reference",
+        "registry",
         "research-sources.json"
       ],
       "source": "original_protocol_or_research_index",
@@ -535,97 +1934,220 @@
       "id": "sources--cover-hooks-original-txt",
       "path": "sources/cover-hooks-original.txt",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "b8d2ea20a0953be768372d21a16db211027f2d3c01208af18babc3bd5e49b095",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
     },
     {
       "id": "sources--formula-workbook-extracted-json",
       "path": "sources/formula-workbook-extracted.json",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "1dbb448b3c64442fdea964792d7e8e67e4ecbf6d593c64cf92b2bad85563debe",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
+      "dependencies": []
+    },
+    {
+      "id": "sources--imports--cover64--MANIFEST-json",
+      "path": "sources/imports/cover64/MANIFEST.json",
+      "tags": [
+        "source_material_or_import_provenance",
+        "sources"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "bdd3e30e860b3e8d5cbaebf6be27110f8aa8bda88ef8e2e00e06326c190d3a77",
+      "status": "source_material_or_import_provenance",
+      "dependencies": []
+    },
+    {
+      "id": "sources--imports--cover64--QA-json",
+      "path": "sources/imports/cover64/QA.json",
+      "tags": [
+        "source_material_or_import_provenance",
+        "sources"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1500d0f4fadeee9007a657aa3bea6baf01d6a2d3bf3e6a966edda42f186adbe5",
+      "status": "source_material_or_import_provenance",
+      "dependencies": []
+    },
+    {
+      "id": "sources--imports--cover64--README-txt",
+      "path": "sources/imports/cover64/README.txt",
+      "tags": [
+        "source_material_or_import_provenance",
+        "sources"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c527bdd80cebef87a5dcbb890316c7311c42dac19d6b0e1ef651c3801b5ddc47",
+      "status": "source_material_or_import_provenance",
+      "dependencies": []
+    },
+    {
+      "id": "sources--imports--cover64--SHA256SUMS-txt",
+      "path": "sources/imports/cover64/SHA256SUMS.txt",
+      "tags": [
+        "source_material_or_import_provenance",
+        "sources"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "204003437dfe422a0751cbcd7fe911688a1bc98ed66406cacda6e9064bf6a5fb",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
     },
     {
       "id": "sources--originals--cover-hooks-original-txt",
       "path": "sources/originals/cover-hooks-original.txt",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "b8d2ea20a0953be768372d21a16db211027f2d3c01208af18babc3bd5e49b095",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
     },
     {
       "id": "sources--originals--douyin-and-short-video-guide-pdf",
       "path": "sources/originals/douyin-and-short-video-guide.pdf",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "f0916d78680035d4007a9971a01cbe413009736d2123bd0d9e1c20ad97ba57b9",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
     },
     {
       "id": "sources--originals--human-nature-formula-cards-2026-09-25-xlsx",
       "path": "sources/originals/human-nature-formula-cards-2026-09-25.xlsx",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "78942dc10b8843da07eec0286e3434e272fd42258fc59b72262472ccc8cde1d0",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
     },
     {
       "id": "sources--originals--title-formulas-original-txt",
       "path": "sources/originals/title-formulas-original.txt",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "585c3cb3e9c59bb1b77022b3c1cb685019b9d5b778fd02e5a00ff8cc75bd58ee",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
     },
     {
       "id": "sources--platform-guide-extracted-json",
       "path": "sources/platform-guide-extracted.json",
       "tags": [
+        "source_material_or_import_provenance",
         "sources"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "0169eaa7f63dfb8c1b113cdf3258ad1db1cd7abb2a2b51a2215e327faa769467",
-      "status": "candidate",
+      "status": "source_material_or_import_provenance",
       "dependencies": []
+    },
+    {
+      "id": "sources-json",
+      "path": "sources.json",
+      "tags": [
+        "protocol_or_reference",
+        "registry"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "4d1fa0d437360d7ce3cc5ee9b93d766d0fcb25dc1ba14155ad875576af51c4f4",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "src--check-cjs",
+      "path": "src/check.cjs",
+      "tags": [
+        "protocol_or_reference",
+        "src"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "24185f1715df1466af65973fd1e9ed6758ed73c876f84e148656e5be4bed4e0b",
+      "status": "protocol_or_reference",
+      "dependencies": [
+        "covers.json",
+        "START.html",
+        "QA.json"
+      ]
+    },
+    {
+      "id": "src--render-cjs",
+      "path": "src/render.cjs",
+      "tags": [
+        "protocol_or_reference",
+        "src"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1fbcbf10e94d1c6b267aa04d0c0bd06a11fb54b92bf346ca1760167153b4994e",
+      "status": "protocol_or_reference",
+      "dependencies": [
+        "covers.json",
+        "assets/photo1.png",
+        "assets/photo2.png",
+        "assets/photo3.png",
+        "assets/photo4.png",
+        "assets/photo5.png",
+        "assets/photo6.png",
+        "fonts/sans.otf",
+        "fonts/sansBold.otf",
+        "fonts/serif.otf",
+        "fonts/serifBold.otf",
+        "fonts/mono.otf"
+      ]
     },
     {
       "id": "templates--case-result-record-json",
       "path": "templates/case-result-record.json",
       "tags": [
+        "protocol_or_reference",
         "templates"
       ],
       "source": "original_protocol_or_research_index",
@@ -639,6 +2161,7 @@
       "id": "templates--new-asset-record-json",
       "path": "templates/new-asset-record.json",
       "tags": [
+        "protocol_or_reference",
         "templates"
       ],
       "source": "original_protocol_or_research_index",
@@ -649,35 +2172,934 @@
       "dependencies": []
     },
     {
+      "id": "thumbs--A01-jpg",
+      "path": "thumbs/A01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "670bef0af034556726d798130de3757a1d0d8b6976511d6e34c6618e850f5a1b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A02-jpg",
+      "path": "thumbs/A02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "f83987861a7254348e4aa1426a8526d083289498c88d4239b77a8482129d571b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A03-jpg",
+      "path": "thumbs/A03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "77aee5c5a835afdc5eff8508a345f9f0ef65b7dbe59a89ba4d31dd1857797155",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A04-jpg",
+      "path": "thumbs/A04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "a6ac767a2bd9486d5f3b8ff8ef17ab44d04b3d7883222e75814785c013cc348b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A05-jpg",
+      "path": "thumbs/A05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "4cbd39c19b507d84259b1a316a02c66cbf215b56f754f7007ce4ebf1d9a59b27",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A06-jpg",
+      "path": "thumbs/A06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "2c73c211e1cd277d29b6d7343550ec7fb0641883112a9d805b28421c5d24ae70",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A07-jpg",
+      "path": "thumbs/A07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "6814aa918df020cc8358c358731d272598525e98e76ff724caf8f3fb27a858f7",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--A08-jpg",
+      "path": "thumbs/A08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "fbfb0117931ed77b27feef724f5c7fa2a1bd3a2d26173b9cb862c8ef8e882820",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B01-jpg",
+      "path": "thumbs/B01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "655f10570868b6e94739947483ee68a30670891ecbfdfefb23918438c20252f0",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B02-jpg",
+      "path": "thumbs/B02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ece37d1ac936cfdb421026917341f366d97d864a81aad820ffc5b81d8d75761d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B03-jpg",
+      "path": "thumbs/B03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c6a8a796c9a2beed88c52ed1cd57a177fccefbe1d6bc9b85bd94b610152d91ed",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B04-jpg",
+      "path": "thumbs/B04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1d4df7967cfccc4fd856269e0eddbc1a72d69a3b2dc050406abf2d17ecff7b16",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B05-jpg",
+      "path": "thumbs/B05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "16fdc4b2103566dce03597e414ed35f64f78118fcb724c06f0fbef44004bd782",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B06-jpg",
+      "path": "thumbs/B06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e2d6afc08904f57f45485ad4af201c64fc12633665156a0576c55b54847d859c",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B07-jpg",
+      "path": "thumbs/B07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "74040d5ec8036583297d58c65fb015fd593a509f762e8679826558f000096f37",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--B08-jpg",
+      "path": "thumbs/B08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "0c5dba92e21b252f5fd4b3c6dca5ffcbf36566f7de64c4ee383dd95f0ff74b68",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C01-jpg",
+      "path": "thumbs/C01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "414666ebd37d3c9bfd677b6fe2187628e0eb0b4631fbe200b0428d5a6c46735d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C02-jpg",
+      "path": "thumbs/C02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "14d1448759d2f59251d07723f0dd01130abbf858757697086260f28cd3777c93",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C03-jpg",
+      "path": "thumbs/C03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1762addbec655b338d74164b9a99aef1fbc7f67e3f3bfae1ad1f5bab634d2a06",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C04-jpg",
+      "path": "thumbs/C04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "8d5e2aabc6fcdc3de436392e602f636ee24630abd79bfacd369a9cba1a115893",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C05-jpg",
+      "path": "thumbs/C05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c7ee5f6e966dabb084f9e460806f34a29375dfe3b4af66f7b8b7b72d311e5f5c",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C06-jpg",
+      "path": "thumbs/C06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e7daf8a54b63fd35311db6ccb90acd00fe157462e7df569a39071295b9ba9bf8",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C07-jpg",
+      "path": "thumbs/C07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "64fe4b1f94802575f2f0045b8673ec2070a4368e777538a5c41d1b7e45e93f14",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--C08-jpg",
+      "path": "thumbs/C08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "90a2aac5a0257ebb6c2cd04ed97cd46bacd0a10d4e22be82daca044ff170d5e0",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D01-jpg",
+      "path": "thumbs/D01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "843f099703e4465c7640c330006e831014f3f0ff885f4c1e60d8eb5957fee1cd",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D02-jpg",
+      "path": "thumbs/D02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e6ecb09fb5fc647dc1bf6c98371d1bb055cc5265848ae4b0e7391c9e16df4534",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D03-jpg",
+      "path": "thumbs/D03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "6493056747ac7668dfcf0e79fa4c05b4dcc8672cb1e6ca1994d7fc7361bed64d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D04-jpg",
+      "path": "thumbs/D04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "fc00b83aa0d4d56085dcbffce0a7f1fc392fe57a402f4dbe708d9ce20471384a",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D05-jpg",
+      "path": "thumbs/D05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "8f29686031c5cd8bed4583d5ecff3aaf2f239373b7291e6770cf0e8b7b7e039e",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D06-jpg",
+      "path": "thumbs/D06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "099c6965b21ece239ed944b00a5daedac8fad2f7b71eaa72e5d2a2ba7ad8c729",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D07-jpg",
+      "path": "thumbs/D07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "9f4fb5e50f0b6f02ec62ba26ef0d0f08347842e9c9aae73db39c6d10bdf05d3d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--D08-jpg",
+      "path": "thumbs/D08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "cbf590b4ebc86e369708f1d07d5e7afc6a5cf010471810d2323158a649cf5f87",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E01-jpg",
+      "path": "thumbs/E01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "13874fd840b5bccefd2660d4315353fe5554603f93a66859239bcccf09a05e8b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E02-jpg",
+      "path": "thumbs/E02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "2e3094e2e8adfc61193fbca8d2da311304dc93c0f9cd38c20c019644d6a63054",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E03-jpg",
+      "path": "thumbs/E03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "670e65a0852d29e87ff706495dee207b8d4174b5f1f3f5fd7e88ae33c54c801f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E04-jpg",
+      "path": "thumbs/E04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "9c1da1e3cbfac7fece0c4d88d510b4311163a2f37ca1fd75f094362013818dde",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E05-jpg",
+      "path": "thumbs/E05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e9ed3615d247acbedb466b4ea73e5071dedb1ddd1cd3a0d9c00675cd4800c176",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E06-jpg",
+      "path": "thumbs/E06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "92387a0ec71bd407353c25ccc5a37067d5263f5b31f9b4437d352c83f04eb310",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E07-jpg",
+      "path": "thumbs/E07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "b58f5e6988bcbeffa96fe6bb76e38473d64cdd14307043bd7a2ba7473ac180f4",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--E08-jpg",
+      "path": "thumbs/E08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "fbf950d0e9327a251a0e615917d1ffe7b5781d017eb1e688a9e7868e90082f6b",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F01-jpg",
+      "path": "thumbs/F01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "d956df196ff13bbe2faafaeacd1fd24a2a30e224b75b07101773187f4967ef9c",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F02-jpg",
+      "path": "thumbs/F02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "9fd3c35c366c44b03a7b7ca65b3a49f1b490315c265b1e5a334dbbf63a74c05e",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F03-jpg",
+      "path": "thumbs/F03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "d7b8db1abfde1f6d18e563ccbe1c9843b835d9f65889ac0cdd3ab331d717c727",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F04-jpg",
+      "path": "thumbs/F04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "fd96271da6e83438878c42522635b417c6a71e8fac0662c6ce9fa2732da991f6",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F05-jpg",
+      "path": "thumbs/F05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1c3986b4cff5975af0445dd4e2752a51368b6861830335c7e105fd236e3b8af6",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F06-jpg",
+      "path": "thumbs/F06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "3a15f053ab5ccf11decf54f3c7d4607505bd8866e545fcbe99617538319bdf86",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F07-jpg",
+      "path": "thumbs/F07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "3d0ad1e11075be8ab1843a55fcdd5069093b8eef361555dc235a7641365a7251",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--F08-jpg",
+      "path": "thumbs/F08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "367e3170f916f3849305c423f8d0842f0dcaae9df88873ceada034321b1d640f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G01-jpg",
+      "path": "thumbs/G01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "b8dfab67d75b63497723149c6f20abaf8fbc9a2db300e202e8da6b0ae1a8e180",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G02-jpg",
+      "path": "thumbs/G02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "238c11e15a94fea08ce27550f1d3267929bb7f484f965919cc26153a836e512c",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G03-jpg",
+      "path": "thumbs/G03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "431669add5e8946a3fcb275e3465f7d739d4c2e5c36d5d59793c1bc9ca9e6f2a",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G04-jpg",
+      "path": "thumbs/G04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "24452789b44dc7a3f2349f9d8d82ad331ea246055a240b7de6efc037cde3d82f",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G05-jpg",
+      "path": "thumbs/G05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "2667d67a44d1cb808b6adcea561704310f3aee340e8058def80228b2ce57a5e5",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G06-jpg",
+      "path": "thumbs/G06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e27d8d77e6f5606966fee778c3d68970d716658bfb559ed5bf7bd7d2a673fb9d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G07-jpg",
+      "path": "thumbs/G07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "f50c54f60735ff11a3187a3da6b9ff832a288dcccf036d5494105319667c0bcf",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--G08-jpg",
+      "path": "thumbs/G08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "b41cb1b1373397c8e049f3a762d5191e76dfa436d3837cdc742f03b4ea831bd9",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H01-jpg",
+      "path": "thumbs/H01.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "93f42a95d983bdd25b039a7da7a7c0b7b4dc2bf5346a739e200d3b0ce906fc44",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H02-jpg",
+      "path": "thumbs/H02.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "40a903919ceab6579af4c206415c08da940cc392609ca87f3fa5c221ca1c830e",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H03-jpg",
+      "path": "thumbs/H03.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "036561fe6738a8588dd0d99b30407516222f0b8ddaa307f961efa2922364e677",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H04-jpg",
+      "path": "thumbs/H04.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "df592679c7093800c256b05747f901c2fa9269d9b0021a4e403f11156ea1920d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H05-jpg",
+      "path": "thumbs/H05.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "5d3c24363762c3b2a1579dae70f1d6095987ebd0ed99a0ec1bd4601b272d9bb9",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H06-jpg",
+      "path": "thumbs/H06.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "5faa16ee1b53bd75cb7281146577e7b6beaec3c1bf134b8aa13dd1f0b896906d",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H07-jpg",
+      "path": "thumbs/H07.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "1ece849dc36813c1b4d24a56a9430d9218504431e9c24f991f8e425376d92543",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
+      "id": "thumbs--H08-jpg",
+      "path": "thumbs/H08.jpg",
+      "tags": [
+        "synthetic_visual_example",
+        "thumbs"
+      ],
+      "source": "user_uploaded_cover64_package",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "c64ae9e7e18bd42bab8f6562c283e7d455f4a68ecdc5ec5ab44a74dbf76bce08",
+      "status": "synthetic_visual_example",
+      "dependencies": []
+    },
+    {
       "id": "titles--candidates-json",
       "path": "titles/candidates.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "titles"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "1977c8e2ef768894d8f0bf3b3355bde260973a4eb5dd420685249c75af4680fc",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "titles--workbook-formulas-candidate-json",
       "path": "titles/workbook-formulas-candidate.json",
       "tags": [
+        "candidate_not_effect_evidence",
         "titles"
       ],
       "source": "user_provided_material",
       "license": "user_supplied_private_use_no_public_license_granted",
       "ref": "manifest_commit",
       "sha256": "726ab35aa7edb95851fc4ad57db3c38c2a742b6c7f30c880f27175737d6ee490",
-      "status": "candidate",
+      "status": "candidate_not_effect_evidence",
       "dependencies": []
     },
     {
       "id": "tools--core-mjs",
       "path": "tools/core.mjs",
       "tags": [
+        "protocol_or_reference",
         "tools"
       ],
       "source": "original_protocol_or_research_index",
@@ -691,6 +3113,7 @@
       "id": "tools--cover_core-mjs",
       "path": "tools/cover_core.mjs",
       "tags": [
+        "protocol_or_reference",
         "tools"
       ],
       "source": "original_protocol_or_research_index",
@@ -701,9 +3124,87 @@
       "dependencies": []
     },
     {
+      "id": "tools--rebuild_manifest-py",
+      "path": "tools/rebuild_manifest.py",
+      "tags": [
+        "protocol_or_reference",
+        "tools"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "ec08685d48fb3627f80860f6a2b46f9c90fc162d328b33b45d35145be4e14f83",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "tools--retrieve-py",
+      "path": "tools/retrieve.py",
+      "tags": [
+        "protocol_or_reference",
+        "tools"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "0a2268c266ddffbc0dc57c6441365b50e6867d23fff24dbd87a3ad4b9605f467",
+      "status": "protocol_or_reference",
+      "dependencies": [
+        "catalog/layout-index.json",
+        "catalog/layout-family-taxonomy.json",
+        "cover-components.json",
+        "hooks/candidates.json",
+        "titles/candidates.json",
+        "formulas/core-formulas.json"
+      ]
+    },
+    {
+      "id": "tools--tests--core-test-mjs",
+      "path": "tools/tests/core.test.mjs",
+      "tags": [
+        "protocol_or_reference",
+        "tools"
+      ],
+      "source": "original_protocol_or_research_index",
+      "license": "private_project_material_no_public_license_declared",
+      "ref": "manifest_commit",
+      "sha256": "07017452a1f4de5c71aa558c4c3705645ba887b0b66132cf392acabe19d87463",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "tools--tests--retrieval_test-py",
+      "path": "tools/tests/retrieval_test.py",
+      "tags": [
+        "protocol_or_reference",
+        "tools"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "7ec2ef0db598abd77d7cb840c3da42e9eb9b055d1fb7a9435408fbbc77e4bf56",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
+      "id": "tools--validate_assets-py",
+      "path": "tools/validate_assets.py",
+      "tags": [
+        "protocol_or_reference",
+        "tools"
+      ],
+      "source": "repository_maintenance",
+      "license": "user_supplied_no_general_reuse_license_granted",
+      "ref": "manifest_commit",
+      "sha256": "e719f774cdfba816f8297dca019805fc6c84839a264530aafcbb2b302e9899c8",
+      "status": "protocol_or_reference",
+      "dependencies": []
+    },
+    {
       "id": "workflow--integrations-md",
       "path": "workflow/integrations.md",
       "tags": [
+        "protocol_or_reference",
         "workflow"
       ],
       "source": "original_protocol_or_research_index",
@@ -717,12 +3218,13 @@
       "id": "workflow--knowledge-md",
       "path": "workflow/knowledge.md",
       "tags": [
+        "protocol_or_reference",
         "workflow"
       ],
       "source": "original_protocol_or_research_index",
       "license": "private_project_material_no_public_license_declared",
       "ref": "manifest_commit",
-      "sha256": "71a332fde249efe0ff80ec2813679886e860f8e984a700c93c561f4246e8b584",
+      "sha256": "625d976544bf3d751fdb23396419af658d8b31e63e6cdabeb57cb1d52fd15c20",
       "status": "protocol_or_reference",
       "dependencies": []
     },
@@ -730,6 +3232,7 @@
       "id": "workflow--platforms-md",
       "path": "workflow/platforms.md",
       "tags": [
+        "protocol_or_reference",
         "workflow"
       ],
       "source": "original_protocol_or_research_index",
@@ -743,6 +3246,7 @@
       "id": "workflow--qa-md",
       "path": "workflow/qa.md",
       "tags": [
+        "protocol_or_reference",
         "workflow"
       ],
       "source": "original_protocol_or_research_index",
@@ -756,6 +3260,7 @@
       "id": "workflow--workflow-md",
       "path": "workflow/workflow.md",
       "tags": [
+        "protocol_or_reference",
         "workflow"
       ],
       "source": "original_protocol_or_research_index",
@@ -764,31 +3269,38 @@
       "sha256": "a09ce0df656f27fc65ac52b0a5a4edc9a0e880fb6cd0df412af5fcd9070a9b1f",
       "status": "protocol_or_reference",
       "dependencies": []
-    },
-    {
-      "id": "tools--tests--core-test-mjs",
-      "path": "tools/tests/core.test.mjs",
-      "tags": [
-        "tools"
-      ],
-      "source": "original_protocol_or_research_index",
-      "license": "private_project_material_no_public_license_declared",
-      "ref": "manifest_commit",
-      "sha256": "07017452a1f4de5c71aa558c4c3705645ba887b0b66132cf392acabe19d87463",
-      "status": "protocol_or_reference",
-      "dependencies": []
     }
   ],
   "activation_source_ref": "e83f925b136fd1db847ca8a36b9e80dc271b0e3a",
   "ref_policy": "manifest_commit_means_consumer_pinned_manifest_ref",
   "control_files_excluded_from_inventory": [
-    "config/knowledge-locator.json"
+    "SHA256SUMS.txt",
+    "config/knowledge-locator.json",
+    "manifest.json"
   ],
   "activation_verification": {
-    "checked_at": "2026-10-27",
+    "checked_at": "2026-11-14",
     "visibility": "public",
     "public_approved_by_user": true,
-    "baseline_hash_sample_files": 9,
-    "full_repository_verified": false
-  }
+    "scope": "full indexed file SHA256 plus 64 PNG decode/dimensions, 64 JPEG decode, HTML local paths and retrieval tests",
+    "platform_client_verified": false,
+    "marketing_effect_verified": false
+  },
+  "updated_at": "2026-11-14",
+  "entrypoints": {
+    "cover_design": "workflow/workflow.md",
+    "knowledge_routing": "workflow/knowledge.md",
+    "asset_groups": "catalog/asset-groups.json",
+    "cover_catalog": "catalog/layout-index.json",
+    "cover_specs": "covers.json",
+    "structure_taxonomy": "catalog/layout-family-taxonomy.json",
+    "decision_components": "cover-components.json",
+    "hooks": "hooks/candidates.json",
+    "titles": "titles/candidates.json",
+    "formulas": "formulas/core-formulas.json",
+    "source_rules": "sources.json",
+    "platform_audit": "platform-audit.json",
+    "integrity": "tools/validate_assets.py"
+  },
+  "integrity_note": "Manifest hashes all indexed content, not itself or control locators. File integrity is separate from platform-client and performance validation."
 }
