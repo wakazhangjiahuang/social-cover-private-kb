@@ -1,0 +1,21 @@
+{
+  "product": "social-cover-studio",
+  "target_version": "1.8.0",
+  "release_status": "CANDIDATE_NOT_PUBLISHED",
+  "baseline": {
+    "skill": "1.7.0",
+    "plugin": "1.7.0",
+    "plugin_id": "Plugin_e4230c540f8481919e2832b93092bf1c",
+    "release_id": "pluginrel_6af74b3d49c88191acc3c3736f82114c"
+  },
+  "knowledge_base": {
+    "repository": "wakazhangjiahuang/social-cover-private-kb",
+    "branch": "upgrade/social-cover-studio-v1.8.0",
+    "manifest_ref": "PENDING_COMMIT",
+    "manifest_sha256": "PENDING_HASH"
+  },
+  "sync_policy": "Same task semantics and contracts across Skill source, plugin entry and fixed KB snapshot; host-specific display metadata may differ.",
+  "atomicity": "Skill, KB and plugin updates are separate operations; do not claim atomic success.",
+  "rollback": "Retain previous plugin release and previous fixed KB locator; restore only from verified compatible snapshot.",
+  "publish_gate": "All P0 traceability items and read-back checks must pass; NOT_RUN, FAIL or BLOCKED are not PASS."
+}
