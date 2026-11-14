@@ -1,0 +1,63 @@
+{
+  "rubric_version": "title-0.1-trial",
+  "status": "TRIAL_NOT_CALIBRATED",
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "人群与意图匹配",
+      "anchor": "对象、入口和问题明确；不以覆盖更多人当更优。"
+    },
+    {
+      "id": "D2",
+      "name": "具体利他价值",
+      "anchor": "收益具体，可指向正文材料。"
+    },
+    {
+      "id": "D3",
+      "name": "钩子与差异",
+      "anchor": "主钩子明确且有信息增量；不靠假内幕。"
+    },
+    {
+      "id": "D4",
+      "name": "清楚与可读",
+      "anchor": "表达短而完整，必要条件可见，缩略图可读。"
+    },
+    {
+      "id": "D5",
+      "name": "语义与关键词相关",
+      "anchor": "主题/问题词自然匹配并记录来源。"
+    },
+    {
+      "id": "D6",
+      "name": "平台与字段分工",
+      "anchor": "符合A观看承诺、B可信分享、C搜索收藏的不同判断任务。"
+    },
+    {
+      "id": "D7",
+      "name": "证据可信与边界",
+      "anchor": "结果、比较、亲历、权威、社会证明和稀缺均可核查。"
+    },
+    {
+      "id": "D8",
+      "name": "内容承接与业务目标",
+      "anchor": "正文兑现承诺，并吸引与目标相符的人。"
+    }
+  ],
+  "score_scale": {
+    "0": "缺失或冲突",
+    "1": "主要问题未解决",
+    "2": "基本成立但表达/依据不足",
+    "3": "清楚、适合且可核查",
+    "4": "相对候选有可解释的明确优势"
+  },
+  "aggregation": {
+    "method": "equal_weight_mean",
+    "scale": 100,
+    "formula": "sum(D1..D8)/(8*4)*100",
+    "round_digits": 2
+  },
+  "hard_gate_precedes_score": true,
+  "missing_dimension": "UNRATED",
+  "not_a_ctr_probability": true,
+  "calibration_requirement": "需要固定金标准、临界样本及独立设计/业务评审；在完成前不得标CALIBRATED。"
+}
