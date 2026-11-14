@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reference asset contract",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "use"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "use": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "composition",
+          "style",
+          "base_layout",
+          "faithful_asset",
+          "platform_capture"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "preserve": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "change": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "avoid": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "asset_kind": {
+      "enum": [
+        "user_owned",
+        "licensed",
+        "third_party_reference",
+        "platform_capture",
+        "unknown"
+      ],
+      "default": "unknown"
+    },
+    "rights_status": {
+      "enum": [
+        "confirmed",
+        "unknown",
+        "restricted"
+      ],
+      "default": "unknown"
+    },
+    "evidence_type": {
+      "enum": [
+        "OBSERVED",
+        "INFERRED",
+        "UNKNOWN"
+      ],
+      "default": "UNKNOWN"
+    }
+  }
+}
