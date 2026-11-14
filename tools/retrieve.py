@@ -37,13 +37,37 @@ def layouts(*,id=None,platform=None,structure=None,family=None,nature=None,query
             'image_check_scope':'file and hash verified at pinned snapshot; verify selected bytes when loading',
             'fallback':None if result else 'Use the requested structure with task assets or original design; do not relabel AI examples as real photos'}
 
-def records(kind,*,id=None,query=None,limit=6):
+def records(kind,*,id=None,query=None,limit=6,include_unreviewed=False):
     path,key=RECORDS[kind];rows=read(path)
     if key:rows=rows[key]
+    review_scope='decision protocol' if kind=='component' else 'editorial/user candidates; validate factual claims before use'
+    if kind in ('title','hook'):
+        try:
+            sidecar=read('catalog/title-hook-metadata.json')
+            metadata={item['id']:item for item in sidecar['items']}
+        except (OSError,KeyError,ValueError,TypeError):
+            return {'kind':kind,'status':'BLOCKED_METADATA_MISSING','total':0,'source_path':path,'records':[],
+                    'scope':'Fail-closed: title/hook metadata sidecar unavailable.'}
+        missing=[row['id'] for row in rows if row['id'] not in metadata]
+        if missing:
+            return {'kind':kind,'status':'BLOCKED_METADATA_INCOMPLETE','total':0,'source_path':path,'records':[],
+                    'missing_metadata_ids':missing[:20],'scope':'Fail-closed: candidate metadata incomplete.'}
+        if include_unreviewed:
+            rows=[dict(row,review_status=metadata[row['id']]['review_status'],
+                       auto_recommend=metadata[row['id']]['auto_recommend'],
+                       performance_status=metadata[row['id']]['performance_status'],
+                       retrieval_scope='UNREVIEWED_TEMPLATE_ONLY' if metadata[row['id']]['review_status']!='APPROVED' else 'APPROVED_CANDIDATE')
+                  for row in rows]
+            review_scope='Explicitly requested templates; unreviewed items are not platform-validated or performance-validated.'
+        else:
+            rows=[dict(row,review_status=metadata[row['id']]['review_status'])
+                  for row in rows if metadata[row['id']]['review_status']=='APPROVED' and metadata[row['id']]['auto_recommend'] is True]
+            review_scope='Approved-only retrieval; pending/unreviewed candidates are excluded by default.'
     found=[row for row in rows if (not id or row['id']==id) and matches(row,query)]
-    return {'kind':kind,'status':'MATCH' if found else 'NO_MATCH','total':len(found),
-            'source_path':path,'records':found[:limit],
-            'scope':'decision protocol' if kind=='component' else 'editorial/user candidates; validate factual claims before use'}
+    status='MATCH' if found else ('NO_APPROVED_MATCH' if kind in ('title','hook') and not include_unreviewed else 'NO_MATCH')
+    fallback='Generate a new candidate from current task facts; do not promote pending records.' if status=='NO_APPROVED_MATCH' else None
+    return {'kind':kind,'status':status,'total':len(found),'source_path':path,'records':found[:limit],
+            'scope':review_scope,'fallback':fallback}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);subs=p.add_subparsers(dest='command',required=True)
