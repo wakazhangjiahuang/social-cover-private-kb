@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4.0",
+  "schema_version": "1.5.0",
   "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
   "updated_at": "2026-11-14",
@@ -14,7 +14,12 @@
     "decision_fields": 179,
     "title_candidates": 225,
     "hooks": 225,
-    "original_core_formulas": 10
+    "original_core_formulas": 10,
+    "title_hook_metadata_records": 450,
+    "title_hook_auto_recommendable": 0,
+    "title_rubric_dimensions": 8,
+    "title_gold_cases": 24,
+    "task_modes": 7
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -29,7 +34,22 @@
     "workflow": "workflow/workflow.md",
     "platform_adapter": "workflow/platforms.md",
     "qa": "workflow/qa.md",
-    "retrieval": "tools/retrieve.py"
+    "retrieval": "tools/retrieve.py",
+    "title_hook_metadata": "catalog/title-hook-metadata.json",
+    "title_workflow": "workflow/title-workflow.md",
+    "constraints": "workflow/constraints-and-prohibitions.md",
+    "task_input_schema": "config/task-input.schema.json",
+    "reference_contract_schema": "config/reference-contract.schema.json",
+    "title_spec_schema": "config/title-spec.schema.json",
+    "title_rubric": "config/title-rubric.json",
+    "platform_evidence_schema": "config/platform-evidence.schema.json",
+    "delivery_evidence_schema": "config/delivery-evidence.schema.json",
+    "traceability": "requirements/traceability.json",
+    "release_manifest": "release/release-manifest.json",
+    "task_router": "tools/task_router.py",
+    "title_core": "tools/title_core.mjs",
+    "image_export_check": "tools/check_image_export.py",
+    "title_gold_cases": "evals/title-gold-cases.jsonl"
   },
   "assets": [
     {
@@ -2545,24 +2565,20 @@
       "dependencies": []
     },
     {
-      "id": "tools--retrieve-py",
+      "id": "tools-retrieve-py",
       "path": "tools/retrieve.py",
-      "sha256": "b854cdae880e3b440dcd4e4839416f771de6f72cdf33cd3a0e5ffce1cb530134",
+      "sha256": "57552f22ab9d3702cef3c4d4c6395304c009f72a910c1b7ec0ecdfefbc43bec1",
       "tags": [
-        "execution_protocol",
-        "tools"
+        "execution_protocol"
       ],
-      "source": "user_supplied_and_repository_maintenance",
-      "license": "source_specific_no_general_reuse_license_inferred",
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
       "ref": "manifest_commit",
-      "status": "execution_protocol",
+      "status": "execution_tool",
       "dependencies": [
-        "catalog/style-index.json",
-        "catalog/layout-index.json",
-        "cover-components.json",
+        "catalog/title-hook-metadata.json",
         "titles/candidates.json",
-        "hooks/candidates.json",
-        "formulas/core-formulas.json"
+        "hooks/candidates.json"
       ]
     },
     {
@@ -2633,6 +2649,205 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "catalog-title-hook-metadata-json",
+      "path": "catalog/title-hook-metadata.json",
+      "sha256": "fa1550a0b5fe79ede7a60a744fc65debb7a221ad84ed4d4aec2b0237505cd63f",
+      "tags": [
+        "retrieval_index",
+        "title_hook_metadata"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": [
+        "titles/candidates.json",
+        "hooks/candidates.json"
+      ]
+    },
+    {
+      "id": "workflow-constraints-and-prohibitions-md",
+      "path": "workflow/constraints-and-prohibitions.md",
+      "sha256": "c1a9dff014f95dadc41df675396228cb08527e482a4a9365b890529b6bfafd91",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow-title-workflow-md",
+      "path": "workflow/title-workflow.md",
+      "sha256": "501f8d5b2e78ff6433b7652efee0cf4eacef4606fecfb904f8170b7f137462b4",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-task-input-schema-json",
+      "path": "config/task-input.schema.json",
+      "sha256": "efbcf4527673f5b70369f22442dd2df692b8813e58e8d457068be29568512904",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-reference-contract-schema-json",
+      "path": "config/reference-contract.schema.json",
+      "sha256": "d7ea5c67366d412c9e96380c057085d28fb233174e7dc6913a1df23f23a88511",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-title-spec-schema-json",
+      "path": "config/title-spec.schema.json",
+      "sha256": "da13b1f1e557b4f5809462f404c75c69739b089da775cfd9dd9fe165365c6156",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-title-rubric-json",
+      "path": "config/title-rubric.json",
+      "sha256": "4e7e6bbd8e19344393257c46a8bc934e015685bfdbe40edaf3e3c31b4b5b2423",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-platform-evidence-schema-json",
+      "path": "config/platform-evidence.schema.json",
+      "sha256": "622ea8e6d2f929a059a2751ee0c7334b62a66dc48a5d5eacf65d6ea3aa7164a4",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-delivery-evidence-schema-json",
+      "path": "config/delivery-evidence.schema.json",
+      "sha256": "b5b200e6a6c594dfa4feb6134b89d8f5f2e8b75cd9fd8f353ae72ea5d4610852",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "requirements-traceability-json",
+      "path": "requirements/traceability.json",
+      "sha256": "86a31d2bdd44f71f4d83c83d124457febb1874f84c04cba8c2cddc6ed0572a37",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "release-release-manifest-json",
+      "path": "release/release-manifest.json",
+      "sha256": "96e6b8da76b97121004a8ba394913ed1130fe64bdb4cf669521622a55f2cd5b1",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "tools-task-router-py",
+      "path": "tools/task_router.py",
+      "sha256": "3a8157105f5ed9f9b4d557e312c518eb58e5c6be13b0313dcd8d3328fdf1f908",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_tool",
+      "dependencies": []
+    },
+    {
+      "id": "tools-title-core-mjs",
+      "path": "tools/title_core.mjs",
+      "sha256": "98896a52fe9111a7d491c37de84813af5c9e99e1f8cd09a64fb074bd9ae81346",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_tool",
+      "dependencies": []
+    },
+    {
+      "id": "tools-check-image-export-py",
+      "path": "tools/check_image_export.py",
+      "sha256": "1792183ab1dba9a2779c683db7787cabe5151bdf7cb36f2c14d5c6eafe467476",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "execution_tool",
+      "dependencies": []
+    },
+    {
+      "id": "evals-title-gold-cases-jsonl",
+      "path": "evals/title-gold-cases.jsonl",
+      "sha256": "c49c544b1bf35c9dbd06eccb1dbebc08cecdcb22689a4e919b321bc8596fdb96",
+      "tags": [
+        "execution_protocol"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained_protocol",
+      "ref": "manifest_commit",
+      "status": "evaluation_fixture",
       "dependencies": []
     }
   ],
