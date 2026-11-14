@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "social-cover-studio task input contract",
+  "type": "object",
+  "required": [
+    "task"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "task": {
+      "enum": [
+        "create",
+        "redesign",
+        "series",
+        "title_only",
+        "analysis",
+        "repair",
+        "review"
+      ]
+    },
+    "platform_modes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "brand_context": {
+      "enum": [
+        "AIC_ENTERPRISE_AI",
+        "SANZANG_DESIGN_STUDIO",
+        "CUSTOM"
+      ]
+    },
+    "audience": {
+      "type": "string"
+    },
+    "action_goal": {
+      "type": "string"
+    },
+    "source_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "layer1": {
+      "type": "object",
+      "properties": {
+        "content_type": {
+          "type": "string",
+          "default": "AUTO"
+        },
+        "primary_motive": {
+          "type": "string",
+          "default": "AUTO"
+        },
+        "secondary_motive": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "commercial_goal": {
+          "type": "string",
+          "default": "AUTO"
+        },
+        "value_origin": {
+          "enum": [
+            "user_locked",
+            "inferred",
+            "AUTO"
+          ],
+          "default": "AUTO"
+        }
+      }
+    },
+    "layer2": {
+      "type": "object",
+      "properties": {
+        "structure": {
+          "type": "string",
+          "default": "AUTO"
+        },
+        "style": {
+          "type": "string",
+          "default": "AUTO"
+        },
+        "visual_route": {
+          "enum": [
+            "AUTO",
+            "person",
+            "product",
+            "artwork",
+            "ui",
+            "diagram",
+            "typography",
+            "scene"
+          ],
+          "default": "AUTO"
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "reference-contract.schema.json"
+      }
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": [
+            "integer",
+            "string"
+          ],
+          "default": "task_scoped_default"
+        },
+        "ratio": {
+          "type": "string",
+          "default": "AUTO"
+        },
+        "pixels": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "format": {
+          "type": "string",
+          "default": "PNG"
+        }
+      }
+    }
+  }
+}
