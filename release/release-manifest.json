@@ -11,8 +11,8 @@
   "knowledge_base": {
     "repository": "wakazhangjiahuang/social-cover-private-kb",
     "branch": "upgrade/social-cover-studio-v1.8.0",
-    "manifest_ref": "PENDING_COMMIT",
-    "manifest_sha256": "PENDING_HASH"
+    "manifest_ref": "PINNED_IN_PLUGIN_ASSETS_KNOWLEDGE_LOCATOR",
+    "manifest_sha256": "PINNED_IN_PLUGIN_ASSETS_KNOWLEDGE_LOCATOR"
   },
   "sync_policy": "Same task semantics and contracts across Skill source, plugin entry and fixed KB snapshot; host-specific display metadata may differ.",
   "atomicity": "Skill, KB and plugin updates are separate operations; do not claim atomic success.",
