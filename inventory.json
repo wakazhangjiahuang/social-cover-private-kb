@@ -31,8 +31,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2950,
-      "sha256": "86c1ddb4cd59ff49ea747ca34eba22c75767914b57617bab6304efe13ed45153",
+      "bytes": 1342,
+      "sha256": "d1aec368930f0c7172f41760ec3eac3bbedf592adac3e94199d05b5caa9f4b99",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -1508,10 +1508,10 @@
     },
     {
       "path": "tools/retrieve.py",
-      "bytes": 5491,
-      "sha256": "b854cdae880e3b440dcd4e4839416f771de6f72cdf33cd3a0e5ffce1cb530134",
-      "role": "execution_protocol",
-      "default_retrieval": true
+      "bytes": 7454,
+      "sha256": "57552f22ab9d3702cef3c4d4c6395304c009f72a910c1b7ec0ecdfefbc43bec1",
+      "role": "execution_tool",
+      "default_retrieval": false
     },
     {
       "path": "tools/tests/core.test.mjs",
@@ -1575,6 +1575,111 @@
       "sha256": "142b42e174b917f84c83e9f47ade86ad2056786d285f407086468658457f8816",
       "role": "execution_protocol",
       "default_retrieval": true
+    },
+    {
+      "path": "catalog/title-hook-metadata.json",
+      "bytes": 155335,
+      "sha256": "fa1550a0b5fe79ede7a60a744fc65debb7a221ad84ed4d4aec2b0237505cd63f",
+      "role": "retrieval_index",
+      "default_retrieval": true
+    },
+    {
+      "path": "workflow/constraints-and-prohibitions.md",
+      "bytes": 4854,
+      "sha256": "c1a9dff014f95dadc41df675396228cb08527e482a4a9365b890529b6bfafd91",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "workflow/title-workflow.md",
+      "bytes": 2380,
+      "sha256": "501f8d5b2e78ff6433b7652efee0cf4eacef4606fecfb904f8170b7f137462b4",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/task-input.schema.json",
+      "bytes": 2755,
+      "sha256": "efbcf4527673f5b70369f22442dd2df692b8813e58e8d457068be29568512904",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/reference-contract.schema.json",
+      "bytes": 1314,
+      "sha256": "d7ea5c67366d412c9e96380c057085d28fb233174e7dc6913a1df23f23a88511",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/title-spec.schema.json",
+      "bytes": 4109,
+      "sha256": "da13b1f1e557b4f5809462f404c75c69739b089da775cfd9dd9fe165365c6156",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/title-rubric.json",
+      "bytes": 1871,
+      "sha256": "4e7e6bbd8e19344393257c46a8bc934e015685bfdbe40edaf3e3c31b4b5b2423",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/platform-evidence.schema.json",
+      "bytes": 1706,
+      "sha256": "622ea8e6d2f929a059a2751ee0c7334b62a66dc48a5d5eacf65d6ea3aa7164a4",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/delivery-evidence.schema.json",
+      "bytes": 2044,
+      "sha256": "b5b200e6a6c594dfa4feb6134b89d8f5f2e8b75cd9fd8f353ae72ea5d4610852",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "requirements/traceability.json",
+      "bytes": 3155,
+      "sha256": "86a31d2bdd44f71f4d83c83d124457febb1874f84c04cba8c2cddc6ed0572a37",
+      "role": "release_evidence",
+      "default_retrieval": false
+    },
+    {
+      "path": "release/release-manifest.json",
+      "bytes": 1021,
+      "sha256": "96e6b8da76b97121004a8ba394913ed1130fe64bdb4cf669521622a55f2cd5b1",
+      "role": "release_evidence",
+      "default_retrieval": false
+    },
+    {
+      "path": "tools/task_router.py",
+      "bytes": 2503,
+      "sha256": "3a8157105f5ed9f9b4d557e312c518eb58e5c6be13b0313dcd8d3328fdf1f908",
+      "role": "execution_tool",
+      "default_retrieval": false
+    },
+    {
+      "path": "tools/title_core.mjs",
+      "bytes": 3162,
+      "sha256": "98896a52fe9111a7d491c37de84813af5c9e99e1f8cd09a64fb074bd9ae81346",
+      "role": "execution_tool",
+      "default_retrieval": false
+    },
+    {
+      "path": "tools/check_image_export.py",
+      "bytes": 2347,
+      "sha256": "1792183ab1dba9a2779c683db7787cabe5151bdf7cb36f2c14d5c6eafe467476",
+      "role": "execution_tool",
+      "default_retrieval": false
+    },
+    {
+      "path": "evals/title-gold-cases.jsonl",
+      "bytes": 9766,
+      "sha256": "c49c544b1bf35c9dbd06eccb1dbebc08cecdcb22689a4e919b321bc8596fdb96",
+      "role": "evaluation_fixture",
+      "default_retrieval": false
     }
   ]
 }
