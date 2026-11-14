@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "platform rule evidence record",
+  "type": "object",
+  "required": [
+    "platform",
+    "business_scope",
+    "content_type",
+    "entry_point",
+    "source_kind",
+    "checked_at",
+    "evidence_status"
+  ],
+  "properties": {
+    "platform": {
+      "enum": [
+        "douyin",
+        "wechat_channels",
+        "xiaohongshu"
+      ]
+    },
+    "business_scope": {
+      "enum": [
+        "ordinary_creator",
+        "merchant",
+        "buyer",
+        "brand",
+        "all_applicable",
+        "unknown"
+      ]
+    },
+    "content_type": {
+      "type": "string"
+    },
+    "entry_point": {
+      "type": "string"
+    },
+    "source_kind": {
+      "enum": [
+        "official_rule",
+        "official_notice",
+        "research",
+        "engineering_observation",
+        "editorial_experience"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "effective_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "checked_at": {
+      "type": "string"
+    },
+    "access_scope": {
+      "enum": [
+        "full_text",
+        "partial_text",
+        "search_snippet",
+        "unavailable",
+        "user_capture"
+      ]
+    },
+    "evidence_status": {
+      "enum": [
+        "VERIFIED",
+        "PARTIAL",
+        "UNKNOWN",
+        "STALE"
+      ]
+    },
+    "supported_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
