@@ -1,0 +1,4512 @@
+{
+  "schema_version": "1.0.0",
+  "policy": "All 450 legacy records remain locatable with stable IDs. None is auto-recommended until an item-level platform, entry, industry, intent, evidence and risk review is recorded. Unreviewed records are inspiration-only when explicitly requested; they are not validated viral examples.",
+  "totals": {
+    "titles": 225,
+    "hooks": 225,
+    "total": 450,
+    "approved_for_auto_recommendation": 0
+  },
+  "items": [
+    {
+      "id": "user-title-001",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-002",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-003",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-004",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-005",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-006",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-007",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-008",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-009",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-010",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-011",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-012",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-013",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-014",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-015",
+      "kind": "title",
+      "category": "01 人群定位标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-016",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-017",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-018",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-019",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-020",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-021",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-022",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-023",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-024",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-025",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-026",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-027",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-028",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-029",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-030",
+      "kind": "title",
+      "category": "02 数字清单标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-031",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-032",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-033",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-034",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-035",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-036",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-037",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-038",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-039",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-040",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-041",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-042",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-043",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-044",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-045",
+      "kind": "title",
+      "category": "03 痛点解决标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-046",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-047",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-048",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-049",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-050",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-051",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-052",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-053",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-054",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-055",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-056",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-057",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-058",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-059",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-060",
+      "kind": "title",
+      "category": "04 悬念提问标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-061",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-062",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-063",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-064",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-065",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-066",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-067",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-068",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-069",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-070",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-071",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-072",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-073",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-074",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-075",
+      "kind": "title",
+      "category": "05 反常识冲突标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-076",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-077",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-078",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-079",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-080",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-081",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-082",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-083",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-084",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-085",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-086",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-087",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-088",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-089",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-090",
+      "kind": "title",
+      "category": "06 成本收益标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-091",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-092",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-093",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-094",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-095",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-096",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-097",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-098",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-099",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-100",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-101",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-102",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-103",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-104",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-105",
+      "kind": "title",
+      "category": "07 教程SOP标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-106",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-107",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-108",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-109",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-110",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-111",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-112",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-113",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-114",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-115",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-116",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-117",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-118",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-119",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-120",
+      "kind": "title",
+      "category": "08 对比测评标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-121",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-122",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-123",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-124",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-125",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-126",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-127",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-128",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-129",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-130",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-131",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-132",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-133",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-134",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-135",
+      "kind": "title",
+      "category": "09 案例复盘标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-136",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-137",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-138",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-139",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-140",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-141",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-142",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-143",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-144",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-145",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-146",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-147",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-148",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-149",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-150",
+      "kind": "title",
+      "category": "10 种草销售标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-151",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-152",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-153",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-154",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-155",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-156",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-157",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-158",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-159",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-160",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-161",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-162",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-163",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-164",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-165",
+      "kind": "title",
+      "category": "11 趋势热点标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-166",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-167",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-168",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-169",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-170",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-171",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-172",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-173",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-174",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-175",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-176",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-177",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-178",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-179",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-180",
+      "kind": "title",
+      "category": "12 心理动机/焦虑转行动标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-181",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-182",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-183",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-184",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-185",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-186",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-187",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-188",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-189",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-190",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-191",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-192",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-193",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-194",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-195",
+      "kind": "title",
+      "category": "13 权威/老板/客户视角标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-196",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-197",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-198",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-199",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-200",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-201",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-202",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-203",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-204",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-205",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-206",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-207",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-208",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-209",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-210",
+      "kind": "title",
+      "category": "14 搜索SEO关键词标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-211",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-212",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-213",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-214",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-215",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-216",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-217",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-218",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-219",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-220",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-221",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-222",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-223",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-224",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-title-225",
+      "kind": "title",
+      "category": "15 互动收藏标题公式",
+      "source": "sources/originals/title-formulas-original.txt",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-001",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-002",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-003",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-004",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-005",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-006",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-007",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-008",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-009",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-010",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-011",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-012",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-013",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-014",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-015",
+      "kind": "hook",
+      "category": "01 自我相关/身份点名钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-016",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-017",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-018",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-019",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-020",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-021",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-022",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-023",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-024",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-025",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-026",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-027",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-028",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-029",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-030",
+      "kind": "hook",
+      "category": "02 痛点焦虑/输在起跑线钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-031",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-032",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-033",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-034",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-035",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-036",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-037",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-038",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-039",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-040",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-041",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-042",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-043",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-044",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-045",
+      "kind": "hook",
+      "category": "03 结果收益/价值承诺钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-046",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-047",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-048",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-049",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-050",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-051",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-052",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-053",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-054",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-055",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-056",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-057",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-058",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-059",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-060",
+      "kind": "hook",
+      "category": "04 低门槛/懒人方案钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-061",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-062",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-063",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-064",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-065",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-066",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-067",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-068",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-069",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-070",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-071",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-072",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-073",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-074",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-075",
+      "kind": "hook",
+      "category": "05 信息差/隐藏规则钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-076",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-077",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-078",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-079",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-080",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-081",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-082",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-083",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-084",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-085",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-086",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-087",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-088",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-089",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-090",
+      "kind": "hook",
+      "category": "06 反常识/认知冲突钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-091",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-092",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-093",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-094",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-095",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-096",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-097",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-098",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-099",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-100",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-101",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-102",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-103",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-104",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-105",
+      "kind": "hook",
+      "category": "07 损失规避/FOMO钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-106",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-107",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-108",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-109",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-110",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-111",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-112",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-113",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-114",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-115",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-116",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-117",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-118",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-119",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-120",
+      "kind": "hook",
+      "category": "08 社会证明/从众对标钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-121",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-122",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-123",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-124",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-125",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-126",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-127",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-128",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-129",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-130",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-131",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-132",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-133",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-134",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-135",
+      "kind": "hook",
+      "category": "09 权威/老板/客户视角钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-136",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-137",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-138",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-139",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-140",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-141",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-142",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-143",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-144",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-145",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-146",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-147",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-148",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-149",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-150",
+      "kind": "hook",
+      "category": "10 清单模板/强收藏钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-151",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-152",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-153",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-154",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-155",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-156",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-157",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-158",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-159",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-160",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-161",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-162",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-163",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-164",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-165",
+      "kind": "hook",
+      "category": "11 教程流程/SOP钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-166",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-167",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-168",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-169",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-170",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-171",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-172",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-173",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-174",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-175",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-176",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-177",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-178",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-179",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-180",
+      "kind": "hook",
+      "category": "12 对比测评/选择决策钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-181",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-182",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-183",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-184",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-185",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-186",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-187",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-188",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-189",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-190",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-191",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-192",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-193",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-194",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-195",
+      "kind": "hook",
+      "category": "13 案例复盘/真实经验钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-196",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-197",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-198",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-199",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-200",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-201",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-202",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-203",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-204",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-205",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-206",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-207",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-208",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-209",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-210",
+      "kind": "hook",
+      "category": "14 种草/硬广转软钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-211",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-212",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-213",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-214",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-215",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-216",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-217",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-218",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-219",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-220",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-221",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-222",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-223",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-224",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    },
+    {
+      "id": "user-hook-225",
+      "kind": "hook",
+      "category": "15 互动诊断/评论转化钩子",
+      "source": "user_uploaded_xhs_ai_cover_hook_knowledge_v2",
+      "review_status": "PENDING_REVIEW",
+      "auto_recommend": false,
+      "evidence_required": true,
+      "performance_status": "UNVERIFIED_NO_ACCOUNT_DATA"
+    }
+  ]
+}
