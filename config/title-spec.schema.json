@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "title and claim evidence contract",
+  "type": "object",
+  "required": [
+    "title_fields",
+    "claims",
+    "keyword_evidence",
+    "hard_gates",
+    "editorial_score"
+  ],
+  "properties": {
+    "title_fields": {
+      "type": "object",
+      "required": [
+        "cover_headline",
+        "cover_subtitle",
+        "platform_title",
+        "description",
+        "topics"
+      ],
+      "properties": {
+        "cover_headline": {
+          "type": "string"
+        },
+        "cover_subtitle": {
+          "type": "string"
+        },
+        "platform_title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "span",
+          "kind",
+          "status"
+        ],
+        "properties": {
+          "span": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "result",
+              "number",
+              "experience",
+              "authority",
+              "social_proof",
+              "scarcity",
+              "comparison",
+              "commercial_relation"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "material_locator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "UNKNOWN"
+            ]
+          },
+          "review_reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "keyword_evidence": {
+      "type": "object",
+      "properties": {
+        "core_query": {
+          "type": "string"
+        },
+        "adopted_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_kind": {
+          "enum": [
+            "LIVE_DATA",
+            "USER_DATA",
+            "OFFICIAL_GUIDE",
+            "SEMANTIC_INFERENCE",
+            "UNKNOWN"
+          ]
+        },
+        "checked_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "volume": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "competition": {
+          "type": [
+            "number",
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "hard_gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "UNKNOWN",
+              "NOT_RUN",
+              "NOT_APPLICABLE",
+              "BLOCKED"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "blocking_scope": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "editorial_score": {
+      "type": "object",
+      "properties": {
+        "rubric_version": {
+          "type": "string"
+        },
+        "dimensions": {
+          "type": "object"
+        },
+        "aggregate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "UNRATED",
+            "TRIAL_RANKED",
+            "CALIBRATED"
+          ]
+        },
+        "not_a_ctr_probability": {
+          "const": true
+        }
+      }
+    }
+  }
+}
