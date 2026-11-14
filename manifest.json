@@ -29,7 +29,8 @@
     "workflow": "workflow/workflow.md",
     "platform_adapter": "workflow/platforms.md",
     "qa": "workflow/qa.md",
-    "retrieval": "tools/retrieve.py"
+    "retrieval": "tools/retrieve.py",
+    "candidate_filter": "tools/candidate_filter.py"
   },
   "assets": [
     {
@@ -1063,7 +1064,7 @@
     {
       "id": "hooks--candidates-json",
       "path": "hooks/candidates.json",
-      "sha256": "f98a42c3f1fd609ed1208a4127b7384a94871652749621309e019d67a2e595e4",
+      "sha256": "6fc157b12aa19abec6570c981e6fd2d01426a5900c81b28281ecc44257b577b7",
       "tags": [
         "candidate_requires_task_evidence",
         "hooks"
@@ -2505,7 +2506,7 @@
     {
       "id": "titles--candidates-json",
       "path": "titles/candidates.json",
-      "sha256": "1977c8e2ef768894d8f0bf3b3355bde260973a4eb5dd420685249c75af4680fc",
+      "sha256": "c6ff1716c373147b7a5de7c0d72c78bb2e625513682d98acae059cb0a5a31566",
       "tags": [
         "candidate_requires_task_evidence",
         "titles"
@@ -2514,6 +2515,20 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "candidate_requires_task_evidence",
+      "dependencies": []
+    },
+    {
+      "id": "tools--candidate_filter-py",
+      "path": "tools/candidate_filter.py",
+      "sha256": "5a2f6d8fd2152ace0e013a294977762f6a617f076bf53022fdf3e6dd9540dd56",
+      "tags": [
+        "execution_protocol",
+        "tools"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
       "dependencies": []
     },
     {
@@ -2547,7 +2562,7 @@
     {
       "id": "tools--retrieve-py",
       "path": "tools/retrieve.py",
-      "sha256": "b854cdae880e3b440dcd4e4839416f771de6f72cdf33cd3a0e5ffce1cb530134",
+      "sha256": "ec5aa6bc4d0ee17b0d83d86aa861a42e330b7070ba6589584ee276a71fba8510",
       "tags": [
         "execution_protocol",
         "tools"
@@ -2557,6 +2572,7 @@
       "ref": "manifest_commit",
       "status": "execution_protocol",
       "dependencies": [
+        "tools/candidate_filter.py",
         "catalog/style-index.json",
         "catalog/layout-index.json",
         "cover-components.json",
@@ -2564,6 +2580,20 @@
         "hooks/candidates.json",
         "formulas/core-formulas.json"
       ]
+    },
+    {
+      "id": "workflow--candidate-applicability-md",
+      "path": "workflow/candidate-applicability.md",
+      "sha256": "91ba736cc87bd2cc967f396b68081245523c4d04d02d85a9eb7b678b2914e847",
+      "tags": [
+        "execution_protocol",
+        "workflow"
+      ],
+      "source": "user_supplied_and_repository_maintenance",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
     },
     {
       "id": "workflow--integrations-md",
@@ -2709,7 +2739,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "4fc9d6c23a077cdfbd1e9b2b2230f7c3ba002d5a808cb083cc388c13408aedaf",
+  "inventory_sha256": "6a37eff08aad08ffd03ee086f2572c5952d06f290dae2ddaccdefa138ebc9aa3",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [

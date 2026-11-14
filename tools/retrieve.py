@@ -3,6 +3,9 @@
 import argparse
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from candidate_filter import select
 
 ROOT=Path(__file__).resolve().parents[1]
 MODES={'A':'douyin','B':'channels','C':'xhs'}
@@ -37,9 +40,15 @@ def layouts(*,id=None,platform=None,structure=None,family=None,nature=None,query
             'image_check_scope':'file and hash verified at pinned snapshot; verify selected bytes when loading',
             'fallback':None if result else 'Use the requested structure with task assets or original design; do not relabel AI examples as real photos'}
 
-def records(kind,*,id=None,query=None,limit=6):
+def records(kind,*,id=None,query=None,limit=6,platform=None,surface=None,industry=None,motive=None,evidence=None,include_unverified=False):
     path,key=RECORDS[kind];rows=read(path)
     if key:rows=rows[key]
+    if kind in {"title","hook"}:
+        result=select(rows,id=id,query=query,limit=limit,platform=platform,surface=surface,
+                      industry=industry,motive=motive,evidence=evidence,include_unverified=include_unverified)
+        return dict(result,kind=kind,source_path=path)
+    if any([platform,surface,industry,motive,evidence is not None,include_unverified]):
+        raise ValueError("applicability filters only support title/hook")
     found=[row for row in rows if (not id or row['id']==id) and matches(row,query)]
     return {'kind':kind,'status':'MATCH' if found else 'NO_MATCH','total':len(found),
             'source_path':path,'records':found[:limit],
@@ -53,6 +62,9 @@ def main():
     a.add_argument('--primary-only',action='store_true');a.add_argument('--query');a.add_argument('--limit',type=int,default=6)
     b=subs.add_parser('record');b.add_argument('--kind',choices=RECORDS,required=True)
     b.add_argument('--id');b.add_argument('--query');b.add_argument('--limit',type=int,default=6)
+    b.add_argument('--platform',choices=MODES);b.add_argument('--surface',choices=['cover_main_title','cover_subtitle','platform_title'])
+    b.add_argument('--industry');b.add_argument('--motive');b.add_argument('--evidence',nargs='*')
+    b.add_argument('--include-unverified',action='store_true')
     c=subs.add_parser('style');c.add_argument('--id');c.add_argument('--query');c.add_argument('--include-prompt',action='store_true');c.add_argument('--limit',type=int,default=6)
     d=subs.add_parser('joint');d.add_argument('--style-id',required=True);d.add_argument('--structure',choices=[f'L{i:02}' for i in range(1,18)],required=True);d.add_argument('--platform',choices=MODES,required=True);d.add_argument('--limit',type=int,default=3)
     args=vars(p.parse_args());cmd=args.pop('command')

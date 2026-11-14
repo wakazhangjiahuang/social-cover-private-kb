@@ -59,4 +59,25 @@ class RetrievalTests(unittest.TestCase):
         m=r.read('manifest.json')
         self.assertFalse(any(x['path'].startswith(('sources/','workbench/','maintenance/','examples/')) for x in m['assets']))
     def test_metadata_stays_inferred(self):self.assertTrue(all(x['metadata_status']=='INFERRED_EDITOR_HINTS' for x in r.styles(limit=30)['records']))
+class CandidateScopeTests(unittest.TestCase):
+    def test_all_450_have_explicit_metadata(self):
+        rows=r.read('titles/candidates.json')+r.read('hooks/candidates.json')['items']
+        self.assertEqual(len(rows),450)
+        for row in rows:
+            a=row['applicability']
+            self.assertEqual(set(a['platforms']),{'A','B','C'})
+            self.assertEqual(set(a['platforms'].values()),{'UNKNOWN'})
+            self.assertTrue(a['evidence_prerequisites'])
+            self.assertFalse(row['validated_viral'])
+    def test_strict_platform_does_not_certify_unknown(self):
+        self.assertEqual(r.records('title',platform='C',id='user-title-001')['total'],0)
+    def test_draft_opt_in_is_labeled(self):
+        x=r.records('title',platform='C',id='user-title-001',include_unverified=True)
+        self.assertEqual(x['total'],1);self.assertFalse(x['records'][0]['platform_certified'])
+    def test_ai_template_not_infant_print(self):
+        self.assertEqual(r.records('title',id='user-title-001',industry='INFANT_PRINT',include_unverified=True)['total'],0)
+    def test_evidence_prerequisite_is_enforced(self):
+        self.assertEqual(r.records('title',id='user-title-001',evidence=[],include_unverified=True)['total'],0)
+    def test_literal_search_does_not_match_metadata_boilerplate(self):
+        self.assertEqual(r.records('title',query='UNKNOWN')['total'],0)
 if __name__=='__main__':unittest.main()

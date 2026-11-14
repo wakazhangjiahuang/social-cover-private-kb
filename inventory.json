@@ -640,8 +640,8 @@
     },
     {
       "path": "hooks/candidates.json",
-      "bytes": 88791,
-      "sha256": "f98a42c3f1fd609ed1208a4127b7384a94871652749621309e019d67a2e595e4",
+      "bytes": 300503,
+      "sha256": "6fc157b12aa19abec6570c981e6fd2d01426a5900c81b28281ecc44257b577b7",
       "role": "candidate_requires_task_evidence",
       "default_retrieval": true
     },
@@ -1480,10 +1480,24 @@
     },
     {
       "path": "titles/candidates.json",
-      "bytes": 80447,
-      "sha256": "1977c8e2ef768894d8f0bf3b3355bde260973a4eb5dd420685249c75af4680fc",
+      "bytes": 278294,
+      "sha256": "c6ff1716c373147b7a5de7c0d72c78bb2e625513682d98acae059cb0a5a31566",
       "role": "candidate_requires_task_evidence",
       "default_retrieval": true
+    },
+    {
+      "path": "tools/candidate_filter.py",
+      "bytes": 1752,
+      "sha256": "5a2f6d8fd2152ace0e013a294977762f6a617f076bf53022fdf3e6dd9540dd56",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "tools/classify_candidates.py",
+      "bytes": 3049,
+      "sha256": "92f587b49ff9e4606d8b6c5fda371c1fbcd39f6a24af2cf179c78f3c88bfd87b",
+      "role": "maintenance_or_offline_view_only",
+      "default_retrieval": false
     },
     {
       "path": "tools/core.mjs",
@@ -1501,15 +1515,15 @@
     },
     {
       "path": "tools/rebuild_manifest.py",
-      "bytes": 4747,
-      "sha256": "379f6ce726ba0165721d3cd4ea8067995dd4cdbaf1fd5a7c037e6c7a326d8875",
+      "bytes": 4850,
+      "sha256": "11bf7b4ba5122207ebbd051e91c1de1d05bc6f255f664bf9c9870460907e8f10",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
     {
       "path": "tools/retrieve.py",
-      "bytes": 5491,
-      "sha256": "b854cdae880e3b440dcd4e4839416f771de6f72cdf33cd3a0e5ffce1cb530134",
+      "bytes": 6439,
+      "sha256": "ec5aa6bc4d0ee17b0d83d86aa861a42e330b7070ba6589584ee276a71fba8510",
       "role": "execution_protocol",
       "default_retrieval": true
     },
@@ -1522,8 +1536,8 @@
     },
     {
       "path": "tools/tests/retrieval_test.py",
-      "bytes": 5049,
-      "sha256": "73bf93189bb52ab585350efc861c94c50fd4e09577267795eaf1dca752736cd2",
+      "bytes": 6435,
+      "sha256": "28eee2f575fd7bfb617e07671de0290760b086aa0b826e42cda16986bad07be2",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -1540,6 +1554,13 @@
       "sha256": "0b886a75168840a405db80fd1df095f1b70f37c1559b87521e395b79cf34c750",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
+    },
+    {
+      "path": "workflow/candidate-applicability.md",
+      "bytes": 822,
+      "sha256": "91ba736cc87bd2cc967f396b68081245523c4d04d02d85a9eb7b678b2914e847",
+      "role": "execution_protocol",
+      "default_retrieval": true
     },
     {
       "path": "workflow/integrations.md",
