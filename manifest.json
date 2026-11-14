@@ -2788,7 +2788,7 @@
     {
       "id": "release-release-manifest-json",
       "path": "release/release-manifest.json",
-      "sha256": "96e6b8da76b97121004a8ba394913ed1130fe64bdb4cf669521622a55f2cd5b1",
+      "sha256": "21788cd7192154e79fb7c6b678a3b40179f32afbad68687c1aa67e0549dcda5a",
       "tags": [
         "execution_protocol"
       ],
