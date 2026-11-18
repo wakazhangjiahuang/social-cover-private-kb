@@ -35,3 +35,12 @@ node --test tools/tests/core.test.mjs
 `sources/originals/`、完整提取稿、`sources.json`、`platform-audit.json`和`research-sources.json`保留来源与日期，仅在任务确需时加载，默认执行索引不收录其长篇正文。未核实数字、平台红线和经验公式不能自动升级为规则。重复的模块拆分、工作簿分表、缺源码的应用配置和过期报告已删除，清理明细见 `maintenance/cleanup-report.json`；历史版本仍可从提交历史取回。
 
 根 `START.html` 保留64款图集；上传的V5离线工作台原件保存在 `workbench/START.html`，供参考查看，不是在线服务。两份HTML及渲染源码不进入默认知识检索。`src/`与`fonts/`用于可选重建；不自动安装应用或部署服务。
+
+
+## 当前封面文案规则｜V4（2026-11-18）
+
+封面主副标题采用独立的当前规则入口：
+- 默认规则：`cover-copy/cover-copy-v4.md`
+- 温泉创作者邀约正向样例：`cover-copy/hot-spring-positive-cases-v1.json`（相关任务按需加载）
+
+旧225条标题、225条钩子与10组公式保留来源和历史ID，仅作可选候选，不是当前封面规则，也不是平台认证或爆款证明。
