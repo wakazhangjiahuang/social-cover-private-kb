@@ -128,9 +128,16 @@
       "default_retrieval": false
     },
     {
+      "path": "cover-copy/illustration-title-cases-v4.json",
+      "bytes": 10921,
+      "sha256": "ff2739d403e225049bc92edbc3b8cd0aa704099df79ab89d6dbcac9bb9861683",
+      "role": "illustration_title_case_atlas",
+      "default_retrieval": false
+    },
+    {
       "path": "cover-copy/README.md",
-      "bytes": 672,
-      "sha256": "777647aec0fb84b999f915c5c83257b8e431e8c4aa4b5049c1ee242e5a3a31dd",
+      "bytes": 837,
+      "sha256": "f7e32ec4a0871369174e01ef55cec23003bf9abbbebb227e75710e4c0fdd0fcb",
       "role": "current_rule_index",
       "default_retrieval": true
     },
@@ -683,7 +690,7 @@
     {
       "path": "README.md",
       "bytes": 3377,
-      "sha256": "e386dc367f26edd82416439083ea8495bd680815feb8350535b58d29ea3ac182",
+      "sha256": "08e87fe3544cf88f48240d34a1991d6b90dc252f6db7fbb39e2eadd98976e5f8",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -1592,8 +1599,8 @@
     },
     {
       "path": "workflow/knowledge.md",
-      "bytes": 2331,
-      "sha256": "683032815eddfc59ce384bc07c4a0cacbdbdbbaf9474e7bd26d2abbac7d71564",
+      "bytes": 2706,
+      "sha256": "70310e29da1ea404df1ba8cc1fffede2ab1b98f9b0e18f401af37dbc3f748e7b",
       "role": "execution_protocol",
       "default_retrieval": true
     },
