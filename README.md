@@ -1,6 +1,6 @@
 # 自媒体封面资产库 · v1.4.0
 
-机器读取从根 `manifest.json` 开始；固定提交与哈希见 `config/knowledge-locator.json`。默认只读执行索引与选中记录，不扫描整个仓库。`inventory.json` 是完整文件校验清单，不是创作知识索引。
+机器读取从根 `manifest.json` 开始；固定提交与哈希见 `config/knowledge-locator.json`。默认只读执行索引与选中记录，不扫描整个仓库。\`inventory.json\` 是完整文件校验清单，不是创作知识索引。
 
 | 层 | 数量 | 唯一内容入口 |
 |---|---:|---|
@@ -34,16 +34,19 @@ node --test tools/tests/core.test.mjs
 
 `sources/originals/`、完整提取稿、`sources.json`、`platform-audit.json`和`research-sources.json`保留来源与日期，仅在任务确需时加载，默认执行索引不收录其长篇正文。未核实数字、平台红线和经验公式不能自动升级为规则。重复的模块拆分、工作簿分表、缺源码的应用配置和过期报告已删除，清理明细见 `maintenance/cleanup-report.json`；历史版本仍可从提交历史取回。
 
-根 `START.html` 保留64款图集；上传的V5离线工作台原件保存在 `workbench/START.html`，供参考查看，不是在线服务。两份HTML及渲染源码不进入默认知识检索。`src/`与`fonts/`用于可选重建；不自动安装应用或部署服务。
+根 `START.html` 保留64款图集；上传的V5离线工作台原件保存在 `workbench/START.html`，供参考查看，不是在线服务。两份HTML及渲染源码不进入默认知识检索。 `src/`与`fonts/`用于可选重建；不自动安装应用或部署服务。
 
-
-## 当前封面文案规则｜V4（2026-11-18）
+## 当前封面文案规则｜V5（2026-11-19）
 
 封面主副标题采用独立的当前规则入口：
-- 默认规则：`cover-copy/cover-copy-v4.md`
+- 默认规则：`cover-copy/cover-copy-v5.md`
 - 温泉创作者邀约正向样例：`cover-copy/hot-spring-positive-cases-v1.json`（相关任务按需加载）
+- 插画标题案例：`cover-copy/illustration-title-cases-v4.json`
+- 三平台18篇插画笔记对照：`cover-copy/illustration-note-alignment-v1.json`
 
-旧225条标题、225条钩子与10组公式保留来源和历史ID，仅作可选候选，不是当前封面规则，也不是平台认证或爆款证明。
+V5强化受众当前任务、具体观看收益、内容差异和点击理由；图片型封面默认主标题≤8、副标题≤8、主副合计≤16个可见字符，主视觉目标≥60%、文字区≤22%。这些是工作室默认设计预算，不是平台官方规则。四项工作指导仅是内部执行方法，不是封面、公司介绍或网页内容。
+
+旧V4规则保留为历史版本；旧225条标题、225条钩子与10组公式仅作可选候选，不是平台认证或爆款证明。
 
 ## 插画标题—笔记正文对照样例
 

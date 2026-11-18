@@ -121,6 +121,13 @@
       "default_retrieval": true
     },
     {
+      "path": "cover-copy/cover-copy-v5.md",
+      "bytes": 8529,
+      "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef",
+      "role": "current_cover_copy_rule",
+      "default_retrieval": true
+    },
+    {
       "path": "cover-copy/hot-spring-positive-cases-v1.json",
       "bytes": 5686,
       "sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
@@ -144,8 +151,8 @@
     },
     {
       "path": "cover-copy/README.md",
-      "bytes": 837,
-      "sha256": "fc88763354e978430ce1279f7d710a67003fe9fbd3277c6bcb5cfad25908143d",
+      "bytes": 1005,
+      "sha256": "f6faa039f1a5fe7efefcb2e12241e3f92f21a36775b9b7d7b084aa86601c6311",
       "role": "current_rule_index",
       "default_retrieval": true
     },
@@ -697,8 +704,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3377,
-      "sha256": "e386dc367f26edd82416439083ea8495bd680815feb8350535b58d29ea3ac182",
+      "bytes": 4424,
+      "sha256": "8d610d6f0673a4d5f361590dde01190be0527c4f12dd968a9cfdbc44a0a54d34",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },

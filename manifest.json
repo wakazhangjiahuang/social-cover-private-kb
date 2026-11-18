@@ -18,7 +18,8 @@
     "cover_copy_rule_sets": 1,
     "hot_spring_positive_cases": 4,
     "illustration_title_cases": 15,
-    "illustration_note_alignment_records": 18
+    "illustration_note_alignment_records": 18,
+    "full_inventory_files": 233
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -36,7 +37,7 @@
     "retrieval": "tools/retrieve.py",
     "candidate_filter": "tools/candidate_filter.py",
     "cover_copy_readme": "cover-copy/README.md",
-    "cover_copy_rules": "cover-copy/cover-copy-v4.md",
+    "cover_copy_rules": "cover-copy/cover-copy-v5.md",
     "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v1.json",
     "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json",
     "illustration_note_alignment": "cover-copy/illustration-note-alignment-v1.json"
@@ -147,15 +148,15 @@
       "dependencies": []
     },
     {
-      "id": "cover-copy-v4-md",
-      "path": "cover-copy/cover-copy-v4.md",
-      "sha256": "064c51e992b92bbd79b3ea2e9701a363e630510c56c913b74d2af632cbaa8273",
+      "id": "cover-copy-v5-md",
+      "path": "cover-copy/cover-copy-v5.md",
+      "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef",
       "tags": [
         "cover_copy",
         "current_rule"
       ],
-      "source": "user_supplied_current_guidance_and_repository_maintenance",
-      "license": "user_supplied_reference; no third_party_reuse_license_inferred",
+      "source": "user_feedback_v5_method_reconstruction_and_repository_maintenance",
+      "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "current_execution_rule",
       "dependencies": []
@@ -203,13 +204,13 @@
       "ref": "manifest_commit",
       "status": "locked_reference_cases_not_fact_or_effect_certification",
       "dependencies": [
-        "cover-copy/cover-copy-v4.md"
+        "cover-copy/cover-copy-v5.md"
       ]
     },
     {
       "id": "cover-copy-readme-md",
       "path": "cover-copy/README.md",
-      "sha256": "f7e32ec4a0871369174e01ef55cec23003bf9abbbebb227e75710e4c0fdd0fcb",
+      "sha256": "f6faa039f1a5fe7efefcb2e12241e3f92f21a36775b9b7d7b084aa86601c6311",
       "tags": [
         "cover_copy",
         "retrieval_index"
@@ -2753,9 +2754,30 @@
   ],
   "reference_only": [
     {
+      "id": "cover-copy-v4-md",
+      "path": "cover-copy/cover-copy-v4.md",
+      "sha256": "064c51e992b92bbd79b3ea2e9701a363e630510c56c913b74d2af632cbaa8273",
+      "tags": [
+        "cover_copy",
+        "historical_rule"
+      ],
+      "source": "user_supplied_current_guidance_and_repository_maintenance",
+      "license": "user_supplied_reference; no third_party_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "historical_rule_not_default",
+      "dependencies": []
+    },
+    {
       "path": "platform-audit.json",
       "bytes": 10066,
       "sha256": "53ea80a721193d676f2b125b045d81e5caddcd19682cc498c2ae5286c7f48d9f",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "research-sources.json",
+      "bytes": 2446,
+      "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b",
       "role": "reference_only_source_not_current_rule",
       "default_retrieval": false
     },
@@ -2767,9 +2789,9 @@
       "default_retrieval": false
     },
     {
-      "path": "research-sources.json",
-      "bytes": 2446,
-      "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b",
+      "path": "sources.json",
+      "bytes": 6699,
+      "sha256": "4d1fa0d437360d7ce3cc5ee9b93d766d0fcb25dc1ba14155ad875576af51c4f4",
       "role": "reference_only_source_not_current_rule",
       "default_retrieval": false
     },
@@ -2814,17 +2836,10 @@
       "sha256": "0169eaa7f63dfb8c1b113cdf3258ad1db1cd7abb2a2b51a2215e327faa769467",
       "role": "reference_only_source_not_current_rule",
       "default_retrieval": false
-    },
-    {
-      "path": "sources.json",
-      "bytes": 6699,
-      "sha256": "4d1fa0d437360d7ce3cc5ee9b93d766d0fcb25dc1ba14155ad875576af51c4f4",
-      "role": "reference_only_source_not_current_rule",
-      "default_retrieval": false
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "c8500861dcee59299ae2781cb52fe1d175759467e34be66e15adcb3c29973279",
+  "inventory_sha256": "54a4c1c966ed96a88efb05c36b656acc366a71d6c580f3847704b137584a56f5",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
