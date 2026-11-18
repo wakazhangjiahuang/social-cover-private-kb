@@ -2,7 +2,7 @@
   "schema_version": "1.4.0",
   "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "counts": {
     "visual_styles": 18,
     "cover_png": 64,
@@ -17,7 +17,8 @@
     "original_core_formulas": 10,
     "cover_copy_rule_sets": 1,
     "hot_spring_positive_cases": 4,
-    "illustration_title_cases": 15
+    "illustration_title_cases": 15,
+    "illustration_note_alignment_records": 18
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -37,7 +38,8 @@
     "cover_copy_readme": "cover-copy/README.md",
     "cover_copy_rules": "cover-copy/cover-copy-v4.md",
     "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v1.json",
-    "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json"
+    "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json",
+    "illustration_note_alignment": "cover-copy/illustration-note-alignment-v1.json"
   },
   "assets": [
     {
@@ -170,6 +172,21 @@
       "license": "user_supplied_reference; no third_party_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "user_approved_reference_not_performance_proof",
+      "dependencies": []
+    },
+    {
+      "id": "illustration-note-alignment-v1",
+      "path": "cover-copy/illustration-note-alignment-v1.json",
+      "sha256": "267b6d098fc0cd35b4524d85b3b86a54d544329ae9fe67e4018463cea28c93ca",
+      "tags": [
+        "cover_copy",
+        "illustration",
+        "note_body_alignment"
+      ],
+      "source": "user_supplied_workbook_illustration_spoken_18_latest_standard_sample_2026-11-18",
+      "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "current_script_reference_not_performance_proof",
       "dependencies": []
     },
     {
@@ -2807,7 +2824,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "cca78c3f36b2e6646e2aebd44dbe92494b1801470f8ae73e4275f5ff9a1a26b6",
+  "inventory_sha256": "c8500861dcee59299ae2781cb52fe1d175759467e34be66e15adcb3c29973279",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
