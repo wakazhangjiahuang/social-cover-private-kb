@@ -5,18 +5,18 @@
   "visibility": "public",
   "public_approved_by_user": true,
   "manifest_path": "manifest.json",
-  "manifest_ref": "de9cd9e0ff88d80b665a1c65a5da6021a6ea972a",
-  "manifest_sha256": "1d5b1dd737f00cecda779b70a229661ab830604bc6ae891c7aaf02050259382b",
+  "manifest_ref": "daaee60bdba9bb7bc7d916d234c2bb6d72fd495b",
+  "manifest_sha256": "7399cb82e5348311a6912a6d023f0d3b636145eab9894ff3e4b86b41ad5b1600",
   "inventory_path": "inventory.json",
-  "inventory_sha256": "0b2d4ac042a6dbbaacde6bebb37c465984f81808cefeadc17999970c38d62574",
+  "inventory_sha256": "cca78c3f36b2e6646e2aebd44dbe92494b1801470f8ae73e4275f5ff9a1a26b6",
   "catalog_index_path": "catalog/layout-index.json",
   "catalog_index_sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c",
   "style_index_path": "catalog/style-index.json",
   "style_index_sha256": "7823e14b2bbfd76b3193511c757902f881f897f55961cc897dc33c35dc0984ae",
   "last_check": "2026-11-18",
   "verification": {
-    "indexed_execution_assets": 190,
-    "full_inventory_files": 230,
+    "indexed_execution_assets": 191,
+    "full_inventory_files": 231,
     "cover_png": 64,
     "cover_thumbnails": 64,
     "visual_styles": 18,
@@ -26,14 +26,17 @@
     "deleted_invalid_or_duplicate_paths_verified_absent": 63,
     "scope": "file integrity, current cover-copy rules and scoped retrieval; no inherited marketing PASS",
     "candidate_records_with_scoped_metadata": 450,
-    "hot_spring_positive_cases": 4
+    "hot_spring_positive_cases": 4,
+    "illustration_title_cases": 15
   },
   "cover_copy": {
     "rules_path": "cover-copy/cover-copy-v4.md",
     "rules_sha256": "064c51e992b92bbd79b3ea2e9701a363e630510c56c913b74d2af632cbaa8273",
     "positive_cases_path": "cover-copy/hot-spring-positive-cases-v1.json",
     "positive_cases_sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
-    "status": "CURRENT_V4_RULES_AND_USER_APPROVED_REFERENCES_NOT_EFFECT_PROOF"
+    "status": "CURRENT_V4_RULES_PLUS_15_ILLUSTRATION_CASES_AND_4_HOT_SPRING_POSITIVE_REFERENCES_NOT_EFFECT_PROOF",
+    "illustration_cases_path": "cover-copy/illustration-title-cases-v4.json",
+    "illustration_cases_sha256": "ff2739d403e225049bc92edbc3b8cd0aa704099df79ab89d6dbcac9bb9861683"
   },
-  "note": "Fixed verified KB snapshot. Runtime manifest is separate from full inventory; no floating main fallback. V4 cover-copy rules are the default; old title/hook/formula candidates are optional historical candidates only."
+  "note": "Fixed verified KB snapshot. Runtime manifest is separate from full inventory; no floating main fallback. V4 cover-copy rules are the default; 15 illustration title cases and four user-approved hot-spring references are task-scoped; old title/hook/formula candidates are optional historical candidates only."
 }
