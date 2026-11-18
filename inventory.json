@@ -128,6 +128,14 @@
       "default_retrieval": false
     },
     {
+      "path": "cover-copy/illustration-note-alignment-v1.json",
+      "bytes": 107441,
+      "sha256": "267b6d098fc0cd35b4524d85b3b86a54d544329ae9fe67e4018463cea28c93ca",
+      "role": "illustration_cover_note_body_alignment_reference",
+      "default_retrieval": false,
+      "conditional_retrieval": "illustration cover-title tasks only"
+    },
+    {
       "path": "cover-copy/illustration-title-cases-v4.json",
       "bytes": 10921,
       "sha256": "27fedb8fe4dff6618d00adf32e428b8b6cb100a7d77b7b1afef002b80956c711",
