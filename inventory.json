@@ -23,27 +23,6 @@
       "default_retrieval": false
     },
     {
-      "path": "QA.json",
-      "bytes": 1060,
-      "sha256": "c07fcf08c709e2badad8aa41974a4f6e3d713f2a1ab467c9efddc357e8246126",
-      "role": "maintenance_or_offline_view_only",
-      "default_retrieval": false
-    },
-    {
-      "path": "README.md",
-      "bytes": 2950,
-      "sha256": "86c1ddb4cd59ff49ea747ca34eba22c75767914b57617bab6304efe13ed45153",
-      "role": "maintenance_or_offline_view_only",
-      "default_retrieval": false
-    },
-    {
-      "path": "START.html",
-      "bytes": 249855,
-      "sha256": "38f95ecc726fb600b79d10fa87948c7c47aea82109eff7f6a2dff35c4adda854",
-      "role": "maintenance_or_offline_view_only",
-      "default_retrieval": false
-    },
-    {
       "path": "assets/photo1.png",
       "bytes": 1446371,
       "sha256": "c737229b2774ce0b5e45084bf2229959202542e34b5268d049656b38513f9651",
@@ -131,6 +110,34 @@
       "path": "cover-components.json",
       "bytes": 17142,
       "sha256": "22e1f20fc0436ca6cdebb0224b3f373202052a67bcd62a1941af4288323cd252",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "cover-copy/cover-copy-v4.md",
+      "bytes": 6284,
+      "sha256": "064c51e992b92bbd79b3ea2e9701a363e630510c56c913b74d2af632cbaa8273",
+      "role": "current_cover_copy_rule",
+      "default_retrieval": true
+    },
+    {
+      "path": "cover-copy/hot-spring-positive-cases-v1.json",
+      "bytes": 5686,
+      "sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
+      "role": "user_approved_industry_positive_examples_not_effect_proof",
+      "default_retrieval": false
+    },
+    {
+      "path": "cover-copy/README.md",
+      "bytes": 672,
+      "sha256": "777647aec0fb84b999f915c5c83257b8e431e8c4aa4b5049c1ee242e5a3a31dd",
+      "role": "current_rule_index",
+      "default_retrieval": true
+    },
+    {
+      "path": "covers.json",
+      "bytes": 327498,
+      "sha256": "1f8f5cc13f3c4fb0049f0a41556b89005a6e8e20348a8646d4452b774cd64a02",
       "role": "execution_protocol",
       "default_retrieval": true
     },
@@ -583,23 +590,16 @@
       "default_retrieval": true
     },
     {
-      "path": "covers.json",
-      "bytes": 327498,
-      "sha256": "1f8f5cc13f3c4fb0049f0a41556b89005a6e8e20348a8646d4452b774cd64a02",
-      "role": "execution_protocol",
-      "default_retrieval": true
+      "path": "fonts/mono.otf",
+      "bytes": 265152,
+      "sha256": "7873f6fe2ba05d6d457103121882f4cb056a0bdbf4d59f1b17337c36c7b21bf0",
+      "role": "maintenance_or_offline_view_only",
+      "default_retrieval": false
     },
     {
       "path": "fonts/OFL-and-copyright.txt",
       "bytes": 14712,
       "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
-      "role": "maintenance_or_offline_view_only",
-      "default_retrieval": false
-    },
-    {
-      "path": "fonts/mono.otf",
-      "bytes": 265152,
-      "sha256": "7873f6fe2ba05d6d457103121882f4cb056a0bdbf4d59f1b17337c36c7b21bf0",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -674,6 +674,27 @@
       "default_retrieval": false
     },
     {
+      "path": "QA.json",
+      "bytes": 1060,
+      "sha256": "c07fcf08c709e2badad8aa41974a4f6e3d713f2a1ab467c9efddc357e8246126",
+      "role": "maintenance_or_offline_view_only",
+      "default_retrieval": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 3377,
+      "sha256": "e386dc367f26edd82416439083ea8495bd680815feb8350535b58d29ea3ac182",
+      "role": "maintenance_or_offline_view_only",
+      "default_retrieval": false
+    },
+    {
+      "path": "research-sources.json",
+      "bytes": 2446,
+      "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b",
+      "role": "reference_only_source_not_current_rule",
+      "default_retrieval": false
+    },
+    {
       "path": "research/REUSE_AND_LICENSE.md",
       "bytes": 676,
       "sha256": "bb7a58ecd612e7a01989ca4be684f60341efcf3d16c4a9b1b0a833be913fe267",
@@ -681,9 +702,9 @@
       "default_retrieval": false
     },
     {
-      "path": "research-sources.json",
-      "bytes": 2446,
-      "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b",
+      "path": "sources.json",
+      "bytes": 6699,
+      "sha256": "4d1fa0d437360d7ce3cc5ee9b93d766d0fcb25dc1ba14155ad875576af51c4f4",
       "role": "reference_only_source_not_current_rule",
       "default_retrieval": false
     },
@@ -730,13 +751,6 @@
       "default_retrieval": false
     },
     {
-      "path": "sources.json",
-      "bytes": 6699,
-      "sha256": "4d1fa0d437360d7ce3cc5ee9b93d766d0fcb25dc1ba14155ad875576af51c4f4",
-      "role": "reference_only_source_not_current_rule",
-      "default_retrieval": false
-    },
-    {
       "path": "src/check.cjs",
       "bytes": 3016,
       "sha256": "24185f1715df1466af65973fd1e9ed6758ed73c876f84e148656e5be4bed4e0b",
@@ -747,6 +761,13 @@
       "path": "src/render.cjs",
       "bytes": 19232,
       "sha256": "1fbcbf10e94d1c6b267aa04d0c0bd06a11fb54b92bf346ca1760167153b4994e",
+      "role": "maintenance_or_offline_view_only",
+      "default_retrieval": false
+    },
+    {
+      "path": "START.html",
+      "bytes": 249855,
+      "sha256": "38f95ecc726fb600b79d10fa87948c7c47aea82109eff7f6a2dff35c4adda854",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -1571,8 +1592,8 @@
     },
     {
       "path": "workflow/knowledge.md",
-      "bytes": 1645,
-      "sha256": "eafc5fd4232355764c8d47b2c43242e3609ad6dc04f0467d2a9199157b404d72",
+      "bytes": 2331,
+      "sha256": "683032815eddfc59ce384bc07c4a0cacbdbdbbaf9474e7bd26d2abbac7d71564",
       "role": "execution_protocol",
       "default_retrieval": true
     },
@@ -1592,8 +1613,8 @@
     },
     {
       "path": "workflow/workflow.md",
-      "bytes": 1823,
-      "sha256": "142b42e174b917f84c83e9f47ade86ad2056786d285f407086468658457f8816",
+      "bytes": 2325,
+      "sha256": "ccabccbecc679fe705d41a540d5d4e8e3ffddfa893ae36a3d6546159009cfac1",
       "role": "execution_protocol",
       "default_retrieval": true
     }
