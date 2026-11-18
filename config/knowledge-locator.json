@@ -10,7 +10,7 @@
   "inventory_path": "inventory.json",
   "inventory_sha256": "0b2d4ac042a6dbbaacde6bebb37c465984f81808cefeadc17999970c38d62574",
   "catalog_index_path": "catalog/layout-index.json",
-  "catalog_index_sha256": "0321fb828690762058c051942da31df76e8bd3a8852ca60c",
+  "catalog_index_sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c",
   "style_index_path": "catalog/style-index.json",
   "style_index_sha256": "7823e14b2bbfd76b3193511c757902f881f897f55961cc897dc33c35dc0984ae",
   "last_check": "2026-11-18",
