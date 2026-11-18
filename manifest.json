@@ -16,7 +16,8 @@
     "hooks": 225,
     "original_core_formulas": 10,
     "cover_copy_rule_sets": 1,
-    "hot_spring_positive_cases": 4
+    "hot_spring_positive_cases": 4,
+    "illustration_title_cases": 15
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -35,7 +36,8 @@
     "candidate_filter": "tools/candidate_filter.py",
     "cover_copy_readme": "cover-copy/README.md",
     "cover_copy_rules": "cover-copy/cover-copy-v4.md",
-    "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v1.json"
+    "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v1.json",
+    "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json"
   },
   "assets": [
     {
@@ -171,9 +173,26 @@
       "dependencies": []
     },
     {
+      "id": "cover-copy-illustration-title-cases-v4-json",
+      "path": "cover-copy/illustration-title-cases-v4.json",
+      "sha256": "ff2739d403e225049bc92edbc3b8cd0aa704099df79ab89d6dbcac9bb9861683",
+      "tags": [
+        "cover_copy",
+        "illustration",
+        "locked_title_cases"
+      ],
+      "source": "current_social_cover_studio_skill_title_case_atlas_and_user_supplied_v4_guidance",
+      "license": "user_supplied_reference; no third_party_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "locked_reference_cases_not_fact_or_effect_certification",
+      "dependencies": [
+        "cover-copy/cover-copy-v4.md"
+      ]
+    },
+    {
       "id": "cover-copy-readme-md",
       "path": "cover-copy/README.md",
-      "sha256": "777647aec0fb84b999f915c5c83257b8e431e8c4aa4b5049c1ee242e5a3a31dd",
+      "sha256": "f7e32ec4a0871369174e01ef55cec23003bf9abbbebb227e75710e4c0fdd0fcb",
       "tags": [
         "cover_copy",
         "retrieval_index"
@@ -2661,7 +2680,7 @@
     {
       "id": "workflow--knowledge-md",
       "path": "workflow/knowledge.md",
-      "sha256": "683032815eddfc59ce384bc07c4a0cacbdbdbbaf9474e7bd26d2abbac7d71564",
+      "sha256": "70310e29da1ea404df1ba8cc1fffede2ab1b98f9b0e18f401af37dbc3f748e7b",
       "tags": [
         "execution_protocol",
         "workflow"
@@ -2788,7 +2807,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "0b2d4ac042a6dbbaacde6bebb37c465984f81808cefeadc17999970c38d62574",
+  "inventory_sha256": "cca78c3f36b2e6646e2aebd44dbe92494b1801470f8ae73e4275f5ff9a1a26b6",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
