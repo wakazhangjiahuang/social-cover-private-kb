@@ -5,18 +5,18 @@
   "visibility": "public",
   "public_approved_by_user": true,
   "manifest_path": "manifest.json",
-  "manifest_ref": "e121a6d818986b918d71d013162acc4805b4a6b6",
-  "manifest_sha256": "1d814230bab34c6b3a72cf7d210d419ee5ac5ba52a985495954b79993ab4cbe0",
+  "manifest_ref": "de9cd9e0ff88d80b665a1c65a5da6021a6ea972a",
+  "manifest_sha256": "1d5b1dd737f00cecda779b70a229661ab830604bc6ae891c7aaf02050259382b",
   "inventory_path": "inventory.json",
-  "inventory_sha256": "6a37eff08aad08ffd03ee086f2572c5952d06f290dae2ddaccdefa138ebc9aa3",
+  "inventory_sha256": "0b2d4ac042a6dbbaacde6bebb37c465984f81808cefeadc17999970c38d62574",
   "catalog_index_path": "catalog/layout-index.json",
-  "catalog_index_sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c",
+  "catalog_index_sha256": "0321fb828690762058c051942da31df76e8bd3a8852ca60c",
   "style_index_path": "catalog/style-index.json",
   "style_index_sha256": "7823e14b2bbfd76b3193511c757902f881f897f55961cc897dc33c35dc0984ae",
-  "last_check": "2026-11-14",
+  "last_check": "2026-11-18",
   "verification": {
-    "indexed_execution_assets": 187,
-    "full_inventory_files": 227,
+    "indexed_execution_assets": 190,
+    "full_inventory_files": 230,
     "cover_png": 64,
     "cover_thumbnails": 64,
     "visual_styles": 18,
@@ -24,8 +24,16 @@
     "retrieval_tests_passed": 37,
     "core_rule_tests_passed": 5,
     "deleted_invalid_or_duplicate_paths_verified_absent": 63,
-    "scope": "asset file integrity and scoped retrieval; no inherited application or marketing PASS",
-    "candidate_records_with_scoped_metadata": 450
+    "scope": "file integrity, current cover-copy rules and scoped retrieval; no inherited marketing PASS",
+    "candidate_records_with_scoped_metadata": 450,
+    "hot_spring_positive_cases": 4
   },
-  "note": "Fixed verified KB snapshot. Runtime manifest is separate from full inventory; no floating main fallback."
+  "cover_copy": {
+    "rules_path": "cover-copy/cover-copy-v4.md",
+    "rules_sha256": "064c51e992b92bbd79b3ea2e9701a363e630510c56c913b74d2af632cbaa8273",
+    "positive_cases_path": "cover-copy/hot-spring-positive-cases-v1.json",
+    "positive_cases_sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
+    "status": "CURRENT_V4_RULES_AND_USER_APPROVED_REFERENCES_NOT_EFFECT_PROOF"
+  },
+  "note": "Fixed verified KB snapshot. Runtime manifest is separate from full inventory; no floating main fallback. V4 cover-copy rules are the default; old title/hook/formula candidates are optional historical candidates only."
 }
