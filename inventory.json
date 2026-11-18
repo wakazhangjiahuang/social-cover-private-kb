@@ -129,8 +129,8 @@
     },
     {
       "path": "cover-copy/cover-copy-v6.md",
-      "bytes": 6222,
-      "sha256": "11158d554bde0a9db611655e0d19339bfdf13bb4945414b0a38879e74b2e5cfd",
+      "bytes": 6220,
+      "sha256": "80fcf5a6634933f7ea1b401725fd78ecade3a5af1b7caeadb447530b408905f1",
       "role": "current_cover_copy_rule",
       "default_retrieval": true
     },

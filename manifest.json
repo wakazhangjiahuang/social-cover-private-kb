@@ -150,7 +150,7 @@
     {
       "id": "cover-copy-v6-md",
       "path": "cover-copy/cover-copy-v6.md",
-      "sha256": "11158d554bde0a9db611655e0d19339bfdf13bb4945414b0a38879e74b2e5cfd",
+      "sha256": "80fcf5a6634933f7ea1b401725fd78ecade3a5af1b7caeadb447530b408905f1",
       "tags": [
         "cover_copy",
         "current_rule"
@@ -2871,7 +2871,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "3d279b2c9f4c3e44d8f0b96d4a4531a1257255a035e2f8410dec72261edc4006",
+  "inventory_sha256": "50b9af33f9d09e70ec4d4101e173beb55831922d06dfffaa37c4fbd61295042c",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
