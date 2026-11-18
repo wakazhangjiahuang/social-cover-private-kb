@@ -130,14 +130,14 @@
     {
       "path": "cover-copy/illustration-title-cases-v4.json",
       "bytes": 10921,
-      "sha256": "ff2739d403e225049bc92edbc3b8cd0aa704099df79ab89d6dbcac9bb9861683",
+      "sha256": "27fedb8fe4dff6618d00adf32e428b8b6cb100a7d77b7b1afef002b80956c711",
       "role": "illustration_title_case_atlas",
       "default_retrieval": false
     },
     {
       "path": "cover-copy/README.md",
       "bytes": 837,
-      "sha256": "f7e32ec4a0871369174e01ef55cec23003bf9abbbebb227e75710e4c0fdd0fcb",
+      "sha256": "fc88763354e978430ce1279f7d710a67003fe9fbd3277c6bcb5cfad25908143d",
       "role": "current_rule_index",
       "default_retrieval": true
     },
@@ -690,7 +690,7 @@
     {
       "path": "README.md",
       "bytes": 3377,
-      "sha256": "08e87fe3544cf88f48240d34a1991d6b90dc252f6db7fbb39e2eadd98976e5f8",
+      "sha256": "e386dc367f26edd82416439083ea8495bd680815feb8350535b58d29ea3ac182",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -1600,7 +1600,7 @@
     {
       "path": "workflow/knowledge.md",
       "bytes": 2706,
-      "sha256": "70310e29da1ea404df1ba8cc1fffede2ab1b98f9b0e18f401af37dbc3f748e7b",
+      "sha256": "3e5a293dff9236cc324f5da64a4eb9333a2f2e01df7664573309ffbf71f702d5",
       "role": "execution_protocol",
       "default_retrieval": true
     },
