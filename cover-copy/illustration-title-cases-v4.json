@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "status": "LOCKED_REFERENCE_CASES_NOT_FACT_OR_EFFECT_CERTIFICATION",
+  "scope": "15组插画赛道封面主副标题定稿；含观众价值、表达机制、成立条件和失效条件。只作标题判断样例，不代表订单、授权、市场排名或营销效果已独立核实。",
+  "source_documents": [
+    {
+      "name": "三平台封面标题_新版(3).docx",
+      "sha256": "feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde"
+    },
+    {
+      "name": "自媒体封面标题+副标题(4).txt",
+      "sha256": "78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612"
+    },
+    {
+      "name": "爆款封面标题与副标题创作指导B版(2).txt",
+      "sha256": "f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140"
+    }
+  ],
+  "source_plugin_atlas_version": "1.9.0",
+  "cases": [
+    {
+      "id": "XHS-AC01",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "DIY复古笔刷上外单啦！",
+      "subtitle": "美国浴巾单｜入账305刀",
+      "value": "同行能看到日常工具进入海外原创项目的具体案例。",
+      "mechanism": "熟悉的工具加期待结果；副标题给国家、交付物与金额。",
+      "conditions": "有真实委托与收入材料，并说明工具怎样参与作品制作。",
+      "failure_conditions": "只展示收入，不展示作品与过程；把工具和成交硬说成因果。",
+      "counts": {
+        "main": 12,
+        "subtitle": 12
+      }
+    },
+    {
+      "id": "XHS-AC02",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "马来西亚商单｜原创小鸭",
+      "subtitle": "客户选中｜角色到印花系列",
+      "value": "原创动物角色怎样变成可交付的商业印花系列。",
+      "mechanism": "具名市场加商业事件；副标题给从单体到系列的路径。",
+      "conditions": "展示选稿与系列变化，说明客户要求和设计取舍。",
+      "failure_conditions": "只有成稿展示，没有回答怎样从角色发展成系列。",
+      "counts": {
+        "main": 11,
+        "subtitle": 12
+      }
+    },
+    {
+      "id": "XHS-AC04",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "婴童|家纺-新商机",
+      "subtitle": "2027SS欧洲花卉趋势",
+      "value": "为下一季产品研究和原创试稿提供方向。",
+      "mechanism": "行业认领加机会预期；时间、市场、花卉把宽口径落具体。",
+      "conditions": "有来源、有适配判断，能指出什么值得研究及为何。",
+      "failure_conditions": "把展会趋势直接说成采购订单，或泛泛转发趋势图片。",
+      "counts": {
+        "main": 9,
+        "subtitle": 12
+      }
+    },
+    {
+      "id": "XHS-AC05",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "日本Z世代爱🐶|🐱|🐰？",
+      "subtitle": "Esther Bunny调查居首",
+      "value": "了解具有限定范围的角色偏好与设计观察。",
+      "mechanism": "动物选项让人能猜，副标题给结果并留下原因与启发。",
+      "conditions": "解释调查对象、时间及角色类别，再做可观察设计分析。",
+      "failure_conditions": "将有限样本推成日本全国销量或所有年轻人偏好。",
+      "counts": {
+        "main": 12,
+        "subtitle": 16
+      }
+    },
+    {
+      "id": "XHS-AC07",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "原创角色如何蜕变IP",
+      "subtitle": "英国品牌｜丑小鸭也能变王子",
+      "value": "从普通角色到持续应用主题的开发思路。",
+      "mechanism": "能力目标加成长代入；副标题兼任情绪与案例背景。",
+      "conditions": "用开发步骤回答“如何”，解释IP在本篇中的具体含义。",
+      "failure_conditions": "只列产品，或将品牌自己的案例包装成本人约稿成绩。",
+      "counts": {
+        "main": 10,
+        "subtitle": 13
+      }
+    },
+    {
+      "id": "XHS-AC09",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "彼得兔｜经典英式视觉美学",
+      "subtitle": "DIY笔刷｜维多利亚风",
+      "value": "把喜欢的视觉气质拆成可研究的绘制语言。",
+      "mechanism": "熟悉风格入口加工具路径；审美学习是直接价值。",
+      "conditions": "给具体线条、色彩、上色观察与原创测试；解释风格标签。",
+      "failure_conditions": "正文只卖工具，或把风格标签充当严谨年代结论。",
+      "counts": {
+        "main": 12,
+        "subtitle": 11
+      }
+    },
+    {
+      "id": "DY-AC01",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "DIY笔刷挣美刀",
+      "subtitle": "300刀浴巾印花＋5刀小费",
+      "value": "看到工具能力对应的海外商业应用。",
+      "mechanism": "短句结果前置，副标题拆清交付物及收入组成。",
+      "conditions": "开场直接给作品与脱敏项目证据，交代客户实际购买什么。",
+      "failure_conditions": "误让人认为笔刷本身卖了300刀或使用即能挣钱。",
+      "counts": {
+        "main": 8,
+        "subtitle": 13
+      }
+    },
+    {
+      "id": "DY-AC03",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "春夏凉席|图案风格怎么选？",
+      "subtitle": "2027SS母婴家纺｜TOP 5 Style",
+      "value": "帮助正在做凉席开发的人缩小风格选择范围。",
+      "mechanism": "具体产品加选择任务；副标题承诺五类整理资料。",
+      "conditions": "五类名称、识别点、适配理由和示例齐全；交代筛选依据。",
+      "failure_conditions": "不足五类、分类高度重复、没有选择依据，或伪称外部销量榜。",
+      "counts": {
+        "main": 13,
+        "subtitle": 22
+      }
+    },
+    {
+      "id": "DY-AC04",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "英式田园风-花卉图鉴",
+      "subtitle": "2027SS欧洲花卉｜新趋势",
+      "value": "获得组织过的视觉参考与下一季研究线索。",
+      "mechanism": "风格、对象、交付形式同时清楚，副标题补当季理由。",
+      "conditions": "资料按有用维度整理，解释欧洲趋势与英式田园选择的关系。",
+      "failure_conditions": "随机图片混剪，或把全部欧洲花卉趋势等同英式田园风。",
+      "counts": {
+        "main": 10,
+        "subtitle": 14
+      }
+    },
+    {
+      "id": "DY-AC08",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "蜡染工艺重塑纺织印花",
+      "subtitle": "Lineage联名｜母婴服饰",
+      "value": "工艺如何为当代印花提供新的表达思路。",
+      "mechanism": "专业对象加变化判断；具体联名及品类支撑变化观察。",
+      "conditions": "指出图案、色彩或组织中可定位的变化，核对工艺与灵感关系。",
+      "failure_conditions": "只用“重塑”赞美，或无依据地宣称每件商品都实际蜡染制作。",
+      "counts": {
+        "main": 10,
+        "subtitle": 14
+      }
+    },
+    {
+      "id": "DY-AC09",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "走进Peter Rabbit style",
+      "subtitle": "DIY笔刷｜英式田园线条＋淡水彩",
+      "value": "通过原创演示研究具名风格的视觉语言。",
+      "mechanism": "探索邀请加具体绘制内容；不靠警告句也能形成期待。",
+      "conditions": "画面帮助识别英文名称，过程展示线条、水彩与工具作用。",
+      "failure_conditions": "受众看不懂入口，或只有笔刷清单没有风格拆解。",
+      "counts": {
+        "main": 20,
+        "subtitle": 16
+      }
+    },
+    {
+      "id": "WX-AC02",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "原来“她”是大Boss",
+      "subtitle": "马来西亚客户｜角色试单到系列图案合作",
+      "value": "真实人物身份与合作发展背后的业务故事。",
+      "mechanism": "身份反转加从小额试单到系列合作的发展期待。",
+      "conditions": "身份、职务、决策角色、试单与系列委托均能核对，开场及时揭示。",
+      "failure_conditions": "人物身份没有反转，或只靠“大Boss”虚构重要客户关系。",
+      "counts": {
+        "main": 11,
+        "subtitle": 18
+      }
+    },
+    {
+      "id": "WX-AC05",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "猜猜日本Z世代最爱萌宠是啥",
+      "subtitle": "Esther Bunny调查居首",
+      "value": "用容易参与的问题进入具名角色调查。",
+      "mechanism": "邀请猜测加具名结果；讨论价值在于市场趣味及设计启发。",
+      "conditions": "及时说明是角色而非真实宠物调查，限定样本范围。",
+      "failure_conditions": "读者理解成选宠内容，或正文把“最爱”扩大成全民偏好。",
+      "counts": {
+        "main": 13,
+        "subtitle": 16
+      }
+    },
+    {
+      "id": "WX-AC07",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "英国品牌联盟开发|婴儿家纺",
+      "subtitle": "Duckling｜婴儿房/服饰",
+      "value": "海外品牌主题开发与具体产品线的研究参考。",
+      "mechanism": "开发关系加品类，副标题提供具名主题及载体。",
+      "conditions": "说明真实开发主体、分工与来源，讲清不同产品怎样适配。",
+      "failure_conditions": "仅有品牌内部开发资料，却将其直接解释成多品牌联盟。",
+      "counts": {
+        "main": 13,
+        "subtitle": 15
+      }
+    },
+    {
+      "id": "WX-AC08",
+      "original_locked": true,
+      "fact_verification": "NOT_INDEPENDENTLY_VERIFIED",
+      "main": "蜡染工艺|印花图案新机会",
+      "subtitle": "Lineage联名｜母婴家居服",
+      "value": "为印花与母婴家居服开发寻找可研究的新方向。",
+      "mechanism": "具体工艺加应用机会；具名案例与品类减少空泛。",
+      "conditions": "展示真实产品，说明可用于原创试稿的转译判断。",
+      "failure_conditions": "把公开案例说成本人合作、品牌招募或已经存在的接单渠道。",
+      "counts": {
+        "main": 12,
+        "subtitle": 15
+      }
+    }
+  ]
+}
