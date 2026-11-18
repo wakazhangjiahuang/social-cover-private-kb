@@ -19,7 +19,7 @@
     "hot_spring_positive_cases": 4,
     "illustration_title_cases": 15,
     "illustration_note_alignment_records": 18,
-    "full_inventory_files": 233
+    "full_inventory_files": 235
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -37,8 +37,8 @@
     "retrieval": "tools/retrieve.py",
     "candidate_filter": "tools/candidate_filter.py",
     "cover_copy_readme": "cover-copy/README.md",
-    "cover_copy_rules": "cover-copy/cover-copy-v5.md",
-    "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v1.json",
+    "cover_copy_rules": "cover-copy/cover-copy-v6.md",
+    "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v2.json",
     "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json",
     "illustration_note_alignment": "cover-copy/illustration-note-alignment-v1.json"
   },
@@ -148,32 +148,35 @@
       "dependencies": []
     },
     {
-      "id": "cover-copy-v5-md",
-      "path": "cover-copy/cover-copy-v5.md",
-      "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef",
+      "id": "cover-copy-v6-md",
+      "path": "cover-copy/cover-copy-v6.md",
+      "sha256": "11158d554bde0a9db611655e0d19339bfdf13bb4945414b0a38879e74b2e5cfd",
       "tags": [
         "cover_copy",
         "current_rule"
       ],
-      "source": "user_feedback_v5_method_reconstruction_and_repository_maintenance",
+      "source": "user_feedback_v6_four_layer_method_and_original_positive_case_revalidation",
       "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "current_execution_rule",
       "dependencies": []
     },
     {
-      "id": "cover-copy-hot-spring-positive-cases-v1-json",
-      "path": "cover-copy/hot-spring-positive-cases-v1.json",
-      "sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
+      "id": "cover-copy-hot-spring-positive-cases-v2-json",
+      "path": "cover-copy/hot-spring-positive-cases-v2.json",
+      "sha256": "bdda67751b94685c7e3e44d58b7dfa8453df980376ad6e2aed2a2149dae73389",
       "tags": [
         "cover_copy",
-        "positive_reference"
+        "positive_reference",
+        "character_verified"
       ],
-      "source": "user_supplied_current_guidance_and_repository_maintenance",
-      "license": "user_supplied_reference; no third_party_reuse_license_inferred",
+      "source": "user_supplied_original_four_transparent_PNGs_and_three_source_documents_SHA256_verified",
+      "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
       "ref": "manifest_commit",
-      "status": "user_approved_reference_not_performance_proof",
-      "dependencies": []
+      "status": "user_approved_reference_with_verified_text_counts_not_performance_proof",
+      "dependencies": [
+        "cover-copy/cover-copy-v6.md"
+      ]
     },
     {
       "id": "illustration-note-alignment-v1",
@@ -204,13 +207,13 @@
       "ref": "manifest_commit",
       "status": "locked_reference_cases_not_fact_or_effect_certification",
       "dependencies": [
-        "cover-copy/cover-copy-v5.md"
+        "cover-copy/cover-copy-v6.md"
       ]
     },
     {
       "id": "cover-copy-readme-md",
       "path": "cover-copy/README.md",
-      "sha256": "f6faa039f1a5fe7efefcb2e12241e3f92f21a36775b9b7d7b084aa86601c6311",
+      "sha256": "6c2c33029ac9fa701c272a1739a9b5e246391b0bdcfa2a3a6624faddd6792c96",
       "tags": [
         "cover_copy",
         "retrieval_index"
@@ -220,7 +223,8 @@
       "ref": "manifest_commit",
       "status": "retrieval_index",
       "dependencies": [
-        "cover-copy/cover-copy-v4.md"
+        "cover-copy/cover-copy-v6.md",
+        "cover-copy/hot-spring-positive-cases-v2.json"
       ]
     },
     {
@@ -2768,6 +2772,34 @@
       "dependencies": []
     },
     {
+      "id": "cover-copy-v5-md",
+      "path": "cover-copy/cover-copy-v5.md",
+      "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef",
+      "tags": [
+        "cover_copy",
+        "historical_rule"
+      ],
+      "source": "previous_release",
+      "license": "user_supplied_reference",
+      "ref": "manifest_commit",
+      "status": "historical_rule_not_default",
+      "dependencies": []
+    },
+    {
+      "id": "cover-copy-hot-spring-positive-cases-v1-json",
+      "path": "cover-copy/hot-spring-positive-cases-v1.json",
+      "sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
+      "tags": [
+        "cover_copy",
+        "historical_positive_reference"
+      ],
+      "source": "previous_release",
+      "license": "user_supplied_reference",
+      "ref": "manifest_commit",
+      "status": "superseded_by_v2",
+      "dependencies": []
+    },
+    {
       "path": "platform-audit.json",
       "bytes": 10066,
       "sha256": "53ea80a721193d676f2b125b045d81e5caddcd19682cc498c2ae5286c7f48d9f",
@@ -2839,7 +2871,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "54a4c1c966ed96a88efb05c36b656acc366a71d6c580f3847704b137584a56f5",
+  "inventory_sha256": "3d279b2c9f4c3e44d8f0b96d4a4531a1257255a035e2f8410dec72261edc4006",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [

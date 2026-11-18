@@ -117,13 +117,20 @@
       "path": "cover-copy/cover-copy-v4.md",
       "bytes": 6284,
       "sha256": "064c51e992b92bbd79b3ea2e9701a363e630510c56c913b74d2af632cbaa8273",
-      "role": "current_cover_copy_rule",
-      "default_retrieval": true
+      "role": "historical_cover_copy_rule",
+      "default_retrieval": false
     },
     {
       "path": "cover-copy/cover-copy-v5.md",
       "bytes": 8529,
       "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef",
+      "role": "historical_cover_copy_rule",
+      "default_retrieval": false
+    },
+    {
+      "path": "cover-copy/cover-copy-v6.md",
+      "bytes": 6222,
+      "sha256": "11158d554bde0a9db611655e0d19339bfdf13bb4945414b0a38879e74b2e5cfd",
       "role": "current_cover_copy_rule",
       "default_retrieval": true
     },
@@ -131,7 +138,14 @@
       "path": "cover-copy/hot-spring-positive-cases-v1.json",
       "bytes": 5686,
       "sha256": "85988a3315a88b16d8eafc09b06da66b3d4386e6e443026c5c81d582fc1343a9",
-      "role": "user_approved_industry_positive_examples_not_effect_proof",
+      "role": "historical_user_approved_examples_superseded_by_v2",
+      "default_retrieval": false
+    },
+    {
+      "path": "cover-copy/hot-spring-positive-cases-v2.json",
+      "bytes": 4958,
+      "sha256": "bdda67751b94685c7e3e44d58b7dfa8453df980376ad6e2aed2a2149dae73389",
+      "role": "user_approved_industry_positive_examples_with_verified_text_counts_not_effect_proof",
       "default_retrieval": false
     },
     {
@@ -151,8 +165,8 @@
     },
     {
       "path": "cover-copy/README.md",
-      "bytes": 1005,
-      "sha256": "f6faa039f1a5fe7efefcb2e12241e3f92f21a36775b9b7d7b084aa86601c6311",
+      "bytes": 1223,
+      "sha256": "6c2c33029ac9fa701c272a1739a9b5e246391b0bdcfa2a3a6624faddd6792c96",
       "role": "current_rule_index",
       "default_retrieval": true
     },
@@ -704,8 +718,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4424,
-      "sha256": "8d610d6f0673a4d5f361590dde01190be0527c4f12dd968a9cfdbc44a0a54d34",
+      "bytes": 4579,
+      "sha256": "4d87f2d2373093acbb758dac9825e2ad0472752fa181790326c5ff787730bf0d",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
