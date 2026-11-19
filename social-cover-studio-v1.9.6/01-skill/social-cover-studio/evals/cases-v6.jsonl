@@ -1,0 +1,14 @@
+{"id": "HS-POS-01", "domain": "温泉文旅邀约", "main": "帮这座小城多一个被看见的理由", "subtitle": "让你的镜头成为英德山野的另一种介绍", "expected": "POSITIVE_REFERENCE", "reason": "地方价值＋创作者角色＋镜头表达。"}
+{"id": "HS-POS-02", "domain": "温泉文旅邀约", "main": "家乡这一池暖，想请你来讲讲", "subtitle": "让你的周末推荐多一站英德", "expected": "POSITIVE_REFERENCE", "reason": "情感归属＋创作邀请＋周末行程内容价值；创作邀约牌独立。"}
+{"id": "HS-POS-03", "domain": "温泉文旅邀约", "main": "让粉丝记住，是你推荐的这一站", "subtitle": "先认真体验，再写你的真实推荐", "expected": "POSITIVE_REFERENCE", "reason": "粉丝记忆＋创作者个人推荐价值＋独立真实表达。"}
+{"id": "HS-POS-04", "domain": "温泉文旅邀约", "main": "你的镜头也能参与小店成长", "subtitle": "从一条真实建议，聊到一次在地共创", "expected": "POSITIVE_REFERENCE", "reason": "创作者参与感＋小店成长＋真实建议到共创的行动路径。"}
+{"id": "HS-NEG-01", "domain": "温泉文旅邀约", "main": "多一个出片选题", "subtitle": "英德小城故事", "expected": "REVISE", "reason": "利益泛化且缺少创作者角色/具体场景；相较HS-01删掉了地方叙事和镜头价值。"}
+{"id": "HS-NEG-02", "domain": "温泉文旅邀约", "main": "让粉丝信你的推荐", "subtitle": "先体验再真实分享", "expected": "REVISE", "reason": "把粉丝记忆/创作者辨识度改成泛化信任口号；副标题不如真实体验后独立推荐具体。"}
+{"id": "HS-NEG-03", "domain": "温泉文旅邀约", "main": "探店也能做共创", "subtitle": "建议参与真实改进", "expected": "REVISE", "reason": "泛化共创口号，丢失创作者镜头这一独特资产和从真实建议到在地共创的路径。"}
+{"id": "ILL-NEG-01", "domain": "插画商业应用", "main": "复古笔刷做商稿", "subtitle": "美国浴巾印花", "expected": "REVISE", "reason": "主题摘要而非点击动机；没有把工具与海外商单结果连起来。"}
+{"id": "ILL-NEG-02", "domain": "原创角色系列", "main": "小鸭变系列印花", "subtitle": "角色延展方法", "expected": "REVISE", "reason": "作者内容总结，缺少马来西亚商单/客户选中等事件锚点，副标题抽象复述。"}
+{"id": "ILL-NEG-03", "domain": "婴童家纺趋势", "main": "婴童家纺选花卉", "subtitle": "2027SS趋势", "expected": "REVISE", "reason": "把行业机会压成一般选择动作；丢失欧洲花卉等关键词和可研究的新方向。"}
+{"id": "V4-LOCKED-DY-AC03", "domain": "凉席图案选型", "main": "春夏凉席|图案风格怎么选？", "subtitle": "2027SS母婴家纺｜TOP 5 Style", "expected": "LOCKED_SAMPLE_EXCEPTION", "reason": "原始锁定样例副标题22可见字符；保留为历史样例例外，不作为新创作默认上限。"}
+{"id": "V4-LOCKED-DY-AC09", "domain": "Peter Rabbit风格研究", "main": "走进Peter Rabbit style", "subtitle": "DIY笔刷｜英式田园线条＋淡水彩", "expected": "LOCKED_SAMPLE_EXCEPTION", "reason": "主标题20可见字符但仅2个汉字；汉字预算与英文实际字宽分开判断，须做真实版式预览。"}
+{"id": "V4-LOCKED-WX-AC05", "domain": "日本Z世代萌宠调查", "main": "猜猜日本Z世代最爱萌宠是啥", "subtitle": "Esther Bunny调查居首", "expected": "LOCKED_SAMPLE_EXCEPTION", "reason": "保留用户锁定的疑问式样例；调查对象和样本范围必须在正文说明。"}
+{"id": "V4-LOCKED-WX-AC07", "domain": "英国品牌婴儿家纺开发", "main": "英国品牌联盟开发|婴儿家纺", "subtitle": "Duckling｜婴儿房/服饰", "expected": "LOCKED_SAMPLE_EXCEPTION", "reason": "保留原始锁定样例；“联盟开发”必须有主体关系证据，不能仅凭案例素材推断。"}

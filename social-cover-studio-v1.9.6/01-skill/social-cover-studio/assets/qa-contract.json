@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.0",
+  "skill": "social-cover-studio",
+  "version": "1.4.0",
+  "hard_gates": [
+    {"id":"G01","name":"promise_and_evidence","check":"封面、标题、正文和真实证据一致；不伪造效果、评价、排名、数据、客户或界面。"},
+    {"id":"G02","name":"strategy_fit","check":"内容类型、主点击动机、商业目的和结构家族匹配；不先套模板。"},
+    {"id":"G03","name":"reference_boundary","check":"参考图分析区分 OBSERVED/INFERRED/UNKNOWN；只迁移方法，不复制未经授权的身份、Logo、文案或独特资产。"},
+    {"id":"G04","name":"brand_context_isolation","check":"AIC 与仨藏品牌上下文、Logo、案例、服务和视觉资产不混用。"},
+    {"id":"G05","name":"text_and_layout_integrity","check":"标题、数字、品牌名逐字准确；网格、对齐、安全区、主体和缩略图通过检查。"},
+    {"id":"G06","name":"platform_scope","check":"区分普通创作者与商家/买手专项规则，不把专项要求泛化为全平台硬规则。"},
+    {"id":"G07","name":"export_contract","check":"比例、尺寸、格式、数量符合本轮要求；多张成品独立交付。"},
+    {"id":"G08","name":"data_integrity","check":"真实发布数据使用平台原始字段和口径；没有随机/受控分流时不称严格 A/B 实验。"}
+  ],
+  "quality_checks": [
+    "内容类型、点击动机和商业目标分别识别。",
+    "结构从开放式 17 家族中按证据选择，不锁定七种旧结构。",
+    "视觉风格与结构分离；用户参考封面可自定义分析维度。",
+    "AIC 与仨藏两个行业适配器隔离。",
+    "缩略图压力测试、字体/色彩/留白/主体检查通过。",
+    "未验证的 CTR、转化率、爆款概率保持 UNKNOWN。"
+  ],
+  "independent_evidence": [
+    "平台官方当前规则与后台原始数据",
+    "用户提供的原始素材、源文件和授权记录",
+    "独立设计/业务人员盲评",
+    "可复现的文件、尺寸、文字和导出检查",
+    "受控发布实验或明确标注的观察性比较"
+  ]
+}

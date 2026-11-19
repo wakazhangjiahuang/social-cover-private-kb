@@ -1,55 +1,40 @@
-# 自媒体封面资产库 · v1.4.0
+# social-cover-studio v1.9.6｜完整独立压缩包
 
-机器读取从根 `manifest.json` 开始；固定提交与哈希见 `config/knowledge-locator.json`。默认只读执行索引与选中记录，不扫描整个仓库。\`inventory.json\` 是完整文件校验清单，不是创作知识索引。
+本包是完整的 Skill + 知识库归档，不是增量补丁。
 
-| 层 | 数量 | 唯一内容入口 |
-|---|---:|---|
-| 视觉风格 | 18 | `catalog/style-index.json` → `styles/presets/`、`styles/images/` |
-| 信息结构 | 17类 | `catalog/layout-family-taxonomy.json` |
-| 构图实例 | 64，8种几何家族 | `catalog/layout-index.json` → `covers/`、`thumbs/` |
-| 平台模式 | A抖音／B视频号／C小红书 | `workflow/platforms.md`，本轮发布入口独立判断 |
-| 决策框架 | 18模块、179字段 | `cover-components.json`，按C01–C18引用 |
-| 标题／钩子／公式候选 | 225／225／10 | `titles/candidates.json`、`hooks/candidates.json`、`formulas/core-formulas.json` |
+## 包含内容
 
-这六层不是同一种分类。风格可与结构和构图组合；组合是规划参考，不代表已有18×64套成品。64款实际覆盖17类中的8类，未覆盖结构返回无图匹配并使用本轮素材原创排版。
+- `01-skill/social-cover-studio/`：从 ChatGPT 插件当前正式发布版读取的全部 Skill 文件（67个），包括 SKILL.md、agents、assets、config、evals、references、release、requirements、scripts、tools。
+- `02-knowledge-base/`：`wakazhangjiahuang/social-cover-private-kb` 当前 main 源码快照（239个文件），包括64款构图原图、64张缩略图、18套风格图片与预设、17类结构分类、索引、元数据、规则、证据和完整校验清单。
 
-## 检索
+## 版本来源
 
-```bash
-python3 tools/retrieve.py style --id hand-drawn-border
-python3 tools/retrieve.py style --query '手绘 边框'
-python3 tools/retrieve.py joint --style-id neon-contrast --structure L05 --platform C
-python3 tools/retrieve.py layout --id A01
-python3 tools/retrieve.py record --kind component --id C01
-python3 tools/validate_assets.py
-python3 -m unittest discover -s tools/tests -p '*_test.py'
-node --test tools/tests/core.test.mjs
-```
+- Skill：`social-cover-studio 1.9.6`
+- ChatGPT Plugin ID：`Plugin_e4230c540f8481919e2832b93092bf1c`
+- Plugin Release：`pluginrel_6afdefbac9a481918d7a5166179b1308`
+- Knowledge Base 原始提交：`6273cb723263d5662717710e867dd2bbc4ae4c89`
+- 本压缩包的GitHub分支：`package/social-cover-studio-v1.9.6-standalone`
 
-查询使用独立命名空间和明确字段；代码搜索未收录不表示素材不存在。18张风格原图和64张PNG保持原始字节；调用时按固定清单校对SHA256。图片完整性校验需Pillow，检索仅用Python标准库。
+## 目录说明
 
-风格原Prompt逐字保留在各自preset中；配色、字体与布局映射在 `styles/metadata.json` 标明INFERRED，不能当精确字体识别或官方平台规则。原图的人物、文案、身份与效果不直接迁移。64款构图使用AI合成人像，不是实拍、客户或真实案例证据。
+- Skill入口：`01-skill/social-cover-studio/SKILL.md`
+- 启动提示：`01-skill/social-cover-studio/assets/START-PROMPTS.md`
+- 标题规则：`01-skill/social-cover-studio/references/cover-copy-v6.md`
+- 温泉正向样例：`01-skill/social-cover-studio/references/hot-spring-positive-cases-v2.json`
+- 插画18篇对照：`01-skill/social-cover-studio/references/illustration-note-alignment-v1.json`
+- 64款构图和18套视觉风格原始资产：`02-knowledge-base/covers/`, `02-knowledge-base/thumbs/`, `02-knowledge-base/styles/`
 
-## 原始资料与维护边界
+## 安装方式
 
-`sources/originals/`、完整提取稿、`sources.json`、`platform-audit.json`和`research-sources.json`保留来源与日期，仅在任务确需时加载，默认执行索引不收录其长篇正文。未核实数字、平台红线和经验公式不能自动升级为规则。重复的模块拆分、工作簿分表、缺源码的应用配置和过期报告已删除，清理明细见 `maintenance/cleanup-report.json`；历史版本仍可从提交历史取回。
+**Codex项目级：** 将 `01-skill/social-cover-studio/` 复制到项目的 `.agents/skills/social-cover-studio/`。
 
-根 `START.html` 保留64款图集；上传的V5离线工作台原件保存在 `workbench/START.html`，供参考查看，不是在线服务。两份HTML及渲染源码不进入默认知识检索。 `src/`与`fonts/`用于可选重建；不自动安装应用或部署服务。
+**Codex全局：** 将该目录复制到 `$CODEX_HOME/skills/social-cover-studio/`（具体位置以本机Codex Skills配置为准）。
 
-## 当前封面文案规则｜V6（2026-11-19）
+**知识库：** `02-knowledge-base/` 是随包保存的完整本地镜像。当前Skill中的 `assets/knowledge-locator.json` 仍按v1.9.6原始设计固定指向GitHub知识库提交，用于远程完整性校验和按需读取；离线镜像用于备份、迁移和审查，不会自动改写远程定位器。
 
-封面主副标题采用独立的当前规则入口：
-- 默认规则：`cover-copy/cover-copy-v6.md`
-- 温泉创作者邀约正向样例：`cover-copy/hot-spring-positive-cases-v2.json`（相关任务按需加载）
-- 插画标题案例：`cover-copy/illustration-title-cases-v4.json`
-- 三平台18篇插画笔记对照：`cover-copy/illustration-note-alignment-v1.json`
+## 边界说明
 
-V6采用四层内部表达：目标客户利益→营销钩子→事件和关键词→证据补充；核心审查用户视角、明确点击动机、是否机械套用利益公式、主副标题是否互补。默认主标题≤15个汉字、副标题≤18个可见字素簇；主标题1–3行、副标题1–2行。标签/邀约牌/CTA独立计数，不套固定24字总预算，也不设跨类型主视觉面积硬比例。四项工作指导仅是内部执行方法，不是封面、公司介绍或网页内容。
-
-V5及更早规则保留为历史版本；旧225条标题、225条钩子与10组公式仅作可选候选，不是平台认证或爆款证明。
-
-## 插画标题—笔记正文对照样例
-
-- 三平台18篇脚本（小红书6、抖音6、视频号6）及对应正文、锁定开场、Calling、发布文案和108条拍摄证据提示：`cover-copy/illustration-note-alignment-v1.json`。
-- 插画封面任务按需读取；先检查标题承诺是否由正文/画面兑现。只优化封面时，不改写原口播、Calling或发布文案。
-- 该文件是用户提供的脚本样例，不是效果数据；时长估算、自检分、案例标题均不代表真实CTR或爆款验证。
+- 本包包含完整Skill目录和完整知识库文件快照。
+- 四张温泉正向样例的原始透明PNG未嵌入Skill；其文案、字符计数、来源哈希和使用边界保存在V2 JSON中。
+- 包内已有29/29自动化测试通过记录；本次压缩归档不代表真实目标用户盲测、平台发布预览或CTR效果验证。
+- 本包是Skill和知识库源文件归档，不包含ChatGPT插件的宿主端运行环境或任何第三方平台账户授权。

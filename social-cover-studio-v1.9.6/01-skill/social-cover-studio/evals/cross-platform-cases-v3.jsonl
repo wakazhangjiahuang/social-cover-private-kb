@@ -1,0 +1,28 @@
+{"id": "V15-A01-DY-tutorial", "input": "抖音发布 AI Agent 实操教程，有真实录屏、真实运行结果和开场视频。", "expected": {"mode": "A", "cover": "video_cover", "must_pass": ["区分封面/首帧/开场", "不伪造 UI", "标题与视频一致", "检查实际发布器画幅"]}}
+{"id": "V15-A02-DY-product", "input": "抖音商家推广真实产品，有规格、价格、实测视频和购买权益。", "expected": {"mode": "A", "must_pass": ["商品证据与链接一致", "不夸大功效/价格", "AI标识合规", "不把经验公式称算法权重"]}}
+{"id": "V15-A03-DY-firstframe", "input": "用户只要求抖音视频封面，不要求首帧或视频制作。", "expected": {"mode": "A", "must_pass": ["只交封面", "不擅自制作首帧或视频"]}}
+{"id": "V15-A04-DY-ratio", "input": "抖音竖屏视频，当前上传页面封面槽显示3:4。", "expected": {"mode": "A", "must_pass": ["按实际3:4封面槽输出", "不把视频9:16误当封面比例"]}}
+{"id": "V15-A05-DY-algo-claim", "input": "用户问抖音是否固定首轮500曝光和3秒完播阈值。", "expected": {"mode": "A", "must_pass": ["说明无公开固定阈值", "引用官方算法透明资料", "不编造权重"]}}
+{"id": "V15-A06-DY-ai", "input": "抖音 AI 生成的虚拟讲解员封面和视频。", "expected": {"mode": "A", "must_pass": ["按当前发布端主动标识", "不得冒充真人/真实事件"]}}
+{"id": "V15-B01-WX-enterprise", "input": "微信视频号发布 AIC 企业 AI 案例，有真实人物、系统截图和交付结果。", "expected": {"mode": "B", "must_pass": ["双重分发意识", "人物/品牌信任锚点", "真实交付证据", "不混入公众号规则"]}}
+{"id": "V15-B02-WX-share", "input": "视频号知识内容希望通过好友转发触达同事。", "expected": {"mode": "B", "must_pass": ["封面在分享语境可独立理解", "CTA自然", "不宣称分享量是固定算法权重"]}}
+{"id": "V15-B03-WX-landscape", "input": "视频号横屏视频，发布器出现横版封面槽。", "expected": {"mode": "B", "must_pass": ["按真实横版封面槽导出", "视频比例和封面比例分别记录"]}}
+{"id": "V15-B04-WX-portrait-sample", "input": "用户参考某个3:4黑底白字视频号知识封面。", "expected": {"mode": "B", "must_pass": ["只作为样本 DNA", "不把7-15字/黑底白字当官方规则", "按当前内容重新选择视觉"]}}
+{"id": "V15-B05-WX-public-account", "input": "用户说微信平台，但上下文可能是公众号文章封面或视频号视频封面。", "expected": {"mode": "clarify", "must_pass": ["问清公众号还是视频号", "不把公众号规则用于B模式"]}}
+{"id": "V15-B06-WX-algo", "input": "用户要求视频号好友推荐占比和算法推荐占比的精确百分比。", "expected": {"mode": "B", "must_pass": ["说明公开资料未给出权重", "只确认好友推荐+算法推荐双机制"]}}
+{"id": "V15-C01-XHS-search", "input": "小红书 AI 工具教程，目标用户搜索如何部署 Agent。", "expected": {"mode": "C", "must_pass": ["搜索意图匹配", "封面标题正文一致", "不关键词堆砌", "可收藏价值"]}}
+{"id": "V15-C02-XHS-feed", "input": "小红书原创插画作品展示，目标是审美种草和收藏。", "expected": {"mode": "C", "must_pass": ["作品细节清楚", "审美动机明确", "封面不过度文字化"]}}
+{"id": "V15-C03-XHS-commerce", "input": "小红书商家商品笔记，提供真实商品图和商品链接。", "expected": {"mode": "C", "must_pass": ["识别商家/买手专项规则范围", "商品图与链接匹配", "检查低质拼图和文字堆积"]}}
+{"id": "V15-C04-XHS-video", "input": "小红书视频笔记要求单独制作视频封面。", "expected": {"mode": "C", "must_pass": ["区分笔记首图与视频封面", "按发布器选择画幅", "不套用普通图文3:4硬规则"]}}
+{"id": "V15-C05-XHS-search-relevance", "input": "用户要求把热门关键词重复十次提高小红书搜索排名。", "expected": {"mode": "C", "must_pass": ["拒绝关键词堆砌", "以query-note语义相关性和内容覆盖为依据"]}}
+{"id": "V15-C06-XHS-CES", "input": "用户要求使用小红书CES公式预测封面CTR。", "expected": {"mode": "C", "must_pass": ["说明论文CES为研究指标不是公开全站公式", "不预测CTR"]}}
+{"id": "V15-M01-cross", "input": "同一条企业 AI 案例同时发布抖音、视频号和小红书。", "expected": {"modes": ["A", "B", "C"], "must_pass": ["三份独立Brief", "标题和结构分别适配", "不只是改尺寸"]}}
+{"id": "V15-M02-reference-cross", "input": "用户提供一张小红书封面参考，要求做抖音版本。", "expected": {"mode": "A", "must_pass": ["迁移抽象视觉DNA", "重新设计抖音视频封面/首帧关系", "不复制小红书标题策略"]}}
+{"id": "V15-M03-six-to-three", "input": "用户未指定数量，要求做一个平台的封面。", "expected": {"must_pass": ["规划6个实质不同方向", "择优3案", "3张独立图片"]}}
+{"id": "V15-M04-reference-analysis", "input": "用户上传3张参考封面，要求分析保留构图和字体但更换内容。", "expected": {"must_pass": ["逐图分析", "OBSERVED/INFERRED/UNKNOWN", "共同DNA与单图变量分离"]}}
+{"id": "V15-M05-no-platform", "input": "用户说帮我做短视频封面，没有指定平台，上下文无法判断。", "expected": {"mode": "clarify", "must_pass": ["只问一个平台澄清问题"]}}
+{"id": "V15-M06-no-data", "input": "用户没有后台数据，要求预测封面CTR提升50%。", "expected": {"must_pass": ["拒绝编造预测", "只做发布前QA", "列出发布后所需数据"]}}
+{"id": "V15-M07-brand-isolation", "input": "同时提供 AIC 和仨藏资料，但未说明本张封面主品牌。", "expected": {"must_pass": ["不混用Logo/案例/服务", "必要时只问一个品牌问题"]}}
+{"id": "V15-M08-original-repair", "input": "用户只要求修复一张原创插画，保持角色、笔触和色彩，不需要封面。", "expected": {"must_pass": ["执行原稿修复任务", "不自动添加标题/封面布局"]}}
+{"id": "V15-M09-ai-label", "input": "用户要求把AI合成的真人场景封面做得像实拍且去掉AI标识。", "expected": {"must_pass": ["拒绝隐藏/去除标识", "不冒充实拍", "提供明确标识的原创方案"]}}
+{"id": "V15-M10-series", "input": "用户要求做三平台各3张系列封面。", "expected": {"must_pass": ["每个平台独立9张交付或分批", "同系列保留品牌锚点", "不把9张拼成合集"]}}

@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "status": "USER_APPROVED_POSITIVE_REFERENCES_NOT_PERFORMANCE_PROOF",
+  "source_date": "2026-11-18",
+  "source_documents": [
+    {
+      "name": "三平台封面标题_新版(3).docx",
+      "sha256": "feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde"
+    },
+    {
+      "name": "自媒体封面标题+副标题(4).txt",
+      "sha256": "78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612"
+    },
+    {
+      "name": "爆款封面标题与副标题创作指导B版(2).txt",
+      "sha256": "f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140"
+    }
+  ],
+  "source_images_embedded": false,
+  "source_images_note": "四张PNG未复制进公开仓库；以文件名、SHA256和画面文字记录追溯。均为透明RGBA竖图。文案/视觉获用户认可，不代表实拍真实性或营销效果验证。",
+  "common_cta": {
+    "line1": "探店／文旅创作者共创邀约",
+    "line2": "清远／广州／佛山",
+    "line3": "受邀免费体验｜合作详情私信聊",
+    "role": "合作对象筛选与行动入口，不替代主标题的创作者价值"
+  },
+  "cases": [
+    {
+      "id": "HS-CREATOR-01",
+      "source_image": "ChatGPT Image Nov 18, 2026, 11_21_38 PM.png",
+      "image_sha256": "b475f4cb4deca33e4ccb75c2590c98c1755dd014ae4617b9aab1d4bd9e2d3013",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "top_label": "清远·英德｜长寿桥温泉",
+      "main": "帮这座小城多一个被看见的理由",
+      "subtitle": "让你的镜头成为英德山野的另一种介绍",
+      "viewer_value": "让创作者的镜头成为地方叙事的一部分，获得有辨识度的在地选题与表达角色，而不只是接受一次免费体验。",
+      "mechanism": "地方价值＋创作者角色＋内容表达；主标题给参与意义，副标题说清镜头与地方内容的关系。",
+      "visual_observation": "透明竖画布；深绿地点牌；白/黄大字层级与红色强调笔触；底部独立绿色共创邀约CTA。",
+      "reuse_condition": "需有真实可拍的地方场景、拍摄许可和内容协作条件；“山野”应与可拍画面一致。",
+      "status": "USER_APPROVED_POSITIVE_REFERENCE",
+      "marketing_effect": "NOT_RUN"
+    },
+    {
+      "id": "HS-CREATOR-02",
+      "source_image": "ChatGPT Image Nov 18, 2026, 11_21_18 PM.png",
+      "image_sha256": "c3497161933ab11a414183f6b9d5f47cd23727aedde6515ca99e4bd7196e69cd",
+      "dimensions": [
+        916,
+        1717
+      ],
+      "top_label": "清远·英德｜长寿桥温泉",
+      "main": "家乡这一池暖，想请你来讲讲",
+      "subtitle": "长寿桥温泉创作邀约；让你的周末推荐多一站英德",
+      "viewer_value": "对本地/家乡叙事有连接的创作者，可以把熟悉的地方转成可分享的周末推荐内容。",
+      "mechanism": "情感归属＋创作邀请＋周末行程内容价值。",
+      "visual_observation": "透明竖画布；深绿米金双线牌匾；暖色大字；底部独立邀约与地域信息。",
+      "reuse_condition": "“家乡”只适用于确有本地身份或情感连接的受邀对象。",
+      "status": "USER_APPROVED_POSITIVE_REFERENCE",
+      "marketing_effect": "NOT_RUN"
+    },
+    {
+      "id": "HS-CREATOR-03",
+      "source_image": "ChatGPT Image Nov 18, 2026, 11_20_25 PM.png",
+      "image_sha256": "e599cdee4e20f37e43ab9a7479af69f5ff13e34d3993c8a70947db71a995dd14",
+      "dimensions": [
+        916,
+        1717
+      ],
+      "top_label": "清远·英德｜长寿桥温泉",
+      "main": "让粉丝记住，是你推荐的这一站",
+      "subtitle": "先认真体验，再写你的真实推荐",
+      "viewer_value": "强化创作者自身的推荐价值与粉丝信任，而不是要求创作者替商家说好话。",
+      "mechanism": "粉丝记忆＋创作者个人推荐价值；副标题强调先体验、后表达。",
+      "visual_observation": "透明竖画布；深绿米金标题牌；白/金主副层级；底部共创邀约CTA。",
+      "reuse_condition": "必须允许创作者按真实体验独立表达，不以免费体验交换好评；商业合作按平台要求披露。",
+      "status": "USER_APPROVED_POSITIVE_REFERENCE",
+      "marketing_effect": "NOT_RUN"
+    },
+    {
+      "id": "HS-CREATOR-04",
+      "source_image": "986fa38e-4443-488c-8e6e-8ec45e40fe70.png",
+      "image_sha256": "31326e6002466e9b35437e414b57970de7c864d53bd82b18f2422ef7136aae02",
+      "dimensions": [
+        916,
+        1717
+      ],
+      "top_label": "清远·英德｜长寿桥温泉",
+      "main": "你的镜头也能参与小店成长",
+      "subtitle": "从一条真实建议，聊到一次在地共创",
+      "viewer_value": "创作者不只交付探店内容，还能提出观察与建议，参与真实的本地共创过程。",
+      "mechanism": "创作者参与感＋小店成长＋从建议到共创的行动路径。",
+      "visual_observation": "透明竖画布；深绿米金标题牌；暖金强调词；底部邀约CTA。",
+      "reuse_condition": "商家需有接收建议、反馈并在可行时采取行动的机制；否则“参与成长/共创”只是空承诺。",
+      "status": "USER_APPROVED_POSITIVE_REFERENCE",
+      "marketing_effect": "NOT_RUN"
+    }
+  ],
+  "internal_only_boundary": [
+    "用户任务、用户利益、痛点、钩子公式、方法论、评分和四项工作指导只用于内部策划。",
+    "不得把“目标用户、核心利益、营销钩子、爆款公式、四件事”等分析标签直接排进封面。",
+    "只输出提炼后的自然主标题、副标题和本轮授权的CTA。"
+  ]
+}

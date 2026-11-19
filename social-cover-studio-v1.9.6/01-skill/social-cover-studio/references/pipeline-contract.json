@@ -1,0 +1,353 @@
+{
+  "version": "1.9.6",
+  "scope": "V6当前执行主链路18核对点；不是原知识库18模块179字段的新编号",
+  "checkpoints": [
+    {
+      "id": "S01",
+      "module": "任务路由",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "区分创作/标题/分析/修复/复盘及字段授权",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "不扩平台、数量或脚本",
+      "good_standard": "缺平台不阻断无关工作",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S01"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S02",
+      "module": "素材与版本",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "分用途、逐图观察、按最新版校注消解冲突",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "用户认可样例与早期缺点分开",
+      "good_standard": "保留有效设计后精准修不足",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S02"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S03",
+      "module": "事实卡",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "提取事实、推断、未知和源定位",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "用户转述不冒充独立原件",
+      "good_standard": "隐含因果和关系也有边界",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S02",
+        "S03"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S04",
+      "module": "观众共同任务",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "识别受众正在完成的任务、卡点和替代办法",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "按共同任务识别受众；岗位可合并，任务/利益/决策不同则拆分",
+      "good_standard": "观众能立即认领自己的处境，不机械按岗位分组",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S03",
+        "S04"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S05",
+      "module": "目标客户利益与观看价值",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "将抽象利益转成具体判断/资料/方法/选择/参与机会",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "明确看完能获得什么判断/方法/审美/资料/场景/参与价值，不强制写成赚钱利益句",
+      "good_standard": "价值在正文或画面中有实际交付位置，表达自然",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S06",
+      "module": "营销钩子与选择理由",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "检查同类替代、素材差异、合作资源与实际成本",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "选择与真实内容匹配的钩子，不强制问句、冲突词或感叹号",
+      "good_standard": "能说明为什么这条值得看，且不靠夸张词制造差异",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S03",
+        "S05"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S07",
+      "module": "观看时机",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "核对有效日期、季节资料或常青价值",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "不造热度、限时和稀缺",
+      "good_standard": "有材料才加入时效信息",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S03"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S08",
+      "module": "点击理由与AI自动择优",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "内部比较2–3条不同价值路径，按用户视角、点击动机、自然表达、主副互补和证据兑现自动选定1条",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "不把同义句当不同策略，不要求用户挑选，不机械套用利益公式",
+      "good_standard": "观众能说出与自己的关系、点击理由和正文兑现内容",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S09",
+      "module": "主副标题与主画面互补",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "先确定主画面，再分配主标题/可选副标题",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "主标题、副标题、标签和主画面共同形成完整承诺；副标题增加理解/证据/情绪/方法/场景",
+      "good_standard": "主副不重复、不割裂；主画面承担主要视觉吸引",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S08",
+        "S09"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S10",
+      "module": "语义与承诺",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "逐项核事实、范围、隐含关系和正文兑现",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "未核排名/联盟/身份不得放行",
+      "good_standard": "缩小承诺或标记待证",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S03",
+        "S09"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S11",
+      "module": "编辑评分与四项核心指标",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "硬门禁优先，按V6八维试行量表定位弱项",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "低关键维度不得由高总分抵消",
+      "good_standard": "D1/D2/D3/D6均达到3分；D7明确检查是否机械套公式",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S04",
+        "S05",
+        "S08",
+        "S09",
+        "S10",
+        "S14"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S12",
+      "module": "参考DNA",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "提取抽象规律，保真与风格分开",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "不把概念场景当实拍证据",
+      "good_standard": "已有有效层级保留",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S02",
+        "S12"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S13",
+      "module": "资产调用",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "按固定locator、索引、选中ID检索",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "编号不混用，缺证不冒充认证",
+      "good_standard": "无合适候选可原创结构",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S13"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S14",
+      "module": "字符预算、断行与视觉层级",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "按V6汉字/可见字素预算和实际完整封面缩略图核验",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "主标题≤15个汉字、副标题≤18个可见字素簇；主1–3行、副1–2行；标签/CTA独立计数；不设通用面积比例",
+      "good_standard": "先准确再压缩；完整封面主视觉清楚，文字辅助，透明叠字未合成时视觉NOT_APPLICABLE",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S09",
+        "S12",
+        "S14"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S15",
+      "module": "图像与文字生产",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "真实素材优先；生成与精确排字分离",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "不造客户/现场；不改变原稿绘画语言",
+      "good_standard": "以主视觉展示真正内容价值",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S14",
+        "S15"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S16",
+      "module": "多层QA",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "文件、语义、视觉、平台预览分开检查",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "模拟裁切不认证实机通过",
+      "good_standard": "未执行检查保持NOT_RUN",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S01",
+        "S10",
+        "S14",
+        "S15"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S17",
+      "module": "独立交付",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "按用户数量校验独立图及ZIP集合",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "不合集/九宫格替代；不重复漏图",
+      "good_standard": "与任务范围相符且少冗余",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S15",
+        "S17"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    },
+    {
+      "id": "S18",
+      "module": "反馈与独立验证",
+      "input": "本轮素材、受众、平台、数量、锁定项及相关证据",
+      "process": "区分编辑候选、目标用户盲读、平台预览和后台效果",
+      "output": "可追溯判断、文案/画面决策及状态",
+      "correct_standard": "模型自评、用户认可样例、字符程序检查不能冒充目标用户盲读或后台效果",
+      "good_standard": "区分文本候选、完整成图、3秒盲读、平台预览和发布后台数据",
+      "gap_or_risk": "不得让人工选择替代AI判断；不得以模型自评证明效果",
+      "implementation": "SKILL.md §7；references/cover-copy-v6.md；references/cover-value-method.md；references/title-review.md；tools/cover_title_gate.py",
+      "return_to": [
+        "S01",
+        "S04",
+        "S05",
+        "S08",
+        "S14"
+      ],
+      "probe": "V6回归案例集 cases-v6.jsonl",
+      "audit_status": "IMPLEMENTED_IN_V1.9.6_RULES",
+      "effectiveness": "NOT_RUN"
+    }
+  ],
+  "retained_assets": [
+    "17结构",
+    "18风格",
+    "64构图",
+    "固定KB ref与哈希",
+    "450条保守候选元数据",
+    "温泉4张正向文字叠加样例及精确字符记录",
+    "插画15标题案例与18篇笔记对照"
+  ],
+  "not_reverified_this_run": [
+    "真实目标用户盲测",
+    "真实平台发布预览",
+    "真实CTR/增粉/咨询效果",
+    "原知识库179字段逐字段业务准确性"
+  ]
+}
