@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-11-01",
+  "policy": "官方规则与平台团队研究用于说明公开机制和适用边界；GitHub 项目只用于提取实现/工作流方法，不作为算法权重证据。未授权项目不复制源码、图片、字体、模板或完整 Prompt。",
+  "platform_sources": {
+    "xiaohongshu": [
+      {
+        "id": "XHS-REC-GENRANK-2025",
+        "type": "PRIMARY_RESEARCH",
+        "title": "Towards Large-scale Generative Ranking",
+        "url": "https://arxiv.org/html/2505.04180v2",
+        "supports": [
+          "Explore Feed 级联推荐链路",
+          "点击概率/预期时长任务",
+          "用户历史行为、话题、发布时间、作者粉丝、多模态内容和作者图特征示例"
+        ],
+        "limits": "论文研究的是特定推荐排序系统，不公开创作者可操作的完整权重；不得推导固定流量池或封面权重。"
+      },
+      {
+        "id": "XHS-SEARCH-KDD26",
+        "type": "PRIMARY_RESEARCH",
+        "title": "Optimizing Generative Ranking Relevance via Reinforcement Learning in Xiaohongshu Search",
+        "url": "https://arxiv.org/pdf/2512.00968",
+        "supports": [
+          "搜索 query-note 五级相关性标签",
+          "语义/分类/关键词/内容占比分析",
+          "论文搜索实验中的 CES 聚合点赞、收藏、评论、分享、关注"
+        ],
+        "limits": "CES 是论文搜索实验指标，不是公开的全平台固定权重公式；论文不等于创作者规则。"
+      },
+      {
+        "id": "XHS-NOTELLM-2024",
+        "type": "PRIMARY_RESEARCH",
+        "title": "NoteLLM: A Retrievable Large Language Model for Note Recommendation",
+        "url": "https://arxiv.org/html/2403.01744v1",
+        "supports": [
+          "笔记摘要、标签/类别生成和笔记到笔记推荐研究"
+        ],
+        "limits": "不证明标签数量越多越好，也不提供固定关键词密度。"
+      },
+      {
+        "id": "XHS-IDPROXY-2026",
+        "type": "PRIMARY_RESEARCH",
+        "title": "IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs",
+        "url": "https://arxiv.org/html/2603.01590v1",
+        "supports": [
+          "多模态内容信号与新内容冷启动 CTR 预测研究"
+        ],
+        "limits": "不提供普通创作者可控制的 CTR 权重或封面公式。"
+      },
+      {
+        "id": "XHS-RULE-QUALITY-10133",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "电商内容生态画风：内容质量欠佳问题实施细则",
+        "url": "https://school.xiaohongshu.com/rule/detail/10133",
+        "supports": [
+          "商家/买手商品服务内容的低质封面、过度拼图、文字堆积、遮挡和低清晰度风险"
+        ],
+        "limits": "适用范围为商家/买手发布商品/服务或带货，不得泛化为所有普通创作者的统一硬性规则。"
+      },
+      {
+        "id": "XHS-RULE-CLICK-10101",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "电商内容生态画风：博眼球骗互动问题实施细则",
+        "url": "https://school.xiaohongshu.com/rule/detail/10101",
+        "supports": [
+          "商家/买手内容的诱导点击、封标蹭热、题文不符风险"
+        ],
+        "limits": "适用范围限于规则所列商家/买手场景。"
+      },
+      {
+        "id": "XHS-TRAINING-PRODUCT-COVER",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "商品笔记课程：封面与画幅建议",
+        "url": "https://school.xiaohongshu.com/lesson/normal/af0fe7e97bb0433fac9da5d1df52b07f",
+        "supports": [
+          "商品笔记封面 3:4 建议；课程对商品视频封面提出 16:9/9:16 建议"
+        ],
+        "limits": "商品笔记培训内容，不是所有普通笔记和视频的唯一硬性尺寸。"
+      }
+    ],
+    "douyin": [
+      {
+        "id": "DY-ALGO-TRANSPARENCY",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "什么是推荐系统",
+        "url": "https://trust.douyin.com/algorithm/",
+        "supports": [
+          "召回、用户历史行为、内容特征、时间上下文、互动行为、排序和多样性调节的公开科普"
+        ],
+        "limits": "官方说明明确为简化展示；不公开全部模型特征、权重和阈值。"
+      },
+      {
+        "id": "DY-RECOMMENDER-ARTICLE",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "从零开始了解推荐系统",
+        "url": "https://trust.douyin.com/article/15358",
+        "supports": [
+          "行为预测、用户/内容向量、点击/浏览/喜欢/转发/收藏等行为示例"
+        ],
+        "limits": "官方科普，不是创作者可操作的固定权重清单。"
+      },
+      {
+        "id": "DY-USER-AGREEMENT-2026",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "抖音用户服务协议（2026-02-13 更新，2026-02-20 生效）",
+        "url": "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_user.html?id=6773906068725565448&ug_source=microsoft_dy_360dh",
+        "supports": [
+          "非真实 AI 合成内容/易混淆内容的显著标识要求"
+        ],
+        "limits": "发布时还需检查当前版本和相关专项规则。"
+      },
+      {
+        "id": "DY-AI-GOVERNANCE",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "抖音关于开展治理 AI 技术滥用专项的公告",
+        "url": "https://trust.douyin.com/article/15868",
+        "supports": [
+          "AI 仿冒、虚假、低质内容与主动标识治理"
+        ],
+        "limits": "内容治理，不是封面点击算法。"
+      }
+    ],
+    "wechat_channels": [
+      {
+        "id": "WX-ALGO-GOVERNANCE-2025",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "中央网信办持续加强信息推荐算法治理",
+        "url": "https://www.cac.gov.cn/2025-05/22/c_1749536203490537.htm",
+        "supports": [
+          "视频号好友推荐与算法推荐双重机制、推荐内容审核与治理"
+        ],
+        "limits": "未公开双机制权重、分享阈值或封面 CTR 公式。"
+      },
+      {
+        "id": "WX-ALGO-ANNOUNCEMENT",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "视频号算法推荐优化，一键开启更多兴趣探索",
+        "url": "https://mp.weixin.qq.com/s/ANFSKXeED9jdZmWch-dpzQ",
+        "supports": [
+          "视频号算法推荐公开说明的官方链接，由中央网信办页面列示"
+        ],
+        "limits": "当前网页抓取不可用；引用其官方链接和监管部门列示，不推测未读取细节。"
+      }
+    ],
+    "cross_platform_policy": [
+      {
+        "id": "CAC-AI-LABEL-2025",
+        "type": "OFFICIAL_PUBLIC",
+        "title": "人工智能生成合成内容标识办法",
+        "url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
+        "supports": [
+          "AI 生成合成内容显式/隐式标识，传播平台与发布者标识责任"
+        ],
+        "limits": "按适用法律法规和各平台当前发布端执行。"
+      }
+    ]
+  },
+  "github_projects": [
+    {
+      "repo": "atian-create/xhs-cover-lab-open-skill",
+      "commit": "2cb8ac794d42027b9fae20b131c7c424deff344b",
+      "license": "MIT",
+      "use": "小红书封面类型、赛道路由、Cover Brief 与参考图诊断方法",
+      "boundary": "不提供实时 CTR 或算法权重；只借鉴方法，不复制完整 Prompt。"
+    },
+    {
+      "repo": "Jsanks-su/ASU-Douyin-Cover-Skill",
+      "commit": "eccee49330f9af8799baa265c74bb6ba3ba92901",
+      "license": "未找到 LICENSE",
+      "use": "抖音封面实图匹配、视频封面裁切检查、内容映射和逐项实图验收",
+      "boundary": "不复制 170 张海报图库、作者图像、代码或 Prompt。"
+    },
+    {
+      "repo": "zhengzhentao86/douyin-content-strategy-skill",
+      "commit": "d296471fdbe7452225f186c7096b3a26ea233df5",
+      "license": "未找到 LICENSE",
+      "use": "电商内容策略的商品买点→目标人群→使用场景→内容任务链",
+      "boundary": "仅作为商品营销研究思路；不把其教学案例或公式当抖音算法规则。"
+    },
+    {
+      "repo": "ahang008/ah-douyin-cover-title",
+      "commit": "86e38b5343e122bafe66ee86efb6e91bd156f4b3",
+      "license": "MIT",
+      "use": "标题钩子分类与三行文案组织作为备选创意启发",
+      "boundary": "不采用其 85 条案例作为已验证通用爆款公式，不复制案例库。"
+    },
+    {
+      "repo": "tuihou123321/wechat-channels-knowledge-cover",
+      "commit": "f5d7167f258d82a794a0762f01bb32c84570bd3f",
+      "license": "未找到 LICENSE",
+      "use": "视频号知识口播封面标题提炼、人物裁切与缩略图检查的单一项目样本",
+      "boundary": "7–15 字和黑底白字只来自特定样本，不是平台规则；不复制代码/示例图。"
+    },
+    {
+      "repo": "JamesWuHK/wechat-video-channel-publish-skill",
+      "commit": "67ebe674a5d633f9209b5de3059c4e37eb2afd64",
+      "license": "未找到 LICENSE",
+      "use": "视频号实际发布表单、封面字段与操作边界参考",
+      "boundary": "只参考公开行为描述，不复制发布自动化代码或凭据处理。"
+    },
+    {
+      "repo": "ToBeWin/covercraft-skill",
+      "commit": "db4a898dc4cd87a52c897adbd0d42f0dfc75cc31",
+      "license": "未找到 LICENSE",
+      "use": "标题策略→平台适配→参考图拆解→视觉迁移→排版→QA 的工作流架构",
+      "boundary": "不复制源码、示例和模板；不把其跨平台描述当官方算法证据。"
+    },
+    {
+      "repo": "ToBeWin/wechat-article-video-skill",
+      "commit": "2cffe85faf256da5d3f570ba1f019200fa074947",
+      "license": "MIT-0（README 声明，LICENSE 文件需保留核验）",
+      "use": "视频号首帧与独立上传封面分离、9:16 视频画布与封面区分",
+      "boundary": "这是视频生产流程参考，不是封面算法资料。"
+    },
+    {
+      "repo": "oil-oil/video-publisher-skill",
+      "commit": "0d02cc5387b0bea0a43d5aa4e72a2c9502d05f94",
+      "license": "MIT（需按仓库 LICENSE 保留声明）",
+      "use": "多平台上传封面字段、3:4/4:3/专用封面槽的实现与实测边界",
+      "boundary": "页面实现证据会随发布器变化；不能证明平台算法。"
+    }
+  ],
+  "refresh_policy": "每次任务优先核验最近 30 天内的官方变更；若无更新则保留最近可用版本并标明日期。官方政策/平台团队论文高于 GitHub 项目；GitHub 项目仅作实现参考。"
+}

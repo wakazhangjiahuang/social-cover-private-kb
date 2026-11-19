@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "social-cover-studio/task-input/1.0.0",
+  "title": "Social Cover Studio Task Input",
+  "type": "object",
+  "required": [
+    "task_mode",
+    "source_materials"
+  ],
+  "properties": {
+    "task_mode": {
+      "enum": [
+        "create",
+        "redesign",
+        "series",
+        "title_only",
+        "analysis",
+        "repair",
+        "review"
+      ]
+    },
+    "platform_modes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "A_DOUYIN",
+          "B_WECHAT_CHANNELS",
+          "C_XIAOHONGSHU"
+        ]
+      },
+      "default": []
+    },
+    "brand_context": {
+      "type": "string",
+      "default": "CUSTOM"
+    },
+    "audience": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "layer1": {
+      "type": "object",
+      "properties": {
+        "content_type": {
+          "$ref": "#/$defs/lockedValue"
+        },
+        "primary_motive": {
+          "$ref": "#/$defs/lockedValue"
+        },
+        "secondary_motive": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "commercial_goal": {
+          "$ref": "#/$defs/lockedValue"
+        }
+      },
+      "additionalProperties": false
+    },
+    "layer2": {
+      "type": "object",
+      "properties": {
+        "structure": {
+          "$ref": "#/$defs/lockedValue"
+        },
+        "style": {
+          "$ref": "#/$defs/lockedValue"
+        },
+        "visual_route": {
+          "$ref": "#/$defs/lockedValue"
+        }
+      },
+      "additionalProperties": false
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ratio": {
+          "type": "string"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "format": {
+          "enum": [
+            "PNG",
+            "JPG",
+            "WEBP",
+            "SVG"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "text_scope": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "cover_main_title",
+          "cover_subtitle",
+          "platform_title",
+          "description",
+          "hashtags"
+        ]
+      },
+      "default": [
+        "cover_main_title",
+        "cover_subtitle"
+      ]
+    },
+    "locked_copy": {
+      "type": "object",
+      "properties": {
+        "main": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "shared_task": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "lockedValue": {
+      "type": "object",
+      "required": [
+        "value",
+        "origin"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "AUTO",
+            "user_locked",
+            "inferred"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

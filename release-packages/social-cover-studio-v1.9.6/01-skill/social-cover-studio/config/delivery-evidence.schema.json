@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "social-cover-studio/delivery-evidence/1.0.0",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "checks"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string"
+    },
+    "file": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "width": {
+          "type": "integer"
+        },
+        "height": {
+          "type": "integer"
+        },
+        "format": {
+          "type": "string"
+        },
+        "bytes": {
+          "type": "integer"
+        }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "stage",
+          "status",
+          "method"
+        ],
+        "properties": {
+          "stage": {
+            "enum": [
+              "structure",
+              "semantic",
+              "file",
+              "visual",
+              "platform_preview",
+              "post_publish"
+            ]
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "BLOCKED",
+              "NOT_RUN",
+              "UNKNOWN"
+            ]
+          },
+          "method": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "checked_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "PASS"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "evidence_ref",
+                "checked_at"
+              ],
+              "properties": {
+                "evidence_ref": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "checked_at": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

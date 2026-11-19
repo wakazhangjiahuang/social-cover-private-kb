@@ -1,0 +1,80 @@
+{
+  "schema_version": "3.0",
+  "skill": "social-cover-studio",
+  "version": "1.9.0",
+  "platform_modes": {
+    "A": "douyin",
+    "B": "wechat_channels",
+    "C": "xiaohongshu"
+  },
+  "hard_gates": [
+    {
+      "id": "P01",
+      "name": "platform_mode_lock",
+      "check": "A/B/C 模式明确；没有使用其他平台规则或将公众号规则误用于视频号。"
+    },
+    {
+      "id": "P02",
+      "name": "platform_source_freshness",
+      "check": "近期规则/画幅/AI 标识/商业规则已按需查官方源，来源日期和适用范围清楚。"
+    },
+    {
+      "id": "P03",
+      "name": "strategy_fit",
+      "check": "内容类型、受众、点击/观看动机、商业目的和结构家族匹配。"
+    },
+    {
+      "id": "P04",
+      "name": "promise_evidence",
+      "check": "封面、标题字段、视频/笔记正文与真实证据一致；无虚构结果、评价、客户、数据或 UI。"
+    },
+    {
+      "id": "P05",
+      "name": "reference_boundary",
+      "check": "参考图结论区分 OBSERVED/INFERRED/UNKNOWN；不复制未授权身份、Logo、文案、IP 或独特资产。"
+    },
+    {
+      "id": "P06",
+      "name": "brand_isolation",
+      "check": "AIC 与仨藏品牌、Logo、案例、服务、作品资产和视觉 Token 不混用。"
+    },
+    {
+      "id": "P07",
+      "name": "format_and_crop",
+      "check": "视频画幅与封面比例分开；按实际发布器和用户要求导出并检查裁切。"
+    },
+    {
+      "id": "P08",
+      "name": "text_integrity",
+      "check": "中文、数字、品牌名、UI 字段逐字准确，无乱码、错字、漏字和裁切。"
+    },
+    {
+      "id": "P09",
+      "name": "series_distinction",
+      "check": "6→3 方案存在实质差异；多张成品独立导出。"
+    },
+    {
+      "id": "P10",
+      "name": "data_integrity",
+      "check": "只使用真实后台字段和定义；未取得受控分流时不称随机 A/B；不编造 CTR。"
+    },
+    {
+      "id": "P11",
+      "name": "ai_label_compliance",
+      "check": "AI 生成/合成内容按法律法规和各平台当前发布端要求标识，不移除/篡改标识。"
+    },
+    {
+      "id": "P12",
+      "name": "license_and_rights",
+      "check": "未授权 GitHub 资源、参考图、人物、Logo、字体、图片和代码不复制再分发。"
+    }
+  ],
+  "independent_evidence": [
+    "平台当前官方规则与真实发布器 UI",
+    "平台团队公开论文/监管文件",
+    "用户原始素材、源文件与授权记录",
+    "独立设计/业务人员盲评",
+    "可复现的文件/尺寸/文字检查",
+    "真实后台原始数据与受控实验"
+  ]
+}

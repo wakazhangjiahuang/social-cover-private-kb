@@ -1,0 +1,12 @@
+{"id": "V5-01", "input": "旧温泉标题：下一条探店视频，能不能让粉丝记住是你推荐的？副标题较长。", "expected": "REJECT_TEXT_BUDGET", "reason": "主标题长句超限；不得缩小字号或压缩主画面。"}
+{"id": "V5-02", "input": "旧温泉副标题：从真实体验和一条建议，聊到一次在地共创。", "expected": "REJECT_TEXT_BUDGET", "reason": "副标题过长且抽象，需要提炼具体参与收益。"}
+{"id": "V5-03", "input": "仅写温泉内容价值/创作者价值。", "expected": "REJECT_CONCRETE_PAYOFF", "reason": "没有说明创作者能得到的具体选题、场景、表达角色或资源。"}
+{"id": "V5-04", "input": "把专家视角、一手材料、专业方法、独立验证排成四条封面文案。", "expected": "REJECT_PROCESS_AS_CONTENT", "reason": "四项工作指导是执行方法，不是封面、公司简介或网页正文。"}
+{"id": "V5-05", "main": "多一个出片选题", "subtitle": "英德小城故事", "expected": "COPY_CANDIDATE", "reason": "明确创作者能获得一个可拍选题；需要真实地方素材兑现。"}
+{"id": "V5-06", "main": "让粉丝信你的推荐", "subtitle": "先体验再真实分享", "expected": "COPY_CANDIDATE", "reason": "将创作者信任价值与真实表达条件配对；不得以免费体验换好评。"}
+{"id": "V5-07", "main": "探店也能做共创", "subtitle": "建议参与真实改进", "expected": "HOLD_IF_NO_FEEDBACK_MECHANISM", "reason": "只有商家具备反馈/采纳机制时才可发布共创承诺。"}
+{"id": "V5-08", "main": "复古笔刷做商稿", "subtitle": "美国浴巾印花", "expected": "COPY_CANDIDATE", "reason": "让插画师看到工具/画风进入具体产品应用；订单金额仍需独立凭证。"}
+{"id": "V5-09", "main": "小鸭变系列印花", "subtitle": "角色延展方法", "expected": "COPY_CANDIDATE", "reason": "回应动物插画师的角色系列开发任务；上市事实另需证据。"}
+{"id": "V5-10", "main": "婴童家纺选花卉", "subtitle": "2027SS趋势", "expected": "COPY_CANDIDATE", "reason": "明确品类与选择任务；正文需提供趋势来源及产品适配判断。"}
+{"id": "V5-11", "input": "只交付6个备选标题让小白自己挑。", "expected": "REJECT_MANUAL_SELECTION", "reason": "AI应内部比较不同价值路径并自动选定一个最终版本。"}
+{"id": "V5-12", "input": "图片型封面文字区域占30%，主视觉占50%。", "expected": "REJECT_VISUAL_BUDGET", "reason": "不满足主视觉优先预算，必须先压缩文字并重排。"}

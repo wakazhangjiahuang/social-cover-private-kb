@@ -1,0 +1,128 @@
+{
+  "rubric_version": "cover-editorial-4.0-v6-trial",
+  "status": "TRIAL_NOT_CALIBRATED",
+  "scale": {
+    "min": 0,
+    "max": 4,
+    "anchors": {
+      "0": "缺失、错误或误导",
+      "1": "表达空泛、用户视角弱或主要靠脑补",
+      "2": "方向基本成立但点击动机、互补或精确度明显不足",
+      "3": "目标明确、表达自然、有据且可兑现",
+      "4": "精准、低理解成本、主副画面协同且真实材料充分"
+    }
+  },
+  "hard_gates": [
+    "facts",
+    "audience_mirror",
+    "click_reason",
+    "pair_complementarity",
+    "fulfillment",
+    "text_budget",
+    "scope_and_rights"
+  ],
+  "visual_gate_for_full_cover": [
+    "visual_dominance"
+  ],
+  "text_only_hard_gates": [
+    "facts",
+    "audience_mirror",
+    "click_reason",
+    "pair_complementarity",
+    "fulfillment",
+    "text_budget",
+    "scope_and_rights"
+  ],
+  "critical_dimensions": {
+    "cover": [
+      "D1",
+      "D2",
+      "D3",
+      "D6"
+    ],
+    "text_only": [
+      "D1",
+      "D2",
+      "D3",
+      "D6"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "用户视角与共同任务",
+      "weight": 20,
+      "anchor3": "目标观众能认领当前任务/兴趣/决策",
+      "anchor4": "无需背景解释即可认领，且没有把作者经历当作中心"
+    },
+    {
+      "id": "D2",
+      "name": "观众价值可识别",
+      "weight": 20,
+      "anchor3": "能理解点开后可获得的具体信息/方法/判断/审美研究/场景/参与价值",
+      "anchor4": "价值与当前任务高度匹配，能定位到正文/画面交付；不强制写成利益句"
+    },
+    {
+      "id": "D3",
+      "name": "点击动机与选择理由",
+      "weight": 20,
+      "anchor3": "明确为何值得点开，且来自真实材料或内容组织",
+      "anchor4": "钩子自然、具体、有差异，保留一个由内容兑现的继续观看问题"
+    },
+    {
+      "id": "D4",
+      "name": "事件与关键词具体性",
+      "weight": 10,
+      "anchor3": "对象/产品/风格/国家/季节/调查/地点等信息准确且有用",
+      "anchor4": "每个词都承担识别或信息增量，没有关键词堆砌"
+    },
+    {
+      "id": "D5",
+      "name": "证据与内容兑现",
+      "weight": 10,
+      "anchor3": "强事实有来源，主画面/正文能兑现标题承诺",
+      "anchor4": "隐含关系、观众预期和内容边界也被准确兑现"
+    },
+    {
+      "id": "D6",
+      "name": "主副标题与主画面互补",
+      "weight": 10,
+      "anchor3": "两级文案和主画面形成同一完整承诺，副标题有新增信息",
+      "anchor4": "主副画面分工自然，既不重复也不割裂，必要信息完整"
+    },
+    {
+      "id": "D7",
+      "name": "语言精确与自然度",
+      "weight": 5,
+      "anchor3": "表达自然、准确，不机械套用利益句/问句/冲突词",
+      "anchor4": "在保留关键语义、情绪和识别点的前提下实现高效表达"
+    },
+    {
+      "id": "D8",
+      "name": "缩略图与视觉层级",
+      "weight": 5,
+      "anchor3": "完整成图的主画面主次清楚，文字可读",
+      "anchor4": "目标平台真实缩略图/分享裁切有记录且通过"
+    }
+  ],
+  "bands": {
+    "candidate_min": 85,
+    "revise_min": 75,
+    "critical_min": 3,
+    "all_dimension_min": 2
+  },
+  "text_only": {
+    "excluded_dimensions": [
+      "D8"
+    ],
+    "max_score": 95,
+    "status": "TEXT_ONLY_TRIAL"
+  },
+  "visual_policy": {
+    "no_universal_area_ratio": true,
+    "full_cover_requires_visual_review": true,
+    "transparent_text_overlay": "NOT_APPLICABLE until composited with a real main visual",
+    "title_only": "NOT_RUN"
+  },
+  "disclaimer": "编辑筛选试行量表；未用真实目标用户样本校准。非CTR、爆款概率、平台权重、营销效果或发布许可。"
+}

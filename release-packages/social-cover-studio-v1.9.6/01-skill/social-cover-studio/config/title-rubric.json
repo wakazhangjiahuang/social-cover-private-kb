@@ -1,0 +1,65 @@
+{
+  "rubric_version": "title-editorial-1.0-trial",
+  "scale": {
+    "min": 0,
+    "max": 4,
+    "meaning": {
+      "0": "缺失或明显错误",
+      "1": "较弱/证据不足",
+      "2": "基本成立但有明显改进空间",
+      "3": "清晰有效且有依据",
+      "4": "高度匹配、表达精确且证据充分"
+    }
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "受众与意图匹配"
+    },
+    {
+      "id": "D2",
+      "name": "价值明确与可兑现"
+    },
+    {
+      "id": "D3",
+      "name": "点击/观看动机强度"
+    },
+    {
+      "id": "D4",
+      "name": "具体性与信息增量"
+    },
+    {
+      "id": "D5",
+      "name": "可信度与证据支撑"
+    },
+    {
+      "id": "D6",
+      "name": "平台入口与字段适配"
+    },
+    {
+      "id": "D7",
+      "name": "可读性与表达效率"
+    },
+    {
+      "id": "D8",
+      "name": "封面/正文/CTA一致性"
+    }
+  ],
+  "hard_gates": [
+    "truth_and_evidence",
+    "platform_scope",
+    "commercial_compliance",
+    "brand_and_asset_rights"
+  ],
+  "aggregation": {
+    "method": "sum_of_8_dimensions",
+    "max_score": 32,
+    "rounding": "none",
+    "gate_failure": "REJECT_OR_REVISE",
+    "unknown_gate": "HOLD_CLAIM_OR_MARK_UNKNOWN",
+    "require_evidence_for_all_scores": true,
+    "require_all_hard_gates": true
+  },
+  "status": "TRIAL_NOT_CALIBRATED",
+  "disclaimer": "编辑评分，不是CTR、爆款概率或平台算法权重。"
+}

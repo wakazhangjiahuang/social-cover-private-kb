@@ -1,0 +1,114 @@
+{
+  "version": "1.9.6",
+  "scope": "incremental integrity gate for v1.9.6 V6 title-engine, hot-spring positive-reference and decision/rubric changes; unchanged assets are preserved by plugin overlay",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "8d87524837b51ba5c7c5d6f1a1195594cb8982cc0bef492e9a0da53bcc236344"
+    },
+    {
+      "path": "README-INSTALL.md",
+      "sha256": "0aafcdaec4ff293e43c56ea00b54959ce24d2404840eff936c6cfae984136496"
+    },
+    {
+      "path": "README.md",
+      "sha256": "36d393dcd6472a909dd98d8e667166c03e7104cdab9e8300ff7aaf503da94425"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "d33ffbe428d96dcfe8880278e00e4fc79420011242f4ff4b456839d9ad01347b"
+    },
+    {
+      "path": "TEST-REPORT.md",
+      "sha256": "b20f072b9e4e1fbd752d85d67dd9c83f348bed1fa3c4c621286d5345c0559ff8"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "d2f636954f2853db41fd4852001b207d595890b13bc1fe89305668c5a287052d"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "fe34f0f4b39ec67bfc85e5019de5bdbaa7d341127020294ce1004abbf34b5c67"
+    },
+    {
+      "path": "assets/START-PROMPTS.md",
+      "sha256": "cf0f5349be4025a9bef8c30691d7210306e27b8eda7f872dd72ee50b9fbc1776"
+    },
+    {
+      "path": "assets/knowledge-locator.json",
+      "sha256": "c28285b27775a4e159a95cdfe7e25083eef82603b53d6162b9cfc95d564595e2"
+    },
+    {
+      "path": "config/cover-rubric.json",
+      "sha256": "3276f5438c388df9b24a0af8e7045a849595ec60256159105df498d1cd3f3881"
+    },
+    {
+      "path": "evals/cases-v3.jsonl",
+      "sha256": "9be461b9cafb1dd00b28cc32a83ba3228f3332ddd3b8940c03f63c3918f5736f"
+    },
+    {
+      "path": "evals/cases-v6.jsonl",
+      "sha256": "488b2e1debf3a09e6dd247a18ecc1162cf3eb91cb5883332e123bb27bb0fe8e3"
+    },
+    {
+      "path": "evals/test_cover_review_v6.py",
+      "sha256": "5c37d545e2b2464d74ff205bcabcd7f1682fc16de7a4471cab5476ad91fe8a92"
+    },
+    {
+      "path": "evals/test_cover_title_gate.py",
+      "sha256": "2e87b2ae35d37da6dc0c725e6d6f41e42ac2aaf7da01fbd23d9866864948b475"
+    },
+    {
+      "path": "references/cover-copy-priority.md",
+      "sha256": "597469993724882758fb13f282fdd2607233f06383d81d1d5fc0fbb9b79d41cf"
+    },
+    {
+      "path": "references/cover-copy-v5.md",
+      "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef"
+    },
+    {
+      "path": "references/cover-copy-v6.md",
+      "sha256": "80fcf5a6634933f7ea1b401725fd78ecade3a5af1b7caeadb447530b408905f1"
+    },
+    {
+      "path": "references/cover-value-method.md",
+      "sha256": "260d33155804ed802a64ad49144a8538381870bf8de1f90a73fe9797179083f5"
+    },
+    {
+      "path": "references/hot-spring-positive-cases-v2.json",
+      "sha256": "bdda67751b94685c7e3e44d58b7dfa8453df980376ad6e2aed2a2149dae73389"
+    },
+    {
+      "path": "references/partner-invitation.md",
+      "sha256": "c50c8e9f42df7fe68056123a6cf4a78fe96e285050127c1645cf4750c47f289b"
+    },
+    {
+      "path": "references/pipeline-contract.json",
+      "sha256": "8a338718eae8ce9e568dc1852ed0460081ee5c087798d7863bf83c99eaf2248a"
+    },
+    {
+      "path": "references/title-review.md",
+      "sha256": "11af387f6e2de1568280019dbd9b110efdd49fa458731f8598346ecd460ce5e0"
+    },
+    {
+      "path": "references/title-workflow.md",
+      "sha256": "3ba46a03071d72139a9fe8f25b852d2aaabe52326de50ed244a04dba4d8c15ef"
+    },
+    {
+      "path": "release/release-status.json",
+      "sha256": "282c0779ec1d1cd8c61d51c053c3d78d4b2e6069e17fc8e148447a8d967b7091"
+    },
+    {
+      "path": "requirements/traceability.json",
+      "sha256": "866337b198cd1bf9b6c16c1fba1a88d7e00b5a01af673206c899ad42fa73052c"
+    },
+    {
+      "path": "tools/cover_review.py",
+      "sha256": "607bde1e10cc48266957ffd896425d47f4249dbac25d0dffcd492399b82dede9"
+    },
+    {
+      "path": "tools/cover_title_gate.py",
+      "sha256": "fe959908988274ba8662ccb51d05e7e13730c08539f3df1e42167c269458227f"
+    }
+  ]
+}

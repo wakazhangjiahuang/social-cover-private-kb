@@ -1,0 +1,136 @@
+{
+  "version": "1.9.6",
+  "product_version": "1.9.6",
+  "items": [
+    {
+      "id": "R01",
+      "scope": "version/entry/prompt sync",
+      "status": "UPDATED_V1.9.6"
+    },
+    {
+      "id": "R02",
+      "scope": "task routing and non-creative boundaries",
+      "status": "IMPLEMENTED_RETAINED"
+    },
+    {
+      "id": "R03",
+      "scope": "layer-one variables",
+      "status": "IMPLEMENTED_RETAINED"
+    },
+    {
+      "id": "R04",
+      "scope": "layer-two variables",
+      "status": "IMPLEMENTED_RETAINED"
+    },
+    {
+      "id": "R05",
+      "scope": "reference contract",
+      "status": "IMPLEMENTED_RETAINED"
+    },
+    {
+      "id": "R06",
+      "scope": "platform evidence applicability",
+      "status": "PARTIAL_EXISTING_ADAPTERS_RETAINED"
+    },
+    {
+      "id": "R07",
+      "scope": "title workflow and evidence gates",
+      "status": "UPDATED_V6_FOUR_LAYER_AND_FOUR_CORE_METRICS"
+    },
+    {
+      "id": "R08",
+      "scope": "450 title/hook candidate metadata migration",
+      "status": "EXISTING_450_METADATA_RETAINED_NOT_INDIVIDUALLY_CERTIFIED"
+    },
+    {
+      "id": "R09",
+      "scope": "live keyword volume/competition",
+      "status": "OPTIONAL_UNKNOWN_WHEN_UNAVAILABLE"
+    },
+    {
+      "id": "R10",
+      "scope": "eight-dimension editorial rubric and deterministic aggregation",
+      "status": "UPDATED_V6_TRIAL_NOT_CALIBRATED"
+    },
+    {
+      "id": "R11",
+      "scope": "semantic evidence gate",
+      "status": "IMPLEMENTED_CONTRACT_REVIEW_REQUIRED"
+    },
+    {
+      "id": "R12",
+      "scope": "exact export validation",
+      "status": "IMPLEMENTED_LOCAL_TOOL"
+    },
+    {
+      "id": "R13",
+      "scope": "stage-separated acceptance evidence",
+      "status": "IMPLEMENTED_SCHEMA"
+    },
+    {
+      "id": "R14",
+      "scope": "traceability and guarded sync",
+      "status": "IMPLEMENTED_PACKAGE_LEVEL"
+    },
+    {
+      "id": "R15",
+      "scope": "V6 four-layer value/hook/event/evidence and audience-perspective click motive",
+      "status": "IMPLEMENTED_RULES_AND_METHOD"
+    },
+    {
+      "id": "R16",
+      "scope": "AI autonomous selection and limited repair loop",
+      "status": "IMPLEMENTED_RULES_NOT_EXTERNAL_EFFECT_VALIDATION"
+    },
+    {
+      "id": "R17",
+      "scope": "V6 main title max 15 Han, subtitle max 18 visible graphemes, 1-3/1-2 line layout; no universal area ratio",
+      "status": "IMPLEMENTED_DETERMINISTIC_CHARACTER_GATE_AND_VISUAL_QA_CONTRACT"
+    },
+    {
+      "id": "R18",
+      "scope": "four work instructions are internal process only",
+      "status": "IMPLEMENTED_EXPLICIT_OUTPUT_BOUNDARY"
+    },
+    {
+      "id": "R19",
+      "scope": "four user-approved hot-spring creator cover references",
+      "status": "RETAINED_AND_RECOUNTED_FOUR_USER_APPROVED_TRANSPARENT_OVERLAY_REFERENCES"
+    },
+    {
+      "id": "R20",
+      "scope": "18 illustration cover-to-note alignment records and 108 shooting evidence prompts",
+      "status": "RETAINED_FROM_USER_SUPPLIED_LATEST_STANDARD_WORKBOOK"
+    },
+    {
+      "id": "R21",
+      "scope": "cover-only editing preserves original script/opening/Calling/publish copy",
+      "status": "IMPLEMENTED_RETAINED"
+    },
+    {
+      "id": "R22",
+      "scope": "external blind reading and platform performance validation",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "R23",
+      "scope": "four-layer expression as internal planning, not four lines of cover copy",
+      "status": "IMPLEMENTED_V6"
+    },
+    {
+      "id": "R24",
+      "scope": "four core evaluation metrics: user perspective, click motive, formulaicness, main/sub complementarity",
+      "status": "IMPLEMENTED_V6_RUBRIC_AND_GATES"
+    },
+    {
+      "id": "R25",
+      "scope": "four hot-spring cover originals verified by source hash and exact title counts",
+      "status": "IMPLEMENTED_V2_CASE_METADATA; IMAGE_ASSETS_NOT_PACKAGED"
+    }
+  ],
+  "non_goals": [
+    "automatic publishing",
+    "new live data collection platform",
+    "unrelated content/video production modules"
+  ]
+}

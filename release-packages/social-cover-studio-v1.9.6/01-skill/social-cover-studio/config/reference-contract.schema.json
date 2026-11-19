@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"social-cover-studio/reference-contract/1.0.0",
+  "type":"object",
+  "required":["asset_id","use","preserve","change","avoid","observations"],
+  "properties":{
+    "asset_id":{"type":"string","minLength":1},
+    "use":{"type":"array","uniqueItems":true,"items":{"enum":["composition","style","base_layout","faithful_asset","brand_asset","platform_capture"]}},
+    "preserve":{"type":"array","items":{"type":"string"}},
+    "change":{"type":"array","items":{"type":"string"}},
+    "avoid":{"type":"array","items":{"type":"string"}},
+    "observations":{"type":"array","items":{"type":"object","required":["claim","evidence_type"],"properties":{"claim":{"type":"string"},"evidence_type":{"enum":["OBSERVED","INFERRED","UNKNOWN"]},"locator":{"type":["string","null"]}},"additionalProperties":false}}
+  },
+  "additionalProperties":false
+}

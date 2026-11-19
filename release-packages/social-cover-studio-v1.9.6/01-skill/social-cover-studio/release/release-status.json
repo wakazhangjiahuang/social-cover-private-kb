@@ -1,0 +1,37 @@
+{
+  "skill": "social-cover-studio",
+  "version": "1.9.6",
+  "status": "PACKAGE_READY_FOR_PLUGIN_UPDATE",
+  "plugin_id": "Plugin_e4230c540f8481919e2832b93092bf1c",
+  "knowledge_base_ref": "8c52fd7a557fc59fdbd83fa3ae0d63a6b23f7268",
+  "personal_skill_support_files": "V6_FOUR_LAYER_VALUE_HOOK_EVENT_EVIDENCE_AND_USER_APPROVED_HOT_SPRING_CASES_BUNDLED",
+  "candidate_metadata": "450 rule-derived applicability records; not individual expert certification",
+  "known_limits": [
+    "真实目标用户盲读未执行",
+    "真实平台发布预览未执行",
+    "100分编辑量表尚未用真实样本校准",
+    "程序不证明语义真实性或营销效果",
+    "四张温泉PNG为透明文字叠加素材，不是完整实景封面"
+  ],
+  "claims_not_allowed": [
+    "全平台入口已认证",
+    "标题评分已校准",
+    "CTR提升已验证",
+    "450条候选均已获专家或平台认证",
+    "四张用户认可温泉封面已验证爆款",
+    "已证明等同5–8年专业人员经验"
+  ],
+  "current_validation": {
+    "v6_semantic_regression_cases": "14_CASES_AUTHORED; 4_POSITIVE_HOT_SPRING; 6_PREVIOUS_WEAK_OUTPUTS; 4_V4_LOCKED_LONG_TITLE_EXCEPTIONS",
+    "title_gate": "21_AUTOMATED_TESTS_PASSED",
+    "review_gate": "8_AUTOMATED_TESTS_PASSED",
+    "all_automated_tests": "29_OF_29_PASSED",
+    "source_hashes": "3_SOURCE_DOCUMENTS_AND_4_SOURCE_IMAGES_MATCHED",
+    "hot_spring_character_counts": "4_OF_4_MATCHED",
+    "github_snapshot": "MAIN=6273cb723263d5662717710e867dd2bbc4ae4c89; MANIFEST_REF=8c52fd7a557fc59fdbd83fa3ae0d63a6b23f7268; V6/HOT_V2/MANIFEST/INVENTORY LOCATOR HASHES MATCH",
+    "plugin_release": "PENDING_UPDATE_AND_READBACK",
+    "real_target_user_test": "NOT_RUN",
+    "live_platform_preview": "NOT_RUN",
+    "marketing_effect": "NOT_RUN"
+  }
+}

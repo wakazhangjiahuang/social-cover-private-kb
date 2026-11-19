@@ -1,0 +1,56 @@
+name: Build social-cover-studio v1.9.6 complete bundle
+
+on:
+  push:
+    branches:
+      - "build/**"
+    paths:
+      - "release-packages/social-cover-studio-v1.9.6/**"
+      - ".github/workflows/build-social-cover-studio-v1.9.6.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exact source snapshot
+        uses: actions/checkout@v4
+      - name: Assemble full Skill and knowledge-base package
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT="release-packages/social-cover-studio-v1.9.6"
+          OUT="dist/social-cover-studio-v1.9.6"
+          mkdir -p "$OUT/01-skill" "$OUT/02-knowledge-base"
+          cp -a "$ROOT/01-skill/social-cover-studio" "$OUT/01-skill/"
+          cp "$ROOT/PACKAGE-README.md" "$OUT/README.md"
+          while IFS= read -r -d '' file; do
+            case "$file" in
+              .github/*|release-packages/*) continue ;;
+            esac
+            mkdir -p "$OUT/02-knowledge-base/$(dirname "$file")"
+            cp "$file" "$OUT/02-knowledge-base/$file"
+          done < <(git ls-files -z)
+          printf 'source_branch=%s\n' "$GITHUB_REF_NAME" > "$OUT/BUILD-INFO.txt"
+          printf 'source_commit=%s\n' "$GITHUB_SHA" >> "$OUT/BUILD-INFO.txt"
+          printf 'plugin_release=pluginrel_6afdefbac9a481918d7a5166179b1308\n' >> "$OUT/BUILD-INFO.txt"
+          find "$OUT" -type f -print0 | sort -z | xargs -0 sha256sum > "$OUT/SHA256SUMS.txt"
+          cd dist
+          zip -qr ../social-cover-studio-v1.9.6-full.zip social-cover-studio-v1.9.6
+          unzip -t ../social-cover-studio-v1.9.6-full.zip
+          echo "PACKAGE_FILE_COUNT=$(find social-cover-studio-v1.9.6 -type f | wc -l)" >> "$GITHUB_ENV"
+          echo "PACKAGE_SIZE=$(stat -c%s ../social-cover-studio-v1.9.6-full.zip)" >> "$GITHUB_ENV"
+      - name: Upload complete package
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-cover-studio-v1.9.6-full
+          path: social-cover-studio-v1.9.6-full.zip
+          if-no-files-found: error
+          retention-days: 7
+      - name: Report build summary
+        run: |
+          echo "Files: $PACKAGE_FILE_COUNT"
+          echo "ZIP bytes: $PACKAGE_SIZE"

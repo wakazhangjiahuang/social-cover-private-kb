@@ -1,0 +1,8 @@
+interface:
+  display_name: 自媒体封面设计工作室
+  short_description: 依据真实素材与观众任务，按四层表达生成精确主副标题并完成三平台封面验收
+  default_prompt: 使用 $social-cover-studio。任务：{{新建封面/参考重设计/系列封面/仅标题/仅分析/原稿修复/复盘}}；平台：{{A抖音/B微信视频号/C小红书；多选才联合，非平台任务可留空}}。先识别目标受众的当前任务、具体卡点和可兑现收益；内部比较不同价值路径并自动选定一个标题组合；遵循V6四层表达、15字主标题与18字符副标题规则、用户锁定项和真实证据；创作实际出图、独立交付并逐张验收，非创作任务不擅自出图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
