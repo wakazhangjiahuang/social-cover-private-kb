@@ -150,8 +150,8 @@
     },
     {
       "path": "cover-copy/hot-spring-positive-cases-v2.json",
-      "bytes": 4958,
-      "sha256": "bdda67751b94685c7e3e44d58b7dfa8453df980376ad6e2aed2a2149dae73389",
+      "bytes": 5125,
+      "sha256": "766bd234ca7c7124e7e1368a69885d1a92eb600a23a5b24ded5e8677daf82196",
       "role": "user_approved_industry_positive_examples_with_verified_text_counts_not_effect_proof",
       "default_retrieval": false
     },
