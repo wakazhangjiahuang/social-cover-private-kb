@@ -121,6 +121,13 @@
       "default_retrieval": false
     },
     {
+      "path": "cover-copy/cover-copy-v5.1.md",
+      "bytes": 13087,
+      "sha256": "d18bbcaa876ed7df496e913ed9e1f36c6370cee2bc235d54bfa26b920cb8e081",
+      "role": "current_cover_copy_rule",
+      "default_retrieval": true
+    },
+    {
       "path": "cover-copy/cover-copy-v5.md",
       "bytes": 8529,
       "sha256": "2ade0b4084706af67367bec8864397cb13e252a408d47e6ae2ead32acc8bf5ef",
@@ -131,8 +138,8 @@
       "path": "cover-copy/cover-copy-v6.md",
       "bytes": 6220,
       "sha256": "80fcf5a6634933f7ea1b401725fd78ecade3a5af1b7caeadb447530b408905f1",
-      "role": "current_cover_copy_rule",
-      "default_retrieval": true
+      "role": "historical_cover_copy_rule",
+      "default_retrieval": false
     },
     {
       "path": "cover-copy/hot-spring-positive-cases-v1.json",
@@ -165,8 +172,8 @@
     },
     {
       "path": "cover-copy/README.md",
-      "bytes": 1223,
-      "sha256": "6c2c33029ac9fa701c272a1739a9b5e246391b0bdcfa2a3a6624faddd6792c96",
+      "bytes": 1213,
+      "sha256": "010efd4d48d426563df29891281ec7d5ab1aab83f1c7cc013e3c632ccd034758",
       "role": "current_rule_index",
       "default_retrieval": true
     },
@@ -718,8 +725,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4579,
-      "sha256": "4d87f2d2373093acbb758dac9825e2ad0472752fa181790326c5ff787730bf0d",
+      "bytes": 4452,
+      "sha256": "30ba6dbe675d319a65ef5077377fda7b714397893756ccbbcce9316fe23a2b2a",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
