@@ -123,7 +123,7 @@
     {
       "path": "cover-copy/cover-copy-v5.1.md",
       "bytes": 13087,
-      "sha256": "d18bbcaa876ed7df496e913ed9e1f36c6370cee2bc235d54bfa26b920cb8e081",
+      "sha256": "935a96bed5955803e2e341bad7825cdb2a4683d31a195369fe4192bf379ce181",
       "role": "current_cover_copy_rule",
       "default_retrieval": true
     },
@@ -151,7 +151,7 @@
     {
       "path": "cover-copy/hot-spring-positive-cases-v2.json",
       "bytes": 5125,
-      "sha256": "766bd234ca7c7124e7e1368a69885d1a92eb600a23a5b24ded5e8677daf82196",
+      "sha256": "ad0d356572ad891f35a48aa89ba1039b2a6744409b31e0874559e458e405e453",
       "role": "user_approved_industry_positive_examples_with_verified_text_counts_not_effect_proof",
       "default_retrieval": false
     },
