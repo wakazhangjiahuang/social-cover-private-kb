@@ -5,10 +5,10 @@
   "visibility": "public",
   "public_approved_by_user": true,
   "manifest_path": "manifest.json",
-  "manifest_ref": "45c1f613861e4b7abfc3acd690e5719a0b54f5dd",
-  "manifest_sha256": "bbb83c0c6d8b0e9740ab65ed0926c61b470f9c172a3b3bb1796aacb39a0a04a6",
+  "manifest_ref": "88cb7f6a68ef0710dc963f9ad35d172e9cd07c1f",
+  "manifest_sha256": "db76f91f104f0af1b31d1267f7aa68ba32cd549365e92478a7a656ccfd874c99",
   "inventory_path": "inventory.json",
-  "inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13",
+  "inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a",
   "catalog_index_path": "catalog/layout-index.json",
   "catalog_index_sha256": "0321fb828690762058c051942da31df76c5cf5bdcf0bf0d77e8bd3a8852ca60c",
   "style_index_path": "catalog/style-index.json",
@@ -33,9 +33,9 @@
   },
   "cover_copy": {
     "rules_path": "cover-copy/cover-copy-v5.1.md",
-    "rules_sha256": "d18bbcaa876ed7df496e913ed9e1f36c6370cee2bc235d54bfa26b920cb8e081",
+    "rules_sha256": "935a96bed5955803e2e341bad7825cdb2a4683d31a195369fe4192bf379ce181",
     "positive_cases_path": "cover-copy/hot-spring-positive-cases-v2.json",
-    "positive_cases_sha256": "766bd234ca7c7124e7e1368a69885d1a92eb600a23a5b24ded5e8677daf82196",
+    "positive_cases_sha256": "ad0d356572ad891f35a48aa89ba1039b2a6744409b31e0874559e458e405e453",
     "status": "CURRENT_V5.1_WORD_GUIDANCE_12_18_VISIBLE_GRAPHEMES_G1_G7; V6_HISTORICAL",
     "illustration_cases_path": "cover-copy/illustration-title-cases-v4.json",
     "illustration_cases_sha256": "ff2739d403e225049bc92edbc3b8cd0aa704099df79ab89d6dbcac9bb9861683"
@@ -56,7 +56,7 @@
   },
   "hot_spring_positive_cases": {
     "path": "cover-copy/hot-spring-positive-cases-v2.json",
-    "sha256": "766bd234ca7c7124e7e1368a69885d1a92eb600a23a5b24ded5e8677daf82196",
+    "sha256": "ad0d356572ad891f35a48aa89ba1039b2a6744409b31e0874559e458e405e453",
     "records": 4,
     "source_images_embedded": false,
     "status": "USER_APPROVED_POSITIVE_REFERENCES_WITH_VERIFIED_TEXT_COUNTS_NOT_PERFORMANCE_PROOF"
