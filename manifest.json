@@ -2,7 +2,7 @@
   "schema_version": "1.4.0",
   "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-24",
   "counts": {
     "visual_styles": 18,
     "cover_png": 64,
@@ -19,7 +19,7 @@
     "hot_spring_positive_cases": 4,
     "illustration_title_cases": 15,
     "illustration_note_alignment_records": 18,
-    "full_inventory_files": 235
+    "full_inventory_files": 236
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -37,7 +37,7 @@
     "retrieval": "tools/retrieve.py",
     "candidate_filter": "tools/candidate_filter.py",
     "cover_copy_readme": "cover-copy/README.md",
-    "cover_copy_rules": "cover-copy/cover-copy-v6.md",
+    "cover_copy_rules": "cover-copy/cover-copy-v5.1.md",
     "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v2.json",
     "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json",
     "illustration_note_alignment": "cover-copy/illustration-note-alignment-v1.json"
@@ -148,20 +148,6 @@
       "dependencies": []
     },
     {
-      "id": "cover-copy-v6-md",
-      "path": "cover-copy/cover-copy-v6.md",
-      "sha256": "80fcf5a6634933f7ea1b401725fd78ecade3a5af1b7caeadb447530b408905f1",
-      "tags": [
-        "cover_copy",
-        "current_rule"
-      ],
-      "source": "user_feedback_v6_four_layer_method_and_original_positive_case_revalidation",
-      "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
-      "ref": "manifest_commit",
-      "status": "current_execution_rule",
-      "dependencies": []
-    },
-    {
       "id": "cover-copy-hot-spring-positive-cases-v2-json",
       "path": "cover-copy/hot-spring-positive-cases-v2.json",
       "sha256": "bdda67751b94685c7e3e44d58b7dfa8453df980376ad6e2aed2a2149dae73389",
@@ -175,7 +161,7 @@
       "ref": "manifest_commit",
       "status": "user_approved_reference_with_verified_text_counts_not_performance_proof",
       "dependencies": [
-        "cover-copy/cover-copy-v6.md"
+        "cover-copy/cover-copy-v5.1.md"
       ]
     },
     {
@@ -207,13 +193,13 @@
       "ref": "manifest_commit",
       "status": "locked_reference_cases_not_fact_or_effect_certification",
       "dependencies": [
-        "cover-copy/cover-copy-v6.md"
+        "cover-copy/cover-copy-v5.1.md"
       ]
     },
     {
       "id": "cover-copy-readme-md",
       "path": "cover-copy/README.md",
-      "sha256": "6c2c33029ac9fa701c272a1739a9b5e246391b0bdcfa2a3a6624faddd6792c96",
+      "sha256": "010efd4d48d426563df29891281ec7d5ab1aab83f1c7cc013e3c632ccd034758",
       "tags": [
         "cover_copy",
         "retrieval_index"
@@ -223,7 +209,7 @@
       "ref": "manifest_commit",
       "status": "retrieval_index",
       "dependencies": [
-        "cover-copy/cover-copy-v6.md",
+        "cover-copy/cover-copy-v5.1.md",
         "cover-copy/hot-spring-positive-cases-v2.json"
       ]
     },
@@ -2754,6 +2740,21 @@
       "ref": "manifest_commit",
       "status": "execution_protocol",
       "dependencies": []
+    },
+    {
+      "id": "cover-copy-v5.1-md",
+      "path": "cover-copy/cover-copy-v5.1.md",
+      "sha256": "d18bbcaa876ed7df496e913ed9e1f36c6370cee2bc235d54bfa26b920cb8e081",
+      "tags": [
+        "cover_copy",
+        "current_rule",
+        "v5.1_word_guidance"
+      ],
+      "source": "user_supplied_v5.1_word_guidance_2026-11-24",
+      "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "current_execution_rule",
+      "dependencies": []
     }
   ],
   "reference_only": [
@@ -2781,6 +2782,20 @@
       ],
       "source": "previous_release",
       "license": "user_supplied_reference",
+      "ref": "manifest_commit",
+      "status": "historical_rule_not_default",
+      "dependencies": []
+    },
+    {
+      "id": "cover-copy-v6-md",
+      "path": "cover-copy/cover-copy-v6.md",
+      "sha256": "80fcf5a6634933f7ea1b401725fd78ecade3a5af1b7caeadb447530b408905f1",
+      "tags": [
+        "cover_copy",
+        "historical_rule"
+      ],
+      "source": "previous_current_rule_superseded_by_v5.1",
+      "license": "user_supplied_reference; no_third_party_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "historical_rule_not_default",
       "dependencies": []
@@ -2871,7 +2886,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "50b9af33f9d09e70ec4d4101e173beb55831922d06dfffaa37c4fbd61295042c",
+  "inventory_sha256": "83f52a44767a748d589721131928ebd2657394cf479348b2c2b58e248c6098a8",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
