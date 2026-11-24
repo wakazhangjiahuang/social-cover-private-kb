@@ -150,7 +150,7 @@
     {
       "id": "cover-copy-hot-spring-positive-cases-v2-json",
       "path": "cover-copy/hot-spring-positive-cases-v2.json",
-      "sha256": "766bd234ca7c7124e7e1368a69885d1a92eb600a23a5b24ded5e8677daf82196",
+      "sha256": "ad0d356572ad891f35a48aa89ba1039b2a6744409b31e0874559e458e405e453",
       "tags": [
         "cover_copy",
         "positive_reference",
@@ -2744,7 +2744,7 @@
     {
       "id": "cover-copy-v5.1-md",
       "path": "cover-copy/cover-copy-v5.1.md",
-      "sha256": "d18bbcaa876ed7df496e913ed9e1f36c6370cee2bc235d54bfa26b920cb8e081",
+      "sha256": "935a96bed5955803e2e341bad7825cdb2a4683d31a195369fe4192bf379ce181",
       "tags": [
         "cover_copy",
         "current_rule",
@@ -2886,7 +2886,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13",
+  "inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
