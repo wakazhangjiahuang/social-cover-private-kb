@@ -150,7 +150,7 @@
     {
       "id": "cover-copy-hot-spring-positive-cases-v2-json",
       "path": "cover-copy/hot-spring-positive-cases-v2.json",
-      "sha256": "bdda67751b94685c7e3e44d58b7dfa8453df980376ad6e2aed2a2149dae73389",
+      "sha256": "766bd234ca7c7124e7e1368a69885d1a92eb600a23a5b24ded5e8677daf82196",
       "tags": [
         "cover_copy",
         "positive_reference",
@@ -2886,7 +2886,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "83f52a44767a748d589721131928ebd2657394cf479348b2c2b58e248c6098a8",
+  "inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
