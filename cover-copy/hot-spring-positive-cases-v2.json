@@ -1,136 +1,52 @@
 {
-  "version": "2.0.0",
-  "status": "USER_APPROVED_POSITIVE_REFERENCES_NOT_PERFORMANCE_PROOF",
+  "version": "2.1.0",
+  "status": "USER_APPROVED_LOCKED_REFERENCES_NOT_PERFORMANCE_PROOF",
   "source_documents": [
-    {
-      "name": "三平台封面标题_新版(3).docx",
-      "sha256": "feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde"
-    },
-    {
-      "name": "自媒体封面标题+副标题(4).txt",
-      "sha256": "78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612"
-    },
-    {
-      "name": "爆款封面标题与副标题创作指导B版(2).txt",
-      "sha256": "f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140"
-    }
+    {"name":"三平台封面标题_新版(3).docx","sha256":"feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde"},
+    {"name":"自媒体封面标题+副标题(4).txt","sha256":"78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612"},
+    {"name":"爆款封面标题与副标题创作指导B版(2).txt","sha256":"f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140"}
   ],
   "source_images_embedded": false,
   "source_images_note": "四张原始PNG已逐一读取并核对SHA256；均为透明RGBA竖版文字叠加素材，未复制到公开仓库或插件二进制资产。用户认可文案/视觉不代表CTR、增粉、转化或爆款效果。",
   "counting_method": {
-    "main_title": "最多15个汉字；另检查所有可见字符与实际字宽。",
-    "subtitle": "最多18个可见字素簇，换行不计。",
-    "labels_and_cta": "地点、品牌、中间邀约牌和CTA独立计数，不并入主副标题总数。"
+    "main_title": "V5.1新创作默认最多12个可见字素簇；下列用户认可旧稿作为LOCKED_COPY参考，超限时须登记例外理由。",
+    "subtitle": "最多18个可见字素簇；下列锁定参考以原始字符记录为准。",
+    "labels_and_cta": "地点、品牌、中间邀约牌和CTA独立计数，不并入主副标题预算。",
+    "grapheme_method": "Unicode grapheme clusters; count Han, Latin letters, digits, spaces, punctuation, separators and emoji; line breaks excluded."
   },
   "cases": [
     {
-      "id": "HS-CREATOR-01",
-      "source_image": "ChatGPT Image Nov 18, 2026, 11_21_38 PM.png",
-      "image_sha256": "b475f4cb4deca33e4ccb75c2590c98c1755dd014ae4617b9aab1d4bd9e2d3013",
-      "dimensions": [
-        941,
-        1672
-      ],
-      "mode": "transparent_RGBA_text_overlay",
-      "main": "帮这座小城多一个被看见的理由",
-      "main_lines": [
-        "帮这座小城",
-        "多一个",
-        "被看见的理由"
-      ],
-      "main_han_count": 14,
-      "main_visible_graphemes": 14,
-      "subtitle": "让你的镜头成为英德山野的另一种介绍",
-      "subtitle_lines": [
-        "让你的镜头",
-        "成为英德山野的另一种介绍"
-      ],
-      "subtitle_han_count": 17,
-      "subtitle_visible_graphemes": 17,
-      "status": "USER_APPROVED_POSITIVE_REFERENCE",
-      "marketing_effect": "NOT_RUN"
+      "id":"HS-CREATOR-01","source_image":"ChatGPT Image Nov 18, 2026, 11_21_38 PM.png",
+      "image_sha256":"b475f4cb4deca33e4ccb75c2590c98c1755dd014ae4617b9aab1d4bd9e2d3013","dimensions":[941,1672],"mode":"transparent_RGBA_text_overlay",
+      "main":"帮这座小城多一个被看见的理由","main_lines":["帮这座小城","多一个","被看见的理由"],"main_han_count":14,"main_visible_graphemes":14,
+      "subtitle":"让你的镜头成为英德山野的另一种介绍","subtitle_lines":["让你的镜头","成为英德山野的另一种介绍"],"subtitle_han_count":17,"subtitle_visible_graphemes":17,
+      "locked_copy":true,"locked_exception":true,"exception_reason":"User-approved historical overlay; preserve exact copy only, not a new-title length precedent.",
+      "status":"USER_APPROVED_LOCKED_REFERENCE","marketing_effect":"NOT_RUN"
     },
     {
-      "id": "HS-CREATOR-02",
-      "source_image": "ChatGPT Image Nov 18, 2026, 11_21_18 PM.png",
-      "image_sha256": "c3497161933ab11a414183f6b9d5f47cd23727aedde6515ca99e4bd7196e69cd",
-      "dimensions": [
-        916,
-        1717
-      ],
-      "mode": "transparent_RGBA_text_overlay",
-      "main": "家乡这一池暖，想请你来讲讲",
-      "main_lines": [
-        "家乡",
-        "这一池暖",
-        "想请你来讲讲"
-      ],
-      "main_han_count": 12,
-      "main_visible_graphemes": 13,
-      "subtitle_label": "长寿桥温泉创作邀约",
-      "subtitle_label_visible_graphemes": 9,
-      "subtitle": "让你的周末推荐多一站英德",
-      "subtitle_lines": [
-        "让你的周末推荐多一站英德"
-      ],
-      "subtitle_han_count": 12,
-      "subtitle_visible_graphemes": 12,
-      "status": "USER_APPROVED_POSITIVE_REFERENCE",
-      "marketing_effect": "NOT_RUN"
+      "id":"HS-CREATOR-02","source_image":"ChatGPT Image Nov 18, 2026, 11_21_18 PM.png",
+      "image_sha256":"c3497161933ab11a414183f6b9d5f47cd23727aedde6515ca99e4bd7196e69cd","dimensions":[916,1717],"mode":"transparent_RGBA_text_overlay",
+      "main":"家乡这一池暖，想请你来讲讲","main_lines":["家乡","这一池暖","想请你来讲讲"],"main_han_count":12,"main_visible_graphemes":13,
+      "subtitle_label":"长寿桥温泉创作邀约","subtitle_label_visible_graphemes":9,
+      "subtitle":"让你的周末推荐多一站英德","subtitle_lines":["让你的周末推荐多一站英德"],"subtitle_han_count":12,"subtitle_visible_graphemes":12,
+      "locked_copy":true,"locked_exception":true,"exception_reason":"User-approved historical overlay; preserve exact copy; invitation label remains a separate field.",
+      "status":"USER_APPROVED_LOCKED_REFERENCE","marketing_effect":"NOT_RUN"
     },
     {
-      "id": "HS-CREATOR-03",
-      "source_image": "ChatGPT Image Nov 18, 2026, 11_20_25 PM.png",
-      "image_sha256": "e599cdee4e20f37e43ab9a7479af69f5ff13e34d3993c8a70947db71a995dd14",
-      "dimensions": [
-        916,
-        1717
-      ],
-      "mode": "transparent_RGBA_text_overlay",
-      "main": "让粉丝记住，是你推荐的这一站",
-      "main_lines": [
-        "让粉丝记住",
-        "是你推荐的",
-        "这一站"
-      ],
-      "main_han_count": 13,
-      "main_visible_graphemes": 14,
-      "subtitle": "先认真体验，再写你的真实推荐",
-      "subtitle_lines": [
-        "先认真体验",
-        "再写你的真实推荐"
-      ],
-      "subtitle_han_count": 13,
-      "subtitle_visible_graphemes": 14,
-      "status": "USER_APPROVED_POSITIVE_REFERENCE",
-      "marketing_effect": "NOT_RUN"
+      "id":"HS-CREATOR-03","source_image":"ChatGPT Image Nov 18, 2026, 11_20_25 PM.png",
+      "image_sha256":"e599cdee4e20f37e43ab9a7479af69f5ff13e34d3993c8a70947db71a995dd14","dimensions":[916,1717],"mode":"transparent_RGBA_text_overlay",
+      "main":"让粉丝记住，是你推荐的这一站","main_lines":["让粉丝记住","是你推荐的","这一站"],"main_han_count":13,"main_visible_graphemes":14,
+      "subtitle":"先认真体验，再写你的真实推荐","subtitle_lines":["先认真体验","再写你的真实推荐"],"subtitle_han_count":13,"subtitle_visible_graphemes":14,
+      "locked_copy":true,"locked_exception":true,"exception_reason":"User-approved historical overlay; preserve exact copy only, not a new-title length precedent.",
+      "status":"USER_APPROVED_LOCKED_REFERENCE","marketing_effect":"NOT_RUN"
     },
     {
-      "id": "HS-CREATOR-04",
-      "source_image": "986fa38e-4443-488c-8e6e-8ec45e40fe70.png",
-      "image_sha256": "31326e6002466e9b35437e414b57970de7c864d53bd82b18f2422ef7136aae02",
-      "dimensions": [
-        916,
-        1717
-      ],
-      "mode": "transparent_RGBA_text_overlay",
-      "main": "你的镜头也能参与小店成长",
-      "main_lines": [
-        "你的镜头",
-        "也能参与",
-        "小店成长"
-      ],
-      "main_han_count": 12,
-      "main_visible_graphemes": 12,
-      "subtitle": "从一条真实建议，聊到一次在地共创",
-      "subtitle_lines": [
-        "从一条真实建议",
-        "聊到一次在地共创"
-      ],
-      "subtitle_han_count": 15,
-      "subtitle_visible_graphemes": 16,
-      "status": "USER_APPROVED_POSITIVE_REFERENCE",
-      "marketing_effect": "NOT_RUN"
+      "id":"HS-CREATOR-04","source_image":"986fa38e-4443-488c-8e6e-8ec45e40fe70.png",
+      "image_sha256":"31326e6002466e9b35437e414b57970de7c864d53bd82b18f2422ef7136aae02","dimensions":[916,1717],"mode":"transparent_RGBA_text_overlay",
+      "main":"你的镜头也能参与小店成长","main_lines":["你的镜头","也能参与","小店成长"],"main_han_count":12,"main_visible_graphemes":12,
+      "subtitle":"从一条真实建议，聊到一次在地共创","subtitle_lines":["从一条真实建议","聊到一次在地共创"],"subtitle_han_count":15,"subtitle_visible_graphemes":16,
+      "locked_copy":true,"locked_exception":false,"exception_reason":"User-approved historical overlay; within V5.1 main/subtitle budgets but still reference-only.",
+      "status":"USER_APPROVED_LOCKED_REFERENCE","marketing_effect":"NOT_RUN"
     }
   ],
   "internal_only_boundary": [
