@@ -93,6 +93,13 @@
       "default_retrieval": true
     },
     {
+      "path": "config/cover-expression-contract.schema.json",
+      "bytes": 2523,
+      "sha256": "c672de0e018e96431af3d57e3d651ac353c58623f980e4ca092b57a5495a80f8",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
       "path": "config/cover-spec.schema.json",
       "bytes": 1250,
       "sha256": "9ec98f0ba5c3a82ce9caab3c7062ec55a9f64cbbd391ee213589fe6402e79d53",
@@ -103,6 +110,13 @@
       "path": "config/integration-status.json",
       "bytes": 749,
       "sha256": "bce93c3a5e18705b7557bf3a2f601472e724acfbe706b08571a43104dca9b105",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "config/task-input-v2.schema.json",
+      "bytes": 784,
+      "sha256": "5f9de2db242e13759e430133560725652a35d19b17fb3a7445479c5a9efb9557",
       "role": "execution_protocol",
       "default_retrieval": true
     },
@@ -633,6 +647,20 @@
       "default_retrieval": true
     },
     {
+      "path": "evals/negative-regression-v2.jsonl",
+      "bytes": 713,
+      "sha256": "8ae7d9aef7675b1c3fd454b4a48834c9f749dbbc83b3071d6e0e684c66f4e061",
+      "role": "evaluation_case",
+      "default_retrieval": true
+    },
+    {
+      "path": "evals/platform-routing-v2.jsonl",
+      "bytes": 536,
+      "sha256": "8ed3974df0d15d806d13318d4d089c25470b1ca54b12ba4f2630875499f03318",
+      "role": "evaluation_case",
+      "default_retrieval": true
+    },
+    {
       "path": "fonts/mono.otf",
       "bytes": 265152,
       "sha256": "7873f6fe2ba05d6d457103121882f4cb056a0bdbf4d59f1b17337c36c7b21bf0",
@@ -682,6 +710,13 @@
       "default_retrieval": true
     },
     {
+      "path": "guides/social-cover-studio-v2.0/README.md",
+      "bytes": 2533,
+      "sha256": "c0c1aac52bb5dc1b8f444536c87a3e8deddcd85ff45fe3c0f22a0348c5f61a1a",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
       "path": "hooks/candidates.json",
       "bytes": 300503,
       "sha256": "6fc157b12aa19abec6570c981e6fd2d01426a5900c81b28281ecc44257b577b7",
@@ -703,11 +738,95 @@
       "default_retrieval": false
     },
     {
+      "path": "maintenance/non-destructive-maintenance-policy-v2.md",
+      "bytes": 853,
+      "sha256": "41a53abe43632b0710fcb1a99e7b3742a74fe5668d48414ea0826196496955e9",
+      "role": "execution_protocol",
+      "default_retrieval": false
+    },
+    {
+      "path": "platform-audit-v2.json",
+      "bytes": 1011,
+      "sha256": "362ca82c3b141e3d534641796da7b8f05ef998c63b8fb0bcbfaf1e68aad7bc3a",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
       "path": "platform-audit.json",
       "bytes": 10066,
       "sha256": "53ea80a721193d676f2b125b045d81e5caddcd19682cc498c2ae5286c7f48d9f",
       "role": "reference_only_source_not_current_rule",
       "default_retrieval": false
+    },
+    {
+      "path": "platforms/A-douyin.md",
+      "bytes": 849,
+      "sha256": "aeaacb2a4c39f8c44cce91c85a5c0d123b5894c3c5d07fc2c2d16f40d2db5717",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/B-wechat-channels.md",
+      "bytes": 824,
+      "sha256": "0dfde9cda5ef42b339a222fd0c1d3e81b09b2f6e49fe8ae01699c4c8c84e8b07",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/C-xiaohongshu.md",
+      "bytes": 974,
+      "sha256": "20f934db9445bf0ff5f20029c336ef7b3a203573e8d1e1aa0c198eeaeb6077ef",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/D-xianyu.md",
+      "bytes": 1150,
+      "sha256": "ff48892d079070651ab5b1bfebbbaf508cb42dfc395bdd404cf5c4dd8f126d25",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/E-taobao-tmall.md",
+      "bytes": 1165,
+      "sha256": "7e80c496a03b9bedcefaeb0dfaed78e4b926a9b081eae6c7b938f1c302c60e53",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/F-douyin-mall.md",
+      "bytes": 895,
+      "sha256": "512ddf10ee7423d44c33c6a4a19e9e821ed4eee0c34108aa431b857fe51a0a8a",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/G-douyin-live.md",
+      "bytes": 1013,
+      "sha256": "17d9e4dadb60827891842178a366683ca6081fb2f38e7a24215ae426653ae182",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/H-taobao-live.md",
+      "bytes": 972,
+      "sha256": "9ba63e7595b08f1e3747d881c1ea42bd47614dc73edd3c33e7fba768c947cd7d",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/index-v2.json",
+      "bytes": 1185,
+      "sha256": "4833280738b016a729dbbf1bd6f12aa6eea934edb29c4cf8afb46329c48ff9b0",
+      "role": "platform_adapter",
+      "default_retrieval": true
+    },
+    {
+      "path": "platforms/README-v2.md",
+      "bytes": 1229,
+      "sha256": "7c0418df0d2ff7139a71670709c7036b2f86e9855878b33af7b87b6a926ee623",
+      "role": "platform_adapter",
+      "default_retrieval": true
     },
     {
       "path": "platforms/README.md",
@@ -725,8 +844,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4452,
-      "sha256": "30ba6dbe675d319a65ef5077377fda7b714397893756ccbbcce9316fe23a2b2a",
+      "bytes": 2027,
+      "sha256": "e461bf8bdcdd4a317fdf92364a79cdd7a05233bc751f6772a3d9b3c886557641",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
     },
@@ -736,6 +855,20 @@
       "sha256": "780218c853f2453c5483e20c67a04b1e7db1470bcf6680a7153a88d138b22e0b",
       "role": "reference_only_source_not_current_rule",
       "default_retrieval": false
+    },
+    {
+      "path": "research/platform-evidence-2026-11-27.json",
+      "bytes": 2833,
+      "sha256": "b6c0b78408684ad357e3cddc43b27ce52882e63e54a42b38cc735e76e50b5a4d",
+      "role": "platform_research",
+      "default_retrieval": true
+    },
+    {
+      "path": "research/platform-evidence-2026-11-27.md",
+      "bytes": 2809,
+      "sha256": "03e6ab46024c4119dbe498344c686c4f15d002d7b668d693262e66a08f26088f",
+      "role": "platform_research",
+      "default_retrieval": true
     },
     {
       "path": "research/REUSE_AND_LICENSE.md",
@@ -1585,6 +1718,13 @@
       "default_retrieval": false
     },
     {
+      "path": "tools/retrieve_v2.py",
+      "bytes": 2909,
+      "sha256": "a7ff9575302c4a7241c53683a77e1a5c2a0f45546299aa0e720f18afb9fb7ded",
+      "role": "retrieval_or_validation_tool",
+      "default_retrieval": true
+    },
+    {
       "path": "tools/retrieve.py",
       "bytes": 6439,
       "sha256": "ec5aa6bc4d0ee17b0d83d86aa861a42e330b7070ba6589584ee276a71fba8510",
@@ -1604,6 +1744,13 @@
       "sha256": "28eee2f575fd7bfb617e07671de0290760b086aa0b826e42cda16986bad07be2",
       "role": "maintenance_or_offline_view_only",
       "default_retrieval": false
+    },
+    {
+      "path": "tools/tests/retrieval_v2_test.py",
+      "bytes": 781,
+      "sha256": "9983a6d974afb4ac629d1d2ce172986a617e77cf89cdee44ee2e1283b2b52322",
+      "role": "retrieval_or_validation_tool",
+      "default_retrieval": true
     },
     {
       "path": "tools/validate_assets.py",
@@ -1627,9 +1774,23 @@
       "default_retrieval": true
     },
     {
+      "path": "workflow/cover-expression-contract-v2.md",
+      "bytes": 1065,
+      "sha256": "741afd44bb9c7a9665e27e829417c18ab743d94a19f7e44b5b0e9d4ed48050b1",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
       "path": "workflow/integrations.md",
       "bytes": 725,
       "sha256": "a3745ad2baf35ff2c3c49651bd4ac89f3e665b9d41f75485ff1c38dc5716f27e",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "workflow/knowledge-retrieval-v2.md",
+      "bytes": 940,
+      "sha256": "c4fced5a3bcbfd91edab8748d5da4f118bdaf1656f0fdeb1d6b519305e12f2aa",
       "role": "execution_protocol",
       "default_retrieval": true
     },
@@ -1641,9 +1802,23 @@
       "default_retrieval": true
     },
     {
+      "path": "workflow/pipeline-contract-v2.md",
+      "bytes": 1003,
+      "sha256": "31ecdaf921a66e2148890b10dc9fb3f45bb46dac2fee5b5d8624f48b933b552d",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
       "path": "workflow/platforms.md",
       "bytes": 1929,
       "sha256": "bb8f3b1a5c571d8a8443237d26f37a041eaa9c6221a8d40cf4744eb507caab74",
+      "role": "execution_protocol",
+      "default_retrieval": true
+    },
+    {
+      "path": "workflow/qa-v2.md",
+      "bytes": 1089,
+      "sha256": "9a428cf17e06a5d17f41a6a7867b491f60c223ec85aa3245a1dfd5a496c08dc9",
       "role": "execution_protocol",
       "default_retrieval": true
     },

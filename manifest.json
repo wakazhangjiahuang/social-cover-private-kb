@@ -2,7 +2,7 @@
   "schema_version": "1.4.0",
   "status": "active",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-27",
   "counts": {
     "visual_styles": 18,
     "cover_png": 64,
@@ -19,7 +19,7 @@
     "hot_spring_positive_cases": 4,
     "illustration_title_cases": 15,
     "illustration_note_alignment_records": 18,
-    "full_inventory_files": 236
+    "full_inventory_files": 261
   },
   "entrypoints": {
     "asset_groups": "catalog/asset-groups.json",
@@ -31,16 +31,30 @@
     "titles": "titles/candidates.json",
     "hooks": "hooks/candidates.json",
     "formulas": "formulas/core-formulas.json",
-    "workflow": "workflow/workflow.md",
-    "platform_adapter": "workflow/platforms.md",
-    "qa": "workflow/qa.md",
+    "workflow": "workflow/pipeline-contract-v2.md",
+    "platform_adapter": "platforms/README-v2.md",
+    "qa": "workflow/qa-v2.md",
     "retrieval": "tools/retrieve.py",
     "candidate_filter": "tools/candidate_filter.py",
     "cover_copy_readme": "cover-copy/README.md",
     "cover_copy_rules": "cover-copy/cover-copy-v5.1.md",
     "hot_spring_positive_cases": "cover-copy/hot-spring-positive-cases-v2.json",
     "illustration_title_cases": "cover-copy/illustration-title-cases-v4.json",
-    "illustration_note_alignment": "cover-copy/illustration-note-alignment-v1.json"
+    "illustration_note_alignment": "cover-copy/illustration-note-alignment-v1.json",
+    "knowledge_retrieval_v2": "workflow/knowledge-retrieval-v2.md",
+    "cover_expression_contract_v2": "workflow/cover-expression-contract-v2.md",
+    "pipeline_contract_v2": "workflow/pipeline-contract-v2.md",
+    "platform_index_v2": "platforms/index-v2.json",
+    "platform_evidence_v2": "research/platform-evidence-2026-11-27.json",
+    "platform_audit_v2": "platform-audit-v2.json",
+    "v2_guide": "guides/social-cover-studio-v2.0/README.md",
+    "cover_expression_schema_v2": "config/cover-expression-contract.schema.json",
+    "task_input_schema_v2": "config/task-input-v2.schema.json",
+    "retrieval_v2": "tools/retrieve_v2.py",
+    "platform_routing_tests_v2": "tools/tests/retrieval_v2_test.py",
+    "platform_evals_v2": "evals/platform-routing-v2.jsonl",
+    "negative_regression_v2": "evals/negative-regression-v2.jsonl",
+    "non_destructive_maintenance_v2": "maintenance/non-destructive-maintenance-policy-v2.md"
   },
   "assets": [
     {
@@ -2755,6 +2769,370 @@
       "ref": "manifest_commit",
       "status": "current_execution_rule",
       "dependencies": []
+    },
+    {
+      "id": "guides-social-cover-studio-v2-0-readme-md",
+      "path": "guides/social-cover-studio-v2.0/README.md",
+      "sha256": "c0c1aac52bb5dc1b8f444536c87a3e8deddcd85ff45fe3c0f22a0348c5f61a1a",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-readme-v2-md",
+      "path": "platforms/README-v2.md",
+      "sha256": "7c0418df0d2ff7139a71670709c7036b2f86e9855878b33af7b87b6a926ee623",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-a-douyin-md",
+      "path": "platforms/A-douyin.md",
+      "sha256": "aeaacb2a4c39f8c44cce91c85a5c0d123b5894c3c5d07fc2c2d16f40d2db5717",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-b-wechat-channels-md",
+      "path": "platforms/B-wechat-channels.md",
+      "sha256": "0dfde9cda5ef42b339a222fd0c1d3e81b09b2f6e49fe8ae01699c4c8c84e8b07",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-c-xiaohongshu-md",
+      "path": "platforms/C-xiaohongshu.md",
+      "sha256": "20f934db9445bf0ff5f20029c336ef7b3a203573e8d1e1aa0c198eeaeb6077ef",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-d-xianyu-md",
+      "path": "platforms/D-xianyu.md",
+      "sha256": "ff48892d079070651ab5b1bfebbbaf508cb42dfc395bdd404cf5c4dd8f126d25",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-e-taobao-tmall-md",
+      "path": "platforms/E-taobao-tmall.md",
+      "sha256": "7e80c496a03b9bedcefaeb0dfaed78e4b926a9b081eae6c7b938f1c302c60e53",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-f-douyin-mall-md",
+      "path": "platforms/F-douyin-mall.md",
+      "sha256": "512ddf10ee7423d44c33c6a4a19e9e821ed4eee0c34108aa431b857fe51a0a8a",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-g-douyin-live-md",
+      "path": "platforms/G-douyin-live.md",
+      "sha256": "17d9e4dadb60827891842178a366683ca6081fb2f38e7a24215ae426653ae182",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-h-taobao-live-md",
+      "path": "platforms/H-taobao-live.md",
+      "sha256": "9ba63e7595b08f1e3747d881c1ea42bd47614dc73edd3c33e7fba768c947cd7d",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow-cover-expression-contract-v2-md",
+      "path": "workflow/cover-expression-contract-v2.md",
+      "sha256": "741afd44bb9c7a9665e27e829417c18ab743d94a19f7e44b5b0e9d4ed48050b1",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow-pipeline-contract-v2-md",
+      "path": "workflow/pipeline-contract-v2.md",
+      "sha256": "31ecdaf921a66e2148890b10dc9fb3f45bb46dac2fee5b5d8624f48b933b552d",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow-knowledge-retrieval-v2-md",
+      "path": "workflow/knowledge-retrieval-v2.md",
+      "sha256": "c4fced5a3bcbfd91edab8748d5da4f118bdaf1656f0fdeb1d6b519305e12f2aa",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "workflow-qa-v2-md",
+      "path": "workflow/qa-v2.md",
+      "sha256": "9a428cf17e06a5d17f41a6a7867b491f60c223ec85aa3245a1dfd5a496c08dc9",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "maintenance-non-destructive-maintenance-policy-v2-md",
+      "path": "maintenance/non-destructive-maintenance-policy-v2.md",
+      "sha256": "41a53abe43632b0710fcb1a99e7b3742a74fe5668d48414ea0826196496955e9",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "platforms-index-v2-json",
+      "path": "platforms/index-v2.json",
+      "sha256": "4833280738b016a729dbbf1bd6f12aa6eea934edb29c4cf8afb46329c48ff9b0",
+      "tags": [
+        "platform_adapter",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-cover-expression-contract-schema-json",
+      "path": "config/cover-expression-contract.schema.json",
+      "sha256": "c672de0e018e96431af3d57e3d651ac353c58623f980e4ca092b57a5495a80f8",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "config-task-input-v2-schema-json",
+      "path": "config/task-input-v2.schema.json",
+      "sha256": "5f9de2db242e13759e430133560725652a35d19b17fb3a7445479c5a9efb9557",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "research-platform-evidence-2026-11-27-md",
+      "path": "research/platform-evidence-2026-11-27.md",
+      "sha256": "03e6ab46024c4119dbe498344c686c4f15d002d7b668d693262e66a08f26088f",
+      "tags": [
+        "platform_research",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "official_source_or_platform_research",
+      "dependencies": []
+    },
+    {
+      "id": "research-platform-evidence-2026-11-27-json",
+      "path": "research/platform-evidence-2026-11-27.json",
+      "sha256": "b6c0b78408684ad357e3cddc43b27ce52882e63e54a42b38cc735e76e50b5a4d",
+      "tags": [
+        "platform_research",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "official_source_or_platform_research",
+      "dependencies": []
+    },
+    {
+      "id": "platform-audit-v2-json",
+      "path": "platform-audit-v2.json",
+      "sha256": "362ca82c3b141e3d534641796da7b8f05ef998c63b8fb0bcbfaf1e68aad7bc3a",
+      "tags": [
+        "execution_protocol",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "evals-platform-routing-v2-jsonl",
+      "path": "evals/platform-routing-v2.jsonl",
+      "sha256": "8ed3974df0d15d806d13318d4d089c25470b1ca54b12ba4f2630875499f03318",
+      "tags": [
+        "evaluation_case",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "evals-negative-regression-v2-jsonl",
+      "path": "evals/negative-regression-v2.jsonl",
+      "sha256": "8ae7d9aef7675b1c3fd454b4a48834c9f749dbbc83b3071d6e0e684c66f4e061",
+      "tags": [
+        "evaluation_case",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "tools-retrieve-v2-py",
+      "path": "tools/retrieve_v2.py",
+      "sha256": "a7ff9575302c4a7241c53683a77e1a5c2a0f45546299aa0e720f18afb9fb7ded",
+      "tags": [
+        "retrieval_tool",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "tools-tests-retrieval-v2-test-py",
+      "path": "tools/tests/retrieval_v2_test.py",
+      "sha256": "9983a6d974afb4ac629d1d2ce172986a617e77cf89cdee44ee2e1283b2b52322",
+      "tags": [
+        "retrieval_tool",
+        "v2.0"
+      ],
+      "source": "repository_maintenance_and_official_platform_sources",
+      "license": "source_specific_no_general_reuse_license_inferred",
+      "ref": "manifest_commit",
+      "status": "execution_protocol",
+      "dependencies": []
+    },
+    {
+      "id": "readme-md",
+      "path": "README.md",
+      "sha256": "e461bf8bdcdd4a317fdf92364a79cdd7a05233bc751f6772a3d9b3c886557641",
+      "tags": [
+        "repository_guide",
+        "v2.0"
+      ],
+      "source": "repository_maintenance",
+      "license": "repository_maintained",
+      "ref": "manifest_commit",
+      "status": "repository_guide",
+      "dependencies": []
     }
   ],
   "reference_only": [
@@ -2886,7 +3264,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a",
+  "inventory_sha256": "4a53a34b1718a11a896709173986411586c5b879cece4b55f13f9d613fbcee5b",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
@@ -2895,5 +3273,16 @@
     "inventory.json",
     "manifest.json"
   ],
-  "verification_scope": "file integrity, image decoding, metadata retrieval and structural classification; not platform effect validation"
+  "verification_scope": "file integrity, image decoding, metadata retrieval and structural classification; not platform effect validation",
+  "knowledge_version": "2.0.0",
+  "platform_modes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ]
 }
