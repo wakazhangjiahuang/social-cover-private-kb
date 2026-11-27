@@ -23,7 +23,7 @@
     {
       "id": "v2-readme",
       "path": "v2.0/README.md",
-      "sha256": "10f3892871bc76de93153517e888292c9c41b6ec3aeaa2e50bf47ab5a33524cf",
+      "sha256": "2fda9c5cbcea50f9cdabb7fd4ac6a658783ceb2d461a6d6d7401bb4956292238",
       "tags": [
         "entrypoint",
         "retrieval_index",
