@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.2",
+  "schema_version": "2.0.3",
   "status": "active_additive_overlay",
   "repository": "wakazhangjiahuang/social-cover-private-kb",
   "visibility": "public_user_approved",
@@ -12,11 +12,10 @@
   },
   "overlay": {
     "manifest_path": "v2.0/manifest-overlay.json",
-    "manifest_ref": "a8ed7220fd16bc79f2594004e536b59f546178b9",
-    "manifest_sha256": "f114bc8c0d2ce6534884b0ff8b7e1e325582b1f3dbd05b66b9bda73bc8fcb272",
+    "manifest_ref": "33bfe671b730e3ff4136289b3e4dd759b6f60482",
+    "manifest_sha256": "5959b7b408ac539e775c0758eda80c232bcf8e85bbc9dc9e85e3780dbb16c9df",
     "inventory_path": "v2.0/inventory-overlay.json",
-    "inventory_sha256": "ccdd033f63daf74e0a51685b7a8656c752ffd463ab2bd7a73098e5cca831d138",
-    "branch": "v2.0-system-upgrade-20261127"
+    "inventory_sha256": "e02bbfe4079e3a9da7bf4072c00149926d61dd1b25cefdb2377d3ef15fb198bd"
   },
   "entrypoints": [
     "v2.0/README.md",
@@ -35,10 +34,10 @@
     "historical_policy": "logical_archive_only"
   },
   "verification": {
-    "manifest_sha256": "f114bc8c0d2ce6534884b0ff8b7e1e325582b1f3dbd05b66b9bda73bc8fcb272",
-    "inventory_sha256": "ccdd033f63daf74e0a51685b7a8656c752ffd463ab2bd7a73098e5cca831d138",
-    "verified_at": "2026-11-27",
+    "manifest_sha256": "5959b7b408ac539e775c0758eda80c232bcf8e85bbc9dc9e85e3780dbb16c9df",
+    "inventory_sha256": "e02bbfe4079e3a9da7bf4072c00149926d61dd1b25cefdb2377d3ef15fb198bd",
     "base_manifest_sha256": "bbb83c0c6d8b0e9740ab65ed0926c61b470f9c172a3b3bb1796aacb39a0a04a6",
-    "base_inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13"
+    "base_inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13",
+    "verified_at": "2026-11-27"
   }
 }
