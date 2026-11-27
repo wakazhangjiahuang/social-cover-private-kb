@@ -25,8 +25,8 @@
     "v2.0/evidence/platform-algorithm-and-rules-register.md",
     "v2.0/qa/qa-contract-v2.md"
   ],
-  "retrieval_policy": "Read the fixed base snapshot plus this additive overlay. Load platform+surface adapter and declared dependencies only. Never use floating main.",
-  "fallback": "If overlay ref/hash fails, use only the verified base snapshot for existing A/B/C capabilities; mark D-H BLOCKED/UNKNOWN. Never silently switch repositories or use floating main.",
+  "retrieval_policy": "Read fixed base snapshot plus V2.0 additive overlay. Load only platform+surface adapter and declared dependencies. Never use floating main.",
+  "fallback": "If overlay ref/hash fails, use verified base snapshot only for existing A/B/C capabilities; mark D-H BLOCKED/UNKNOWN. Never silently switch repositories or use floating main.",
   "preservation_policy": {
     "delete_existing": false,
     "overwrite_originals": false,
