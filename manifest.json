@@ -2773,7 +2773,7 @@
     {
       "id": "guides-social-cover-studio-v2-0-readme-md",
       "path": "guides/social-cover-studio-v2.0/README.md",
-      "sha256": "c0c1aac52bb5dc1b8f444536c87a3e8deddcd85ff45fe3c0f22a0348c5f61a1a",
+      "sha256": "0ccb7a2ff954235b25c19d064c02b6e71dc78a9c19be12033058190efd117c58",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -2782,12 +2782,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 2533
     },
     {
       "id": "platforms-readme-v2-md",
       "path": "platforms/README-v2.md",
-      "sha256": "7c0418df0d2ff7139a71670709c7036b2f86e9855878b33af7b87b6a926ee623",
+      "sha256": "e756e6d59e9b2462e8338c47ce3b325fcf15b69124f34577a4f02122a468c485",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2796,12 +2797,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1229
     },
     {
       "id": "platforms-a-douyin-md",
       "path": "platforms/A-douyin.md",
-      "sha256": "aeaacb2a4c39f8c44cce91c85a5c0d123b5894c3c5d07fc2c2d16f40d2db5717",
+      "sha256": "1c533aff102e291fe8e397fd8b34a44f75a0465ea6de3511193a17a41aa344af",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2810,12 +2812,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 849
     },
     {
       "id": "platforms-b-wechat-channels-md",
       "path": "platforms/B-wechat-channels.md",
-      "sha256": "0dfde9cda5ef42b339a222fd0c1d3e81b09b2f6e49fe8ae01699c4c8c84e8b07",
+      "sha256": "0ac57aadc3f6ac6cb11dffdc62385c5b2eae2504eb573df28d325641bc8df35d",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2824,12 +2827,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 824
     },
     {
       "id": "platforms-c-xiaohongshu-md",
       "path": "platforms/C-xiaohongshu.md",
-      "sha256": "20f934db9445bf0ff5f20029c336ef7b3a203573e8d1e1aa0c198eeaeb6077ef",
+      "sha256": "6e0bedea78543f7e9938673842ebcd33a778c303439e237ef4ebd106a19a1f61",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2838,12 +2842,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 974
     },
     {
       "id": "platforms-d-xianyu-md",
       "path": "platforms/D-xianyu.md",
-      "sha256": "ff48892d079070651ab5b1bfebbbaf508cb42dfc395bdd404cf5c4dd8f126d25",
+      "sha256": "ab33c4dfc0db81dd06f68eac12ab132e04d23931924667b15ff44891e4c224a2",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2852,12 +2857,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1150
     },
     {
       "id": "platforms-e-taobao-tmall-md",
       "path": "platforms/E-taobao-tmall.md",
-      "sha256": "7e80c496a03b9bedcefaeb0dfaed78e4b926a9b081eae6c7b938f1c302c60e53",
+      "sha256": "9ea9f3e5ec53789e2b340a7c8bd75c5477024979ab0476a2757af7f36d8da722",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2866,12 +2872,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1165
     },
     {
       "id": "platforms-f-douyin-mall-md",
       "path": "platforms/F-douyin-mall.md",
-      "sha256": "512ddf10ee7423d44c33c6a4a19e9e821ed4eee0c34108aa431b857fe51a0a8a",
+      "sha256": "53fc6d68dde477521edf24787c76e83596c1bd057ce30af68ad93b01b9580362",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2880,12 +2887,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 895
     },
     {
       "id": "platforms-g-douyin-live-md",
       "path": "platforms/G-douyin-live.md",
-      "sha256": "17d9e4dadb60827891842178a366683ca6081fb2f38e7a24215ae426653ae182",
+      "sha256": "a59e8f55ce84692ba6a154554ccb239e49c1fc050e83b3f01e76b0d723502699",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2894,12 +2902,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1013
     },
     {
       "id": "platforms-h-taobao-live-md",
       "path": "platforms/H-taobao-live.md",
-      "sha256": "9ba63e7595b08f1e3747d881c1ea42bd47614dc73edd3c33e7fba768c947cd7d",
+      "sha256": "de369e558b4caff111f60c84352de11c86828d8464feb5fb491d6176e646acd3",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2908,12 +2917,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 972
     },
     {
       "id": "workflow-cover-expression-contract-v2-md",
       "path": "workflow/cover-expression-contract-v2.md",
-      "sha256": "741afd44bb9c7a9665e27e829417c18ab743d94a19f7e44b5b0e9d4ed48050b1",
+      "sha256": "05c630d732b68fd6198746cd2f1ff109a57662520438eab6cca6ef868a4dc932",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -2922,12 +2932,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1065
     },
     {
       "id": "workflow-pipeline-contract-v2-md",
       "path": "workflow/pipeline-contract-v2.md",
-      "sha256": "31ecdaf921a66e2148890b10dc9fb3f45bb46dac2fee5b5d8624f48b933b552d",
+      "sha256": "6234d5ab9498074d9d2efabdc6d4a64d55c6bcfa66157a131f7f182ba4976297",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -2936,12 +2947,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1003
     },
     {
       "id": "workflow-knowledge-retrieval-v2-md",
       "path": "workflow/knowledge-retrieval-v2.md",
-      "sha256": "c4fced5a3bcbfd91edab8748d5da4f118bdaf1656f0fdeb1d6b519305e12f2aa",
+      "sha256": "1fec45c6f528f5caaf9c42b80eb65a2cf4a34fb6f782e328a0f4a446e6937d10",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -2950,12 +2962,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 940
     },
     {
       "id": "workflow-qa-v2-md",
       "path": "workflow/qa-v2.md",
-      "sha256": "9a428cf17e06a5d17f41a6a7867b491f60c223ec85aa3245a1dfd5a496c08dc9",
+      "sha256": "37923edef8acf5ff0bcf2667e91335c3bf3de2f896f6555a744a865651e139f4",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -2964,12 +2977,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1089
     },
     {
       "id": "maintenance-non-destructive-maintenance-policy-v2-md",
       "path": "maintenance/non-destructive-maintenance-policy-v2.md",
-      "sha256": "41a53abe43632b0710fcb1a99e7b3742a74fe5668d48414ea0826196496955e9",
+      "sha256": "9effe6816c873e5fb0001751aeed25b07707928f67a963dca6c01e42f8eb2234",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -2978,12 +2992,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 853
     },
     {
       "id": "platforms-index-v2-json",
       "path": "platforms/index-v2.json",
-      "sha256": "4833280738b016a729dbbf1bd6f12aa6eea934edb29c4cf8afb46329c48ff9b0",
+      "sha256": "9d3904d99751df0a31505a40939e75256e30ce49743d8c51af46e7d7a6b8b6f1",
       "tags": [
         "platform_adapter",
         "v2.0"
@@ -2992,12 +3007,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1185
     },
     {
       "id": "config-cover-expression-contract-schema-json",
       "path": "config/cover-expression-contract.schema.json",
-      "sha256": "c672de0e018e96431af3d57e3d651ac353c58623f980e4ca092b57a5495a80f8",
+      "sha256": "24860a287bfc2a8d08ff6f29ce9ef0cd0de81ff4067fa33bb1875fb69fbee4a6",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -3006,12 +3022,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 2523
     },
     {
       "id": "config-task-input-v2-schema-json",
       "path": "config/task-input-v2.schema.json",
-      "sha256": "5f9de2db242e13759e430133560725652a35d19b17fb3a7445479c5a9efb9557",
+      "sha256": "243c7df35bccbc7d290e435f070fd11713fac2c26c192d96646b49070ea53961",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -3020,12 +3037,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 784
     },
     {
       "id": "research-platform-evidence-2026-11-27-md",
       "path": "research/platform-evidence-2026-11-27.md",
-      "sha256": "03e6ab46024c4119dbe498344c686c4f15d002d7b668d693262e66a08f26088f",
+      "sha256": "1e956e5b9f62ad4213bfd8ea8bd612ae564a63cbf7abbf0e72634b83bd9f35be",
       "tags": [
         "platform_research",
         "v2.0"
@@ -3034,12 +3052,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "official_source_or_platform_research",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 2809
     },
     {
       "id": "research-platform-evidence-2026-11-27-json",
       "path": "research/platform-evidence-2026-11-27.json",
-      "sha256": "b6c0b78408684ad357e3cddc43b27ce52882e63e54a42b38cc735e76e50b5a4d",
+      "sha256": "98ca354f1ee8a4ccb7344b1b7bf5af760cdc06917d4f1eeaa67a60a5a4866354",
       "tags": [
         "platform_research",
         "v2.0"
@@ -3048,12 +3067,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "official_source_or_platform_research",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 2833
     },
     {
       "id": "platform-audit-v2-json",
       "path": "platform-audit-v2.json",
-      "sha256": "362ca82c3b141e3d534641796da7b8f05ef998c63b8fb0bcbfaf1e68aad7bc3a",
+      "sha256": "abbb4783e601d2be087a1fd2516bfad968dd91f8424d7839af3a085c25d30826",
       "tags": [
         "execution_protocol",
         "v2.0"
@@ -3062,12 +3082,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 1011
     },
     {
       "id": "evals-platform-routing-v2-jsonl",
       "path": "evals/platform-routing-v2.jsonl",
-      "sha256": "8ed3974df0d15d806d13318d4d089c25470b1ca54b12ba4f2630875499f03318",
+      "sha256": "f14222aa7fa0582c300025159e7e8419b2a14a8b5b888ec3d5ef9b956c7ad4c2",
       "tags": [
         "evaluation_case",
         "v2.0"
@@ -3076,12 +3097,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 536
     },
     {
       "id": "evals-negative-regression-v2-jsonl",
       "path": "evals/negative-regression-v2.jsonl",
-      "sha256": "8ae7d9aef7675b1c3fd454b4a48834c9f749dbbc83b3071d6e0e684c66f4e061",
+      "sha256": "dfbe4dc4ca83c552a6ddbf39352578cbba018635a6154425c5682dd74a2230a2",
       "tags": [
         "evaluation_case",
         "v2.0"
@@ -3090,12 +3112,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 713
     },
     {
       "id": "tools-retrieve-v2-py",
       "path": "tools/retrieve_v2.py",
-      "sha256": "a7ff9575302c4a7241c53683a77e1a5c2a0f45546299aa0e720f18afb9fb7ded",
+      "sha256": "748c796f0afd9f5fdc7d5ee43a83f2b076bde393adc0d0527c32f426ba47a835",
       "tags": [
         "retrieval_tool",
         "v2.0"
@@ -3104,12 +3127,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 2909
     },
     {
       "id": "tools-tests-retrieval-v2-test-py",
       "path": "tools/tests/retrieval_v2_test.py",
-      "sha256": "9983a6d974afb4ac629d1d2ce172986a617e77cf89cdee44ee2e1283b2b52322",
+      "sha256": "b4bdee9ce8cd14bdb724a4e939a000c4f8063a6d66d4e095ccc3a2a7ba82175f",
       "tags": [
         "retrieval_tool",
         "v2.0"
@@ -3118,12 +3142,13 @@
       "license": "source_specific_no_general_reuse_license_inferred",
       "ref": "manifest_commit",
       "status": "execution_protocol",
-      "dependencies": []
+      "dependencies": [],
+      "bytes": 781
     },
     {
       "id": "readme-md",
       "path": "README.md",
-      "sha256": "e461bf8bdcdd4a317fdf92364a79cdd7a05233bc751f6772a3d9b3c886557641",
+      "sha256": "5ef5b16d3496c06345f670c9ed6211e8aecc0dafdede481c7e68dfed876a1982",
       "tags": [
         "repository_guide",
         "v2.0"
@@ -3264,7 +3289,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "4a53a34b1718a11a896709173986411586c5b879cece4b55f13f9d613fbcee5b",
+  "inventory_sha256": "cc8a9d77d7f222472ae02077730b2b44f9be5c2cc8e3d7ebb0cdba2c1db2af5e",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
