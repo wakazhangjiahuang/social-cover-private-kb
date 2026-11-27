@@ -1,0 +1,14 @@
+{
+  "schema_version":"2.0.0",
+  "overlay_id":"social-cover-studio-kb-v2.0-20261127",
+  "inherits_inventory_sha256":"cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a",
+  "files":[
+    {"path":"v2.0/README.md","bytes":1900,"sha256":"7ecd74d99f876a00b39329c7dd2717cf7bae34bc3b523adf340603ec808f5e1d","status":"retrieval_index"},
+    {"path":"v2.0/platform-modes/A-H-platform-modes.md","bytes":5956,"sha256":"c3e2aa98357c168a363161976b9e16e4542bfa28a9e5b4bc5313336489b8bdca","status":"current_rule"},
+    {"path":"v2.0/copy-architecture/four-level-copy-v2.md","bytes":1074,"sha256":"c9da690e67d597197fc8e7d03e3704cb97ead4f8fd2389511d849438f1f5fb4e","status":"current_rule"},
+    {"path":"v2.0/workflow/six-stage-pipeline-v2.md","bytes":1128,"sha256":"39d67b9a6818e3e01a738190d9a0478b59571169378bb1b5841a6aa9dd80375d","status":"current_rule"},
+    {"path":"v2.0/evidence/platform-algorithm-and-rules-register.md","bytes":2870,"sha256":"0bf0c93d9a434354493b97ea8d3aa0cdb714af11b8bd841e109b3d296dcb1473","status":"current_rule"},
+    {"path":"v2.0/qa/qa-contract-v2.md","bytes":1196,"sha256":"07f27c7aa4601affad873fbe0dc0974f7c8569999865bebacf383ad1497f227d","status":"current_rule"}
+  ],
+  "preservation_policy":{"delete_existing":false,"overwrite_originals":false,"move_existing":false,"historical_policy":"logical_archive_only"}
+}
