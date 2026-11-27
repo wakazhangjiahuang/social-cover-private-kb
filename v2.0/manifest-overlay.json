@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0.0",
+  "overlay_id": "social-cover-studio-kb-v2.0-20261127",
+  "status": "active_additive_overlay",
+  "repository": "wakazhangjiahuang/social-cover-private-kb",
+  "created_at": "2026-11-27",
+  "inherits": {
+    "manifest_path": "manifest.json",
+    "manifest_ref": "88cb7f6a68ef0710dc963f9ad35d172e9cd07c1f",
+    "manifest_sha256": "db76f91f104f0af1b31d1267f7aa68ba32cd549365e92478a7a656ccfd874c99",
+    "inventory_path": "inventory.json",
+    "inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a"
+  },
+  "entrypoints": {
+    "overview": "v2.0/README.md",
+    "platform_modes": "v2.0/platform-modes/A-H-platform-modes.md",
+    "copy_contract": "v2.0/copy-architecture/four-level-copy-v2.md",
+    "workflow": "v2.0/workflow/six-stage-pipeline-v2.md",
+    "algorithm_rules": "v2.0/evidence/platform-algorithm-and-rules-register.md",
+    "qa": "v2.0/qa/qa-contract-v2.md"
+  },
+  "assets": [
+    {"id":"v2-platform-modes-a-h","path":"v2.0/platform-modes/A-H-platform-modes.md","sha256":"c3e2aa98357c168a363161976b9e16e4542bfa28a9e5b4bc5313336489b8bdca","tags":["platform_adapter","A","B","C","D","E","F","G","H"],"source":"V2.0 confirmed guide + official source review","status":"current_rule","dependencies":["v2.0/evidence/platform-algorithm-and-rules-register.md","v2.0/copy-architecture/four-level-copy-v2.md"]},
+    {"id":"v2-four-level-copy","path":"v2.0/copy-architecture/four-level-copy-v2.md","sha256":"c9da690e67d597197fc8e7d03e3704cb97ead4f8fd2389511d849438f1f5fb4e","tags":["copy_contract","main_title","subtitle","support_copy","cta"],"source":"V2.0 confirmed guide","status":"current_rule","dependencies":[]},
+    {"id":"v2-six-stage-pipeline","path":"v2.0/workflow/six-stage-pipeline-v2.md","sha256":"39d67b9a6818e3e01a738190d9a0478b59571169378bb1b5841a6aa9dd80375d","tags":["workflow","six_stage","gates","failure_recovery"],"source":"V2.0 confirmed guide","status":"current_rule","dependencies":["v2.0/copy-architecture/four-level-copy-v2.md"]},
+    {"id":"v2-platform-algorithm-register","path":"v2.0/evidence/platform-algorithm-and-rules-register.md","sha256":"0bf0c93d9a434354493b97ea8d3aa0cdb714af11b8bd841e109b3d296dcb1473","tags":["official_source","algorithm_transparency","platform_rules","evidence_boundary"],"source":"Official platform/regulator sources checked 2026-11-27","status":"official_source_register","dependencies":[]},
+    {"id":"v2-qa-contract","path":"v2.0/qa/qa-contract-v2.md","sha256":"07f27c7aa4601affad873fbe0dc0974f7c8569999865bebacf383ad1497f227d","tags":["qa","hard_gates","independent_validation","non_destructive_kb"],"source":"V2.0 confirmed guide","status":"current_rule","dependencies":["v2.0/workflow/six-stage-pipeline-v2.md"]},
+    {"id":"v2-readme","path":"v2.0/README.md","sha256":"7ecd74d99f876a00b39329c7dd2717cf7bae34bc3b523adf340603ec808f5e1d","tags":["entrypoint","retrieval_index","governance"],"source":"V2.0 confirmed guide","status":"retrieval_index","dependencies":["v2.0/platform-modes/A-H-platform-modes.md","v2.0/copy-architecture/four-level-copy-v2.md","v2.0/workflow/six-stage-pipeline-v2.md","v2.0/evidence/platform-algorithm-and-rules-register.md","v2.0/qa/qa-contract-v2.md"]}
+  ],
+  "preservation_policy":{"delete_existing":false,"overwrite_originals":false,"move_existing":false,"historical_policy":"logical_archive_only"},
+  "retrieval_policy":"Load only the platform/surface adapter and dependencies needed for the current task. Base snapshot assets remain authoritative for existing A/B/C visual catalogs and V5.1 copy rules; this overlay adds A-H routing, D-H platform adapters and four-level copy/workflow/QA contracts.",
+  "overlay_inventory_path":"v2.0/inventory-overlay.json"
+}
