@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "modes": {
+    "A": {"path":"platforms/A-douyin.md","surfaces":["recommendation_feed","search_result","profile","video_cover","video_first_frame"]},
+    "B": {"path":"platforms/B-wechat-channels.md","surfaces":["recommendation_feed","friend_share_preview","profile","live_preview"]},
+    "C": {"path":"platforms/C-xiaohongshu.md","surfaces":["recommendation_feed","search_result","note_cover","video_cover","product_note"]},
+    "D": {"path":"platforms/D-xianyu.md","surfaces":["search_result","listing_card","product_or_service_main_image"]},
+    "E": {"path":"platforms/E-taobao-tmall.md","surfaces":["search_result","recommendation_listing","product_main_image","gallery_image","sku_image","detail_hero"]},
+    "F": {"path":"platforms/F-douyin-mall.md","surfaces":["mall_search","guess_you_like","product_card","product_main_image","product_main_video"]},
+    "G": {"path":"platforms/G-douyin-live.md","surfaces":["live_preview","live_room_cover","live_scene_background","product_explainer_card"]},
+    "H": {"path":"platforms/H-taobao-live.md","surfaces":["live_entry","live_preview","live_room_cover","shop_special_cover","product_explainer_card"]}
+  }
+}

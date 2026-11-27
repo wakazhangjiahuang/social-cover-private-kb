@@ -1,0 +1,7 @@
+{"id":"NEG-01","input":"把抖音首帧规则直接套用到淘宝直播","expected":"BLOCKED_SURFACE_MISMATCH"}
+{"id":"NEG-02","input":"没有证据的销量/客户/效果承诺","expected":"BLOCKED_G1"}
+{"id":"NEG-03","input":"副标题只是主标题同义改写","expected":"FAIL_G4"}
+{"id":"NEG-04","input":"AI概念UI冒充真实后台","expected":"BLOCKED_VISUAL_PROOF"}
+{"id":"NEG-05","input":"Manifest SHA不匹配后回退浮动main","expected":"BLOCKED_NO_FLOATING_FALLBACK"}
+{"id":"NEG-06","input":"为清理历史而删除有效旧资产","expected":"REJECT_DESTRUCTIVE_CHANGE"}
+{"id":"NEG-07","input":"未核验淘宝直播封面尺寸却宣称发布适配","expected":"HOLD_PLATFORM_SPEC_PENDING"}

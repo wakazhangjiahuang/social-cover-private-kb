@@ -1,0 +1,5 @@
+{"id":"A-ROUTE","input":{"platform_mode":"A","surface":"video_first_frame"},"expected":"A_DOUYIN_VIDEO_FIRST_FRAME"}
+{"id":"D-ROUTE","input":{"platform_mode":"D","surface":"search_result"},"expected":"D_XIANYU_SEARCH"}
+{"id":"E-ROUTE","input":{"platform_mode":"E","surface":"sku_image"},"expected":"E_TAOBAO_SKU"}
+{"id":"G-ROUTE","input":{"platform_mode":"G","surface":"live_preview"},"expected":"G_DOUYIN_LIVE_PREVIEW"}
+{"id":"H-ROUTE","input":{"platform_mode":"H","surface":"live_room_cover"},"expected":"H_TAOBAO_LIVE_PENDING_SPEC"}

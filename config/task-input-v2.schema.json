@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Social Cover Task Input V2.0",
+  "type":"object",
+  "properties":{
+    "task_mode":{"enum":["new","redesign","copy_only","repair","review","recap"]},
+    "platform_mode":{"enum":["A_DOUYIN","B_WECHAT_CHANNELS","C_XIAOHONGSHU","D_XIANYU","E_TAOBAO_TMALL","F_DOUYIN_MALL","G_DOUYIN_LIVE","H_TAOBAO_LIVE"]},
+    "surface":{"type":"string"},
+    "requested_count":{"type":"integer","minimum":1},
+    "requested_ratio":{"type":["string","null"]},
+    "requested_size":{"type":["string","null"]},
+    "format":{"enum":["PNG","JPEG","WEBP"]},
+    "locked_fields":{"type":"array","items":{"type":"string"}},
+    "rights_status":{"enum":["CLEARED","USER_CONFIRMED","UNKNOWN","BLOCKED"]}
+  },
+  "required":["task_mode"]
+}

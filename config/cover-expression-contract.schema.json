@@ -1,0 +1,30 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Social Cover Expression Contract V2.0",
+  "type":"object",
+  "required":["schema_version","platform_mode","surface","task_mode","primary_task","primary_expression_family","attention_entry","copy","visual_proof","promise_map","rights_status","eligibility_status","platform_rule_status","qa_status"],
+  "properties":{
+    "schema_version":{"const":"2.0.0"},
+    "platform_mode":{"enum":["A_DOUYIN","B_WECHAT_CHANNELS","C_XIAOHONGSHU","D_XIANYU","E_TAOBAO_TMALL","F_DOUYIN_MALL","G_DOUYIN_LIVE","H_TAOBAO_LIVE"]},
+    "surface":{"type":"string"},
+    "task_mode":{"enum":["new","redesign","copy_only","repair","review","recap"]},
+    "primary_task":{"type":"string"},
+    "primary_expression_family":{"type":"string"},
+    "secondary_expression_family":{"type":["string","null"]},
+    "attention_entry":{"type":"string"},
+    "copy":{"type":"object","required":["main_title","subtitle","support_copy","cta"],"properties":{
+      "main_title":{"type":"object","required":["text","locked"],"properties":{"text":{"type":"string"},"locked":{"type":"boolean"}}},
+      "subtitle":{"type":"object","required":["text","locked"],"properties":{"text":{"type":"string"},"locked":{"type":"boolean"},"fills_gap":{"type":"string"}}},
+      "support_copy":{"type":"array","items":{"type":"object","required":["type","text","priority","evidence_refs"],"properties":{"type":{"enum":["IDENTITY","SCOPE","PROOF","SPEC","SCENE","PROCESS","CONTEXT","TERMS"]},"text":{"type":"string"},"priority":{"type":"integer","minimum":1},"evidence_refs":{"type":"array","items":{"type":"string"}}}}},
+      "cta":{"type":["object","null"]}
+    }},
+    "visual_proof":{"type":"object","required":["subject","status"],"properties":{"subject":{"type":"string"},"source_ref":{"type":["string","null"]},"status":{"enum":["REAL","USER_REPORTED","SIMULATED","REFERENCE"]}}},
+    "promise_map":{"type":"array","items":{"type":"object","required":["claim","evidence_ref","fulfilment_location","verification_status"]}},
+    "rights_status":{"enum":["CLEARED","USER_CONFIRMED","UNKNOWN","BLOCKED"]},
+    "eligibility_status":{"enum":["PASS","UNKNOWN","BLOCKED","NOT_APPLICABLE"]},
+    "platform_rule_status":{"enum":["VERIFIED","PARTIALLY_VERIFIED","UNKNOWN","BLOCKED"]},
+    "platform_rule_refs":{"type":"array","items":{"type":"string"}},
+    "qa_status":{"enum":["BLOCKED","EDITORIAL_READY","BLIND_TEST_PENDING","TESTED_CANDIDATE","PERFORMANCE_SUPPORTED"]}
+  },
+  "additionalProperties":true
+}
