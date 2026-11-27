@@ -29,9 +29,9 @@
   "fallback": "If overlay ref/hash fails, use verified base snapshot only for existing A/B/C capabilities; mark D-H BLOCKED/UNKNOWN. Never silently switch repositories or use floating main.",
   "preservation_policy": {
     "delete_existing": false,
-    "overwrite_originals": false,
     "move_existing": false,
-    "historical_policy": "logical_archive_only"
+    "historical_policy": "logical_archive_only",
+    "overwrite_original_sources": false
   },
   "verification": {
     "manifest_sha256": "dcd9699e1e2004b14b6af687001b7f5a097ba82be40e980ca2387229e4e124e7",
