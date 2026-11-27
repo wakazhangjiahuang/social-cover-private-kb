@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0.0",
+  "overlay_id": "social-cover-studio-kb-v2.0-20261127",
+  "inherits_inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a",
+  "files": [
+    {
+      "path": "v2.0/README.md",
+      "bytes": 1899,
+      "sha256": "10f3892871bc76de93153517e888292c9c41b6ec3aeaa2e50bf47ab5a33524cf",
+      "status": "retrieval_index"
+    },
+    {
+      "path": "v2.0/platform-modes/A-H-platform-modes.md",
+      "bytes": 5964,
+      "sha256": "f61aefaa8a1270aff755ab4677a57f138be27ab1992e33e56b78329476d81738",
+      "status": "current_rule"
+    },
+    {
+      "path": "v2.0/copy-architecture/four-level-copy-v2.md",
+      "bytes": 1073,
+      "sha256": "fa9f14d27e94cb6318d95f76a2ded962b00dd5b8dcfbd85beb2cb5aed02e52db",
+      "status": "current_rule"
+    },
+    {
+      "path": "v2.0/workflow/six-stage-pipeline-v2.md",
+      "bytes": 1127,
+      "sha256": "24daa8eca17c8dffdded1ead0ca5bc2510404b00a59e2c59afd671be50c39dc5",
+      "status": "current_rule"
+    },
+    {
+      "path": "v2.0/evidence/platform-algorithm-and-rules-register.md",
+      "bytes": 2867,
+      "sha256": "d6c7be2441b68db80b9768b75591a6af0491b8dd735fe0acc4f8e2cc4e8f1866",
+      "status": "official_source_register"
+    },
+    {
+      "path": "v2.0/qa/qa-contract-v2.md",
+      "bytes": 1195,
+      "sha256": "c8713641886ddb277ab83050f5b64c1e577b084635bfcb2f841d34f62781578f",
+      "status": "current_rule"
+    }
+  ],
+  "preservation_policy": {
+    "delete_existing": false,
+    "overwrite_originals": false,
+    "move_existing": false,
+    "historical_policy": "logical_archive_only"
+  }
+}
