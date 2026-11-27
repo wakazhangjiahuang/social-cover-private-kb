@@ -1,0 +1,42 @@
+{
+  "schema_version": "2.0.0",
+  "status": "active_additive_overlay",
+  "repository": "wakazhangjiahuang/social-cover-private-kb",
+  "visibility": "public_user_approved",
+  "base_snapshot": {
+    "manifest_path": "manifest.json",
+    "manifest_ref": "88cb7f6a68ef0710dc963f9ad35d172e9cd07c1f",
+    "manifest_sha256": "db76f91f104f0af1b31d1267f7aa68ba32cd549365e92478a7a656ccfd874c99",
+    "inventory_path": "inventory.json",
+    "inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a"
+  },
+  "overlay": {
+    "manifest_path": "v2.0/manifest-overlay.json",
+    "manifest_ref": "2fed5634aeb462b41747937f61e799a993236adf",
+    "manifest_sha256": "325954506bc70a404b30ec7bfe44542e4b849b95ab1a7ae907dde190b818babe",
+    "inventory_path": "v2.0/inventory-overlay.json",
+    "inventory_sha256": "1c532199143c541fa39adb4b2023a52ee56d05be0a4343b932c15323f36d5194",
+    "branch": "v2.0-system-upgrade-20261127"
+  },
+  "entrypoints": [
+    "v2.0/README.md",
+    "v2.0/platform-modes/A-H-platform-modes.md",
+    "v2.0/copy-architecture/four-level-copy-v2.md",
+    "v2.0/workflow/six-stage-pipeline-v2.md",
+    "v2.0/evidence/platform-algorithm-and-rules-register.md",
+    "v2.0/qa/qa-contract-v2.md"
+  ],
+  "retrieval_policy": "Read the fixed base snapshot plus this additive overlay. Load platform+surface adapter and declared dependencies only. Never use floating main.",
+  "fallback": "If overlay ref/hash fails, use only the verified base snapshot for existing A/B/C capabilities; mark D-H BLOCKED/UNKNOWN. Never silently switch repositories or use floating main.",
+  "preservation_policy": {
+    "delete_existing": false,
+    "overwrite_original_sources": false,
+    "move_existing": false,
+    "historical_policy": "logical_archive_only"
+  },
+  "verification": {
+    "manifest_sha256": "325954506bc70a404b30ec7bfe44542e4b849b95ab1a7ae907dde190b818babe",
+    "inventory_sha256": "1c532199143c541fa39adb4b2023a52ee56d05be0a4343b932c15323f36d5194",
+    "verified_at": "2026-11-27"
+  }
+}
