@@ -6,10 +6,10 @@
   "created_at": "2026-11-27",
   "inherits": {
     "manifest_path": "manifest.json",
-    "manifest_ref": "88cb7f6a68ef0710dc963f9ad35d172e9cd07c1f",
-    "manifest_sha256": "db76f91f104f0af1b31d1267f7aa68ba32cd549365e92478a7a656ccfd874c99",
+    "manifest_ref": "45c1f613861e4b7abfc3acd690e5719a0b54f5dd",
+    "manifest_sha256": "bbb83c0c6d8b0e9740ab65ed0926c61b470f9c172a3b3bb1796aacb39a0a04a6",
     "inventory_path": "inventory.json",
-    "inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a"
+    "inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13"
   },
   "entrypoints": {
     "overview": "v2.0/README.md",
