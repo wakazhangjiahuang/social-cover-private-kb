@@ -1,6 +1,6 @@
 # social-cover-private-kb｜V2.0 增量知识层
 
-本目录是 V2.0 additive overlay，继承基础快照 `88cb7f6a68ef0710dc963f9ad35d172e9cd07c1f`，不替换、不删除、不移动任何既有资产。运行时读取本分支固定 overlay manifest 与 inventory；不得使用 floating main。
+本目录是 V2.0 additive overlay，继承基础快照 `45c1f613861e4b7abfc3acd690e5719a0b54f5dd`，不替换、不删除、不移动任何既有资产。运行时读取本分支固定 overlay manifest 与 inventory；不得使用 floating main。
 
 ## 新增资产地图
 - `platform-modes/A-H-platform-modes.md`：八平台入口、营销表达类型、文本职责、规格/合规边界。
