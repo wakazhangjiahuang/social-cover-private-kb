@@ -1,6 +1,6 @@
 # social-cover-private-kb｜V2.0 增量知识层
 
-本目录是 V2.0 additive overlay，继承基础快照 `45c1f613861e4b7abfc3acd690e5719a0b54f5dd`，不替换、不删除、不移动任何既有资产。运行时读取本分支固定 overlay manifest 与 inventory；不得使用 floating main。
+本目录是 V2.0 additive overlay，继承基础快照 `45c1f613861e4b7abfc3acd690e5719a0b54f5dd`，不替换、不删除、不移动任何既有资产。运行时读取 `config/knowledge-locator-v2.0.json` 指定的固定 Overlay commit、Manifest 与 Inventory；不得按分支名或 floating main 读取。
 
 ## 新增资产地图
 - `platform-modes/A-H-platform-modes.md`：八平台入口、营销表达类型、文本职责、规格/合规边界。
@@ -16,7 +16,7 @@
 ## 读取流程
 1. 读取 `config/knowledge-locator-v2.0.json`。
 2. 校验 base Manifest ref/SHA 与基础 Inventory SHA。
-3. 校验本分支 Overlay Manifest/Inventory SHA。
+3. 校验 Locator 固定 commit 中的 Overlay Manifest/Inventory SHA。
 4. 根据 platform_mode + surface 定向加载对应适配器，再加载文本合同、链路、证据或 QA。
 5. 记录实际文件 ID、来源、版本、SHA、使用目的和状态。
 
