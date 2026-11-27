@@ -3148,7 +3148,7 @@
     {
       "id": "readme-md",
       "path": "README.md",
-      "sha256": "b986a019e26fc074066dd15c7c2e409830b2c9c88da3aae56c8a92bfa1ed8a52",
+      "sha256": "e461bf8bdcdd4a317fdf92364a79cdd7a05233bc751f6772a3d9b3c886557641",
       "tags": [
         "repository_guide",
         "v2.0"
@@ -3290,7 +3290,7 @@
     }
   ],
   "inventory_path": "inventory.json",
-  "inventory_sha256": "76b66a5e4f6c2169ee8911292a299b2d5ef03e1c8bc72cd528d0992c17bcb169",
+  "inventory_sha256": "8d741b15ddabc3bad62451f2f0d0dc9bd03e31b660955ada2e28f7c6dfd53729",
   "ref_policy": "manifest_commit_inherits_consumer_pinned_manifest_ref",
   "retrieval_policy": "Do not scan full inventory, HTML, maintenance logs, code or source full texts for ordinary creation. Follow entrypoint and selected record dependencies only.",
   "control_files_excluded_from_inventory": [
