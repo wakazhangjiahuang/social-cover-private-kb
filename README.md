@@ -1,4 +1,7 @@
-# 自媒体封面资产库 · v1.4.0
+# 自媒体封面资产库 · 基础资产 v1.4.0 / 当前执行层 V2.0
+
+> 当前 Skill 执行入口：`config/knowledge-locator-v2.0.json`。它固定引用基础资产快照与 V2.0 增量 Overlay；平台模式为 A–H。根目录 `manifest.json` 和 `config/knowledge-locator.json` 仅代表保留的基础快照，不应单独视为完整的当前平台路由。
+
 
 机器读取从根 `manifest.json` 开始；固定提交与哈希见 `config/knowledge-locator.json`。默认只读执行索引与选中记录，不扫描整个仓库。\`inventory.json\` 是完整文件校验清单，不是创作知识索引。
 
@@ -7,7 +10,7 @@
 | 视觉风格 | 18 | `catalog/style-index.json` → `styles/presets/`、`styles/images/` |
 | 信息结构 | 17类 | `catalog/layout-family-taxonomy.json` |
 | 构图实例 | 64，8种几何家族 | `catalog/layout-index.json` → `covers/`、`thumbs/` |
-| 平台模式 | A抖音／B视频号／C小红书 | `workflow/platforms.md`，本轮发布入口独立判断 |
+| 基础平台模式 | A抖音／B视频号／C小红书 | 基础快照历史入口；当前 A–H 八平台执行规则见 `v2.0/README.md` 与 `config/knowledge-locator-v2.0.json` |
 | 决策框架 | 18模块、179字段 | `cover-components.json`，按C01–C18引用 |
 | 标题／钩子／公式候选 | 225／225／10 | `titles/candidates.json`、`hooks/candidates.json`、`formulas/core-formulas.json` |
 
