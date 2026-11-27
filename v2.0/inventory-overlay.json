@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "overlay_id": "social-cover-studio-kb-v2.0-20261127",
-  "inherits_inventory_sha256": "cc676f1cfdf3b7677ab26697f594543768476018fa30a19e584ddcfdac789d7a",
+  "inherits_inventory_sha256": "48f1babe9bc6eaf06757b62d19c75144152db8cf871c323dcd173c11d3ba0b13",
   "files": [
     {
       "path": "v2.0/README.md",
